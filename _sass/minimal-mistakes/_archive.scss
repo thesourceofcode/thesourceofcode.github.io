@@ -20,6 +20,12 @@
 
 .archive__item {
   position: relative;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  padding-left: 0.5em;
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
+  margin-top: 0.5em;
 
   a {
     position: relative;
@@ -45,6 +51,7 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
+  margin-top: 0;
   font-family: $sans-serif-narrow;
   line-height: initial;
   overflow: hidden;
@@ -74,6 +81,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
+  margin-bottom: 0;
   font-size: $type-size-6;
 
   & + p {
