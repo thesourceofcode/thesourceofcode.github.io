@@ -80,7 +80,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.1em;
   font-size: $type-size-6;
 
   & + p {
@@ -223,6 +223,7 @@
 
   .archive__item-excerpt {
     display: none;
+	margin-bottom: 0.1em;
 
     @include breakpoint($medium) {
       display: block;
