@@ -20,12 +20,10 @@
 
 .archive__item {
   position: relative;
-  border-radius: 8px;
+  border-radius: 8pt;
   background: rgba(255, 255, 255, 0.1);
-  padding-left: 0.5em;
-  padding-bottom: 0.25em;
-  padding-top: 0.25em;
-  margin-top: 0.5em;
+  padding: 0.25em;
+  margin-top: 2em;
 
   a {
     position: relative;
