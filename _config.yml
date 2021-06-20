@@ -20,7 +20,7 @@ title                    : "The Source of Code"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Anurag Thakur"
-description              : "An amazing website."
+description              : "A blog about coding"
 url                      : "https://thesourceofcode.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "thesourceofcode/thesourceofcode.github.io"
@@ -52,7 +52,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -254,7 +254,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       show_date: true
       read_time: true
       comments: # true
