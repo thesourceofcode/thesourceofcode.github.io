@@ -3,8 +3,6 @@ layout: single
 title: "Reverse Engineering an android app to extract PDF passwords"
 excerpt: "How I reverse engineered an android app, and extracted the password used for decrypting its PDF files"
 ---
-
-
 <h3>Backstory</h3>
 A few years ago, when I was in high school, one of my friends approached me with a request: He was using an android app to get notes for studying, but the pdfs downloaded by the app were password protected and could only be opened in the app itself. He wanted to view the PDFs on his computer but couldnt't, due to the password protection, so he approached me for help.
 
@@ -34,9 +32,18 @@ I then realized that I could simply decompile the apk and look at how the app wa
 <h2>Show me the code!</h2>
 I decompilied the code on my phone, using show-java, and started looking for clues.
 
-Since Android Studio provides a built in code obfuscator, R8 (proguard at that time), many files were obfuscated, but curiously the main code of the application had not been obfuscated.
+Since Android Studio provides a built in code obfuscator, R8 (proguard at that time), most of the code was obfuscated, but luckily the names of the source files had not been obfuscated!
 
 There I found what I was looking for!
 
 There was a file named ```PDFViewActivity.java```, which contained the code for displaying the PDFs.
+
+Inside the Oncreate() method, I found these 2 lines:
+
+```java
+PDFView.b b2 = this.q.a(this.r);
+b2.a(((String)this.v.get(12)).substring(12));
+```
+
+
 
