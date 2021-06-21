@@ -38,12 +38,44 @@ There I found what I was looking for!
 
 There was a file named ```PDFViewActivity.java```, which contained the code for displaying the PDFs.
 
-Inside the Oncreate() method, I found these 2 lines:
+Inside the onCreate() method, I immediately noticed these 2 lines:
 
 ```java
 PDFView.b b2 = this.q.a(this.r);
 b2.a(((String)this.v.get(12)).substring(12));
 ```
+
+This prompted me to check the imports, and there I found:
+
+```java
+import com.github.barteksc.pdfviewer.PDFView;
+```
+
+Aha! So the app was using and open source library for showing PDFs.
+
+I checked the documentation and saw that to use a password, you had to call the "password" method on the object with a string.
+
+Now I was reasonably sure that this code was being used for setting the password of the PDF.
+
+```java
+b2.a(((String)this.v.get(12)).substring(12));
+```
+
+Lets try to understand what this code is doing:
+
+It calls a method "a"(obfuscated) with an input parameter that calls ```get``` on an object "v"(obfuscated) with index 12 and then gets a substring starting from the 12th Character.
+
+On searching for the "v' object, I found some other related code:
+
+```java
+this.t = this.getResources().obtainTypedArray(2531604097);
+this.u = this.getResources().getStringArray(this.t.getResourceId(12, 0));
+this.v = new ArrayList((Collection)Arrays.asList((Object[])this.u));
+```
+
+So, the ```v``` object is an ArrayList that is built using data from android resources and an index value 12.
+
+
 
 
 
