@@ -3,7 +3,11 @@ layout: single
 title: "Reverse Engineering an android app to extract PDF passwords"
 excerpt: "How I reverse engineered an android app, and extracted the password used for decrypting its PDF files"
 ---
-<h3>Backstory</h3>
+**Disclaimer:** This post is for infotainment only. I do not promote any form of hacking or cracking, and neither does this post contain any instructions or software for the same. I have censored any info that could identify the application, to prevent misuse of this knowledge.
+{: .notice--danger}
+
+
+<h2>Backstory</h2>
 A few years ago, when I was in high school, one of my friends approached me with a request: He was using an android app to get notes for studying, but the pdfs downloaded by the app were password protected and could only be opened in the app itself. He wanted to view the PDFs on his computer but couldnt't, due to the password protection, so he approached me for help.
 
 Since I had recently started learning about reverse engineeing, I thought it would be a fun challenge and agreed to help him.
