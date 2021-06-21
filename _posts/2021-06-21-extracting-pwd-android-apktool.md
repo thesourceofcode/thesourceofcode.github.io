@@ -1,9 +1,8 @@
 ---
 layout: single
 title: "Reverse Engineering an android app to extract PDF passwords"
+excerpt: "How I reverse engineered an android app, and extracted the password used for decrypting its PDF files"
 ---
-
-<p>This post is about how I reverse engineered an android app, and extracted the password used for decrypting its PDFs</p>
 
 
 <h3>Backstory</h3>
