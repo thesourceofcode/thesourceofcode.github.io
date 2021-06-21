@@ -3,7 +3,7 @@ layout: single
 title: "Reverse Engineering an android app to extract PDF passwords"
 ---
 
-This post is about how I reverse engineered an android app, and extracted the password used for decrypting its PDFs
+<p>This post is about how I reverse engineered an android app, and extracted the password used for decrypting its PDFs</p>
 
 
 <h3>Backstory</h3>
