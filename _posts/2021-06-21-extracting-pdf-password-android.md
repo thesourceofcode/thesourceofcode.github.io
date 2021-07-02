@@ -8,39 +8,61 @@ excerpt: "How I reverse engineered an android app, and extracted the password us
 
 
 <h2>Backstory</h2>
-A few years ago, when I was in high school, one of my friends approached me with a request: He was using an android app to get notes for studying, but the pdfs downloaded by the app were password protected and could only be opened in the app itself. He wanted to view the PDFs on his computer but couldnt't, due to the password protection, so he approached me for help.
+A few years ago, when I was in high school, one of my friends approached me with a request: He was using an android app to get notes for studying, but the PDFs downloaded by the app were password protected and could only be opened in the app itself. He wanted to view the PDFs on his computer but couldn't, due to the password protection, so he approached me for help.
 
 Since I had recently started learning about reverse engineeing, I thought it would be a fun challenge and agreed to help him.
 
-<h2>What am I looking at again?</h2>
+<h2>Analyzing the app</h2>
 
-I installed the app, and after downloading a few PDFs started looking for their location. Luckily the files were located in a directory at the root of the internal storage, so it was very easy to just copy them anywhere I like.
+I installed the app, and downloaded a few PDFs. Luckily the PDF files were located in a directory, in the internal storage, so it was very easy to just copy them anywhere I wanted.
 
-After that I started thinking about where the passsword could be located. I had a few ideas in mind:
+
+Instead of decompiling the app and looking through the source, I decided to first see what information I could gather by observing the app's behaviour.
+
+I had a few hypotheses about the location of the passwords that I needed to test:
+
 <ol>
-<li>On a server and not written to persistent storage</li>
-<li>Downloaded from the server on first start and then stored in cache</li>
-<li>Inside the apk file of the app</li>
+<li>Password stored on a server and never written to persistent storage</li>
+<li>Downloaded from the server along with the PDF and then stored on the device</li>
+<li>Located inside the apk file of the app</li>
 </ol>
 
-I started experimenting to rule out possible scenarios.
+I started experimenting to rule out possible scenarios:
 
-1. If the passsword is never written to persistent storage, then the app shouldnt be able to display the PDF when the phone is offline. But switching the internet connection didnt seem to have an effect on the app, so this scenario was ruled out.
+<ol>
+<li>If the password was never written to persistent storage, then the app couldn't have been able to decrypt the PDF when the phone was offline. But switching the internet connection didnt seem to have an effect on the app, so this scenario was ruled out.</li>
 
-2. Since I had a rooted device, I started looking at all the files created by the app(/data, SharedPreferences etc). I didnt find anything that looked like a password. Then I looked at the database created by the app, and it was mostly empty and nothing seemed like a password. So, this option was also mostly ruled out.
+<li>Since I had a rooted device, I started looking for clues in the app's /data folder:
+<ul>
+<li>Shared Preferences: Didn't find any clue here</li>
+<li>App SQLite database: Mostly empty, no clue here either</li>
+<li>Other files in /data: Didn't find anything of interest here either</li>
+</li>
+</ol>
 
+After searching through the files created by the app, I was almost certain that the passwords were stored in the apk file.
 
-I then realized that I could simply decompile the apk and look at how the app was decrypting the PDFs to find the password
-
+It was time to start decompiling!
 
 <h2>Show me the code!</h2>
-I decompilied the code on my phone, using show-java, and started looking for clues.
 
-Since Android Studio provides a built in code obfuscator, R8 (proguard at that time), most of the code was obfuscated, but luckily the names of the source files had not been obfuscated!
+I decompiled the app using some freely available apk tools (that I won't name 😉️) and began searching for the code used to decrypt the PDFs.
 
-There I found what I was looking for!
+Since Android Studio provides a built in code obfuscator called R8 (proguard at that time), most of the code was obfuscated. Fortunately, the names of the decompiled source files were unobfuscated!
 
-There was a file named ```PDFViewActivity.java```, which contained the code for displaying the PDFs.
+Looking through the source, I found a file named ```PDFViewActivity.java```
+
+I though this file had to contain the source for displaying the PDFs, and opened it.
+
+Something instantly caught my eye:
+
+```java
+import com.github.[redacted].PDFView;
+```
+
+Aha! So the app was using an open source library for showing PDFs.
+
+I opened the documentation of the library and started looking for code in the file that matched the documentation.
 
 Inside the onCreate() method, I immediately noticed these 2 lines:
 
@@ -49,25 +71,25 @@ PDFView.b b2 = this.q.a(this.r);
 b2.a(((String)this.v.get(12)).substring(12));
 ```
 
-This prompted me to check the imports, and there I found:
+The first line matched the documentation for the initialization of the library, the code for setting the password had to be nearby too.
 
-```java
-import com.github.[redacted].PDFView;
-```
+<h2>Hunting down the Password</h2>
 
-Aha! So the app was using an open source library for showing PDFs.
-
-I skimmed through its documentation, and the code for setting the PDF password appeared to be very similar
-
-Now I was reasonably sure that this code was being used for setting the password of the PDF.
+I was reasonable sure that this line of code:
 
 ```java
 b2.a(((String)this.v.get(12)).substring(12));
 ```
 
+was being used to set the password of the PDF.
+
 Lets try to understand what this code is doing:
 
-It gets the value at index 12 from an object ```v```(obfuscated), obtains a substring from that value, starting from index 12 and uses it for input in the ```a```(obfuscated) method.
+<ul>
+<li>It gets the value at index 12 from an object ```v```(obfuscated)</li>
+<li>obtains a substring from that value, starting from index 12</li> 
+<li>uses it for input in the ```a```(obfuscated) method</li>
+</ul>
 
 On searching for the ```v``` object, I found some other related code:
 
