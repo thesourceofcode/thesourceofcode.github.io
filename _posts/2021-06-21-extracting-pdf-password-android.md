@@ -76,7 +76,7 @@ The first line matched the documentation for the initialization of the library, 
 
 <h2>Hunting down the Password</h2>
 
-I was reasonable sure that this line of code:
+I was reasonably sure that this line of code:
 
 ```java
 b2.a(((String)this.v.get(12)).substring(12));
@@ -84,12 +84,13 @@ b2.a(((String)this.v.get(12)).substring(12));
 
 was being used to set the password of the PDF.
 
+
 Lets try to understand what this code is doing:
 
 <ul>
-<li>It gets the value at index 12 from an object ```v``` (obfuscated)</li>
-<li>obtains a substring from that value, starting from index 12</li> 
-<li>uses it for input in the ```a``` (obfuscated) method</li>
+<li>It gets the value at index 12 from an object "v" (obfuscated)</li>
+<li>Obtains a substring from that value, starting from index 12</li> 
+<li>Uses it for input in the "a" (obfuscated) method</li>
 </ul>
 
 On searching for the ```v``` object, I found some other related code:
@@ -100,15 +101,34 @@ this.u = this.getResources().getStringArray(this.t.getResourceId(12, 0));
 this.v = new ArrayList((Collection)Arrays.asList((Object[])this.u));
 ```
 
+
 So, ```v``` is an ArrayList, created using data from the ```u``` object. ```u``` is an array made by obtaining a resource at index 12 from the ```t``` object.
 
-Android apps have these xml files, called resource files or resources that contain stuff to be used throughout the app, to make it easy to change a value without having to individually change its oevery occurence. They contain stuff like translations, element sizes, theme colors etc.
 
-SO, Now I was reasonably sure that one of these resource files had to contain the password.
+This clearly implied two things:
+<ul>
+<li>All PDFs use the sme password</li>
+<li>The password is stored in a resource file</li>
+</ul>
 
-I noticed a file called ```values.xml```, it was a large file containing many arrays of data.
 
-There was this one array that stood out from others, I went to its 12th element, and just like the code, got the substring from 12th index,  put it in the password field for PDF, and it opened!!!
+Android apps have these xml files, called resource files or resources that contain stuff to be used throughout the app, to make it easy to change a value without having to individually change its every occurence. They contain stuff like translations, element sizes, theme colors etc.
+
+
+I noticed a file called ```arrays.xml```, it was a large file containing many arrays of data.
+
+But one array stood out:
+
+```xml    
+<string-array name="Four_URL">
+    <item>[redacted]</item>
+	<item>[redacted]</item>
+	...
+	<item>[redacted]</item>
+</string-array>
+```
+
+I went to its 12th element, and just like the code, got the substring from 12th index, put it in the password field for PDF, and it opened!!!
 
 
 
