@@ -37,6 +37,7 @@ I started experimenting to rule out possible scenarios:
 <li>Shared Preferences: Didn't find any clue here</li>
 <li>App SQLite database: Mostly empty, no clue here either</li>
 <li>Other files in /data: Didn't find anything of interest here either</li>
+</ul>
 </li>
 </ol>
 
