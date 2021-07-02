@@ -87,9 +87,9 @@ was being used to set the password of the PDF.
 Lets try to understand what this code is doing:
 
 <ul>
-<li>It gets the value at index 12 from an object ```v```(obfuscated)</li>
+<li>It gets the value at index 12 from an object ```v``` (obfuscated)</li>
 <li>obtains a substring from that value, starting from index 12</li> 
-<li>uses it for input in the ```a```(obfuscated) method</li>
+<li>uses it for input in the ```a``` (obfuscated) method</li>
 </ul>
 
 On searching for the ```v``` object, I found some other related code:
