@@ -52,12 +52,12 @@ b2.a(((String)this.v.get(12)).substring(12));
 This prompted me to check the imports, and there I found:
 
 ```java
-import com.github.barteksc.pdfviewer.PDFView;
+import com.github.[redacted].PDFView;
 ```
 
-Aha! So the app was using and open source library for showing PDFs.
+Aha! So the app was using an open source library for showing PDFs.
 
-I checked the documentation and saw that to use a password, you had to call the "password" method on the object with a string.
+I skimmed through its documentation, and the code for setting the PDF password appeared to be very similar
 
 Now I was reasonably sure that this code was being used for setting the password of the PDF.
 
@@ -67,9 +67,9 @@ b2.a(((String)this.v.get(12)).substring(12));
 
 Lets try to understand what this code is doing:
 
-It calls a method "a"(obfuscated) with an input parameter that calls ```get``` on an object "v"(obfuscated) with index 12 and then gets a substring starting from the 12th Character.
+It gets the value at index 12 from an object ```v```(obfuscated), obtains a substring from that value, starting from index 12 and uses it for input in the ```a```(obfuscated) method.
 
-On searching for the "v' object, I found some other related code:
+On searching for the ```v``` object, I found some other related code:
 
 ```java
 this.t = this.getResources().obtainTypedArray(2531604097);
@@ -77,7 +77,15 @@ this.u = this.getResources().getStringArray(this.t.getResourceId(12, 0));
 this.v = new ArrayList((Collection)Arrays.asList((Object[])this.u));
 ```
 
-So, the ```v``` object is an ArrayList that is built using data from android resources and an index value 12.
+So, ```v``` is an ArrayList, created using data from the ```u``` object. ```u``` is an array made by obtaining a resource at index 12 from the ```t``` object.
+
+Android apps have these xml files, called resource files or resources that contain stuff to be used throughout the app, to make it easy to change a value without having to individually change its oevery occurence. They contain stuff like translations, element sizes, theme colors etc.
+
+SO, Now I was reasonably sure that one of these resource files had to contain the password.
+
+I noticed a file called ```values.xml```, it was a large file containing many arrays of data.
+
+There was this one array that stood out from others, I went to its 12th element, and just like the code, got the substring from 12th index,  put it in the password field for PDF, and it opened!!!
 
 
 
