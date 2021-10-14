@@ -8,13 +8,13 @@ excerpt: "How I reverse engineered an android app, and extracted the password us
 
 
 <h2>Backstory</h2>
-A few years ago, when I was in high school, one of my friends approached me with a request: He was using an android app to get notes for studying, but the PDFs downloaded by the app were password protected and could only be opened in the app itself. He wanted to view the PDFs on his computer but couldn't, due to the password protection, so he approached me for help.
+A few years ago, when I was in high school, one of my friends approached me with a request: He was using an android app to get free notes for studying, but the PDFs downloaded by the app were password protected and could only be opened in the app itself. He wanted to view the PDFs on his computer but couldn't, due to the password protection, so he approached me for help.
 
-Since I had recently started learning about reverse engineeing, I thought it would be a fun challenge and agreed to help him.
+Since I had recently started learning about reverse engineering, I thought it would be a fun challenge and agreed to help him.
 
 <h2>Analyzing the app</h2>
 
-I installed the app, and downloaded a few PDFs. Luckily the PDF files were located in a directory, in the internal storage, so it was very easy to just copy them anywhere I wanted.
+I installed the app, and downloaded a few notes. Luckily the PDF files were easily accessible via the file manager app, so it was very easy to just copy them anywhere I wanted.
 
 
 Instead of decompiling the app and looking through the source, I decided to first see what information I could gather by observing the app's behaviour.
@@ -30,9 +30,9 @@ I had a few hypotheses about the location of the passwords that I needed to test
 I started experimenting to rule out possible scenarios:
 
 <ol>
-<li>If the password was never written to persistent storage, then the app couldn't have been able to decrypt the PDF when the phone was offline. But switching the internet connection didnt seem to have an effect on the app, so this scenario was ruled out.</li>
+<li>If the password was never written to persistent storage, then the app couldn't have been able to decrypt the PDF when the phone was offline. But the app was able to open the downloaded PDFs even in the absence of an internet connection, so this scenario was ruled out.</li>
 
-<li>Since I had a rooted device, I started looking for clues in the app's /data folder:
+<li>Since I had a rooted device, I started looking for clues in the app's `/data` folder:
 <ul>
 <li>Shared Preferences: Didn't find any clue here</li>
 <li>App SQLite database: Mostly empty, no clue here either</li>
@@ -49,7 +49,7 @@ It was time to start decompiling!
 
 I decompiled the app using some freely available apk tools (that I won't name 😉️) and began searching for the code used to decrypt the PDFs.
 
-Since Android Studio provides a built in code obfuscator called R8 (proguard at that time), most of the code was obfuscated. Fortunately, the names of the decompiled source files were unobfuscated!
+Since Android Studio provides a built-in code obfuscator called R8 (proguard at that time), most of the code was obfuscated. Fortunately, the names of the decompiled source files were not obfuscated!
 
 Looking through the source, I found a file named ```PDFViewActivity.java```
 
@@ -58,7 +58,7 @@ I though this file had to contain the source for displaying the PDFs, and opened
 Something instantly caught my eye:
 
 ```java
-import com.github.[redacted].PDFView;
+import com.github.64_Caesars_l[redacted].PDFView;
 ```
 
 Aha! So the app was using an open source library for showing PDFs.
@@ -85,7 +85,7 @@ b2.a(((String)this.v.get(12)).substring(12));
 was being used to set the password of the PDF.
 
 
-Lets try to understand what this code is doing:
+Let's try to understand what this code is doing:
 
 <ul>
 <li>It gets the value at index 12 from an object "v" (obfuscated)</li>
@@ -107,12 +107,12 @@ So, ```v``` is an ArrayList, created using data from the ```u``` object. ```u```
 
 This clearly implied two things:
 <ul>
-<li>All PDFs use the sme password</li>
+<li>All PDFs use the same password</li>
 <li>The password is stored in a resource file</li>
 </ul>
 
 
-Android apps have these xml files, called resource files or resources that contain stuff to be used throughout the app, to make it easy to change a value without having to individually change its every occurence. They contain stuff like translations, element sizes, theme colors etc.
+Android apps have these xml files, called resource files or resources that contain stuff to be used throughout the app, to make it easy to change a value without having to individually change its every occurrence. They contain stuff like translations, element sizes, theme colors etc.
 
 
 I noticed a file called ```arrays.xml```, it was a large file containing many arrays of data.
@@ -121,16 +121,36 @@ But one array stood out:
 
 ```xml    
 <string-array name="Four_URL">
-    <item>[redacted]</item>
-	<item>[redacted]</item>
+    <item>X3L1LB5rdR9y[redacted]</item>
+	<item>cWIvblkyYP==[redacted]</item>
 	...
 	<item>[redacted]</item>
 </string-array>
 ```
 
-I went to its 12th element, and just like the code, got the substring from 12th index, put it in the password field for PDF, and it opened!!!
+This array contained many long strings of seemingly gibberish data. According to the code, the password was a substring of its 12th element, so I went to its 12th element and
+my eyes instantly spotted a legible string in that soup of gibberish. I tried that string as the PDF password, and it opened!!!
 
 
+<h2>The Aftermath</h2>
+My friend was very happy to be able to study on his computer. And I was very happy because I was able to use my knowledge to help someone😊
 
+Also, I sternly warned him not to publish those PDFs anywhere, so that I could stay at the lighter end of the legal grey area. 
 
+<h2>The Takeaway for developers</h2>
+Now some of you who work on apps similar to the one in question would probably want to know how to prevent this, and from my limited experience I can say that no matter how hard you try, 
+if your app stores some data on the device, a sufficiently determined user will be able to access it. But still taking a few basic steps can make it a lot less attractive to attempt
+to access that data.
 
+1. Never store passwords in plaintext
+   If the app had stored a password hash instead of the plaintext, it would have been substantially harder for me to obtain the password.
+2. Use different passwords for each PDF
+2. Completely obfuscate your apps
+   A long list of gibberish names can go a long way in deterring skiddies.
+3. Instead of hardcoding the data in the apk, use secure storage options like EncryptedSharedPreferences
+
+---
+
+**Note:** As a bonus for reading the whole post, this webpage contains clues for solving a puzzle, which leads to a website. Comment below if you are able to solve it.
+First person to solve it will get a mention in my next blog post.
+{: .notice--danger}
