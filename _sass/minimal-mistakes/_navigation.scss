@@ -198,6 +198,10 @@
 
     &.site-title {
       margin-left: 0;
+      color: #ffa883;
+    }
+    &.site-title:hover {
+      color: $link-color-hover;
     }
   }
 
