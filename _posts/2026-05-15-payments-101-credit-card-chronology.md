@@ -1,56 +1,164 @@
 ---
 layout: single
 title: "Payments 101 - The Credit Card Chronology"
-excerpt: "Sociotechnical history of credit card payment systems"
+toc: true
+toc_label: "Contents"
+toc_sticky: true
+excerpt: "Sociotechnical history of credit cards"
 tags:
   - Money
   - Payments
   - Credit Cards
+gallery:
+  - url: /assets/images/credit-card-chronology/western_union_frank_front_old.jpg
+    image_path: /assets/images/credit-card-chronology/western_union_frank_front_old.jpg
+    alt: "Western Union Frank Card — Front"
+    title: "Front Side"
+  - url: /assets/images/credit-card-chronology/western_union_frank_back_old.jpg
+    image_path: /assets/images/credit-card-chronology/western_union_frank_back_old.jpg
+    alt: "Western Union Frank Card — Back"
+    title: "Back Side"
+charge_coins_gallery:
+  - url: /assets/images/credit-card-chronology/charge_coins.jpg
+    image_path: /assets/images/credit-card-chronology/charge_coins.jpg
+    alt: "Charge Coins"
+    title: "Various Merchant Charge Coins"
 ---
 
-"A complex system that works is invariably found to have evolved from a simple system that worked."
+<div class="text-justify" markdown="1">
+> "A complex system that works is invariably found to have evolved from a simple system that worked."
 
-Keeping this quote from John Gall's book `Systemantics`, I embarked on a quest to understand how credit card payments evolved to their modern state. The following is my attempt to give structure to this evolution.
 
-Credit cards aren't just pieces of plastic with magnetic stripes and chip contacts. They're the endpoint of a long negotiation between technology, commerce, culture, and law. Each feature embossed or encoded onto that small rectangle carries centuries of accumulated human experience with trust, obligation, and repayment.
+Keeping this quote from John Gall's book `Systemantics` in mind, I embarked on a quest to understand how credit cards and their payment systems evolved to their modern state. The following is my attempt to give structure to this evolution.
 
-# The history of credit
+## What is a Credit Card?
 
-Focusing on the "credit" part of Credit Card, let's look at the origins of the concept. The idea of credit is almost as old as organized society itself. In agrarian economies, farmers need seeds, water, fertilizer, and labor months before harvest yields any income. During that gap, credit bridges the chasm between input and output.
+Fundamentally speaking, a credit card is an instrument of identification. It identifies the cardholder with their line of credit. However, modern credit cards are anythign but simple. You might be surprised to know that modern credit cards contain antenna and a full-blown computer inside! Other remarkable features include holograms, magnetic tape, embossed characters etc.
 
-This isn't some distant historical curiosity. Walk through any Indian neighborhood and you'll see it in action. Your doodhwala delivers milk every morning and collects payment at month's end. He's extended you thirty days of credit based on nothing more than recognition and neighborhood trust. Multiply that by thousands of years and thousands of miles, and you get the story of civilization.
+Each of those features has a story. To understand how these features came to be, we have to look at the social, economical and technological context in which credit cards evolved.
 
-## Ancient Mesopotamia
+But first, let's take a brief look at the concept of credit itself.
 
-The earliest written records of credit come from Mesopotamia, preserved on clay tablets that outlasted the empires that produced them. A tablet from around 2400 BCE documents a loan dispute between the city-states of Umma and Lagash (Van De Mieroop, 2002). Another agreement from Larsa, dated to approximately 1798 BCE, survives in the Powerhouse Collection as a formal record of a loan contract. Mesopotamian merchants traded with the Harappan civilization, whom they called Meluhha, and British Museum tablet BM 17751 attests to Sargon's ships carrying goods across the Persian Gulf. The Balanced Account Tablet No.32, held at the Library of Congress and dating to roughly 2200-1900 BCE, shows that even this early, lenders kept meticulous records of what was owed.
 
-### Babylon
+## The history of credit
 
-Babylon refined these practices into law. The Code of Hammurabi, carved onto a basalt stele around 1750 BCE and now in the Louvre, contains 282 laws of which several govern debt. Interest rates were fixed at 20% for silver loans and 33⅓% for grain (Roth, 1995). Law 48 mandated debt relief after natural disasters. Law 117 limited debt slavery to three years, and Law 119 freed the children of debt slaves. The Babylonians recognized something we still grapple with today: credit is essential, but unchecked, it devours people.
+The concept of credit would have started taking shape with the beginning of the agricultural revolution 10,000 years ago. In agrarian economies, farmers need seeds, water, fertilizer, and labor months before harvest yields any income. The idea of credit arises naturally in these circumstances. Provide the input now for an output later, or to put in modern terms, provide the service now for a payment later. So the origin of the concet of credit can be traced back to the natural phenomenon that crops take time to grow. This simple idea of transferring value forward in time evolved into a multi-billion dollar industry today.
 
-## Ancient Egypt
+Artefactal and literaturical evidence confirms that credit existed in some form in many ancient civilizations.
 
-Ancient Egypt left its own record. The *Instruction of Amenemope*, composed between 1300 and 1075 BCE, survives on British Museum Papyrus EA 10474, a twelve-foot scroll acquired in 1888. Chapter 22 advises dividing a debt into three parts, releasing two and keeping one, showing that Egyptian scribes thought carefully about sustainable repayment rather than extracting the maximum possible (Lichtheim, 1976). Other papyri warn against using grain tax records to exploit debtors, a surprisingly modern concern about predatory lending.
 
-## Ancient India
+### Ancient Mesopotamia
 
-India's engagement with debt runs deep. The Rig Veda, composed between 1500 and 1200 BCE, includes hymn RV 2.28.9, a prayer to Varuna requesting discharge from debt (Jamison & Brereton, 2014). The Sanskrit word ṛṇa captures three layers of meaning: literal debt, religious obligation, and existential indebtedness. Brahmanical texts enumerate four social debts owed to gods, sages, ancestors, and fellow human beings. The Yājñavalkya Smṛti classifies debt law as a top-tier legal category. The Bṛihaspati Smṛti prohibited compound interest after a loan had doubled, a cap on runaway debt that predates modern consumer protection by millennia.
+The earliest written records of credit come from Mesopotamia, preserved on clay tablets that outlasted the empires that produced them. 
 
-## Ancient China
+<div style="width: 25%; margin: 0 auto;">
+
+{% include figure popup=true image_path="/assets/images/credit-card-chronology/larsa_cuneiform_loan_tablet.png" alt="Larsa Cuneiform Loan Tablet" caption="Loan contract from Larsa, c. 1798 BCE" %}
+
+</div>
+
+This tablet from around 1798 BCE is one of the earliest known examples of a formal loan contract. It records an interest free loan of 1½ sheckels of silver made by _Shi-sharrat_ to _Hunabatum_, repayable in the third month of the following year.
+
+The existence of such detailed agreements suggests that credit was a common and well-understood part of Mesopotamian economic life.
+
+The concept of interest - paying more money that borrowed for the privilege of having access to credit - had also been developed. 
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="/assets/images/credit-card-chronology/laws_of_eshnunna.webp" alt="Laws of Eshnunna" caption="The 18th century BCE clay tablet representing the Laws of Eshnunna at the National Museum of Iraq, Baghdad" %}
+
+</div>
+
+The Laws of Eshnunna dating back to 1930 BCE define the interest rates as 20% for silver loans and 33.33% for barley loans.
+
+In the ancient city of Babylon, these financial practices were later formalized into law. Around 1750 BCE, the Code of Hammurabi was carved onto a basalt stele, containing 282 laws, several of which dealt specifically with credit.
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="/assets/images/credit-card-chronology/code_of_hamurabbi.jpg" alt="Code of Hamurabbi" caption="Closeup of text along with the full stele, Code of Hamurabbi, c. 1753 BCE" %}
+
+</div>
+
+
+It contains one of the earliest known restrictions on credit:
+> "If a man be in debt and
+sell his wife, son, or daughter or bind them over to service for three
+years, they shall work in the house of their purchaser or master; in the
+fourth year they shall be given their freedom."
+
+This provision reveals that even in the ancient world, lawmakers recognized the dangers of unchecked debt and sought to place limits on its consequences.
+
+### Ancient Egypt
+
+As opposed to mesopotamia, fewer records survive from ancient egypt, owning partly to the degradation of the papyrus on which things were written in ancient egypt.
+
+There's not much evidence for
+commercial credit. Loans in Egypt were still more likely to
+take the form of mutual aid between neighbors.
+
+One of the earliest references to credit is contained in the _Heqanakth Papyri_, created around 1950 BCE.
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/heqanakht_papyri.jpg" alt="Heqanakht papyrus (MM 22.3.516)" caption="Heqanakht papyrus (MM 22.3.516) on display in the Metropolitan Museum of Art" %}
+
+</div>
+
+They mention "grain loans" given by the mortuary priest _Heqanakth_.
+
+
+The *Instruction of Amenemope*, composed between 1300 and 1075 BCE is another such record.
+
+<div style="width: 100%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/instruction_of_amenemope.jpg" alt="Instruction of Amenemope" caption="Instruction of Amenemope, British Museum Papyrus EA 10474" %}
+
+</div>
+
+It contains a passage on debt forgiveness:
+
+> "If you find a large debt against a poor
+man,
+Make it into three parts;
+Forgive two, let one stand,
+"
+
+
+
+Other papyri warn against using grain tax records to exploit debtors, a surprisingly modern concern about predatory lending.
+
+### Ancient India
+
+Physical evidence for debt in ancient India is nonexistent. Partly due to the minute amount of Indus valley civilization text found and it remaining undeciphered and partly due to
+the primacy of oral tradition for transferring knowledge.
+
+The Vedas contain references to debt. The Rig Veda, composed between 1500 and 1200 BCE, includes hymn RV 2.28.9, a prayer to Varuna requesting discharge from debt. The Sanskrit word ṛṇa captures three layers of meaning: literal debt, religious obligation, and existential indebtedness.
+
+
+<div style="width: 100%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/arthashastra_manuscript.jpg" alt="Arthashastra Manuscript" caption="Arthashastra manuscript in Grantha script, ca. 16th century" %}
+
+</div>
+One significant source of literature, the _Arthaśāstra_, composed in the 2nd century BCE, describes policies for credit in detail
+
+The Yājñavalkya Smṛti classifies debt law as a top-tier legal category. The Bṛihaspati Smṛti prohibited compound interest after a loan had doubled, a cap on runaway debt that predates modern consumer protection by millennia.
+
+### Ancient China
 
 Chinese sources record both regulation and resistance. The *Zhou Li*, a detailed administrative manual from the 3rd or 2nd century BCE, prescribed a 20% interest cap (Peng, 1993; Von Glahn, 2016). Mencius, writing around 372-289 BCE, condemned lending practices that drove "the old and very young cast into ditches" (Lau, 1970). King Nan of Zhou, ruling from 314 to 256 BCE, built a structure so notorious it earned the name 逃責之臺 — the Debt-Evading Platform — where he literally hid from creditors. Even Emperor Yuan issued an edict around 40 BCE forgiving debts of the poor.
 
-## Ancient Europe
+### Ancient Europe
 
 Greek and Roman records show credit woven into Mediterranean commerce. Greek *trapezitai* acted as bankers, though Aristotle considered all interest usurious as money was "barren" and could not naturally reproduce. Rome formalized debt bondage through *nexum*, codified in the Twelve Tables of 451 BCE: a debtor could be held in chains for sixty days, then killed or sold across the Tiber (Livy, *Ab Urbe Condita*). The Lex Poetelia Papiria of 326 BCE abolished *nexum* after the famous incident involving Publilius, a free Roman who had been enslaved for debt. Public banking commissions called *mensarii* operated from 352 BCE, and typical interest ran around 1% monthly, or 12% annually.
 
 > **Aside:** Notice the pattern across continents. Every civilization that developed writing also developed rules about lending. Agriculture creates seasonal gaps between work and reward. Those gaps create credit. Credit, without guardrails, creates cruelty. The regulations — interest caps, debt relief, slavery limits — are humanity's answer to that cruelty.
 
-## Religious Perspective on credit
+### Religious Perspective on credit
 
 If rulers regulated credit, religions moralized it.
 
-### Semitic Religions
+#### Semitic Religions
 
 Judaism, Christianity, and Islam all wrestled with the ethics of charging interest. The Hebrew Bible uses the word *neshek* (נשך), literally "bite," to describe usury in Exodus 22:24-26, Leviticus 25:35-37, and Deuteronomy 23:19-21. Jewish law permitted lending at interest to foreigners but prohibited it among Jews. The *Shulḥan Arukh* (Yoreh De'ah 167:1) preserves these prohibitions. Yet Jewish communities found a workaround: the *heter iska*, developed by 16th-century Polish scholar Rabbi Mendel Avigdors, which restructured a loan as a profit-sharing partnership (Katz, 1962). The document looks like a loan; the economics look like equity.
 
@@ -58,25 +166,84 @@ Christianity inherited the prohibition. The First Council of Carthage in 345 con
 
 Islam took the hardest line. The Qur'an calls *riba* (ربا) not merely sinful but warfare against God and His Messenger (Al-Baqarah 2:275-281). Two forms are identified: *riba al-nasi'ah* (interest on delay) and *riba al-fadl* (excess in exchange). Rather than abandon finance, Islamic jurisprudence developed alternatives: *mudarabah* (profit-sharing), *musharakah* (joint venture), *murabaha* (cost-plus financing), and *ijara* (leasing). These structures achieve the economic function of lending while respecting the prohibition on guaranteed returns.
 
-### Hinduism
+#### Hinduism
 
 Hindu texts approach credit through the lens of caste and cosmic order. The *Manusmṛti* (8.140-142) prescribes tiered interest rates: 2% for Brahmins, 3% for Kshatriyas, 4% for Vaisyas, and 5% for Sudras (Olivelle, 2005). The same text mandates no interest when collateral is provided (8.143) and caps accumulation: money may double, grain may quintuple (8.151-152). The term *vṛddhi* encompasses both natural growth and usurious excess, capturing the anxiety that debt can metastasize beyond its original purpose. Kautilya's *Arthashastra* takes a more pragmatic view, allowing rates from 1.25% to 20% depending on the borrower's occupation and risk profile.
 
-### Buddhism
+#### Buddhism
 
 Buddhism stands apart in its relative permissiveness. The Buddha issued no blanket prohibition on lending. The *Anguttara Nikaya* (A.IV,282) advocates a balanced lifestyle that includes neither squandering wealth nor hoarding it. The *Digha Nikaya* (D.I,71) mentions borrowing specifically to develop a business. Monastic rules in the *Vinaya* barred debtors from joining the Sangha, suggesting that unresolved debt was seen as an obstacle to spiritual commitment rather than a moral failing in itself. From the 1st and 2nd centuries CE onward, Buddhist temples functioned as financial centers, accepting deposits and making loans. The *Alagaddupama Sutta* (S.I,171) holds up freedom from creditors as a form of liberation — not because credit is evil, but because obligation binds the mind.
 
 So we can establish that credit has been there for several millennia. So what was it about 20th century America that led to the credit card revolution?
 
-# Precursor to the modern credit card
+## Medieval evolution of credit
+
+
+## Consumer Credit in 19th century U.S.A
 
 In small communities, everyone knows everyone. The grocer keeps a running tab in a notebook; the tailor trusts the carpenter's son to settle up at harvest. Personal relationships were the original credit infrastructure. But as the 19th century wore on, stores multiplied — franchises opened branches, mail-order catalogs reached rural customers, and cities swelled with strangers. The notebook system collapsed under scale. Something was needed to identify charge accounts without requiring personal acquaintance.
 
+
+It’s the early 1850s. The company had just invented its improved sewing machine, which worked better than any competitor’s model. But there was one massive roadblock: it was very, very expensive.
+
+A basic Singer sewing machine cost about $125. To put that price in perspective, the average American worker in the 1850s made less than $500 a year. Think about that: the machine cost a quarter of their annual income! That’s like paying for a down payment on a house or buying a luxury car today. And a seamstress, who was their perfect customer, barely made enough money for rent and food.
+
+The challenge was clear: Singer’s product was too expensive. Most families simply couldn’t afford it. Only wealthy households and industrial workshops were buying.
+
+Edward Clark knew the company needed a steady cash flow to survive. So, in 1856, he introduced a revolutionary idea: the “hire-purchase” plan – what we now call consumer credit. The innovation itself was simple, brilliant, and completely game-changing:
+
+For just $5 down and a small monthly payment of $3 to $5, a family could take the machine home immediately. This move instantly shattered the psychological barrier. Now, customers didn’t focus on the prohibitive $125 cost, but only on the small, manageable monthly payment. That quarter-year salary purchase suddenly felt like an affordable subscription.
+
+It was an instant success. Sales tripled within a year. By the 1870s, 70 to 80% of all Singer machines were sold this way, on these installment plans. Singer unlocked a massive, previously inaccessible market – the working-class home. But there was a problem.
+
+
+Computers hadn’t been invented yet, so a manager couldn’t just create a nice Excel table for all the loans, or, as they called them, hire-purchases. They needed a way to track thousands of small payments.
+
+So, they created the first credit database, which consisted of millions of individual, handwritten payment cards. These cards were stored and indexed in massive wooden cabinets globally and tracked the payment history of every single customer. That was the world’s first true consumer credit database! Modern credit bureaus owe their existence to this system.
+
+Here’s how it worked. The machine was considered “hired” until the final payment was made. If the customer missed three payments, special collection agents – in fact, the same salespeople who sold the machine – politely but firmly took the machine back. Repossession was an essential component of this business model. It allowed Singer to mitigate risk, keep the resale value of the machine high, and recycle the asset by selling it again.
+
+Singer even invented a simple form of credit scoring. If you owned your house, you often paid less per month; if you were a renter, the down payment or monthly rate might be slightly higher to cover the potential risk. This was risk-based pricing – a century before modern credit scores existed.
+
+The company even added gamification elements to their credits. In markets like France and Latin America, they experimented with selling lottery tickets with the machine. Every month a payment was made, the customer entered a draw to win their remaining debt canceled. This was the first example of gamification of finance in the 1880s!
+
+Singer fundamentally changed the psychology of consumption and established that the value of a product is measured not by its total cost, but by the affordability of its payments.
+
 The first answer was the installment plan. Around 1850, Edward Clark, business partner of Isaac Singer, devised what he called a "hire-purchase" system for Singer sewing machines. The machines cost $125 — roughly a year's wages for a working family. Clark's stroke of genius was psychological as much as financial: "Why not rent a sewing machine to the housewife and apply the rental fee to the purchase price? Her husband cannot accuse her of running him into debt since he is merely hiring or renting the machine." Sales tripled between 1855 and 1856. For the first time, ordinary families could acquire major household items without paying upfront. Installment buying spread to pianos, furniture, and encyclopedias, embedding the habit of deferred payment deep into middle-class life.
+
+## Origins of the credit card
+
+{% include gallery id="charge_coins_gallery" caption="Merchant Charge Coins — Early Physical Credit Tokens" %}
 
 By the late 1800s, merchants had moved from paper ledgers to physical tokens. Department stores, taxi companies, and hotels issued "charge coins" — small metallic or celluloid disks stamped with the merchant's name and a three- or four-digit account number. When a customer presented the coin, the clerk looked up the corresponding paper file to check credit limits. Some coins were shaped like coins, round and pocket-sized. Others took the form of rectangular badges clipped to a keychain. Lose your coin, and you had to publish a notice in the newspaper warning merchants not to honor it. They were primitive, localized, and entirely manual — but they solved the identification problem for individual merchants.
 
+In the 1800s, merchants used credit coins and charge plates to extend credit to local farmers and ranchers until they collected profits from harvests.
+
+The credit card's ancestors appeared shortly before World War I. Oil companies were issuing some “courtesy cards” then, with actual gasoline credit cards arriving in 1924.
+
+Charge (or credit) coins were first issued just after the Civil War, growing increasingly popular in the years leading up to the Great Depression. The basic concept was simple: metallic tokens, given out by merchants—taxi companies and department stores were especially active—embossed with an advertising message, sometimes a unique image, and an account number. A customer wanting to charge a purchase to their account would present the coin to the merchant, who would then (usually) check a paper file to ensure that the account was up to date. Some coins had a specific monetary limit—like today’s prepaid debit cards do—while others had floating ceilings. 
+
+Credit coins range in shape from plain discs and ovals to more elaborate forms, like that one for the Blackstone Hotel or what was likely the last (and somewhat dubious) iteration of the charge coin: the key-shaped, anachronistic, and symbolically loaded Playboy Club tokens distributed in the 1960s. Such coins often had status codes, similar to the way credit cards today adopt an upward ladder of precious-metal names; if a Playboy key had “C1” stamped on it, for example, it meant that the holder was permitted to date club hostesses. 
+
+Taxi tokens: These “credit coins” were issued by merchants—most often, urban taxi companies but also department stores and other retailers—in the early 1900s. They were made of metal and featured the name of the issuing company on one side, along with a three- or four-digit account number on the other. The tokens had no specific monetary value; instead, they were linked to a billable account that you paid monthly. (If you lost a token, you were required to announce its loss in a newspaper advertisement.)
+
+1865: Early signs of credit “cards”
+
+The first charge coins were issued, kickstarting modern credit card history. These coins allowed
+
+customers to pay at the time of the purchase without cash. These were tremendously popular in the farming industry during westward expansion as they allowed farmers to wait until after their harvest to pay their bills.
+
+While the U.S. led these commercial innovations, global parallels were already forming. In Sweden, for instance, a 1912 report in Svenska Handelsbanken described internal credit ledgers used by banks and department stores. Meanwhile, in Germany, companies like Kaufhaus des Westens (KaDeWe) issued stamped payment cards to repeat customers, operating on closed-loop credit systems.
+
+These early store and fuel cards were typically made of celluloid, metal, or cardboard, and they preceded today’s plastic cards. Importantly, they were manual in function: each transaction required the sales clerk to physically imprint the card using devices such as the Farrington Addressograph, introduced around 1929. This machine created a carbon-copy “charge slip” of the customer’s card details, which the customer then signed.
+
 In the early 1900s, department stores adopted a more sophisticated system: the Charga-Plate, manufactured by Farrington Manufacturing Company of New York. Trademarked in 1928, each plate was a 2½" × 1¼" rectangle of sheet metal, similar in appearance to a military dog tag. It bore the customer's name, address, account number, and a paper signature card on the back. Stores like Bloomingdale's, Saks, Gimbels, and Franklin Simon issued them. The clerk placed the plate in an imprinter machine, layered a multi-part carbon form on top, and rolled a handle to transfer the embossed information onto the slip.
+
+
+During the 1920s, department stores started issuing charge plates or coins — round or rectangular and mostly made from metal — to encourage loyal customers to run a tab. The most popular, made by a company called Charga-Plate, was rectangular and big enough for an account number, a name and an address. Stores like Bloomingdale’s and Saks eventually began charging an interest rate.
+
+
+The Charga-Plate was issued by select retailers and could only be used at their establishments, making it a closed-loop system.
 
 > **Aside:** The Charga-Plate is often compared to Roman military dog tags (*signacula*). The comparison is poetic but apocryphal. No physical Roman *signacula* have ever been found — the only written evidence is a single martyrdom account from 295 CE. The Charga-Plate was actually modeled on the Addressograph system and early 1900s-era military identification tags, not ancient Rome.
 
@@ -84,23 +251,57 @@ Meanwhile, oil companies and airlines entered the game with single-purpose cards
 
 By the end of World War II, the average American carried a dozen or so card-like objects — gas cards, store plates, airline cards, each valid only with a single merchant. The wallet bulged with plastic and metal fragmentation. What the system needed was unification.
 
+The first significant development came in the early 1920s, when oil companies and hotel chains introduced proprietary cards that enabled customers to make purchases at their locations
+
+In 1936 American Airlines started
+issuing the Air Travel Card, which is generally considered the first "charge card"
+in history for the reason that upon its launch, it already utilized a numbering
+system that tied a specific user to a specific number (Smith 2015). All of these
+early versions of credit card had in common the advantage of offering an
+alternative to banknotes and coins as well as delay payment in cash (and some
+even offered rollover credit while paying a minimum amount). But most had the
+disadvantage of being limited to the issuing merchant (often a local business).
+
+It was until the mid 1950 that an interest-free period (also called grace
+or float) where the customer pays no interest in the balance within a specified
+time, emerged (Ritzer 1995, 34)
+
+{% include gallery caption="Western Union Frank Card — Front and Back" %}
+
 ## Revolving Credit
 
 Contrary to popular belief, Bloomingdale's was not the originator of revolving credit. The first true revolving credit plan — allowing customers to pay a minimum amount and carry the balance forward with interest — was offered by John Wanamaker's department store in Philadelphia in the late 1930s. The key distinction from charge cards was elegant and transformative: instead of paying the full balance monthly, you could pay a portion and defer the rest. This transformed credit from a convenience into a revenue stream. Retailers suddenly had a financial incentive to extend more credit, not less, because unpaid balances generated interest income that dwarfed the margins on merchandise itself. The psychology was equally powerful. A customer who could buy a winter coat in September and pay it off by March felt freedom rather than constraint. Revolving credit turned purchasing power into a product.
 
-## Universal Payment Card
+The defunct Franklin National Bank of Long Island issued the first true bank credit card in 1951, with other banks across the country copying it.
 
-The first glimmer of a universal card came in 1946, when John C. Biggins, a banker at Flatbush National Bank in Brooklyn, launched "Charg-It." The mechanics were simple: customers with a Flatbush National account could make purchases at participating local stores. The merchant submitted sales slips to the bank, which deposited the amount directly into the merchant's account and billed the customer. It was limited to a local Brooklyn neighborhood — merchants had to physically deliver slips to the bank — but it introduced a critical innovation: creditworthiness decisions were based on credit bureau records, not personal relationships. The idea was sound but the logistics were punishing. Without an electronic network to move transaction data, the system remained tethered to geography.
+### Universal Payment Card
 
-## Diner's Club
+John Biggins, a banker from Brooklyn, introduced the Charg-It card. The card worked on a local, closed-loop system, with all of the purchases being routed through Biggins' bank. The bank paid for the purchase and the customer paid for it through their account at Biggins' bank at a later time. Five years later, Franklin's National Bank offered a similar card.
+
+The first glimmer of a universal card came in 1946, when John C. Biggins, a banker at Flatbush National Bank in Brooklyn, launched "Charg-It." It was a closed loop card. The mechanics were simple: customers with a Flatbush National account could make purchases at participating local stores. The merchant submitted sales slips to the bank, which deposited the amount directly into the merchant's account and billed the customer. It was limited to a local Brooklyn neighborhood — merchants had to physically deliver slips to the bank — but it introduced a critical innovation: creditworthiness decisions were based on credit bureau records, not personal relationships. The idea was sound but the logistics were punishing. Without an electronic network to move transaction data, the system remained tethered to geography.
+
+### Diner's Club
 
 The idea caught fire in the hands of three men: Frank McNamara, Ralph Schneider, and Alfred Bloomingdale. McNamara was a mid-level executive at the Hamilton Credit Corporation. Schneider was his attorney. Bloomingdale, grandson of the department store founder, brought connections to New York's retail and restaurant worlds. In 1949, McNamara — according to the company's own press agent — supposedly forgot his wallet while dining with clients at Major's Cabin Grill near the Empire State Building. His wife drove to rescue him. Whether this actually happened or was invented for publicity, the story stuck. On February 8, 1950, McNamara returned to the same restaurant with Schneider and press agent Matty Simmons, paid with a cardboard card, and Diner's Club was born.
 
 The first Diner's Club card was remarkably modern in its essentials: card number, cardholder name, signature panel, and expiry date. The card itself was flimsy cardboard, hardly more durable than a business card, yet it established the visual vocabulary that every subsequent card would follow. Initially accepted at just 14 to 28 restaurants and two hotels, membership was offered to 200 friends of the founders — all personally vetted. By the end of 1950, membership had grown to 20,000. Merchants paid a commission of 5 to 7 percent, and customers paid their bill in full each month. It was, strictly speaking, a charge card — not a credit card — because no revolving balance was permitted.
 
+The card itself holds no intrinsic value if lost or stolen
+
+ The first card was offered to 200 people, mostly Mr. McNamara's friends and acquaintances. Fourteen Manhattan restaurants agreed to accept it. A year later, the company estimated that 42,000 Americans were carrying the card and that more than 330 businesses were accepting it. Membership cost $3 a year.
+
+At first, all cards were charge cards, meaning that balances had to be paid in full each month. Revolving credit cards, which charge interest and allow customers to make partial payments each month, were introduced in 1951 in New York by Franklin National Bank, which eventually became European American Bank. 
+
+
 ### A charge card transaction in 1950
 
 A transaction in 1950 was a dance of paper and trust. After the meal, the patron handed the card to the waiter, who transcribed the card number onto a paper charge slip and asked for a signature. The signature on the slip was compared to the one on the card — the only fraud prevention available. For larger purchases, a "floor limit" triggered a phone call to Diner's Club for verbal authorization. Blocked cards appeared on "hot lists" printed and mailed to merchants weekly. The merchant bundled the slips and mailed them to Diner's Club, which validated them and issued payment at month's end. The cardholder received a single consolidated bill. With so many manual steps, the process was inevitably slow and error-prone — but it worked, and it scaled.
+
+
+## 1955: The first time the term “credit card” is used in a patent
+
+The patent ushered in the first gas pump that accepted credit cards.
+
 
 ## American Express
 
@@ -110,7 +311,18 @@ On October 1, 1958, they launched their own charge card with a $6 annual fee —
 
 But Diner's Club and American Express were still charge cards. The true revolution — adding revolving credit to a universally accepted bank card — would come from an unlikely source: a mass mailing in Fresno, California. BankAmericard would prove that millions of ordinary consumers, not just wealthy diners and corporate travelers, wanted access to credit. And they wanted it without visiting a bank, without filling out lengthy applications, and without anyone judging whether they deserved it.
 
+
+t wasn't until the 1960s that the first PVC (polyvinyl chloride) plastic cards were introduced. PVC was a durable and flexible material that could be easily printed on, making it ideal for card manufacturing. These early plastic cards were still relatively simple in design, typically featuring only the cardholder's name and account number.
+
 ## BankAmericard
+
+Indeed, only 27 of the 100 or so bank card schemes launched in the
+US after 1947 were still in operation in 1958 (ibid). The survey of New England
+bankers on the adoption of credit cards by Pullen and O'Connell (1966) also
+noted bankers were “intentionally being cautious” about credit cards (p.2). But it
+was regulation limiting geographical growth which really crippled US bankers as
+none was able to achieve critical mass and would rapidly collapse.
+
 
 BankAmericard changed the equation. Where Diner's Club and American Express required payment in full, BankAmericard offered revolving credit — a line of credit that customers could draw against, pay down partially, and draw again. It was the first universal bank-issued credit card, and it arrived not through careful pilot programs but through what insiders called "The Drop."
 
@@ -126,29 +338,42 @@ Fraud evolved with the technology. Criminals discovered that embossed numbers co
 
 > **Aside:** The carbon paper that made imprinters possible has its own love story. Around 1801, Italian inventor Pellegrino Turri developed carbon paper to help his beloved, Countess Carolina Fantoni da Fivizzano, continue writing letters after she lost her sight. One surviving letter from November 6, 1808 reads: "I am desperate because I find myself almost without black paper." Independently, Ralph Wedgwood in England patented carbon paper on October 7, 1806 — also motivated by a desire to help blind people write. Two inventors, two countries, the same romantic impulse.
 
-## Others
+
+## 1965:
+American Express has a monthly "Cancellation Bulle-tin" which goes to all the service establishments in-volved. These are instructed not to honor any card unless they first check the cancella-tion bulletin to make sure that the card is not listed.
+
+Then, there is the “Be My Guest Service," another re-finement of living it up on the cuff. Card holders can treat friends to a dinner al-most anywhere in the world without leaving home. They simply send the name of the restaurant and the guest to American Express, where the arrangements are made.
+
+
+
+### Others
+
+Master Charge was created in reaction to BankAmericard, because other California banks did not want to issue a card licensed by their giant competitor.
 
 The launch of BankAmericard was not the end of competition but the beginning. In 1966, a group of banks formed the Interbank Card Association specifically to challenge BankAmericard's dominance. Led by Karl H. Hinke of Marine Midland Bank, the consortium included United California Bank, Crocker National Bank, Wells Fargo, and others. Their original card carried only a lowercase "i" inside a circle — a logo so forgettable that branding consultants despaired. In 1969, the association merged with the Western States Bankcard Association and rebranded as "Master Charge," adopting the red and yellow overlapping circles that would become one of the most recognizable logos in financial history. The name changed to MasterCard in 1979.
 
 Now we'll see how credit card payments evolved with time, using new innovations to improve customer experience, reduce fraud, and increase profitability.
 
-## BASE I
+### BASE I
 
 By the early 1970s, the authorization bottleneck had become unbearable. Every transaction above a merchant's floor limit required a phone call to the issuing bank, where a human operator looked up the account, checked the available balance, and verbally approved or declined the purchase. The average call took five minutes. At busy restaurants and department stores, cashiers spent more time on hold than serving customers.
 
 In April 1973, Bank of America's National BankAmericard, Inc. deployed BASE I — the first real-time electronic credit card authorization system. BASE I connected member banks into a centralized computer network that could process authorization requests in under sixty seconds. At launch, only four banks had direct CPU interfaces; for others, the process took closer to ninety seconds. But even ninety seconds was revolutionary compared to five minutes on hold. For the first time, authorization was available twenty-four hours a day, seven days a week, without human operators.
 
-## BASE II
+### BASE II
 
 Authorization was only half the battle. Once a transaction was approved, the sales slips still had to be physically transported to clearinghouses, manually sorted, and reconciled — a process that took days and consumed armies of clerks. BASE II, developed between 1974 and 1976, solved this by becoming the first electronic clearinghouse for bank-issued payment cards.
 
 Instead of shipping paper slips, merchants transmitted transaction data in batches overnight. The system calculated net settlement amounts between banks — reducing the total funds that needed to transfer by offsetting debits against credits. The working name was SPAN, the Shared Paperless Activity Network, reflecting the ambition to eliminate paper entirely. BASE II ran on an IBM mainframe — notably the first to use silicon memory chips instead of the older magnetic core technology.
 
-## Magnetic Stripe
+### Magnetic Stripe
 
 The magnetic stripe was the first truly transformative technology in credit card history, and like many great inventions, it emerged from domestic frustration. In 1969, IBM engineer Forrest Parry was trying to attach magnetic tape to plastic cards for CIA identification badges. Nothing worked. Adhesives interfered with the tape's magnetic properties. Mechanical fasteners were too bulky. After a frustrating day in the lab, Parry brought home samples and explained the problem to his wife, Dorothea, who was ironing clothes at the time. She suggested using the iron. Parry tried it — the heat bonded the tape to the plastic without damaging its magnetic properties. The world's most ubiquitous data storage medium was born on an ironing board.
 
 The standards were adopted as a US standard in 1969 and internationally in 1971. The stripe contains three tracks: Track 1 (developed for airlines, 210 bits per inch, 79 alphanumeric characters), Track 2 (developed for banking, 75 bits per inch, 40 numeric characters), and Track 3 (developed for thrift institutions, 210 bits per inch, 107 numeric characters). When combined with electronic point-of-sale terminals, the stripe enabled near-real-time authorization by reading card data and transmitting it over telephone lines — no more knuckle-busters, no more handwritten slips.
+
+## 1983:
+Additionally, Hawaiian company Verifone developed its first point-of-sale (POS) machine followed by its popular ZON terminal in 1983. Their machine ushers in widespread use of POS systems across the country. 
 
 ## tele transactions
 
@@ -157,6 +382,10 @@ The shift to electronic authorization created a new vulnerability. Early telepho
 The intersection with credit cards was subtle but real. Early authorization systems relied on telephone calls, and phone phreakers could potentially bypass billing or intercept approval signals. The solution, deployed in 1983, was Signaling System 7 (SS7), which moved control signals to out-of-band channels — completely separating them from voice traffic and eliminating the vulnerability.
 
 ## Automated Teller Machine (ATM)
+
+1969: Get your money now!
+
+Chemical Bank in New York installed the first ATM in the U.S., giving cardholders access to cash for the first time.
 
 The ATM arrived quietly but changed everything. On June 27, 1967, Barclays Bank installed the first cash dispenser at its Enfield branch in north London. The inventor, John Shepherd-Barron, claimed he conceived the idea while soaking in the bath, inspired by chocolate vending machines. His original machine accepted paper vouchers impregnated with radioactive carbon-14, read by the machine to authenticate the user. Withdrawals were limited to £10 — "quite enough for a wild weekend." The first customer was actor Reg Varney, star of the BBC sitcom *On the Buses*.
 
@@ -172,6 +401,10 @@ The first major defense was the hologram. MasterCard added holographic foil to i
 
 Picture credit cards — cards printed with the cardholder's photograph — offered a simpler form of authentication. If the person presenting the card didn't match the photo, the transaction stopped immediately.
 
+
+1984 (Rewards Programs): Diners Club introduced the first rewards program.
+
+1991 amex launches firsst credit card loyalty program, originally called membership miles, now known as membership rewards
 ## EMV tech
 
 Yet holograms and photographs were still passive defenses. The breakthrough came from a technology originally developed for a completely different purpose: securing military communications.
@@ -186,7 +419,22 @@ Europe adopted EMV far earlier than the United States. France pioneered chip car
 
 > **Aside:** The mathematics behind EMV relies on asymmetric cryptography — the same conceptual breakthrough that powers secure websites and encrypted messaging. The insight, developed in the 1970s by Whitfield Diffie, Martin Hellman, and Ron Rivest, Adi Shamir, and Leonard Adleman, is elegantly simple: what's encrypted with a private key can only be verified with the corresponding public key, and vice versa. Remarkably, this foundational technology for modern security emerged seven years after humans first walked on the moon. We conquered space before we figured out how to send a secret message without sharing a password in advance.
 
+
+Barclays and orange launched first contactless credit card
+
+Mastercard key credit card small
+
+Though not widely used today, the early 2000s brought about several interesting innovations to credit cards, most notably mini keychain credit cards. Mastercard's SideCard and the Discover2Go card both aimed to eliminate the wallet from America's pockets, but ultimately failed.
+2007: Cards get personal and a little more futuristic
+
+Capital One pioneered the first personalized credit cards, allowing customers to choose the image on the front of the card. Most companies followed suit. MasterCard and Visa also launched interactive cards with LED screens.
+
+Virtual Credit Card
+
+
 ## Online Payments
+
+1996 	First widely cited secure online card transaction is completed on the internet.
 
 The chip protects in-person transactions, but the internet created an entirely different battlefield. When a customer types a card number into a website, no chip can verify their identity. The industry developed layered defenses.
 
@@ -206,6 +454,8 @@ Version 2.0, published in 2016, represents a significant improvement. Instead of
 
 ## Digital Sovereignty
 
+While informal credit systems had existed for centuries, the first structured credit card was launched by the State Bank of India (SBI) in 1988, marking a new chapter in the country’s financial history. 
+
 Not every nation was content to let Visa and MasterCard own their domestic payment infrastructure. India's response was RuPay, launched on March 26, 2012, by the National Payments Corporation of India (NPCI). The name is a portmanteau of "rupee" and "payment," and it was formally dedicated on May 8, 2014, by President Pranab Mukherjee at a ceremony in New Delhi.
 
 RuPay's appeal was immediate and practical. Joining Visa or MasterCard cost Indian banks $50,000 or more in membership fees, plus ongoing foreign exchange charges on every transaction. RuPay charged zero membership fees and processed transactions domestically in rupees, cutting costs by roughly 40%. The scheme was designed for financial inclusion, enabling smaller urban cooperative banks and rural regional banks to issue cards for the first time.
@@ -223,3 +473,5 @@ In India, the convergence of credit cards and UPI (Unified Payments Interface) h
 ## Business Innovations
 
 Technology solved the mechanics of payment, but business innovation determined who won the market. American Express launched the Gold Card in 1966, transforming a utilitarian payment instrument into a status symbol. Cashback rewards, pioneered in the 1980s, reversed the traditional flow: instead of consumers paying fees to use cards, issuers began paying consumers to spend. Annual fees, merchant discount rates, and co-branded partnerships with airlines and hotels created multiple revenue streams. Credit bureaus like Experian, TransUnion, and Equifax standardized risk assessment, enabling instant approvals and personalized credit limits. The card itself became a platform for loyalty programs, purchase protection, travel insurance, and concierge services — a tiny rectangle of plastic that carries the weight of an entire financial services ecosystem.
+
+</div>
