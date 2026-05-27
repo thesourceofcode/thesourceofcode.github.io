@@ -23,6 +23,15 @@ charge_coins_gallery:
     image_path: /assets/images/credit-card-chronology/charge_coins.jpg
     alt: "Charge Coins"
     title: "Various Merchant Charge Coins"
+charg_it_gallery:
+  - url: /assets/images/credit-card-chronology/charg_it_launch_1946.jpg
+    image_path: /assets/images/credit-card-chronology/charg_it_launch_1946.jpg
+    alt: "Charg-It Launch, Newsday, 16 August 1946, p. 3"
+    title: "Charg-It Launch, Newsday, 16 August 1946, p. 3"
+  - url: /assets/images/credit-card-chronology/charg_it_ad_1946.jpg
+    image_path: /assets/images/credit-card-chronology/charg_it_ad_1946.jpg
+    alt: "Charg-It Ad, Newsday, 22 October 1946, p. 6"
+    title: "Charg-It Ad, Newsday, 22 October 1946, p. 6"
 ---
 
 <div class="text-justify" markdown="1">
@@ -40,7 +49,7 @@ Each of those features has a story. To understand how these features came to be,
 But first, let's take a brief look at the concept of credit itself.
 
 
-## The history of credit
+## The origins of credit
 
 The concept of credit would have started taking shape with the beginning of the agricultural revolution 10,000 years ago. In agrarian economies, farmers need seeds, water, fertilizer, and labor months before harvest yields any income. The idea of credit arises naturally in these circumstances. Provide the input now for an output later, or to put in modern terms, provide the service now for a payment later. So the origin of the concet of credit can be traced back to the natural phenomenon that crops take time to grow. This simple idea of transferring value forward in time evolved into a multi-billion dollar industry today.
 
@@ -176,17 +185,24 @@ Buddhism stands apart in its relative permissiveness. The Buddha issued no blank
 
 So we can establish that credit has been there for several millennia. So what was it about 20th century America that led to the credit card revolution?
 
-## Medieval evolution of credit
+## Innovations in credit
 
 
-## Consumer Credit in 19th century U.S.A
+## Rise of Consumer Credit
 
-In small communities, everyone knows everyone. The grocer keeps a running tab in a notebook; the tailor trusts the carpenter's son to settle up at harvest. Personal relationships were the original credit infrastructure. But as the 19th century wore on, stores multiplied — franchises opened branches, mail-order catalogs reached rural customers, and cities swelled with strangers. The notebook system collapsed under scale. Something was needed to identify charge accounts without requiring personal acquaintance.
+If the concept of credit originated in ancient times in agricultural societies and evolved in medieval times in commercial societies, it required an industrial society for new innovations in credit to occur in modern times.
+
+It was mechanization and the mass production of consumer durables in the 19th century that made the instalment plan available to the average person..
+
+The first to innovate in this space ws the singer sewing machine company.
 
 
-It’s the early 1850s. The company had just invented its improved sewing machine, which worked better than any competitor’s model. But there was one massive roadblock: it was very, very expensive.
+> Aside about coperwaith and the clockmaker
 
-A basic Singer sewing machine cost about $125. To put that price in perspective, the average American worker in the 1850s made less than $500 a year. Think about that: the machine cost a quarter of their annual income! That’s like paying for a down payment on a house or buying a luxury car today. And a seamstress, who was their perfect customer, barely made enough money for rent and food.
+
+
+
+In the 1850s, a basic Singer sewing machine cost about $125 a quarter of the annual income of the average American worker!
 
 The challenge was clear: Singer’s product was too expensive. Most families simply couldn’t afford it. Only wealthy households and industrial workshops were buying.
 
@@ -194,64 +210,149 @@ Edward Clark knew the company needed a steady cash flow to survive. So, in 1856,
 
 For just $5 down and a small monthly payment of $3 to $5, a family could take the machine home immediately. This move instantly shattered the psychological barrier. Now, customers didn’t focus on the prohibitive $125 cost, but only on the small, manageable monthly payment. That quarter-year salary purchase suddenly felt like an affordable subscription.
 
-It was an instant success. Sales tripled within a year. By the 1870s, 70 to 80% of all Singer machines were sold this way, on these installment plans. Singer unlocked a massive, previously inaccessible market – the working-class home. But there was a problem.
-
-
-Computers hadn’t been invented yet, so a manager couldn’t just create a nice Excel table for all the loans, or, as they called them, hire-purchases. They needed a way to track thousands of small payments.
-
-So, they created the first credit database, which consisted of millions of individual, handwritten payment cards. These cards were stored and indexed in massive wooden cabinets globally and tracked the payment history of every single customer. That was the world’s first true consumer credit database! Modern credit bureaus owe their existence to this system.
-
-Here’s how it worked. The machine was considered “hired” until the final payment was made. If the customer missed three payments, special collection agents – in fact, the same salespeople who sold the machine – politely but firmly took the machine back. Repossession was an essential component of this business model. It allowed Singer to mitigate risk, keep the resale value of the machine high, and recycle the asset by selling it again.
+It was an instant success. Sales tripled within a year. By the 1870s, 70 to 80% of all Singer machines were sold this way, on these installment plans. Singer went on to become one of the first multinational companies.
 
 Singer even invented a simple form of credit scoring. If you owned your house, you often paid less per month; if you were a renter, the down payment or monthly rate might be slightly higher to cover the potential risk. This was risk-based pricing – a century before modern credit scores existed.
 
-The company even added gamification elements to their credits. In markets like France and Latin America, they experimented with selling lottery tickets with the machine. Every month a payment was made, the customer entered a draw to win their remaining debt canceled. This was the first example of gamification of finance in the 1880s!
+exempt from the General disapproval of buying on credit. productive vs consumptive credit.
 
-Singer fundamentally changed the psychology of consumption and established that the value of a product is measured not by its total cost, but by the affordability of its payments.
+Through much of the 19th century, borrowing to acquire luxuries and nonessentials was generally seen as imprudent, even immoral. Borrowing money was
+acceptable and safe only when used to purchase things that increased in
+value or had productive uses. Sewing machines were one such durable good that increased productivity, thus it was socially accetable to buy a sewing machine in installment.
 
-The first answer was the installment plan. Around 1850, Edward Clark, business partner of Isaac Singer, devised what he called a "hire-purchase" system for Singer sewing machines. The machines cost $125 — roughly a year's wages for a working family. Clark's stroke of genius was psychological as much as financial: "Why not rent a sewing machine to the housewife and apply the rental fee to the purchase price? Her husband cannot accuse her of running him into debt since he is merely hiring or renting the machine." Sales tripled between 1855 and 1856. For the first time, ordinary families could acquire major household items without paying upfront. Installment buying spread to pianos, furniture, and encyclopedias, embedding the habit of deferred payment deep into middle-class life.
+The success of singer's instalment plan changed the psychology of consumption and paved the way for increasingly credit based consumerism, something we are still grappling with today.
+Installment buying spread to pianos, furniture, and encyclopedias, embedding the habit of deferred payment deep into middle-class life.
+
+
+The first answer was the installment plan. Around 1850, Edward Clark, business partner of Isaac Singer, devised what he called a "hire-purchase" system for Singer sewing machines. The machines cost $125 — roughly a year's wages for a working family. Clark's stroke of genius was psychological as much as financial: "Why not rent a sewing machine to the housewife and apply the rental fee to the purchase price? Her husband cannot accuse her of running him into debt since he is merely hiring or renting the machine." Sales tripled between 1855 and 1856. For the first time, ordinary families could acquire major household items without paying upfront. 
 
 ## Origins of the credit card
 
+Late 19th century USA was a rapidly industrializing society. With rapid progress came innovation. Some of these innovations tell us that the idea space was ripe for invention of credit cards.
+
+### First mention of credit cards
+The first ever description of credit cards in the context of payments comes from an article in the About Town Column, Ottawa Weekly Republic on 1st March 1877:
+
+> "About the most convenient arrangement for trading, we have ever seen, are the new style of credit
+cards for grocers or any kind of merchants. The cards are issued to customers and cost $5. They have numbers running from one to fifty cents, and when you want to purchase goods you present your card, and the amount you buy is punched out. They save the trouble of pass books, enteries on ledgers or blotter, and where you pay cash for them you get 5 per cent off."
+
+Another article in Cassopolis Vigilant, 19 July 1877, seemingly referring to the same technology comments the following:
+
+> "They are an ingenuos device, and the best form of individual book keeping we have seen."
+
+We can also find a patent that roughly works as described in the article, published in 1889, US Patent US400569A. It also has an image describing the "credit card":
+
+<div style="width: 100%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/credit_card_patent_1889.png" alt="Credit Order" caption="Credit Order, US Patent 400569" %}
+
+</div>
+
+### First card with "credit" on it:
+
+<div style="width: 40%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/oldest_credit_card_1896.jpg" alt="The Depot Carriage & Baggage co. customer card" caption="The Depot Carriage & Baggage Co. Customer Card, c. 1896" %}
+
+</div>
+
+This is the first customer card, that we know of, to use the expression "credit". It was issued in 1896 by a transports company as a loyalty card, for exclusive use in the customer's relationship with the issuing company.
+
+
+
+## Precursors to the credit card
+
+While the success of instalment plans for consumer durables was changing attidue towards consumer credit, the mechanisms for open book credit were stretched to its limits with the geographical expansion of the US.
+
+
+In small communities, everyone knows everyone. The grocer keeps a running tab in a notebook; the tailor trusts the carpenter's son to settle up at harvest. Personal relationships were the original credit infrastructure, your credit history was oral rather than written, and
+identity fraud was not an issue. But as the 19th century wore on, stores multiplied — franchises opened branches, mail-order catalogs reached rural customers, and cities swelled with strangers. The notebook system collapsed under scale. Something was needed to identify charge accounts without requiring personal acquaintance.
+
+
+### Charge coins
 {% include gallery id="charge_coins_gallery" caption="Merchant Charge Coins — Early Physical Credit Tokens" %}
 
 By the late 1800s, merchants had moved from paper ledgers to physical tokens. Department stores, taxi companies, and hotels issued "charge coins" — small metallic or celluloid disks stamped with the merchant's name and a three- or four-digit account number. When a customer presented the coin, the clerk looked up the corresponding paper file to check credit limits. Some coins were shaped like coins, round and pocket-sized. Others took the form of rectangular badges clipped to a keychain. Lose your coin, and you had to publish a notice in the newspaper warning merchants not to honor it. They were primitive, localized, and entirely manual — but they solved the identification problem for individual merchants.
 
-In the 1800s, merchants used credit coins and charge plates to extend credit to local farmers and ranchers until they collected profits from harvests.
 
-The credit card's ancestors appeared shortly before World War I. Oil companies were issuing some “courtesy cards” then, with actual gasoline credit cards arriving in 1924.
 
 Charge (or credit) coins were first issued just after the Civil War, growing increasingly popular in the years leading up to the Great Depression. The basic concept was simple: metallic tokens, given out by merchants—taxi companies and department stores were especially active—embossed with an advertising message, sometimes a unique image, and an account number. A customer wanting to charge a purchase to their account would present the coin to the merchant, who would then (usually) check a paper file to ensure that the account was up to date. Some coins had a specific monetary limit—like today’s prepaid debit cards do—while others had floating ceilings. 
 
-Credit coins range in shape from plain discs and ovals to more elaborate forms, like that one for the Blackstone Hotel or what was likely the last (and somewhat dubious) iteration of the charge coin: the key-shaped, anachronistic, and symbolically loaded Playboy Club tokens distributed in the 1960s. Such coins often had status codes, similar to the way credit cards today adopt an upward ladder of precious-metal names; if a Playboy key had “C1” stamped on it, for example, it meant that the holder was permitted to date club hostesses. 
 
-Taxi tokens: These “credit coins” were issued by merchants—most often, urban taxi companies but also department stores and other retailers—in the early 1900s. They were made of metal and featured the name of the issuing company on one side, along with a three- or four-digit account number on the other. The tokens had no specific monetary value; instead, they were linked to a billable account that you paid monthly. (If you lost a token, you were required to announce its loss in a newspaper advertisement.)
+Taxi tokens: These "credit coins" were issued by merchants—most often, urban taxi companies but also department stores and other retailers—in the early 1900s. They were made of metal and featured the name of the issuing company on one side, along with a three- or four-digit account number on the other. The tokens had no specific monetary value; instead, they were linked to a billable account that you paid monthly. (If you lost a token, you were required to announce its loss in a newspaper advertisement.)
 
-1865: Early signs of credit “cards”
 
 The first charge coins were issued, kickstarting modern credit card history. These coins allowed
-
 customers to pay at the time of the purchase without cash. These were tremendously popular in the farming industry during westward expansion as they allowed farmers to wait until after their harvest to pay their bills.
+
+These were **closed-loop** credit systems, meaning a charge coin issued by one merchant could only be used at that merchant's establishments
+
+#### Familiar Feature: Account Number
+We can see a familiar feature in these charge coins to the modern credit card, the account no. This was the primary innovation of charge coins. This allowed open book credit to get impersonal.
+The merchant store clerk did not have to personally know you, he could just look up the record corresponding to your charge coin account number.
+This mechanism is still used today with the credit card numbers being used as an identifier for the credit account.
+
+
 
 While the U.S. led these commercial innovations, global parallels were already forming. In Sweden, for instance, a 1912 report in Svenska Handelsbanken described internal credit ledgers used by banks and department stores. Meanwhile, in Germany, companies like Kaufhaus des Westens (KaDeWe) issued stamped payment cards to repeat customers, operating on closed-loop credit systems.
 
-These early store and fuel cards were typically made of celluloid, metal, or cardboard, and they preceded today’s plastic cards. Importantly, they were manual in function: each transaction required the sales clerk to physically imprint the card using devices such as the Farrington Addressograph, introduced around 1929. This machine created a carbon-copy “charge slip” of the customer’s card details, which the customer then signed.
 
+
+### Department Stores
 In the early 1900s, department stores adopted a more sophisticated system: the Charga-Plate, manufactured by Farrington Manufacturing Company of New York. Trademarked in 1928, each plate was a 2½" × 1¼" rectangle of sheet metal, similar in appearance to a military dog tag. It bore the customer's name, address, account number, and a paper signature card on the back. Stores like Bloomingdale's, Saks, Gimbels, and Franklin Simon issued them. The clerk placed the plate in an imprinter machine, layered a multi-part carbon form on top, and rolled a handle to transfer the embossed information onto the slip.
 
 
 During the 1920s, department stores started issuing charge plates or coins — round or rectangular and mostly made from metal — to encourage loyal customers to run a tab. The most popular, made by a company called Charga-Plate, was rectangular and big enough for an account number, a name and an address. Stores like Bloomingdale’s and Saks eventually began charging an interest rate.
 
+#### Familiar Feature: Customer Signature
+Charga Plates had a paper card on the back where the customer had to sign before using the card. This signature could be matched with the signature on the sales slip by the clerk
+and could be used as a rudimentary form of fraud prevention. This signature field was quite common until recently in modern credit cards
 
 The Charga-Plate was issued by select retailers and could only be used at their establishments, making it a closed-loop system.
 
+These early store and fuel cards were typically made of celluloid, metal, or cardboard, and they preceded today’s plastic cards. Importantly, they were manual in function: each transaction required the sales clerk to physically imprint the card using devices such as the Farrington Addressograph, introduced around 1929. This machine created a carbon-copy “charge slip” of the customer’s card details, which the customer then signed.
+
+#### Innovation: Revolving Credit
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/wanamaker_revolving_credit_launch_ad_22_aug_1938.jpg" alt="John Wanamaker revolving credit launch Ad" caption="John Wanamaker Revolving Credit Launch Ad, The Philadelphia Inquirer, 22 August 1938, p. 5" %}
+
+</div>
+
+The first true revolving credit plan — allowing customers to pay a minimum amount and carry the balance forward with interest — was offered by John Wanamaker's department store in Philadelphia in the late 1930s. The key distinction from charge cards was elegant and transformative: instead of paying the full balance monthly, you could pay a portion and defer the rest. This transformed credit from a convenience into a revenue stream. Retailers suddenly had a financial incentive to extend more credit, not less, because unpaid balances generated interest income that dwarfed the margins on merchandise itself. The psychology was equally powerful. A customer who could buy a winter coat in September and pay it off by March felt freedom rather than constraint. Revolving credit turned purchasing power into a product.
+
+In 1938, the bloomingdale store introduced what it called
+a permanent budget account which allowed customers the option
+of not paying off their bill every month, aggregating total
+purchases into a single sum that could be paid over time at the
+cost of interest charges.41 Previous forms of credit, such as
+installment payments and charge cards may not have required
+payment at the time of purchase. However, the retailer did expect
+full payment over six months or, with a charge card, payment in
+full when billed at the end of the month.
+
 > **Aside:** The Charga-Plate is often compared to Roman military dog tags (*signacula*). The comparison is poetic but apocryphal. No physical Roman *signacula* have ever been found — the only written evidence is a single martyrdom account from 295 CE. The Charga-Plate was actually modeled on the Addressograph system and early 1900s-era military identification tags, not ancient Rome.
+
+### Western Union
+{% include gallery caption="Western Union Frank Card — Front and Back" %}
+hey
+
+### Oil Companies
+The credit card's ancestors appeared shortly before World War I. Oil companies were issuing some “courtesy cards” then, with actual gasoline credit cards arriving in 1924.
 
 Meanwhile, oil companies and airlines entered the game with single-purpose cards. Texaco issued paper gasoline cards in 1914; Standard Oil of California followed in 1924 with cards personally signed by the company president. In July 1938, several regional Standard Oil companies agreed to honor each other's cards — creating the first national credit card interchange system. Airlines were even more ambitious: the Air Travel Card, launched in 1936 by American Airlines, introduced a numbering system still in use today (UATP cards begin with the digit "1"). By 1941, the Air Travel Card accounted for roughly half of participating airlines' revenues.
 
 By the end of World War II, the average American carried a dozen or so card-like objects — gas cards, store plates, airline cards, each valid only with a single merchant. The wallet bulged with plastic and metal fragmentation. What the system needed was unification.
 
-The first significant development came in the early 1920s, when oil companies and hotel chains introduced proprietary cards that enabled customers to make purchases at their locations
+
+### Airlines
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/air_travel_card_1936.jpeg" alt="Air Travel Card" caption="Air Travel Card, c. 1936" %}
+
+</div>
 
 In 1936 American Airlines started
 issuing the Air Travel Card, which is generally considered the first "charge card"
@@ -266,21 +367,29 @@ It was until the mid 1950 that an interest-free period (also called grace
 or float) where the customer pays no interest in the balance within a specified
 time, emerged (Ritzer 1995, 34)
 
-{% include gallery caption="Western Union Frank Card — Front and Back" %}
 
-## Revolving Credit
 
-Contrary to popular belief, Bloomingdale's was not the originator of revolving credit. The first true revolving credit plan — allowing customers to pay a minimum amount and carry the balance forward with interest — was offered by John Wanamaker's department store in Philadelphia in the late 1930s. The key distinction from charge cards was elegant and transformative: instead of paying the full balance monthly, you could pay a portion and defer the rest. This transformed credit from a convenience into a revenue stream. Retailers suddenly had a financial incentive to extend more credit, not less, because unpaid balances generated interest income that dwarfed the margins on merchandise itself. The psychology was equally powerful. A customer who could buy a winter coat in September and pay it off by March felt freedom rather than constraint. Revolving credit turned purchasing power into a product.
+
 
 The defunct Franklin National Bank of Long Island issued the first true bank credit card in 1951, with other banks across the country copying it.
 
 ### Universal Payment Card
+
+
+{% include gallery id="charg_it_gallery" caption="Charg-It Launch News Article and Advertisement, 1946" %}
 
 John Biggins, a banker from Brooklyn, introduced the Charg-It card. The card worked on a local, closed-loop system, with all of the purchases being routed through Biggins' bank. The bank paid for the purchase and the customer paid for it through their account at Biggins' bank at a later time. Five years later, Franklin's National Bank offered a similar card.
 
 The first glimmer of a universal card came in 1946, when John C. Biggins, a banker at Flatbush National Bank in Brooklyn, launched "Charg-It." It was a closed loop card. The mechanics were simple: customers with a Flatbush National account could make purchases at participating local stores. The merchant submitted sales slips to the bank, which deposited the amount directly into the merchant's account and billed the customer. It was limited to a local Brooklyn neighborhood — merchants had to physically deliver slips to the bank — but it introduced a critical innovation: creditworthiness decisions were based on credit bureau records, not personal relationships. The idea was sound but the logistics were punishing. Without an electronic network to move transaction data, the system remained tethered to geography.
 
 ### Diner's Club
+
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_ad_chicago_tribune_25_Aug_1950.jpg" alt="Diner's club Ad, ca. 1950" caption="Diner's Club Ad, Chicago Tribune, 25 August 1950, p. 40" %}
+
+</div>
 
 The idea caught fire in the hands of three men: Frank McNamara, Ralph Schneider, and Alfred Bloomingdale. McNamara was a mid-level executive at the Hamilton Credit Corporation. Schneider was his attorney. Bloomingdale, grandson of the department store founder, brought connections to New York's retail and restaurant worlds. In 1949, McNamara — according to the company's own press agent — supposedly forgot his wallet while dining with clients at Major's Cabin Grill near the Empire State Building. His wife drove to rescue him. Whether this actually happened or was invented for publicity, the story stuck. On February 8, 1950, McNamara returned to the same restaurant with Schneider and press agent Matty Simmons, paid with a cardboard card, and Diner's Club was born.
 
@@ -298,23 +407,15 @@ At first, all cards were charge cards, meaning that balances had to be paid in f
 A transaction in 1950 was a dance of paper and trust. After the meal, the patron handed the card to the waiter, who transcribed the card number onto a paper charge slip and asked for a signature. The signature on the slip was compared to the one on the card — the only fraud prevention available. For larger purchases, a "floor limit" triggered a phone call to Diner's Club for verbal authorization. Blocked cards appeared on "hot lists" printed and mailed to merchants weekly. The merchant bundled the slips and mailed them to Diner's Club, which validated them and issued payment at month's end. The cardholder received a single consolidated bill. With so many manual steps, the process was inevitably slow and error-prone — but it worked, and it scaled.
 
 
-## 1955: The first time the term “credit card” is used in a patent
-
-The patent ushered in the first gas pump that accepted credit cards.
-
-
-## American Express
-
-American Express watched Diner's Club grow from 200 members in 1950 to 400,000 by 1957 and decided the market was too lucrative to ignore. But American Express was not starting from scratch. Founded in 1850 as an express mail service in Buffalo, New York, the company had spent a century building a brand synonymous with reliability and travel services. Their money orders and traveler's cheques were already fixtures in the wallets of businessmen and tourists worldwide. When they entered the charge card business, they brought institutional trust that no startup could replicate.
-
-On October 1, 1958, they launched their own charge card with a $6 annual fee — one dollar more than Diner's Club, deliberately signaling premium positioning. On launch day, 250,000 cards were already issued, accepted at 17,500 merchants. In May 1959, American Express became the first issuer to offer embossed plastic cards, replacing the cardboard competitors with something more durable and prestigious. The Centurion logo, borrowed from their traveler's cheques, conveyed authority before the card was even presented. Like Diner's Club, it required payment in full each month — it remained a charge card, not a credit card. But American Express understood branding in a way its rivals did not. Where Diner's Club sold utility, American Express sold status.
-
-But Diner's Club and American Express were still charge cards. The true revolution — adding revolving credit to a universally accepted bank card — would come from an unlikely source: a mass mailing in Fresno, California. BankAmericard would prove that millions of ordinary consumers, not just wealthy diners and corporate travelers, wanted access to credit. And they wanted it without visiting a bank, without filling out lengthy applications, and without anyone judging whether they deserved it.
-
-
-t wasn't until the 1960s that the first PVC (polyvinyl chloride) plastic cards were introduced. PVC was a durable and flexible material that could be easily printed on, making it ideal for card manufacturing. These early plastic cards were still relatively simple in design, typically featuring only the cardholder's name and account number.
 
 ## BankAmericard
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/bankamericard_launch_ad_18_sept_1958.jpg" alt="BankAmericad launch Ad, ca. 1958" caption="BankAmericard Launch Ad, The Lemoore Advance, 18 September 1958, p. 5" %}
+
+</div>
+
 
 Indeed, only 27 of the 100 or so bank card schemes launched in the
 US after 1947 were still in operation in 1958 (ibid). The survey of New England
@@ -339,6 +440,25 @@ Fraud evolved with the technology. Criminals discovered that embossed numbers co
 > **Aside:** The carbon paper that made imprinters possible has its own love story. Around 1801, Italian inventor Pellegrino Turri developed carbon paper to help his beloved, Countess Carolina Fantoni da Fivizzano, continue writing letters after she lost her sight. One surviving letter from November 6, 1808 reads: "I am desperate because I find myself almost without black paper." Independently, Ralph Wedgwood in England patented carbon paper on October 7, 1806 — also motivated by a desire to help blind people write. Two inventors, two countries, the same romantic impulse.
 
 
+## American Express
+
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_launch_ad_30_sept_1958.jpg" alt="American Express launch Ad, ca. 1958" caption="American Express Credit Card Launch Ad, The Cincinnati Enquirer, 30 September 1958, p. 7" %}
+
+</div>
+
+
+American Express watched Diner's Club grow from 200 members in 1950 to 400,000 by 1957 and decided the market was too lucrative to ignore. But American Express was not starting from scratch. Founded in 1850 as an express mail service in Buffalo, New York, the company had spent a century building a brand synonymous with reliability and travel services. Their money orders and traveler's cheques were already fixtures in the wallets of businessmen and tourists worldwide. When they entered the charge card business, they brought institutional trust that no startup could replicate.
+
+On October 1, 1958, they launched their own charge card with a $6 annual fee — one dollar more than Diner's Club, deliberately signaling premium positioning. On launch day, 250,000 cards were already issued, accepted at 17,500 merchants. In May 1959, American Express became the first issuer to offer embossed plastic cards, replacing the cardboard competitors with something more durable and prestigious. The Centurion logo, borrowed from their traveler's cheques, conveyed authority before the card was even presented. Like Diner's Club, it required payment in full each month — it remained a charge card, not a credit card. But American Express understood branding in a way its rivals did not. Where Diner's Club sold utility, American Express sold status.
+
+But Diner's Club and American Express were still charge cards. The true revolution — adding revolving credit to a universally accepted bank card — would come from an unlikely source: a mass mailing in Fresno, California. BankAmericard would prove that millions of ordinary consumers, not just wealthy diners and corporate travelers, wanted access to credit. And they wanted it without visiting a bank, without filling out lengthy applications, and without anyone judging whether they deserved it.
+
+
+t wasn't until the 1960s that the first PVC (polyvinyl chloride) plastic cards were introduced. PVC was a durable and flexible material that could be easily printed on, making it ideal for card manufacturing. These early plastic cards were still relatively simple in design, typically featuring only the cardholder's name and account number.
+
 ## 1965:
 American Express has a monthly "Cancellation Bulle-tin" which goes to all the service establishments in-volved. These are instructed not to honor any card unless they first check the cancella-tion bulletin to make sure that the card is not listed.
 
@@ -347,6 +467,12 @@ Then, there is the “Be My Guest Service," another re-finement of living it up 
 
 
 ### Others
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/mastercharge_launch_ad_18_july_1967.jpg" alt="Mastercharge launch Ad, ca. 1967" caption="Mastercharge Card Launch Ad, The Sacramento Union, 18 July 1967, p. 16" %}
+
+</div>
 
 Master Charge was created in reaction to BankAmericard, because other California banks did not want to issue a card licensed by their giant competitor.
 
@@ -382,6 +508,12 @@ The shift to electronic authorization created a new vulnerability. Early telepho
 The intersection with credit cards was subtle but real. Early authorization systems relied on telephone calls, and phone phreakers could potentially bypass billing or intercept approval signals. The solution, deployed in 1983, was Signaling System 7 (SS7), which moved control signals to out-of-band channels — completely separating them from voice traffic and eliminating the vulnerability.
 
 ## Automated Teller Machine (ATM)
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/barclaycash_launch_28_june_1967.jpg" alt="Barclaycash Launch" caption="Barclaycash Launch, Daily Post (Merseyside ed.), 28 June 1967, p. 3" %}
+
+</div>
 
 1969: Get your money now!
 
