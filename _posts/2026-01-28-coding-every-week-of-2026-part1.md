@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Coding something every week of 2026 (Build52) - Week 1 to 4"
-excerpt: "What I worked on in January 2026"
+title: "Coding something every week of January 2026"
+excerpt: "What I worked on this month"
 tags:
   - Rust
   - C
@@ -9,13 +9,9 @@ tags:
   - Build52
 ---
 
-To improve my programming skills I have decided to code something every week in 2026.
-I have given this project the name `build52`.
+To improve my programming skills I decided to code something every week of Januray.
 
-I am planning to have a particular topic for 4 week chunks and work on projects
-relevant to that topic in that time.
-
-The topic for January was `Linux`. Here is what I built and learnt:
+The topic was `Linux`. Here is what I built and learnt:
 
 
 # Week 1 (1 - 4 Jan)
@@ -73,6 +69,4 @@ to expose a misc. device instead.
 
 
 # Retrospective
-This has been a great learning experience so far. Now that I have verified I can be consistent with
-working on this project, I will try to increase the scope of work a bit and try to write more detailed
-blog posts.
+This has been a great learning experience so far. I will try this again sometime in the future, perhaps next year I will be consistent enough to do this for every week of the year
