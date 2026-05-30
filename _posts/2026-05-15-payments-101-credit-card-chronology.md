@@ -35,25 +35,41 @@ charg_it_gallery:
 ---
 
 <div class="text-justify" markdown="1">
+Credit cards are so ordinary today that it’s easy to forget how remarkable the whole system really is.
+
+A customer taps a piece of plastic, and within a few hundred milliseconds, a global network of institutions coordinates to decide whether money should move. This happens millions of times a day.
+
+As a software developer working in fintech, I found myself staring at these systems with a mix of curiosity and disbelief. There are issuing banks, acquiring banks, card networks, merchants, processors, fraud engines, compliance layers, and decades of technical and institutional baggage holding everything together.
+
+As I learned more, it became clear that modern card payments are the result of a long evolution shaped by changing socioeconomic, technological, and regulatory constraints. Like a sculpture being carved over decades, each layer added detail, complexity, and occasionally new problems to solve.
+
+As John Gall put it in _Systemantics_:
+
 > "A complex system that works is invariably found to have evolved from a simple system that worked."
 
+This post is my attempt to give structure to that evolution.
 
-Keeping this quote from John Gall's book `Systemantics` in mind, I embarked on a quest to understand how credit cards and their payment systems evolved to their modern state. The following is my attempt to give structure to this evolution.
 
 ## What is a Credit Card?
 
-Fundamentally speaking, a credit card is an instrument of identification. It identifies the cardholder with their line of credit. However, modern credit cards are anythign but simple. You might be surprised to know that modern credit cards contain antenna and a full-blown computer inside! Other remarkable features include holograms, magnetic tape, embossed characters etc.
+At its core, a credit card is an instrument of identification. It links a cardholder to a line of credit issued by a financial institution. In that sense, it is less about the physical object itself and more about what it represents in a financial system.
 
-Each of those features has a story. To understand how these features came to be, we have to look at the social, economical and technological context in which credit cards evolved.
+Of course, modern credit cards are anything but simple physical tokens. They pack in a surprising amount of engineering: magnetic stripes, EMV chips with embedded computing capability, NFC antennas for contactless payments, holograms for anti-counterfeiting, embossed or printed identifiers, and more.
 
-But first, let's take a brief look at the concept of credit itself.
+Each of these features has a story. To understand how they came to exist, we need to look at the social, economic, and technological context in which credit cards evolved.
+
+But first, let’s take a look at the evolution of credit itself.
 
 
 ## The origins of credit
 
-The concept of credit would have started taking shape with the beginning of the agricultural revolution 10,000 years ago. In agrarian economies, farmers need seeds, water, fertilizer, and labor months before harvest yields any income. The idea of credit arises naturally in these circumstances. Provide the input now for an output later, or to put in modern terms, provide the service now for a payment later. So the origin of the concet of credit can be traced back to the natural phenomenon that crops take time to grow. This simple idea of transferring value forward in time evolved into a multi-billion dollar industry today.
+The concept of credit likely began to take shape with the agricultural revolution around 10,000 years ago. In agrarian economies, farmers needed seeds, water, fertilizer, and labor months before any harvest could generate income. Under these conditions, credit emerges naturally: value is provided now in exchange for value received later.
 
-Artefactal and literaturical evidence confirms that credit existed in some form in many ancient civilizations.
+In modern terms, it is simply the deferral of payment for goods or services already consumed or utilized. At its root, this idea is closely tied to a basic constraint of agriculture itself - time. Crops take time to grow, but people need to eat and invest continuously throughout that cycle. Credit bridges that gap.
+
+What began as a simple mechanism for moving value forward in time in subsistence economies has since evolved into a multi-trillion-dollar global financial system.
+
+Archaeological and literary evidence shows that some form of credit existed in many ancient civilizations.
 
 
 ### Ancient Mesopotamia
@@ -72,9 +88,9 @@ The existence of such detailed agreements suggests that credit was a common and 
 
 The concept of interest - paying more money that borrowed for the privilege of having access to credit - had also been developed. 
 
-<div style="width: 50%; margin: 0 auto;">
+<div style="width: 25%; margin: 0 auto;">
 
-{% include figure popup=true image_path="/assets/images/credit-card-chronology/laws_of_eshnunna.webp" alt="Laws of Eshnunna" caption="The 18th century BCE clay tablet representing the Laws of Eshnunna at the National Museum of Iraq, Baghdad" %}
+{% include figure popup=true image_path="/assets/images/credit-card-chronology/laws_of_eshnunna.png" alt="Laws of Eshnunna" caption="The 18th century BCE clay tablet representing the Laws of Eshnunna at the National Museum of Iraq, Baghdad" %}
 
 </div>
 
@@ -89,7 +105,7 @@ In the ancient city of Babylon, these financial practices were later formalized 
 </div>
 
 
-It contains one of the earliest known restrictions on credit:
+It contains a constraint on debtor exploitation:
 > "If a man be in debt and
 sell his wife, son, or daughter or bind them over to service for three
 years, they shall work in the house of their purchaser or master; in the
@@ -116,7 +132,7 @@ One of the earliest references to credit is contained in the _Heqanakth Papyri_,
 They mention "grain loans" given by the mortuary priest _Heqanakth_.
 
 
-The *Instruction of Amenemope*, composed between 1300 and 1075 BCE is another such record.
+The *Instruction of Amenemope*, composed between 1300 and 1075 BCE is another record that mentions credit.
 
 <div style="width: 100%; margin: 0 auto;">
 
@@ -129,33 +145,40 @@ It contains a passage on debt forgiveness:
 > "If you find a large debt against a poor
 man,
 Make it into three parts;
-Forgive two, let one stand,
+Forgive two, let one stand
 "
 
+Papyri containing loan contracts have also been discovered.
 
-
-Other papyri warn against using grain tax records to exploit debtors, a surprisingly modern concern about predatory lending.
 
 ### Ancient India
 
-Physical evidence for debt in ancient India is nonexistent. Partly due to the minute amount of Indus valley civilization text found and it remaining undeciphered and partly due to
-the primacy of oral tradition for transferring knowledge.
+Physical evidence of credit practices in ancient India is virtually nonexistent. This is partly due to the limited corpus of surviving texts from the Indus Valley Civilization, which remain undeciphered, and partly because knowledge was transmitted primarily through oral tradition.
 
-The Vedas contain references to debt. The Rig Veda, composed between 1500 and 1200 BCE, includes hymn RV 2.28.9, a prayer to Varuna requesting discharge from debt. The Sanskrit word ṛṇa captures three layers of meaning: literal debt, religious obligation, and existential indebtedness.
+However, we have significant literary evidence. The Rig Veda, composed between 1500 and 1200 BCE, includes a prayer to _Varuna_ requesting discharge from debt.
 
 
 <div style="width: 100%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/arthashastra_manuscript.jpg" alt="Arthashastra Manuscript" caption="Arthashastra manuscript in Grantha script, ca. 16th century" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/arthashastra_manuscript.jpg" alt="Arthashastra Manuscript" caption="Arthashastra manuscript in Grantha script, c. 16th century" %}
 
 </div>
-One significant source of literature, the _Arthaśāstra_, composed in the 2nd century BCE, describes policies for credit in detail
+A key source of evidence is the Arthaśāstra, a treatise composed in the 2nd century BCE, which discusses credit policies and financial transactions in considerable detail. It advocates for the regulation of credit practices:
 
-The Yājñavalkya Smṛti classifies debt law as a top-tier legal category. The Bṛihaspati Smṛti prohibited compound interest after a loan had doubled, a cap on runaway debt that predates modern consumer protection by millennia.
+>"The nature of the transactions between creditors and debtors, on which the welfare of the kingdom depends, shall always be scrutinised."
+
+The regulation of credit practices remains a subject of active debate even today.
 
 ### Ancient China
 
-Chinese sources record both regulation and resistance. The *Zhou Li*, a detailed administrative manual from the 3rd or 2nd century BCE, prescribed a 20% interest cap (Peng, 1993; Von Glahn, 2016). Mencius, writing around 372-289 BCE, condemned lending practices that drove "the old and very young cast into ditches" (Lau, 1970). King Nan of Zhou, ruling from 314 to 256 BCE, built a structure so notorious it earned the name 逃責之臺 — the Debt-Evading Platform — where he literally hid from creditors. Even Emperor Yuan issued an edict around 40 BCE forgiving debts of the poor.
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/liye_qin_slips.jpg" alt="Liye Qin Slips" caption="Liye Qin Slips c. 2nd century BCE" %}
+
+</div>
+Bamboo slips containing records of private lending, interest rates, collateral have been discovered.
+
+The *Zhou Li*, a detailed administrative manual from the 3rd or 2nd century BCE, prescribed a 20% interest cap. Mencius, writing around 372-289 BCE, condemned lending practices that drove "the old and very young cast into ditches". King Nan of Zhou, ruling from 314 to 256 BCE, built a structure so notorious it earned the name 逃責之臺 — the Debt-Evading Platform — where he literally hid from creditors. Even Emperor Yuan issued an edict around 40 BCE forgiving debts of the poor.
 
 ### Ancient Europe
 
@@ -185,66 +208,53 @@ Buddhism stands apart in its relative permissiveness. The Buddha issued no blank
 
 So we can establish that credit has been there for several millennia. So what was it about 20th century America that led to the credit card revolution?
 
-## Innovations in credit
+## Medieval evolution of credit
 
 
 ## Rise of Consumer Credit
+By the nineteenth century, productive credit had been a feature of economic life for millennia, yet borrowing for consumption remained socially suspect. Debt was generally considered acceptable when it financed productive assets that generated income, but borrowing to purchase household goods or luxuries was often viewed as imprudent or morally questionable.
 
-If the concept of credit originated in ancient times in agricultural societies and evolved in medieval times in commercial societies, it required an industrial society for new innovations in credit to occur in modern times.
+The Industrial Revolution began to alter these attitudes. Mass production expanded the supply of consumer goods, rising incomes increased demand for them, and the emergence of a salaried middle class created a large population with predictable future earnings. Together, these developments laid the foundation for modern consumer credit.
 
-It was mechanization and the mass production of consumer durables in the 19th century that made the instalment plan available to the average person..
-
-The first to innovate in this space ws the singer sewing machine company.
-
-
-> Aside about coperwaith and the clockmaker
+One of the earliest examples of firms capitalizing on this emerging market came in the United States, where the Singer Sewing Machine Company dramatically expanded sales by introducing an installment-payment plan.
 
 
+### Installment Credit
+In the 1850s, a Singer sewing machine cost about $125 — roughly a quarter of the annual income of an average American worker. The price placed it beyond the reach of most households.
 
+<div style="width: 50%; margin: 0 auto;">
 
-In the 1850s, a basic Singer sewing machine cost about $125 a quarter of the annual income of the average American worker!
+{% include figure popup=true image_path="assets/images/credit-card-chronology/singer_patent_1851.jpg" alt="Isaac Singer's Sewing Machine Patent Model" caption="Isaac Singer's Sewing Machine Patent Model, c. 1851" %}
 
-The challenge was clear: Singer’s product was too expensive. Most families simply couldn’t afford it. Only wealthy households and industrial workshops were buying.
+</div>
 
-Edward Clark knew the company needed a steady cash flow to survive. So, in 1856, he introduced a revolutionary idea: the “hire-purchase” plan – what we now call consumer credit. The innovation itself was simple, brilliant, and completely game-changing:
+In 1856, Edward Clark, Singer's business partner, introduced the **hire-purchase plan**. Customers could take home a machine with a $5 down payment and pay the remainder in monthly installments of $3 to $5. The arrangement transformed a large one-time expense into a series of manageable payments. Sales reportedly tripled within a year, and by the 1870s, an estimated 70–80% of Singer machines were sold on installment plans.
 
-For just $5 down and a small monthly payment of $3 to $5, a family could take the machine home immediately. This move instantly shattered the psychological barrier. Now, customers didn’t focus on the prohibitive $125 cost, but only on the small, manageable monthly payment. That quarter-year salary purchase suddenly felt like an affordable subscription.
+Singer also developed an early form of credit scoring. Homeowners often qualified for more favorable terms than renters, reflecting differences in perceived credit risk.
 
-It was an instant success. Sales tripled within a year. By the 1870s, 70 to 80% of all Singer machines were sold this way, on these installment plans. Singer went on to become one of the first multinational companies.
+Installment purchases of sewing machines escaped much of the stigma attached to consumer borrowing as they enabled home-based production and could supplement family earnings, i.e. they were a productive asset.
 
-Singer even invented a simple form of credit scoring. If you owned your house, you often paid less per month; if you were a renter, the down payment or monthly rate might be slightly higher to cover the potential risk. This was risk-based pricing – a century before modern credit scores existed.
-
-exempt from the General disapproval of buying on credit. productive vs consumptive credit.
-
-Through much of the 19th century, borrowing to acquire luxuries and nonessentials was generally seen as imprudent, even immoral. Borrowing money was
-acceptable and safe only when used to purchase things that increased in
-value or had productive uses. Sewing machines were one such durable good that increased productivity, thus it was socially accetable to buy a sewing machine in installment.
-
-The success of singer's instalment plan changed the psychology of consumption and paved the way for increasingly credit based consumerism, something we are still grappling with today.
-Installment buying spread to pianos, furniture, and encyclopedias, embedding the habit of deferred payment deep into middle-class life.
-
-
-The first answer was the installment plan. Around 1850, Edward Clark, business partner of Isaac Singer, devised what he called a "hire-purchase" system for Singer sewing machines. The machines cost $125 — roughly a year's wages for a working family. Clark's stroke of genius was psychological as much as financial: "Why not rent a sewing machine to the housewife and apply the rental fee to the purchase price? Her husband cannot accuse her of running him into debt since he is merely hiring or renting the machine." Sales tripled between 1855 and 1856. For the first time, ordinary families could acquire major household items without paying upfront. 
+Singer's installment plan demonstrated that mass consumption could be financed through credit. The model soon spread to products such as pianos, furniture, and encyclopedias, helping normalize deferred payment and laying the foundations of modern consumer credit in the US.
 
 ## Origins of the credit card
 
-Late 19th century USA was a rapidly industrializing society. With rapid progress came innovation. Some of these innovations tell us that the idea space was ripe for invention of credit cards.
+By the late nineteenth century, the United States was undergoing rapid industrialization and economic expansion. Businesses were growing, trade was increasing, and consumers were becoming more mobile than ever before. These changing economic conditions created new problems and new opportunities. In response, businesses began experimenting with novel ways to extend credit and manage transactions, laying some of the groundwork for what would eventually become the modern credit card.
 
 ### First mention of credit cards
-The first ever description of credit cards in the context of payments comes from an article in the About Town Column, Ottawa Weekly Republic on 1st March 1877:
+The first known description of a credit card in the context of payments appears in the _About Town_ column of the _Ottawa Weekly Republic_ on March 1, 1877:
 
 > "About the most convenient arrangement for trading, we have ever seen, are the new style of credit
 cards for grocers or any kind of merchants. The cards are issued to customers and cost $5. They have numbers running from one to fifty cents, and when you want to purchase goods you present your card, and the amount you buy is punched out. They save the trouble of pass books, enteries on ledgers or blotter, and where you pay cash for them you get 5 per cent off."
 
-Another article in Cassopolis Vigilant, 19 July 1877, seemingly referring to the same technology comments the following:
+A few months later, the Cassopolis Vigilant (July 19, 1877), seemingly referring to the same invention, made the following observation
 
-> "They are an ingenuos device, and the best form of individual book keeping we have seen."
+> "They are an ingenuos[sic] device, and the best form of individual book keeping we have seen."
 
-We can also find a patent that roughly works as described in the article, published in 1889, US Patent US400569A. It also has an image describing the "credit card":
+The newspaper descriptions are particularly interesting because they are not isolated references. We can find a patent published a decade later that describes a system broadly similar to the one discussed in these articles. It includes an illustration of the device, giving us a rare glimpse of what an early "credit card" was imagined to look like:
 
 <div style="width: 100%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/credit_card_patent_1889.png" alt="Credit Order" caption="Credit Order, US Patent 400569" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/credit_card_patent_1889.png" alt="Credit Order" caption="Credit Order, Patent US400569A, c. 1889" %}
 
 </div>
 
@@ -264,10 +274,16 @@ This is the first customer card, that we know of, to use the expression "credit"
 
 While the success of instalment plans for consumer durables was changing attidue towards consumer credit, the mechanisms for open book credit were stretched to its limits with the geographical expansion of the US.
 
+### Open book credit
+Long before the use of credit cards, there was the _Open Book_, an early form of consumer credit. It was based on the premise that consumers who benefited from credit were acquaintances of the merchant, usually integrated in a restricted area, limited to the place, village or neighbourhood where the establishment was located. Retail shops, especially groceries or similar businesses were the most common places where this type of book was available.
 
+Its presence in many countries was almost intuitive and worked as a suppport to the registration of credit transactions. However, using this type of credit was, in many cases, undignified. It socially revealed the less favourable economic situation of whoever benefited from the credit. Therefore, it was reserved for consumers with fewer resources.
+
+Its use lasted for a considerable period of time, from antiquity to late 20th century. In fact the practice still exists today, particularly
 In small communities, everyone knows everyone. The grocer keeps a running tab in a notebook; the tailor trusts the carpenter's son to settle up at harvest. Personal relationships were the original credit infrastructure, your credit history was oral rather than written, and
 identity fraud was not an issue. But as the 19th century wore on, stores multiplied — franchises opened branches, mail-order catalogs reached rural customers, and cities swelled with strangers. The notebook system collapsed under scale. Something was needed to identify charge accounts without requiring personal acquaintance.
 
+With the invention and growing popularity of automobiles and airplanes, people now had the option to travel to a variety of stores for their shopping needs. In an effort to capture customer loyalty, various department stores and gas stations began to offer charge accounts for their customers, which could be accessed by a card.
 
 ### Charge coins
 {% include gallery id="charge_coins_gallery" caption="Merchant Charge Coins — Early Physical Credit Tokens" %}
@@ -339,6 +355,14 @@ full when billed at the end of the month.
 hey
 
 ### Oil Companies
+
+<div style="width: 25%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/gasoline_courtesy_card_article_1928.jpg" alt="Article on Gasoline Courtesy Cards" caption="Article on Gasoline Courtesy Cards, The Springfield Daily Republican, 07 October 1928, p. 17" %}
+
+</div>
+
+
 The credit card's ancestors appeared shortly before World War I. Oil companies were issuing some “courtesy cards” then, with actual gasoline credit cards arriving in 1924.
 
 Meanwhile, oil companies and airlines entered the game with single-purpose cards. Texaco issued paper gasoline cards in 1914; Standard Oil of California followed in 1924 with cards personally signed by the company president. In July 1938, several regional Standard Oil companies agreed to honor each other's cards — creating the first national credit card interchange system. Airlines were even more ambitious: the Air Travel Card, launched in 1936 by American Airlines, introduced a numbering system still in use today (UATP cards begin with the digit "1"). By 1941, the Air Travel Card accounted for roughly half of participating airlines' revenues.
@@ -387,11 +411,17 @@ The first glimmer of a universal card came in 1946, when John C. Biggins, a bank
 
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_ad_chicago_tribune_25_Aug_1950.jpg" alt="Diner's club Ad, ca. 1950" caption="Diner's Club Ad, Chicago Tribune, 25 August 1950, p. 40" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_ad_chicago_tribune_25_Aug_1950.jpg" alt="Diner's club Ad, ca. 1950" caption="First Diner's Club Ad, Chicago Tribune, 25 August 1950, p. 40" %}
 
 </div>
 
 The idea caught fire in the hands of three men: Frank McNamara, Ralph Schneider, and Alfred Bloomingdale. McNamara was a mid-level executive at the Hamilton Credit Corporation. Schneider was his attorney. Bloomingdale, grandson of the department store founder, brought connections to New York's retail and restaurant worlds. In 1949, McNamara — according to the company's own press agent — supposedly forgot his wallet while dining with clients at Major's Cabin Grill near the Empire State Building. His wife drove to rescue him. Whether this actually happened or was invented for publicity, the story stuck. On February 8, 1950, McNamara returned to the same restaurant with Schneider and press agent Matty Simmons, paid with a cardboard card, and Diner's Club was born.
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_oldest.png" alt="Specimen of first Diner's Club Card" caption="Specimen of first Diner's Club Card, c. 1950" %}
+
+</div>
 
 The first Diner's Club card was remarkably modern in its essentials: card number, cardholder name, signature panel, and expiry date. The card itself was flimsy cardboard, hardly more durable than a business card, yet it established the visual vocabulary that every subsequent card would follow. Initially accepted at just 14 to 28 restaurants and two hotels, membership was offered to 200 friends of the founders — all personally vetted. By the end of 1950, membership had grown to 20,000. Merchants paid a commission of 5 to 7 percent, and customers paid their bill in full each month. It was, strictly speaking, a charge card — not a credit card — because no revolving balance was permitted.
 
@@ -493,6 +523,12 @@ Authorization was only half the battle. Once a transaction was approved, the sal
 Instead of shipping paper slips, merchants transmitted transaction data in batches overnight. The system calculated net settlement amounts between banks — reducing the total funds that needed to transfer by offsetting debits against credits. The working name was SPAN, the Shared Paperless Activity Network, reflecting the ambition to eliminate paper entirely. BASE II ran on an IBM mainframe — notably the first to use silicon memory chips instead of the older magnetic core technology.
 
 ### Magnetic Stripe
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/magstripe_article_1972.jpg" alt="Article on Magnetic Stripe" caption="Article on magstripe, The Memphis Press-Scimitar, 25 September 1972, p. 14" %}
+
+</div>
 
 The magnetic stripe was the first truly transformative technology in credit card history, and like many great inventions, it emerged from domestic frustration. In 1969, IBM engineer Forrest Parry was trying to attach magnetic tape to plastic cards for CIA identification badges. Nothing worked. Adhesives interfered with the tape's magnetic properties. Mechanical fasteners were too bulky. After a frustrating day in the lab, Parry brought home samples and explained the problem to his wife, Dorothea, who was ironing clothes at the time. She suggested using the iron. Parry tried it — the heat bonded the tape to the plastic without damaging its magnetic properties. The world's most ubiquitous data storage medium was born on an ironing board.
 
