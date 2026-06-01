@@ -23,6 +23,24 @@ charge_coins_gallery:
     image_path: /assets/images/credit-card-chronology/charge_coins.jpg
     alt: "Charge Coins"
     title: "Various Merchant Charge Coins"
+charge_plate_gallery:
+  - url: /assets/images/credit-card-chronology/charge_plate_front.webp
+    image_path: /assets/images/credit-card-chronology/charge_plate_front.webp
+    alt: "Charga Plate Front"
+    title: "Charga Plate Front"
+  - url: /assets/images/credit-card-chronology/charge_plate_cover.webp
+    image_path: /assets/images/credit-card-chronology/charge_plate_cover.webp
+    alt: "Charga Plate Cover"
+    title: "Charga Plate Cover"
+charge_plate_imprinter:
+  - url: /assets/images/credit-card-chronology/charga_plate_imprinter_open.jpg
+    image_path: /assets/images/credit-card-chronology/charga_plate_imprinter_open.jpg
+    alt: "Charga Plate Imprinter"
+    title: "Charga Plate Imprinter"
+  - url: /assets/images/credit-card-chronology/charga_plate_imprinter_side.jpg
+    image_path: /assets/images/credit-card-chronology/charga_plate_imprinter_side.jpg
+    alt: "Charga Plate Imprinter"
+    title: "Charga Plate Imprinter"
 charg_it_gallery:
   - url: /assets/images/credit-card-chronology/charg_it_launch_1946.jpg
     image_path: /assets/images/credit-card-chronology/charg_it_launch_1946.jpg
@@ -212,6 +230,7 @@ So we can establish that credit has been there for several millennia. So what wa
 
 
 ## Rise of Consumer Credit
+
 By the nineteenth century, productive credit had been a feature of economic life for millennia, yet borrowing for consumption remained socially suspect. Debt was generally considered acceptable when it financed productive assets that generated income, but borrowing to purchase household goods or luxuries was often viewed as imprudent or morally questionable.
 
 The Industrial Revolution began to alter these attitudes. Mass production expanded the supply of consumer goods, rising incomes increased demand for them, and the emergence of a salaried middle class created a large population with predictable future earnings. Together, these developments laid the foundation for modern consumer credit.
@@ -220,6 +239,7 @@ One of the earliest examples of firms capitalizing on this emerging market came 
 
 
 ### Installment Credit
+
 In the 1850s, a Singer sewing machine cost about $125 — roughly a quarter of the annual income of an average American worker. The price placed it beyond the reach of most households.
 
 <div style="width: 50%; margin: 0 auto;">
@@ -241,6 +261,7 @@ Singer's installment plan demonstrated that mass consumption could be financed t
 By the late nineteenth century, the United States was undergoing rapid industrialization and economic expansion. Businesses were growing, trade was increasing, and consumers were becoming more mobile than ever before. These changing economic conditions created new problems and new opportunities. In response, businesses began experimenting with novel ways to extend credit and manage transactions, laying some of the groundwork for what would eventually become the modern credit card.
 
 ### First mention of credit cards
+
 The first known description of a credit card in the context of payments appears in the _About Town_ column of the _Ottawa Weekly Republic_ on March 1, 1877:
 
 > "About the most convenient arrangement for trading, we have ever seen, are the new style of credit
@@ -272,61 +293,88 @@ This is the first customer card, that we know of, to use the expression "credit"
 
 ## Precursors to the credit card
 
-While the success of instalment plans for consumer durables was changing attidue towards consumer credit, the mechanisms for open book credit were stretched to its limits with the geographical expansion of the US.
+While the success of instalment plans for consumer durables was changing attidue towards consumer credit, the mechanisms for open-book credit were stretched to its limits with the geographical expansion of the US.
 
 ### Open book credit
-Long before the use of credit cards, there was the _Open Book_, an early form of consumer credit. It was based on the premise that consumers who benefited from credit were acquaintances of the merchant, usually integrated in a restricted area, limited to the place, village or neighbourhood where the establishment was located. Retail shops, especially groceries or similar businesses were the most common places where this type of book was available.
 
-Its presence in many countries was almost intuitive and worked as a suppport to the registration of credit transactions. However, using this type of credit was, in many cases, undignified. It socially revealed the less favourable economic situation of whoever benefited from the credit. Therefore, it was reserved for consumers with fewer resources.
+Long before credit cards, there was open-book credit, one of the oldest forms of consumer lending. The idea was simple: a merchant would provide goods today and record the debt in a ledger, with the expectation that the customer would pay at a later date.
 
-Its use lasted for a considerable period of time, from antiquity to late 20th century. In fact the practice still exists today, particularly
-In small communities, everyone knows everyone. The grocer keeps a running tab in a notebook; the tailor trusts the carpenter's son to settle up at harvest. Personal relationships were the original credit infrastructure, your credit history was oral rather than written, and
-identity fraud was not an issue. But as the 19th century wore on, stores multiplied — franchises opened branches, mail-order catalogs reached rural customers, and cities swelled with strangers. The notebook system collapsed under scale. Something was needed to identify charge accounts without requiring personal acquaintance.
+Open-book credit worked because commerce was local. Customers were usually known personally to the merchant and lived in the same village, town, or neighborhood. Trust, reputation, and repeated interactions formed the foundation of the system. A grocer might maintain a running account for a family, recording purchases in a large ledger and settling the balance weekly, monthly, or after a harvest.
 
-With the invention and growing popularity of automobiles and airplanes, people now had the option to travel to a variety of stores for their shopping needs. In an effort to capture customer loyalty, various department stores and gas stations began to offer charge accounts for their customers, which could be accessed by a card.
+In many ways, this system remains alive even today. Walk into a _kirana_ store in a small Indian town and you may still find a notebook containing the names of regular customers and the amounts they owe. Purchases are added to the account throughout the month and settled later, often when salaries are received. The technology has changed remarkably over the centuries, but the underlying idea of "buy now, pay later" remains the same.
+
+The simplicity of open-book credit was also its greatest weakness. It relied on personal familiarity between merchant and customer. As long as businesses operated within small communities, this was sufficient. But the United States of the late nineteenth and early twentieth centuries was changing rapidly. Cities were growing, businesses were expanding, and customers were becoming increasingly mobile.
+
+In small communities, everyone knows everyone. The grocer trusts the carpenter's son, and the tailor extends credit to families he has known for years. Personal relationships were the original credit infrastructure. But as commerce expanded beyond local neighborhoods, the notebook system struggled to scale. Merchants needed a reliable way to identify customers and their credit accounts without relying on personal acquaintance.
+
+At the same time, businesses were becoming increasingly interested in customer loyalty. The rise of automobiles made it easier for consumers to travel farther for shopping, while chain stores and gas stations competed for repeat business. Merchants wanted a way to distinguish their customers, simplify credit transactions, and encourage them to return.
+
+These pressures created the conditions for the next major innovation: the charge coin.
 
 ### Charge coins
+
 {% include gallery id="charge_coins_gallery" caption="Merchant Charge Coins — Early Physical Credit Tokens" %}
 
-By the late 1800s, merchants had moved from paper ledgers to physical tokens. Department stores, taxi companies, and hotels issued "charge coins" — small metallic or celluloid disks stamped with the merchant's name and a three- or four-digit account number. When a customer presented the coin, the clerk looked up the corresponding paper file to check credit limits. Some coins were shaped like coins, round and pocket-sized. Others took the form of rectangular badges clipped to a keychain. Lose your coin, and you had to publish a notice in the newspaper warning merchants not to honor it. They were primitive, localized, and entirely manual — but they solved the identification problem for individual merchants.
+Regarded as one of the earliest direct ancestors to the modern credit card, Charge Coins were first issued shortly after the American Civil War and grew increasingly popular into the early twentieth century. They replaced handwritten identification in a ledger with a physical token. Merchants—particularly department stores, hotels, and taxi companies—would issue customers a small metal or celluloid coin embossed with the merchant's name and an account number. Some were round like ordinary coins, while others resembled small badges or tags designed to be carried on a keychain.
 
+The idea was simple. Instead of identifying themselves to a clerk and having their account located manually, customers could present their charge coin when making a purchase. The merchant would then use the account number on the coin to look up the customer's file and verify that their account was in good standing before approving the transaction. The actual bill would be settled later, typically on a monthly basis.
 
+For merchants, charge coins offered a more scalable alternative to open-book credit. They made it easier to identify customers, manage accounts, and process credit sales as businesses grew beyond small communities. For customers, they offered convenience and a tangible symbol of membership in a merchant's credit program. In farming communities, they were especially valuable because they allowed farmers to obtain supplies throughout the growing season and settle their accounts after the harvest.
 
-Charge (or credit) coins were first issued just after the Civil War, growing increasingly popular in the years leading up to the Great Depression. The basic concept was simple: metallic tokens, given out by merchants—taxi companies and department stores were especially active—embossed with an advertising message, sometimes a unique image, and an account number. A customer wanting to charge a purchase to their account would present the coin to the merchant, who would then (usually) check a paper file to ensure that the account was up to date. Some coins had a specific monetary limit—like today’s prepaid debit cards do—while others had floating ceilings. 
+By modern standards, the system was primitive. The coins carried no security features, transactions were verified manually against paper records, and a lost coin could potentially be misused. In fact, some issuers required customers to publish notices in local newspapers warning merchants not to honor a lost coin.
 
-
-Taxi tokens: These "credit coins" were issued by merchants—most often, urban taxi companies but also department stores and other retailers—in the early 1900s. They were made of metal and featured the name of the issuing company on one side, along with a three- or four-digit account number on the other. The tokens had no specific monetary value; instead, they were linked to a billable account that you paid monthly. (If you lost a token, you were required to announce its loss in a newspaper advertisement.)
-
-
-The first charge coins were issued, kickstarting modern credit card history. These coins allowed
-customers to pay at the time of the purchase without cash. These were tremendously popular in the farming industry during westward expansion as they allowed farmers to wait until after their harvest to pay their bills.
-
-These were **closed-loop** credit systems, meaning a charge coin issued by one merchant could only be used at that merchant's establishments
+Most importantly, charge coins were **closed-loop** systems. A coin issued by one merchant could only be used at that merchant's establishments. A department store's coin worked at that department store; a taxi company's coin worked only with that taxi company. There was still no concept of a universal payment network, but the essential idea had appeared: a portable token that identified a customer and granted access to a line of credit.
 
 #### Familiar Feature: Account Number
-We can see a familiar feature in these charge coins to the modern credit card, the account no. This was the primary innovation of charge coins. This allowed open book credit to get impersonal.
-The merchant store clerk did not have to personally know you, he could just look up the record corresponding to your charge coin account number.
-This mechanism is still used today with the credit card numbers being used as an identifier for the credit account.
 
+<div style="width: 25%; margin: 0 auto;">
 
+{% include figure popup=true image_path="assets/images/credit-card-chronology/charge_coin_1900s.png" alt="Charge Coin" caption="John Wanamaker charge coin, c. 1900s" %}
 
-While the U.S. led these commercial innovations, global parallels were already forming. In Sweden, for instance, a 1912 report in Svenska Handelsbanken described internal credit ledgers used by banks and department stores. Meanwhile, in Germany, companies like Kaufhaus des Westens (KaDeWe) issued stamped payment cards to repeat customers, operating on closed-loop credit systems.
+</div>
 
+We can see a familiar feature in charge coins: the **account number**.
+
+This was the key innovation of charge coins. Charge coins made credit impersonal. Instead of personally knowing the customer, a clerk only needed to look up the account associated with the number stamped on the coin.
+
+The same idea persists today. Modern credit cards are far more sophisticated, but at their core they still serve as identifiers for a credit account.
+
+While the U.S. led these commercial innovations, global parallels were already forming. In Sweden, for instance, a 1912 report in Svenska Handelsbanken described internal credit ledgers used by banks and department stores. Meanwhile, in Germany, companies like Kaufhaus des Westens (KaDeWe) issued stamped payment cards to repeat customers, operating on closed-loop credit systems. Different implementations were converging on the same solution: extending credit beyond the limits of personal familiarity.
 
 
 ### Department Stores
-In the early 1900s, department stores adopted a more sophisticated system: the Charga-Plate, manufactured by Farrington Manufacturing Company of New York. Trademarked in 1928, each plate was a 2½" × 1¼" rectangle of sheet metal, similar in appearance to a military dog tag. It bore the customer's name, address, account number, and a paper signature card on the back. Stores like Bloomingdale's, Saks, Gimbels, and Franklin Simon issued them. The clerk placed the plate in an imprinter machine, layered a multi-part carbon form on top, and rolled a handle to transfer the embossed information onto the slip.
 
+Department stores had already been extending credit to consumers in the form of charge accounts.
 
-During the 1920s, department stores started issuing charge plates or coins — round or rectangular and mostly made from metal — to encourage loyal customers to run a tab. The most popular, made by a company called Charga-Plate, was rectangular and big enough for an account number, a name and an address. Stores like Bloomingdale’s and Saks eventually began charging an interest rate.
+As department stores grew, so did the volume of credit transactions. Recording a customer's details on every charge slip was cumbersome for clerks and slowed down the checkout process. Introduced by Farrington Manufacturing in 1928, the Charga-Plate was designed to streamline this workflow.
+
+{% include gallery id="charge_plate_gallery" caption="Charga Plate, c. 1949" %}
+
+Resembling a military dog tag, the metal plate contained the customer's name and address embossed on its surface along with a paper signature card on the back. Stores such as Bloomingdale's, Saks, and Gimbels widely adopted the system for their charge-account customers.
+
+Upon charging a purchase, the consumer presented the charge plate to the clerk, who placed the plate in a small imprinter (about the size and shape of a stapler), with a charge slip on top of the plate. Downward pressure on the imprinter recorded the customer’s data from the plate onto the charge slip via an inked ribbon. The customer then signed the charge slip, authorizing the purchase, while the various copies were retained by the store and customer for record-keeping.
+
+**Aside:** Each Charga-Plate also contained two additional, unseen pieces of information: the position of the circular notch in the edge of the plate represented the city for which the plate was issued, while the position of the square notch represented a specific store  within that city. A single plate might contain several square notches, if more than one local retailer participated in the Charga-Plate system.
+{: .notice--info}
+
+While still a closed-loop credit product, the Charga-Plate represented an important step forward: it transformed the card from a simple identifier into a tool for automating transaction processing.
 
 #### Familiar Feature: Customer Signature
+<div style="width: 25%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/charge_plate_back.webp" alt="Charga Plate Back" caption="Charga Plate Back containig signature card" %}
+
+</div>
+
 Charga Plates had a paper card on the back where the customer had to sign before using the card. This signature could be matched with the signature on the sales slip by the clerk
 and could be used as a rudimentary form of fraud prevention. This signature field was quite common until recently in modern credit cards
 
-The Charga-Plate was issued by select retailers and could only be used at their establishments, making it a closed-loop system.
 
-These early store and fuel cards were typically made of celluloid, metal, or cardboard, and they preceded today’s plastic cards. Importantly, they were manual in function: each transaction required the sales clerk to physically imprint the card using devices such as the Farrington Addressograph, introduced around 1929. This machine created a carbon-copy “charge slip” of the customer’s card details, which the customer then signed.
+#### Familiar Feature: Embossed Text
+{% include gallery id="charge_plate_imprinter" caption="Farrington Charga Plate Imprinter" %}
+Another common feature betwen modern credit cards and charge plates is the embossed text. It allowed mechanization of the process of writing down customer information on sales slips and reduced clerical errors.
+
+Modern credit cards also used this feature, although in recent times with the advancement of technology, paper sales slips hve become obsolete and latest credit cards generally don't come with embossed letters.
 
 #### Innovation: Revolving Credit
 
@@ -336,17 +384,11 @@ These early store and fuel cards were typically made of celluloid, metal, or car
 
 </div>
 
-The first true revolving credit plan — allowing customers to pay a minimum amount and carry the balance forward with interest — was offered by John Wanamaker's department store in Philadelphia in the late 1930s. The key distinction from charge cards was elegant and transformative: instead of paying the full balance monthly, you could pay a portion and defer the rest. This transformed credit from a convenience into a revenue stream. Retailers suddenly had a financial incentive to extend more credit, not less, because unpaid balances generated interest income that dwarfed the margins on merchandise itself. The psychology was equally powerful. A customer who could buy a winter coat in September and pay it off by March felt freedom rather than constraint. Revolving credit turned purchasing power into a product.
+In 1938, John Wanamaker's department store promoted a store-account system it called "Revolving Credit." Contrary to some later accounts, Wanamaker did not present the plan as a novel invention; the advertisement explicitly stated that revolving credit had long been used in banking and business. The innovation, from the consumer's perspective, was that customers could make purchases up to an approved credit limit and repay the balance in installments while restoring available credit as payments were made. In the example provided by the store, a customer granted a $200 credit line could purchase $200 worth of goods, pay $50 per month, and regain $50 of purchasing power with each payment.
 
-In 1938, the bloomingdale store introduced what it called
-a permanent budget account which allowed customers the option
-of not paying off their bill every month, aggregating total
-purchases into a single sum that could be paid over time at the
-cost of interest charges.41 Previous forms of credit, such as
-installment payments and charge cards may not have required
-payment at the time of purchase. However, the retailer did expect
-full payment over six months or, with a charge card, payment in
-full when billed at the end of the month.
+Equally significant, Wanamaker emphasized that the account carried no carrying charges and required no promissory notes or formal loan agreement. Rather than transforming consumer credit into an interest-bearing revenue stream, the plan was marketed as a convenient budgeting tool that helped households manage irregular expenses and seasonal purchasing needs. The advertisement portrayed revolving credit not as a source of finance charges, but as a means of smoothing consumption over time while maintaining an ongoing customer relationship with the store.
+
+Around the same period, some department stores introduced budget or charge-account arrangements that allowed customers to defer repayment over multiple months. These differed from traditional installment plans and monthly charge accounts, which typically required repayment according to a fixed schedule or in full when billed. However, the specific Wanamaker plan advertised in 1938 was notable for allowing balances to be repaid over time without any stated carrying charge.
 
 > **Aside:** The Charga-Plate is often compared to Roman military dog tags (*signacula*). The comparison is poetic but apocryphal. No physical Roman *signacula* have ever been found — the only written evidence is a single martyrdom account from 295 CE. The Charga-Plate was actually modeled on the Addressograph system and early 1900s-era military identification tags, not ancient Rome.
 
