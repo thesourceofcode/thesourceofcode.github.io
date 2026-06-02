@@ -10,13 +10,13 @@ tags:
   - Payments
   - Credit Cards
 gallery:
-  - url: /assets/images/credit-card-chronology/western_union_frank_front_old.jpg
-    image_path: /assets/images/credit-card-chronology/western_union_frank_front_old.jpg
-    alt: "Western Union Frank Card — Front"
+  - url: /assets/images/credit-card-chronology/collect_card_1929_front.png
+    image_path: /assets/images/credit-card-chronology/collect_card_1929_front.png
+    alt: "Western Union Collect Card — Front"
     title: "Front Side"
-  - url: /assets/images/credit-card-chronology/western_union_frank_back_old.jpg
-    image_path: /assets/images/credit-card-chronology/western_union_frank_back_old.jpg
-    alt: "Western Union Frank Card — Back"
+  - url: /assets/images/credit-card-chronology/collect_card_1929_back.png
+    image_path: /assets/images/credit-card-chronology/collect_card_1929_back.png
+    alt: "Western Union Collect Card — Back"
     title: "Back Side"
 charge_coins_gallery:
   - url: /assets/images/credit-card-chronology/charge_coins.jpg
@@ -279,6 +279,16 @@ The newspaper descriptions are particularly interesting because they are not iso
 
 </div>
 
+In fact a "charge card" based on the principle of "punching out the amount purchased" was issued in the 1930s, as evidenced by the following advertisement:
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/eastern_columbia_charge_card_ad_1939.jpg" alt="Eastern-Columbia Charge Card Ad, Daily News, 8 December 1939, p. 22" caption="Eastern Columbia Charge Card Ad, Daily News, 8 December 1939, p. 22" %}
+
+</div>
+
+However, all these were essentially prepaid instruments and the invention of true "credit" cards would have to wait several decades.
+
 ### First card with "credit" on it:
 
 <div style="width: 40%; margin: 0 auto;">
@@ -378,7 +388,7 @@ Modern credit cards also used this feature, although in recent times with the ad
 
 #### Innovation: Revolving Credit
 
-<div style="width: 50%; margin: 0 auto;">
+<div style="width: 25%; margin: 0 auto;">
 
 {% include figure popup=true image_path="assets/images/credit-card-chronology/wanamaker_revolving_credit_launch_ad_22_aug_1938.jpg" alt="John Wanamaker revolving credit launch Ad" caption="John Wanamaker Revolving Credit Launch Ad, The Philadelphia Inquirer, 22 August 1938, p. 5" %}
 
@@ -390,11 +400,46 @@ Equally significant, Wanamaker emphasized that the account carried no carrying c
 
 Around the same period, some department stores introduced budget or charge-account arrangements that allowed customers to defer repayment over multiple months. These differed from traditional installment plans and monthly charge accounts, which typically required repayment according to a fixed schedule or in full when billed. However, the specific Wanamaker plan advertised in 1938 was notable for allowing balances to be repaid over time without any stated carrying charge.
 
-> **Aside:** The Charga-Plate is often compared to Roman military dog tags (*signacula*). The comparison is poetic but apocryphal. No physical Roman *signacula* have ever been found — the only written evidence is a single martyrdom account from 295 CE. The Charga-Plate was actually modeled on the Addressograph system and early 1900s-era military identification tags, not ancient Rome.
 
 ### Western Union
-{% include gallery caption="Western Union Frank Card — Front and Back" %}
-hey
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/western_union_collect_card_1912.jpg" alt="Western Union Collect Card, c. 1912" caption="Western Union Collect Card, c. 1912" %}
+
+</div>
+
+In 1912, Western Union issued what is believed to
+be the first consumer charge card—a small rectangular piece of paper, containing
+the account number, the name and address of the person or company responsible for
+paying the charges, and a signature line. The card identified the billing account,
+and the signature could be used to authenticate the cardholder.
+The collect card evolved from Western Union’s earlier system of company-issued telegraph franks, which authorized employees to charge communications expenses to their employer. The 1912 collect card extended this concept into a broader consumer and business credit service.
+
+
+<div style="width: 25%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/collect_card_article_1913.jpg" alt="\"Collect Card Real Success\", The Daily Telegram, 14 Feb 1913, p. 6" caption="\"Collect Card Real Success\", The Daily Telegram, 14 Feb 1913, p. 6" %}
+
+</div>
+Contemporary Western Union advertising and press coverage highlighted the collect card as a new convenience for trusted customers. The card served both as a security measure for the company and as a pass for the customer, allowing holders to send "collect telegrams" and other communications from any Western Union office without additional identification, deposits, guarantees of tolls, or advance payment. Instead, the transaction was charged to the account associated with the card and processed through Western Union’s centralized accounting system. By combining customer identification, account authorization, transaction recording, and deferred billing in a single instrument, the collect card embodied many of the same operational principles that would later characterize charge cards and credit cards.
+
+{% include gallery caption="Western Union Collect Card, c. 1929" %}
+
+The small rectangular paper card contained an account number, the name and address of the party responsible for payment, and a signature line. When a telegram was sent, the clerk recorded the card number on the message form or a separate "toll ticket", the customer signed the transaction record, and the paperwork was forwarded to Western Union’s centralized accounting office for processing and billing.
+
+**Aside:** A **collect telegram** was one in which the recipient paid the transmission charges upon delivery of the message. In contrast, a **paid telegram** was one for which the sender paid the charges before the message was sent.
+{: .notice--info}
+
+The cards were issued yearly.
+
+In 1948, the card came to be designated as a "Credit Card".
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/western_union_credit_card_article_1948.jpg" alt="\"Western union Issues Credit Cards\", The Charlotte Observer, 9 October 1948, p. 17" caption="\"Western union Issues Credit Cards\", The Charlotte Observer, 9 October 1948, p. 17" %}
+
+</div>
 
 ### Oil Companies
 
@@ -405,11 +450,12 @@ hey
 </div>
 
 
-The credit card's ancestors appeared shortly before World War I. Oil companies were issuing some “courtesy cards” then, with actual gasoline credit cards arriving in 1924.
+In 1914, Texaco began issuing paper gasoline cards, and in 1924 the General Petroleum Corporation of California introduced “courtesy cards,” which allowed trusted customers to charge gasoline and related purchases at affiliated service stations. Around the same time, Standard Oil of California issued its own cards, which were personally signed by the company president. These paper-based charge cards were typically distributed by station managers to regular customers and could be used across stations within the same franchise network, often spanning large geographic areas.
 
-Meanwhile, oil companies and airlines entered the game with single-purpose cards. Texaco issued paper gasoline cards in 1914; Standard Oil of California followed in 1924 with cards personally signed by the company president. In July 1938, several regional Standard Oil companies agreed to honor each other's cards — creating the first national credit card interchange system. Airlines were even more ambitious: the Air Travel Card, launched in 1936 by American Airlines, introduced a numbering system still in use today (UATP cards begin with the digit "1"). By 1941, the Air Travel Card accounted for roughly half of participating airlines' revenues.
+Although these card programs frequently operated at a financial loss, oil companies viewed them as a strategic investment in brand loyalty. Because gasoline was largely a standardized product, motorists had little reason to prefer one station over another, particularly while traveling. A charge card created an incentive for customers to seek out stations within the same branded network, increasing sales and strengthening customer attachment to the brand. The cards also made franchise expansion easier, as oil companies could attract new station owners by promising access to a large base of loyal, card-carrying customers. For station managers, the system provided a convenient way to extend credit without having to handle the complexities of billing, accounting, and debt collection themselves.
 
-By the end of World War II, the average American carried a dozen or so card-like objects — gas cards, store plates, airline cards, each valid only with a single merchant. The wallet bulged with plastic and metal fragmentation. What the system needed was unification.
+A major milestone occurred in July 1938, when several regional Standard Oil companies agreed to honor one another’s cards. This arrangement created the first national credit card interchange system, allowing cardholders to use a single card across multiple affiliated companies and geographic regions. The innovation foreshadowed the broader credit card networks that would emerge in the postwar era, laying the groundwork for modern payment systems in which a single card can be accepted by many independent merchants across vast distances.
+
 
 
 ### Airlines
@@ -420,33 +466,32 @@ By the end of World War II, the average American carried a dozen or so card-like
 
 </div>
 
-In 1936 American Airlines started
-issuing the Air Travel Card, which is generally considered the first "charge card"
-in history for the reason that upon its launch, it already utilized a numbering
-system that tied a specific user to a specific number (Smith 2015). All of these
-early versions of credit card had in common the advantage of offering an
-alternative to banknotes and coins as well as delay payment in cash (and some
-even offered rollover credit while paying a minimum amount). But most had the
-disadvantage of being limited to the issuing merchant (often a local business).
+In 1936, a coalition of airlines launched the Air Travel Card, one of the earliest organized charge card systems and a key precursor to the modern credit card. Under the Universal Air Travel Program (UATP), the allowed business travelers to charge airfare and pay later, introducing an early form of standardized account-based payment in commercial travel. UATP operated its own private clearinghouse to process transactions, helping to streamline billing between airlines and corporate customers. Notably, the Air Travel Card also introduced a numbering system that remains in use today, with UATP cards still beginning with the digit “1.”
 
-It was until the mid 1950 that an interest-free period (also called grace
-or float) where the customer pays no interest in the balance within a specified
-time, emerged (Ritzer 1995, 34)
-
+The system proved highly successful and influential. By 1941, the Air Travel Card accounted for roughly half of participating airlines’ revenues, demonstrating the viability of large-scale deferred payment systems. Its scale continued to grow, and by 1968 UATP was processing around one billion dollars in sales across 111,000 business accounts, with approximately 1.5 million cards in circulation. As one of the earliest standardized, multi-issuer charge systems with centralized clearing, the Air Travel Card helped establish foundational practices—such as account numbering, centralized transaction processing, and post-purchase billing—that later shaped the development of modern credit cards.
 
 
 
 
 The defunct Franklin National Bank of Long Island issued the first true bank credit card in 1951, with other banks across the country copying it.
 
+By the end of World War II, the average American carried a dozen or so card-like objects — gas cards, store plates, airline cards, each valid only with a single merchant. The wallet bulged with plastic and metal fragmentation. What the system needed was unification.
+
+All of these
+early versions of credit card had in common the advantage of offering an
+alternative to banknotes and coins as well as delay payment in cash (and some
+even offered rollover credit while paying a minimum amount). But most had the
+disadvantage of being limited to the issuing merchant (often a local business).
 ### Universal Payment Card
 
 
 {% include gallery id="charg_it_gallery" caption="Charg-It Launch News Article and Advertisement, 1946" %}
 
-John Biggins, a banker from Brooklyn, introduced the Charg-It card. The card worked on a local, closed-loop system, with all of the purchases being routed through Biggins' bank. The bank paid for the purchase and the customer paid for it through their account at Biggins' bank at a later time. Five years later, Franklin's National Bank offered a similar card.
+The first steps toward a universal credit card system emerged in 1946, when Brooklyn banker John C. Biggins introduced the “Charg-It” plan. Operating as a closed-loop system through his bank, it allowed customers of Flatbush National to make purchases at participating local merchants, who submitted sales slips to the bank for payment. The bank would pay the merchant upfront, absorb the bookkeeping and credit risk, and later bill the customer’s account, with repayment drawn directly from their bank balances.
 
-The first glimmer of a universal card came in 1946, when John C. Biggins, a banker at Flatbush National Bank in Brooklyn, launched "Charg-It." It was a closed loop card. The mechanics were simple: customers with a Flatbush National account could make purchases at participating local stores. The merchant submitted sales slips to the bank, which deposited the amount directly into the merchant's account and billed the customer. It was limited to a local Brooklyn neighborhood — merchants had to physically deliver slips to the bank — but it introduced a critical innovation: creditworthiness decisions were based on credit bureau records, not personal relationships. The idea was sound but the logistics were punishing. Without an electronic network to move transaction data, the system remained tethered to geography.
+Charg-It functioned through a form of credit scrip—paper certificates issued by the bank up to a customer’s approved credit limit. These could be used like cash at participating stores, but only within strict controls: customers received new scrip only after settling their outstanding balances, keeping spending tightly regulated by the bank. Importantly, Biggins also helped shift lending practices toward modern credit evaluation by basing creditworthiness on credit bureau records rather than personal relationships.
+
+Despite its innovation, the system was cumbersome. Merchants had to physically deliver sales slips to the bank, and scrip was issued only in whole-dollar denominations, making transactions awkward. Limited to a Brooklyn neighborhood and constrained by pre-digital logistics, Charg-It remained geographically restricted. Nevertheless, it laid the conceptual groundwork for later revolving credit systems, including Franklin National Bank’s similar “Charge-It” style programs introduced in 1951, which refined the idea and was the first bank program to actually use a credit "card".
 
 ### Diner's Club
 
