@@ -7,3 +7,30 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* ==========================================================================
+   Flow-field background (assets/js/flow-field-bg.js)
+   ========================================================================== */
+
+#flow-field-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Opaque reading panels: text content masks the flow field, so the effect
+   only shows in the gutters around it */
+.page__inner-wrap,
+.archive,
+.sidebar,
+.search-content__inner-wrap {
+  background-color: $background-color;
+  border: 1px solid $border-color;
+  border-radius: 12px;
+  padding: 1.25em 1.5em;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.35);
+}
