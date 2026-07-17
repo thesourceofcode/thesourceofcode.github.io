@@ -25,14 +25,14 @@
     waveScale: 1.25,        // K: higher = more, smaller vortices
     stepSize: 1.35,         // how far a particle moves per frame
     morphRate: 0.0045,      // how quickly the field evolves over time
-    areaPerParticle: 7500,  // css px^2 of screen per particle
+    areaPerParticle: 5600,  // css px^2 of screen per particle
     particleCap: 2400,
     lifeSpan: [70, 220],    // frames a particle lives, [min, max]
     trailSeconds: 2,        // how long a stroke lingers before fading out fully
-    ghostSweepSeconds: 2,   // max extra time a stalled grey ghost can survive
     strokeAlpha: 0.5,
     strokeWidth: 2,
     targetFps: 30,
+    paletteDriftMinutes: 4, // one full hue rotation of the palette; 0 disables
     colors: [
       "#4fc3a1", "#3a9fbf", "#8888d8", "#d98e4a", "#c94f6d", "#cfd8dc"
     ],
@@ -50,10 +50,16 @@
 
   // The multiplicative fade stalls in 8-bit: once a * eraseAlpha < 0.5 the
   // rounded result equals a again, so pixels freeze a few levels above zero
-  // and leave permanent grey ghost paths. Pixels at or below this alpha are
-  // in that stall band and get zeroed by the rolling sweep.
-  var ghostBand = Math.ceil(0.5 / eraseAlpha) + 2;
-  var sweepRow = 0;
+  // and would leave permanent grey ghost paths. Each particle therefore
+  // drags a virtual cleaner behind it: a ring buffer remembers its last
+  // histLen positions, and every frame the oldest segment — which has just
+  // finished its visible fade — is hard-erased exactly where it was drawn.
+  // Residue never outlives its trail and nothing wipes across the screen.
+  var histLen =
+    Math.max(2, Math.round(SETTINGS.targetFps * SETTINGS.trailSeconds));
+  var hx, hy;       // per-particle position history (shared ring buffers)
+  var skipSeg;      // 1 = segment ending at this slot crosses a respawn
+  var cursor = 0;   // ring-buffer write index, shared by all particles
   var px, py, age, life, tint;      // particle state (typed arrays)
   var count = 0;
   var clock = 0;
@@ -69,11 +75,66 @@
   var phaseA = PRIMES.map(function (p) { return (p * 2.399) % (2 * Math.PI); });
   var phaseB = PRIMES.map(function (p) { return (p * 1.618) % (2 * Math.PI); });
 
-  // Flattened weighted colour list so a uniform pick honours colorBias.
+  // Flattened weighted palette-index list so a uniform pick honours colorBias.
   var colorPool = [];
-  SETTINGS.colors.forEach(function (c, i) {
-    for (var n = 0; n < (SETTINGS.colorBias[i] || 1); n++) colorPool.push(c);
+  SETTINGS.colors.forEach(function (_, i) {
+    for (var n = 0; n < (SETTINGS.colorBias[i] || 1); n++) colorPool.push(i);
   });
+
+  // ---- palette: HSL shades + slow hue drift -------------------------------
+  // Colours are kept as HSL so the whole palette can rotate its hue over
+  // paletteDriftMinutes, and so each colour gets "hotter" (lighter, less
+  // saturated) variants for fast-moving particles.
+  function hexToHsl(hex) {
+    var r = parseInt(hex.slice(1, 3), 16) / 255;
+    var g = parseInt(hex.slice(3, 5), 16) / 255;
+    var b = parseInt(hex.slice(5, 7), 16) / 255;
+    var max = Math.max(r, g, b), min = Math.min(r, g, b), d = max - min;
+    var l = (max + min) / 2;
+    var s = d === 0 ? 0 : d / (1 - Math.abs(2 * l - 1));
+    var h = 0;
+    if (d > 0) {
+      if (max === r) h = ((g - b) / d) % 6;
+      else if (max === g) h = (b - r) / d + 2;
+      else h = (r - g) / d + 4;
+      h *= 60;
+      if (h < 0) h += 360;
+    }
+    return { h: h, s: s * 100, l: l * 100 };
+  }
+
+  var baseHsl = SETTINGS.colors.map(hexToHsl);
+  var HEAT = [0, 0.12, 0.28, 0.55]; // white-mix per speed bucket
+  var shades = null;                // shades[colorIdx][bucket] -> css colour
+  var shadeHue = -1;
+
+  // Quadratic in pace so mid-speed strokes keep their base colour and only
+  // the genuinely fast ones heat up toward white.
+  function heatBucket(pace) {
+    return (pace * pace * 3.999) | 0;
+  }
+
+  function currentHueShift() {
+    var mins = SETTINGS.paletteDriftMinutes;
+    if (!(mins > 0)) return 0;
+    var period = mins * 60000;
+    return (performance.now() % period) / period * 360;
+  }
+
+  function updateShades() {
+    var hue = currentHueShift();
+    if (shades && Math.abs(hue - shadeHue) < 1.5) return;
+    shadeHue = hue;
+    shades = baseHsl.map(function (c) {
+      return HEAT.map(function (mix) {
+        var h = (c.h + hue) % 360;
+        var s = c.s * (1 - 0.45 * mix);
+        var l = c.l + (96 - c.l) * mix;
+        return "hsl(" + h.toFixed(1) + "," + s.toFixed(1) + "%," +
+          l.toFixed(1) + "%)";
+      });
+    });
+  }
 
   var vel = { x: 0, y: 0 };
 
@@ -103,7 +164,10 @@
     var span = SETTINGS.lifeSpan;
     life[i] = span[0] + Math.random() * (span[1] - span[0]);
     age[i] = Math.random() * life[i]; // stagger so respawns don't pulse
-    tint[i] = (Math.random() * colorPool.length) | 0;
+    tint[i] = colorPool[(Math.random() * colorPool.length) | 0];
+    // the next history write starts a new life: the segment from the death
+    // point to the spawn point was never drawn, so the cleaner must skip it
+    skipSeg[i * histLen + (cursor + 1) % histLen] = 1;
   }
 
   function allocParticles() {
@@ -116,6 +180,10 @@
     age = new Float32Array(count);
     life = new Float32Array(count);
     tint = new Uint8Array(count);
+    hx = new Float32Array(count * histLen);
+    hy = new Float32Array(count * histLen);
+    skipSeg = new Uint8Array(count * histLen);
+    cursor = 0;
     for (var i = 0; i < count; i++) respawn(i);
   }
 
@@ -131,27 +199,31 @@
 
   function clearAll() {
     ctx.clearRect(0, 0, width, height);
-    sweepRow = 0;
   }
 
-  // Rolling ghost cleanup: each frame, read back one horizontal strip of the
-  // canvas and zero every pixel whose alpha has decayed into the stall band.
-  // The strip height is sized so the full canvas is covered once every
-  // ghostSweepSeconds, which bounds how long a ghost line can outlive its
-  // trail. ImageData works in device pixels, so this uses canvas.width/height.
-  function sweepGhosts() {
-    var rows = Math.max(1, Math.ceil(
-      canvas.height / (SETTINGS.targetFps * SETTINGS.ghostSweepSeconds)));
-    var h = Math.min(rows, canvas.height - sweepRow);
-    if (h > 0) {
-      var strip = ctx.getImageData(0, sweepRow, canvas.width, h);
-      var d = strip.data;
-      for (var i = 3; i < d.length; i += 4) {
-        if (d[i] <= ghostBand) d[i] = 0;
-      }
-      ctx.putImageData(strip, 0, sweepRow);
+  // Erase every particle's oldest history segment in one batched
+  // destination-out stroke, slightly wider than the drawn strokes so the
+  // antialiased fringe goes too. By the time a segment is erased it has
+  // already faded below visibility, so the erase itself can't be seen —
+  // it only removes the stalled residue. Segments flagged in skipSeg
+  // connect a death point to an unrelated spawn point and are skipped
+  // (they were never drawn).
+  function cleanTails() {
+    var next = (cursor + 1) % histLen;
+    ctx.globalCompositeOperation = "destination-out";
+    ctx.globalAlpha = 1;
+    ctx.lineWidth = SETTINGS.strokeWidth * 1.5 + 2;
+    ctx.lineCap = "round";
+    ctx.beginPath();
+    for (var i = 0; i < count; i++) {
+      var a = i * histLen + cursor;
+      var b = i * histLen + next;
+      if (skipSeg[b]) { skipSeg[b] = 0; continue; }
+      if (hx[a] === hx[b] && hy[a] === hy[b]) continue; // unwritten slot
+      ctx.moveTo(hx[a], hy[a]);
+      ctx.lineTo(hx[b], hy[b]);
     }
-    sweepRow = sweepRow + h < canvas.height ? sweepRow + h : 0;
+    ctx.stroke();
   }
 
   function fit() {
@@ -173,8 +245,9 @@
 
   function advance() {
     fadeTrails();
+    cleanTails();
+    updateShades();
     ctx.globalCompositeOperation = "lighter";
-    ctx.lineWidth = SETTINGS.strokeWidth;
     ctx.lineCap = "round";
 
     for (var i = 0; i < count; i++) {
@@ -185,8 +258,10 @@
       // ease in at birth and out near death so trails don't pop
       var envelope = Math.min(1, Math.min(age[i], life[i] - age[i]) / 20);
       var pace = Math.min(1, Math.hypot(vel.x, vel.y) / 1.7);
+      // fast particles draw thicker, whiter strokes so vortex cores glow
+      ctx.lineWidth = SETTINGS.strokeWidth * (0.65 + 0.85 * pace);
       ctx.globalAlpha = SETTINGS.strokeAlpha * envelope * (0.3 + 0.7 * pace);
-      ctx.strokeStyle = colorPool[tint[i]];
+      ctx.strokeStyle = shades[tint[i]][heatBucket(pace)];
       ctx.beginPath();
       ctx.moveTo(px[i], py[i]);
       ctx.lineTo(nx, ny);
@@ -194,6 +269,8 @@
 
       px[i] = nx;
       py[i] = ny;
+      hx[i * histLen + cursor] = nx;
+      hy[i * histLen + cursor] = ny;
       age[i]++;
       if (age[i] >= life[i] ||
         nx < -24 || nx > width + 24 || ny < -24 || ny > height + 24) {
@@ -201,15 +278,15 @@
       }
     }
     ctx.globalAlpha = 1;
-    sweepGhosts();
+    cursor = (cursor + 1) % histLen;
     clock += SETTINGS.morphRate;
   }
 
   // One frozen frame of longer streamlines for prefers-reduced-motion.
   function drawStill() {
     clearAll();
+    updateShades();
     ctx.globalCompositeOperation = "lighter";
-    ctx.lineWidth = SETTINGS.strokeWidth;
     ctx.lineCap = "round";
     for (var i = 0; i < count; i++) {
       var x = px[i], y = py[i];
@@ -217,8 +294,10 @@
         fieldAt(x, y, 0);
         var nx = x + vel.x * SETTINGS.stepSize;
         var ny = y + vel.y * SETTINGS.stepSize;
+        var pace = Math.min(1, Math.hypot(vel.x, vel.y) / 1.7);
+        ctx.lineWidth = SETTINGS.strokeWidth * (0.65 + 0.85 * pace);
         ctx.globalAlpha = SETTINGS.strokeAlpha * 0.25;
-        ctx.strokeStyle = colorPool[tint[i]];
+        ctx.strokeStyle = shades[tint[i]][heatBucket(pace)];
         ctx.beginPath();
         ctx.moveTo(x, y);
         ctx.lineTo(nx, ny);
@@ -256,13 +335,15 @@
     canvas.id = "flow-field-canvas";
     canvas.setAttribute("aria-hidden", "true");
     document.body.prepend(canvas);
-    // willReadFrequently: the ghost sweep reads pixels back every frame;
-    // without the hint each readback stalls the GPU pipeline
-    ctx = canvas.getContext("2d", { willReadFrequently: true });
+    ctx = canvas.getContext("2d");
     if (!ctx) { canvas.remove(); return; }
 
     fit();
     play();
+
+    // the stylesheet starts the canvas at opacity 0 with a transition, so
+    // flipping it here fades the effect in instead of popping
+    requestAnimationFrame(function () { canvas.style.opacity = "1"; });
 
     window.addEventListener("resize", function () {
       fit();

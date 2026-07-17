@@ -25,6 +25,9 @@ search: false
      screen is the close fallback where plus-lighter is unsupported */
   mix-blend-mode: screen;
   mix-blend-mode: plus-lighter;
+  /* the script flips this to 1 after its first frame, fading the effect in */
+  opacity: 0;
+  transition: opacity 1.2s ease;
 }
 
 /* Opaque reading panels: text content masks the flow field, so the effect
@@ -37,5 +40,8 @@ search: false
   border: 1px solid $border-color;
   border-radius: 12px;
   padding: 1.25em 1.5em;
-  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.35);
+  /* the background-coloured glow dissolves trails as they near the panel,
+     instead of slicing them off at the border */
+  box-shadow: 0 0 28px 14px rgba($background-color, 0.9),
+    0 6px 30px rgba(0, 0, 0, 0.35);
 }
