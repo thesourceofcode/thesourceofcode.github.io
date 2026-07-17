@@ -20,6 +20,11 @@ search: false
   height: 100vh;
   z-index: -1;
   pointer-events: none;
+  /* composite the trails additively over the dark page background, so they
+     glow like strokes drawn with canvas "lighter" onto an opaque backdrop;
+     screen is the close fallback where plus-lighter is unsupported */
+  mix-blend-mode: screen;
+  mix-blend-mode: plus-lighter;
 }
 
 /* Opaque reading panels: text content masks the flow field, so the effect

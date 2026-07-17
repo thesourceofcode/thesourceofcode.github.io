@@ -28,19 +28,32 @@
     areaPerParticle: 7500,  // css px^2 of screen per particle
     particleCap: 2400,
     lifeSpan: [70, 220],    // frames a particle lives, [min, max]
-    trailFade: 0.08,        // backdrop alpha per frame (higher = shorter trails)
+    trailSeconds: 2,        // how long a stroke lingers before fading out fully
+    ghostSweepSeconds: 2,   // max extra time a stalled grey ghost can survive
     strokeAlpha: 0.5,
     strokeWidth: 2,
     targetFps: 30,
-    fallbackBg: "#252a34",  // minimal-mistakes dark skin background
     colors: [
       "#4fc3a1", "#3a9fbf", "#8888d8", "#d98e4a", "#c94f6d", "#cfd8dc"
     ],
     colorBias: [4, 4, 3, 3, 2, 1] // relative frequency of each colour
   };
 
-  var canvas, ctx, bgColor;
+  var canvas, ctx;
   var width, height, halfW, halfH, fieldScale;
+
+  // Per-frame erase alpha derived from trailSeconds: a stroke's remaining
+  // alpha after fps*seconds fade passes drops below one 8-bit level, i.e.
+  // (1 - eraseAlpha)^(fps * seconds) = 1/255, at which point it's gone.
+  var eraseAlpha =
+    1 - Math.pow(1 / 255, 1 / (SETTINGS.targetFps * SETTINGS.trailSeconds));
+
+  // The multiplicative fade stalls in 8-bit: once a * eraseAlpha < 0.5 the
+  // rounded result equals a again, so pixels freeze a few levels above zero
+  // and leave permanent grey ghost paths. Pixels at or below this alpha are
+  // in that stall band and get zeroed by the rolling sweep.
+  var ghostBand = Math.ceil(0.5 / eraseAlpha) + 2;
+  var sweepRow = 0;
   var px, py, age, life, tint;      // particle state (typed arrays)
   var count = 0;
   var clock = 0;
@@ -106,12 +119,39 @@
     for (var i = 0; i < count; i++) respawn(i);
   }
 
-  function clearTo(alpha) {
-    ctx.globalCompositeOperation = "source-over";
-    ctx.globalAlpha = alpha;
-    ctx.fillStyle = bgColor;
+  // The canvas stays transparent (the page background shows through), and
+  // trails are faded by erasing alpha with destination-out. Repainting a
+  // translucent background colour instead would stall a few 8-bit levels
+  // short of the backdrop and leave permanent grey ghosts.
+  function fadeTrails() {
+    ctx.globalCompositeOperation = "destination-out";
+    ctx.fillStyle = "rgba(0, 0, 0, " + eraseAlpha + ")";
     ctx.fillRect(0, 0, width, height);
-    ctx.globalAlpha = 1;
+  }
+
+  function clearAll() {
+    ctx.clearRect(0, 0, width, height);
+    sweepRow = 0;
+  }
+
+  // Rolling ghost cleanup: each frame, read back one horizontal strip of the
+  // canvas and zero every pixel whose alpha has decayed into the stall band.
+  // The strip height is sized so the full canvas is covered once every
+  // ghostSweepSeconds, which bounds how long a ghost line can outlive its
+  // trail. ImageData works in device pixels, so this uses canvas.width/height.
+  function sweepGhosts() {
+    var rows = Math.max(1, Math.ceil(
+      canvas.height / (SETTINGS.targetFps * SETTINGS.ghostSweepSeconds)));
+    var h = Math.min(rows, canvas.height - sweepRow);
+    if (h > 0) {
+      var strip = ctx.getImageData(0, sweepRow, canvas.width, h);
+      var d = strip.data;
+      for (var i = 3; i < d.length; i += 4) {
+        if (d[i] <= ghostBand) d[i] = 0;
+      }
+      ctx.putImageData(strip, 0, sweepRow);
+    }
+    sweepRow = sweepRow + h < canvas.height ? sweepRow + h : 0;
   }
 
   function fit() {
@@ -127,12 +167,12 @@
     halfW = width / 2;
     halfH = height / 2;
     fieldScale = Math.min(width, height) * 0.45;
-    clearTo(1);
+    clearAll();
     allocParticles();
   }
 
   function advance() {
-    clearTo(SETTINGS.trailFade);
+    fadeTrails();
     ctx.globalCompositeOperation = "lighter";
     ctx.lineWidth = SETTINGS.strokeWidth;
     ctx.lineCap = "round";
@@ -161,12 +201,13 @@
       }
     }
     ctx.globalAlpha = 1;
+    sweepGhosts();
     clock += SETTINGS.morphRate;
   }
 
   // One frozen frame of longer streamlines for prefers-reduced-motion.
   function drawStill() {
-    clearTo(1);
+    clearAll();
     ctx.globalCompositeOperation = "lighter";
     ctx.lineWidth = SETTINGS.strokeWidth;
     ctx.lineCap = "round";
@@ -215,17 +256,10 @@
     canvas.id = "flow-field-canvas";
     canvas.setAttribute("aria-hidden", "true");
     document.body.prepend(canvas);
-    ctx = canvas.getContext("2d");
+    // willReadFrequently: the ghost sweep reads pixels back every frame;
+    // without the hint each readback stalls the GPU pipeline
+    ctx = canvas.getContext("2d", { willReadFrequently: true });
     if (!ctx) { canvas.remove(); return; }
-
-    // minimal-mistakes paints the page background on <html>; fall back past
-    // any fully transparent computed values
-    bgColor = [
-      getComputedStyle(document.documentElement).backgroundColor,
-      getComputedStyle(document.body).backgroundColor
-    ].find(function (c) {
-      return c && c !== "transparent" && c !== "rgba(0, 0, 0, 0)";
-    }) || SETTINGS.fallbackBg;
 
     fit();
     play();
