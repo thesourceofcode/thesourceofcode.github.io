@@ -50,6 +50,43 @@ charg_it_gallery:
     image_path: /assets/images/credit-card-chronology/charg_it_ad_1946.jpg
     alt: "Charg-It Ad, Newsday, 22 October 1946, p. 6"
     title: "Charg-It Ad, Newsday, 22 October 1946, p. 6"
+douglas_dc3_gallery:
+  - url: /assets/images/credit-card-chronology/douglas_dc3_1940s.webp
+    image_path: /assets/images/credit-card-chronology/douglas_dc3_1940s.webp
+    alt: "Minneapolis’ then-new terminal for the 1940s sees NC21716 sitting between operations. John Vars photo from the James Borden collection."
+    title: "Minneapolis’ then-new terminal for the 1940s sees NC21716 sitting between operations. John Vars photo from the James Borden collection."
+  - url: /assets/images/credit-card-chronology/douglas_dc3_1942.webp
+    image_path: /assets/images/credit-card-chronology/douglas_dc3_1942.webp
+    alt: "1942 flight of NC25609 over the St. Paul airport and Mounds Park, showing off its “Buy War Bonds” titling. NWA promotional photo in the Borden collection at the NWAHC"
+    title: "1942 flight of NC25609 over the St. Paul airport and Mounds Park, showing off its “Buy War Bonds” titling. NWA promotional photo in the Borden collection at the NWAHC"
+diners_club_booklet_gallery:
+  - url: /assets/images/credit-card-chronology/diners_club_booklet.jpg
+    image_path: /assets/images/credit-card-chronology/diners_club_booklet.jpg
+    alt: "Diner's Club Booklet (front)"
+    title: "Diner's Club Booklet (front)"
+  - url: /assets/images/credit-card-chronology/diners_club_booklet_back.jpg
+    image_path: /assets/images/credit-card-chronology/diners_club_booklet_back.jpg
+    alt: "Diner's Club Booklet (back)"
+    title: "Diner's Club Booklet (back)"
+bofa_1955_ibm_gallery:
+  - url: /assets/images/credit-card-chronology/ibm_702.jpg
+    image_path: /assets/images/credit-card-chronology/ibm_702.jpg
+    alt: "An IBM 702 system, ca. 1955"
+    title: "An IBM 702 system, ca. 1955"
+  - url: /assets/images/credit-card-chronology/bofa_van_ness_branch_1955.jpg
+    image_path: /assets/images/credit-card-chronology/bofa_van_ness_branch_1955.jpg
+    alt: "Bank of America, San Francisco’s Van Ness Avenue Branch, c. 06 June 1955" 
+    title: "Bank of America, San Francisco’s Van Ness Avenue Branch, c. 06 June 1955"
+amex_1959_gallery:
+  - url: /assets/images/credit-card-chronology/amex_1959.jpg
+    image_path: /assets/images/credit-card-chronology/amex_1959.jpg
+    alt: "AMEX Card (front)"
+    title: "AMEX Card (front)"
+  - url: /assets/images/credit-card-chronology/amex_1959_back.jpeg
+    image_path: /assets/images/credit-card-chronology/amex_1959_back.jpeg
+    alt: "AMEX Card (back)" 
+    title: "AMEX Card (back)"
+
 ---
 
 <div class="text-justify" markdown="1">
@@ -235,7 +272,76 @@ By the nineteenth century, productive credit had been a feature of economic life
 
 The Industrial Revolution began to alter these attitudes. Mass production expanded the supply of consumer goods, rising incomes increased demand for them, and the emergence of a salaried middle class created a large population with predictable future earnings. Together, these developments laid the foundation for modern consumer credit.
 
+
+Records indicate that both installment credit and a form of revolv-
+ing credit were widespread in the early days of the Republic. Economist
+Rolf Nugent noted, in Consumer Credit and Economic Stability, that
+“in rural areas, horses, plows, carriages, seed, clocks, and household
+furniture were frequently sold for promissory notes payable after the
+harvest.” Installment sales were commonplace in urban areas, particu-
+larly for high-priced durable goods designed for household use. Install-
+ment credit in the early 1800s was used in much the same way as it is
+used today. It was granted specifically for a single purchase and required
+both a down payment and a formal contract that permitted the merchant
+to retain title to the article until the purchase price had been paid. For
+instance, Cowperwaite and Sons, which was founded in New York in
+1807 and appears to have been the first firm in the United States to
+specialize in furniture, sold goods on installment terms from its very
+inception.
+
+As installment credit gradually proved to be successful over the
+first half of the nineteenth century, manufacturers began to borrow the
+notion from the merchants. One of the earliest and most successful
+manufacturers to utilize the installment plan was the Singer Sewing
+Machine Company. Other manufacturers began to sell big-ticket con-
+sumer durables, such as pianos, household organs, and stoves, directly
+to consumers through agents by about 1850.
+
 One of the earliest examples of firms capitalizing on this emerging market came in the United States, where the Singer Sewing Machine Company dramatically expanded sales by introducing an installment-payment plan.
+
+The spurt of industrialization following the Civil War began the
+long-term trend toward urbanization in the United States. A son who
+had learned a trade from his father—metalworking, for example—
+might discover that in another city there was a big demand for his skills
+and wages were much higher. The gradual movement of family mem-
+bers from rural communities to large cities helped weaken the family
+bond, as well as the reliance of family members upon one another for
+the provision of financing.
+The increased geographic distance between family members forced
+many people to depend upon third-party institutions for any financing
+they might need. They were also encouraged to seek more financing
+than they had previously used.
+
+According to Nugent,
+Incentives to thrift disappeared with intimate community life.
+Family traditions, conservative consumptive habits, and reputa-
+tions for stability gave way to competitive standards of living as
+the principal basis for prestige. These changes helped to explain
+two important developments in the field of consumer credit
+which began shortly after the Civil War. One was the extension of
+installment merchandising to low income classes; the other, the
+rise of the small loan business.
+It is important to note that the vast geographic size of the United
+States contributed in no small way to the development of its consumer
+credit industry. In European countries, the much shorter distances that
+had to be traveled, along with the smaller number of large industrial
+cities, enabled families to remain not only close but independent of
+outside institutions in meeting their financial needs. This fact may help
+explain why the consumer credit industry in general has been far less
+successful in most European countries than in the United States and
+why the credit aspect of credit cards may lack some of the appeal to
+Europeans that it has had to many Americans.
+
+The importance of the automobile in stimulating and legitimizing
+consumer credit sales cannot be overemphasized. The growth of install-
+ment sales of automobiles tended to remove the stigma that installment
+selling had acquired at the hands of low-grade installment merchants in
+the 1890s. All social and economic classes were represented among
+installment purchasers of automobiles; hence, installment buying ac-
+quired respectability. Although some automobile manufacturers, such
+as Ford, were slow in implementing installment sales plans, other compa-
+nies embraced this new marketing tool. General Motors soon became
+the leader in installment sales.
 
 
 ### Installment Credit
@@ -293,7 +399,7 @@ However, all these were essentially prepaid instruments and the invention of tru
 
 <div style="width: 40%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/oldest_credit_card_1896.jpg" alt="The Depot Carriage & Baggage co. customer card" caption="The Depot Carriage & Baggage Co. Customer Card, c. 1896" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/oldest_credit_card_1896.webp" alt="The Depot Carriage & Baggage co. customer card" caption="The Depot Carriage & Baggage Co. Customer Card, c. 1896" %}
 
 </div>
 
@@ -324,6 +430,15 @@ These pressures created the conditions for the next major innovation: the charge
 ### Charge coins
 
 {% include gallery id="charge_coins_gallery" caption="Merchant Charge Coins — Early Physical Credit Tokens" %}
+
+**but that became problematic as urbanization and larger stores meant that recognizing customers and trusting them to pay wasn’t quite as a reliable method as it used to be. So, stores would provide a means of identification with the name of the store, and perhaps a number to confirm you were who you said you were. These credit indicators were only good at one store, but they were really the beginning of consumer credit in the way we think of it today.**
+
+**Until about 1930, outstanding consumer credit was dominated by**
+noninstallment credit, largely charge accounts. The growth in the size
+of retail establishments, as well as in the number of customers and the
+volume of business, meant that not every charge account customer
+could be recognized by clerks in the store. Some form of identification
+became necessary—hence, the credit card.
 
 Regarded as one of the earliest direct ancestors to the modern credit card, Charge Coins were first issued shortly after the American Civil War and grew increasingly popular into the early twentieth century. They replaced handwritten identification in a ledger with a physical token. Merchants—particularly department stores, hotels, and taxi companies—would issue customers a small metal or celluloid coin embossed with the merchant's name and an account number. Some were round like ordinary coins, while others resembled small badges or tags designed to be carried on a keychain.
 
@@ -450,6 +565,13 @@ In 1948, the card came to be designated as a "Credit Card".
 </div>
 
 
+In 1924, General Petroleum, a chain of California gas
+stations, issued the first cardboard credit card, calling it
+just that, the “General Petroleum Credit Card,” using,
+for the first time, the name that Bellamy had given his
+cards thirty-six years earlier. Mobil Oil and Shell soon
+followed suit.
+
 In 1914, Texaco began issuing paper gasoline cards, and in 1924 the General Petroleum Corporation of California introduced “courtesy cards,” which allowed trusted customers to charge gasoline and related purchases at affiliated service stations. Around the same time, Standard Oil of California issued its own cards, which were personally signed by the company president. These paper-based charge cards were typically distributed by station managers to regular customers and could be used across stations within the same franchise network, often spanning large geographic areas.
 
 Although these card programs frequently operated at a financial loss, oil companies viewed them as a strategic investment in brand loyalty. Because gasoline was largely a standardized product, motorists had little reason to prefer one station over another, particularly while traveling. A charge card created an incentive for customers to seek out stations within the same branded network, increasing sales and strengthening customer attachment to the brand. The cards also made franchise expansion easier, as oil companies could attract new station owners by promising access to a large base of loyal, card-carrying customers. For station managers, the system provided a convenient way to extend credit without having to handle the complexities of billing, accounting, and debt collection themselves.
@@ -462,7 +584,7 @@ A major milestone occurred in July 1938, when several regional Standard Oil comp
 
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/air_travel_card_1936.jpeg" alt="Air Travel Card" caption="Air Travel Card, c. 1936" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/air_travel_card_1936.webp" alt="Air Travel Card" caption="Air Travel Card, c. 1936" %}
 
 </div>
 
@@ -472,8 +594,11 @@ The system proved highly successful and influential. By 1941, the Air Travel Car
 
 
 
+{% include gallery id="douglas_dc3_gallery" %}
 
-The defunct Franklin National Bank of Long Island issued the first true bank credit card in 1951, with other banks across the country copying it.
+**Aside:** In 1939, 90% of airline flights on the planet were by a Douglas DC-3 or some variant
+{: .notice--info}
+
 
 By the end of World War II, the average American carried a dozen or so card-like objects — gas cards, store plates, airline cards, each valid only with a single merchant. The wallet bulged with plastic and metal fragmentation. What the system needed was unification.
 
@@ -493,8 +618,14 @@ Charg-It functioned through a form of credit scrip—paper certificates issued b
 
 Despite its innovation, the system was cumbersome. Merchants had to physically deliver sales slips to the bank, and scrip was issued only in whole-dollar denominations, making transactions awkward. Limited to a Brooklyn neighborhood and constrained by pre-digital logistics, Charg-It remained geographically restricted. Nevertheless, it laid the conceptual groundwork for later revolving credit systems, including Franklin National Bank’s similar “Charge-It” style programs introduced in 1951, which refined the idea and was the first bank program to actually use a credit "card".
 
-### Diner's Club
+Biggins’s plan was relatively successful and was later adopted by
+the Paterson Savings and Trust Company of Paterson, New Jersey, in 1950.
+His plan had much greater significance, however, for the credit
+industry because it ushered in the era of the third-party, universal credit
+card—without a doubt, the most important development in the history
+of credit cards.
 
+## Diner's Club
 
 <div style="width: 50%; margin: 0 auto;">
 
@@ -502,7 +633,49 @@ Despite its innovation, the system was cumbersome. Merchants had to physically d
 
 </div>
 
-The idea caught fire in the hands of three men: Frank McNamara, Ralph Schneider, and Alfred Bloomingdale. McNamara was a mid-level executive at the Hamilton Credit Corporation. Schneider was his attorney. Bloomingdale, grandson of the department store founder, brought connections to New York's retail and restaurant worlds. In 1949, McNamara — according to the company's own press agent — supposedly forgot his wallet while dining with clients at Major's Cabin Grill near the Empire State Building. His wife drove to rescue him. Whether this actually happened or was invented for publicity, the story stuck. On February 8, 1950, McNamara returned to the same restaurant with Schneider and press agent Matty Simmons, paid with a cardboard card, and Diner's Club was born.
+The era of the modern, third-party universal card began with the formation of Diners Club in 1949.
+
+Charge cards had already been used for decades, but their main purpose was to act as a vehicle for increasing sales of other goods—oil, department store merchandise, and similar products. By the middle of the twentieth century, both charge accounts and installment credit were already widespread.
+
+The pioneering insight behind Diners Club was to imagine credit itself as a product to be sold—an end in itself rather than merely a means to sell something else. The founders did not invent any radically new ideas. Instead, they combined a number of well-established practices into a new business model centered around a portable, universal charge card. Although John Biggins had earlier developed a true universal credit card, Diners Club was the first to implement and market such a card successfully on a large scale.
+
+There is a famous story about Frank McNamara, the founder of Diners Club, forgetting his wallet at a restaurant and conceiving the idea for the card on the spot. However, this incident almost certainly never happened. The story was later fabricated by the company's press agent, Matty Simmons, and became part of the company's mythology.
+
+<blockquote>
+  <p>"I just get ideas. I write them down
+and think about them for a while. Then I throw out the
+ones that don’t float. This one was never discarded."</p>
+  <legend><cite>Frank MacNamara, On how he came up with the idea of Diner's Club</cite></legend>
+</blockquote>
+
+Frank McNamara founded Diners Club with his lawyer Ralph Schneider and his friend Alfred Bloomingdale, with a modest initial capital. Their company acted as an intermediary between customers and merchants: customers would "charge" their purchases, merchants would send the signed sales slips to the Diners Club office for payment, and Diners Club would bill customers at the end of the month.
+
+The first-ever Diners Club transaction took place on **February 8, 1950**, at Major's Cabin Grill in Manhattan, a restaurant that McNamara frequented.
+
+<blockquote>
+  <p>"Goddamn it! It worked!"</p>
+  <legend><cite>Frank MacNamara, On completing the first ever diner's club transaction</cite></legend>
+</blockquote>
+
+The founders originally charged participating merchants a 6% discount fee, but McNamara soon realized this was insufficient to make the business profitable. After the first couple dozen restaurants had signed up, the fee for new merchants was increased to 7%. A $3 annual membership fee was also introduced to improve profitability.
+
+For customers, the mechanics of the transaction looked familiar. Instead of paying with cash, they simply handed over their Diners Club card and said, "Charge it." Rather than receiving bills from dozens of individual establishments, they received a single monthly statement from Diners Club. Interestingly, the company followed the old practice of "country club billing," mailing the original signed sales receipts along with the monthly bill.
+
+For merchants, however, the arrangement was fundamentally different. Instead of maintaining their own charge accounts and bookkeeping, restaurants simply mailed the signed charge slips to Diners Club and received payment from the company. Diners Club effectively inserted itself as a trusted middleman, using its own creditworthiness to pay merchants immediately while collecting payment from customers later. This removed much of the administrative burden from merchants while still allowing them to offer credit to their patrons.
+
+The card was marketed primarily as a convenience. Business travelers no longer had to carry large amounts of cash that could be lost or stolen, nor worry about checks being refused outside their hometown. Receiving a single consolidated monthly bill simplified expense reporting, corporate reimbursements, and tax deductions.
+
+Yet convenience alone does not explain the card's early appeal. Its greatest attraction was prestige. Diners Club cards were issued selectively to affluent professionals and business executives. Possessing one signaled that both you—and by extension your employer—were considered financially trustworthy. In an era before electronic authorization, simply presenting the card was enough. The waiter accepted it, you signed the sales slip, and your signature served as a guarantee of payment. Naturally, this also meant that stolen-card fraud was relatively easy.
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_magazine.png" alt="Diner's Club Magazine, Nov 1960" caption="Diner's Club Magazine, Nov 1960" %}
+
+</div>
+
+Diners Club was a pioneer and had to invent many of its own growth strategies. One of its most successful innovations was the Diners Club Magazine. Originally created simply to publish updated lists of participating restaurants and businesses, the magazine became an effective negotiating tool when signing up new merchants and eventually grew into a profitable publication in its own right.
+
+One particularly colorful story from the company's early years involves Alfred Bloomingdale. In one city where local restaurants had collectively agreed not to accept Diners Club, Bloomingdale reportedly opened a restaurant of his own simply to establish a foothold for the card.
 
 <div style="width: 50%; margin: 0 auto;">
 
@@ -510,18 +683,29 @@ The idea caught fire in the hands of three men: Frank McNamara, Ralph Schneider,
 
 </div>
 
-The first Diner's Club card was remarkably modern in its essentials: card number, cardholder name, signature panel, and expiry date. The card itself was flimsy cardboard, hardly more durable than a business card, yet it established the visual vocabulary that every subsequent card would follow. Initially accepted at just 14 to 28 restaurants and two hotels, membership was offered to 200 friends of the founders — all personally vetted. By the end of 1950, membership had grown to 20,000. Merchants paid a commission of 5 to 7 percent, and customers paid their bill in full each month. It was, strictly speaking, a charge card — not a credit card — because no revolving balance was permitted.
+The card itself evolved remarkably quickly while retaining features that remain familiar today. The earliest cards were made of flimsy cardboard and already contained the essential elements of a modern payment card: the cardholder's name, account number, signature, and expiration date.
 
-The card itself holds no intrinsic value if lost or stolen
+{% include gallery id="diners_club_booklet_gallery" caption="Diner's Club Booklet" %}
 
- The first card was offered to 200 people, mostly Mr. McNamara's friends and acquaintances. Fourteen Manhattan restaurants agreed to accept it. A year later, the company estimated that 42,000 Americans were carrying the card and that more than 330 businesses were accepting it. Membership cost $3 a year.
+At first, the list of participating establishments fit comfortably on the back of the card. As acceptance grew, the card expanded into an accordion fold listing hundreds of merchants. Eventually it became a small booklet, with the credit card serving as its cover. By the mid-1950s, the booklet had grown so large that the card was once again separated into its own standalone form, while regional directories listed participating establishments. The cardboard card itself would not be replaced by plastic until the 1960s.
 
-At first, all cards were charge cards, meaning that balances had to be paid in full each month. Revolving credit cards, which charge interest and allow customers to make partial payments each month, were introduced in 1951 in New York by Franklin National Bank, which eventually became European American Bank. 
+Some primitive anti-fraud measures also emerged during these early years. Merchants were given floor limits, above which additional verification was required, and periodically received hot lists of stolen or cancelled cards.
 
+The earliest Diners Club rollout was modest: just 200 cardholders, mostly McNamara's friends and acquaintances, and 14 Manhattan restaurants accepted the card. Within a year, however, the company estimated that 42,000 Americans carried Diners Club cards and more than 330 businesses accepted them.
 
-### A charge card transaction in 1950
+<div style="width: 30%; margin: 0 auto;">
 
-A transaction in 1950 was a dance of paper and trust. After the meal, the patron handed the card to the waiter, who transcribed the card number onto a paper charge slip and asked for a signature. The signature on the slip was compared to the one on the card — the only fraud prevention available. For larger purchases, a "floor limit" triggered a phone call to Diner's Club for verbal authorization. Blocked cards appeared on "hot lists" printed and mailed to merchants weekly. The merchant bundled the slips and mailed them to Diner's Club, which validated them and issued payment at month's end. The cardholder received a single consolidated bill. With so many manual steps, the process was inevitably slow and error-prone — but it worked, and it scaled.
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_india_merchants.jpg" alt="Diner's Club India Merchants" caption="Diner's Club India Merchants" %}
+
+</div>
+
+Surviving card booklets show establishments in India accepting the card as early as 1956, making them the earliest documented credit card acceptance locations in the country.
+
+It is worth remembering that these early Diners Club cards were charge cards, not revolving credit cards. Cardholders were required to pay their balance in full every month. Revolving credit cards, allowing customers to carry balances and pay interest, would only appear later, beginning with Franklin National Bank in 1951.
+
+Diners Club continued to grow with little serious competition throughout the 1950s. By the early 1960s, however, competition from other travel-and-entertainment (T&E) cards began to erode its dominant position, leading to declining market share and profitability.
+
+Diners Club still exists today, albeit as a much smaller player. Its modest place in today's payments industry gives little indication that it pioneered the business model and visual vocabulary that would shape the modern credit card industry for decades to come.
 
 
 
@@ -533,20 +717,72 @@ A transaction in 1950 was a dance of paper and trust. After the meal, the patron
 
 </div>
 
+The era of the modern bank credit card — a universal card with revolving credit attached — began with the BankAmericard in 1958.
 
-Indeed, only 27 of the 100 or so bank card schemes launched in the
-US after 1947 were still in operation in 1958 (ibid). The survey of New England
-bankers on the adoption of credit cards by Pullen and O'Connell (1966) also
-noted bankers were “intentionally being cautious” about credit cards (p.2). But it
-was regulation limiting geographical growth which really crippled US bankers as
-none was able to achieve critical mass and would rapidly collapse.
+Banks were, at first glance, unlikely pioneers. At the beginning of the 1950s, most banks did not promote consumer credit of any kind. Unsecured consumer lending was considered the domain of merchants and less-than-reputable finance companies; as the credit historian Lewis Mandell put it, "If a bank had a consumer loan department, it was often found in the basement where no one could see the furtive borrower." One critic complained that early bank card experiments were "lowering banking's image by engaging in an activity more properly associated with pawn shops."
+
+Some smaller banks had experimented anyway. Of the roughly one hundred bank card schemes launched in the US after 1947, only 27 were still operating by 1958. The failures shared a structural problem: a card system needs a critical mass of both cardholders and merchants, and American banking regulations of the era prohibited banks from branching across state lines — in many states, even across a city. Most bank cards were doomed to remain neighborhood products.
+
+There was one bank, however, that had the scale, the capital, and — crucially — the corporate culture to make it work: Bank of America. Founded by A. P. Giannini, the son of an Italian immigrant who prided himself on serving "the little fellow," Bank of America had built its empire on precisely the consumer lending other banks considered beneath them. It financed televisions, refrigerators, and automobiles on installment; at one point in the 1950s it held a $60 million portfolio made up largely of $200 refrigerator loans. And it operated in California, a state that permitted statewide branching. With some 700 branches, $5 billion in assets, and a banking relationship with well over half the state's residents, it was the largest bank in the world — known locally, only half-jokingly, as MotherBank.
+
+<blockquote>
+  <p>"We were always a leader in installment credit. Anything you could buy on time we financed... the credit card was just a natural extension of that."</p>
+  <legend><cite>Ken Larkin, Bank of America executive</cite></legend>
+</blockquote>
+
+Unlike Diners Club, the BankAmericard did not spring from a (real or invented) flash of inspiration at a restaurant table. It emerged from a think tank. In 1956, a middle manager named Joseph Williams convinced the bank to set up a small Customer Services Research Department, and there was never much doubt about what management expected it to produce: the bank had already studied the idea of an all-purpose credit card three times before.
+
+Williams did not invent much from scratch either. He had friends at Sears and Mobil Oil who quietly let his team observe their credit operations, and he patterned the new system directly on theirs. From that research came features that would remain essentially frozen for decades: a 25-day grace period during which no interest accrued, and an interest rate of 1½ percent per month — 18 percent a year. There was no black magic involved. If those numbers were good enough for Sears, with its fifty years of credit experience, they were good enough for Bank of America.
+
+The pioneering insight behind the BankAmericard was what Williams did with those borrowed parts. He saw that a card could work in two ways: as a convenience device, like the Diners Club card, or as a generator of instant personal loans. He structured the BankAmericard to do both, at the cardholder's option. When the bill arrived, the customer alone decided whether to pay in full and owe nothing, or pay in part and finance the rest. Where a traditional installment loan meant sitting across a desk from a loan officer — often with your spouse, co-signing the note — the BankAmericard was self-service credit. The financing decision moved from the bank to the cardholder, and the line between buying and borrowing quietly blurred.
+
+Like every card system before it, the BankAmericard faced the chicken-and-egg dilemma: merchants would not pay to accept a card nobody carried, and nobody would carry a card no merchant accepted. Williams's solution was blunt. Rather than recruit cardholders, he would create them.
+
+The bank called it "The Drop." In the weeks leading up to September 18, 1958, Bank of America mailed roughly 60,000 unsolicited, ready-to-use BankAmericards to households in Fresno, California. No applications, no credit checks — the cards simply arrived in the mail, as if dropped from the sky. Fresno was chosen partly because 45 percent of its families already banked with Bank of America, and partly because it was isolated enough that if the card flopped, the damage to the bank's reputation would be contained. The launch was deliberately low-key; the Fresno Bee sandwiched six paragraphs about it between the business briefs and the livestock report.
+
+Nothing about how a mass-market credit card should work was obvious in 1958, and Williams's team was making it up as they went. They decided, on little more than intuition, that credit limits should range from $300 to $500. Merchants would pay a 6 percent discount on each transaction and $25 a month to rent an imprinter. Each merchant was assigned a floor limit — typically $25 to $100 — below which no authorization was needed; above it, the merchant had to telephone the bank for approval, a process that was entirely manual and exceedingly slow.
+
+<div style="width: 40%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/bankamericard_fresno.webp" alt="The first BankAmericard design used in the Fresno drop" caption="The first BankAmericard design" %}
+
+</div>
+
+The earlist BankAmericard cards featured **debossed** numbers, instead of the **embossed** system that later came to be used. The card itself was plastic with account information, similar to the new American Express card, and the imprinter transferred that information onto the sales draft, reducing copy errors. Early imprinters had no wheels for the date or amount, so merchants wrote those in by hand and the customer signed to authorize the charge. The back office, however, was computerized from the very beginning — Bank of America had been the first bank in America to install a computer, an IBM 702, in 1955 — and the sales drafts were designed for the machine: each had a punch card as its bottom layer, punched with the transaction details upon deposit.
 
 
-BankAmericard changed the equation. Where Diner's Club and American Express required payment in full, BankAmericard offered revolving credit — a line of credit that customers could draw against, pay down partially, and draw again. It was the first universal bank-issued credit card, and it arrived not through careful pilot programs but through what insiders called "The Drop."
 
-In September 1958, Bank of America — then the largest bank in the world — mailed 60,000 unsolicited BankAmericards to residents of Fresno, California. Fresno was chosen because it was, in the words of one executive, "nondescript enough" that a failure wouldn't attract significant negative publicity. Each card came with a $500 line of credit. No application. No credit check. The cards simply arrived in mailboxes.
+{% include gallery id="bofa_1955_ibm_gallery" caption="An IBM 702 was installed in BofA's Van Ness Avenue branch in San Francisco in 1955" %}
 
-The results were explosive and chaotic. Within ten months, over one million cards had been distributed across California. By October 1959, two million cards were in circulation, accepted by twenty thousand merchants. But the experiment hemorrhaged money. BankAmericard lost approximately $20 million by 1959 — victims of fraud, delinquency, and the sheer operational complexity of managing millions of untested accounts. The bank kept the losses secret, terrified that competitors would rush into the market if they knew how lucrative it could eventually become. Profitability finally arrived in 1961, three years after The Drop. The Truth in Lending Act of 1968 later made unsolicited credit card mailings illegal.
+One more piece of the system deserves attention, because it solved a problem Diners Club never had. Diners Club could hand its cardholders a printed list of participating establishments; the BankAmericard's merchant base would be far too large and diverse for that. How would a cardholder know where the card was accepted? The answer was a mark: three colored bands — blue, white, and gold — printed on the card and on signs hung in merchants' windows. The card identified the cardholder to the system; the mark identified the merchant to the cardholder. It is a design decision still visible in every card network logo on every shop door today.
+
+For merchants, the pitch was the same one Diners Club had made to restaurateurs, and it landed hardest on small shopkeepers drowning in their own charge accounts. The large retailers — Sears, J.C. Penney, Montgomery Ward — refused to accept the card, seeing the bank as a poacher on their proprietary credit operations. But the small merchants came around. Larkin recalled visiting one drugstore owner:
+
+<blockquote>
+  <p>"He had three girls working on Burroughs bookkeeping machines, each handling 1,000 to 1,500 accounts. I looked at the size of the accounts: $4.58. $12.82. And he was sending out monthly bills on these accounts. Then the customers paid him maybe three or four months later. Think of what this man was spending on postage, labor, envelopes, stationery! His accounts receivables were dragging him under."</p>
+  <legend><cite>Ken Larkin, on signing up early BankAmericard merchants</cite></legend>
+</blockquote>
+
+Why consumers bothered is a more interesting question. Checks were accepted at local shops, merchants already extended credit to regulars, and anyone who qualified for a BankAmericard could have qualified for an installment loan. Part of the answer was the impersonality of self-service credit; part was consolidation — one card and one bill instead of a dozen store accounts. But mostly, the card was a novelty in an age of novelty. Just as Americans spent hours staring at the test pattern of their new televisions, the citizens of Fresno gathered around the checkout counter to watch someone pay with a BankAmericard.
+
+The cautious experiment did not stay cautious for long. Within months, the bank learned that a competitor was preparing to drop a rival card in San Francisco — Bank of America's own back yard — and all restraint was abandoned. Cards were rushed to Modesto and Bakersfield, then San Francisco, Sacramento, and Los Angeles. Within 13 months, 2 million BankAmericards were in circulation and more than 20,000 merchants had signed up. In a single move, Bank of America had created more cardholders in California than Diners Club had ever had nationwide.
+
+Then came the bill. Williams had assumed delinquencies would run around 4 percent, the rate on the bank's installment loans; they hit 22 percent. He had assumed collections "would never be a problem" and had not bothered to set up a collections department. Fraud was rampant: thieves learned to decipher the floor-limit codes on stolen cards and racked up strings of small purchases that never triggered an authorization call, and burglars stole unembossed cards from the bank's warehouse and offered to sell them back — which, fearing worse, the bank sometimes did. Fifteen months after the Drop, the program had officially lost $8.8 million; with hidden costs like advertising and overhead, the real figure was closer to $20 million. Williams resigned. Newspapers, congressmen, and at least one Sunday pulpit denounced the bank for mailing people a debt machine they had never asked for. (The practice of unsolicited card mailings, which banks used to scatter some 100 million cards across the country, was finally outlawed in 1970.)
+
+What happened next mattered more. Instead of abandoning the program as so many banks had before it — by one account, on the reasoning that "every conceivable mistake had already been made" — Bank of America handed the card to its installment loan men. A collections department was built, an anti-fraud unit established, dishonest merchants dropped, and the merchant discount cut to as low as 3 percent to win over reputable stores. By May 1961 the BankAmericard was profitable, a fact the bank kept quiet: the publicity around its losses was conveniently deterring every other bank from trying.
+
+The final act turned a California card into a global network. The card was profitable but trapped — the same branching laws that had killed the small bank cards prevented Bank of America from following its customers across state lines. So in 1966 it did the next best thing: it licensed the program, charging banks in other territories $25,000 plus royalties for the franchise, the accounting software, and the brand. Barclays became the first international licensee that same year.
+
+Licensing created something no payment card system had needed before: **interchange**. For the first time, the bank that issued the card and the bank that served the merchant could be different institutions, and they needed a way to clear and settle transactions between them — acquiring banks mailed sales drafts to issuing banks for payment, less a fee now called the interchange reimbursement fee. The banks left out of the franchise responded by forming a rival cooperative, Interbank, which in 1969 bought the name "Master Charge" and its overlapping-circles mark — later MasterCard.
+
+In 1970, under pressure from its franchisees, Bank of America spun the system off into an independent, member-owned organization: National BankAmericard Incorporated (NBI). In 1976, NBI renamed itself Visa. The blue, white, and gold bands first drawn to hang in Fresno shop windows had become the flag of the largest payment network on Earth.
+
+
+
+
+## Evolution of credit card transactions
+
+Now let us understand how the technology of credit cards and transactions evolved over time to handle different challenges.
 
 ### A credit card transaction in 1958
 
@@ -556,46 +792,6 @@ Fraud evolved with the technology. Criminals discovered that embossed numbers co
 
 > **Aside:** The carbon paper that made imprinters possible has its own love story. Around 1801, Italian inventor Pellegrino Turri developed carbon paper to help his beloved, Countess Carolina Fantoni da Fivizzano, continue writing letters after she lost her sight. One surviving letter from November 6, 1808 reads: "I am desperate because I find myself almost without black paper." Independently, Ralph Wedgwood in England patented carbon paper on October 7, 1806 — also motivated by a desire to help blind people write. Two inventors, two countries, the same romantic impulse.
 
-
-## American Express
-
-
-<div style="width: 50%; margin: 0 auto;">
-
-{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_launch_ad_30_sept_1958.jpg" alt="American Express launch Ad, ca. 1958" caption="American Express Credit Card Launch Ad, The Cincinnati Enquirer, 30 September 1958, p. 7" %}
-
-</div>
-
-
-American Express watched Diner's Club grow from 200 members in 1950 to 400,000 by 1957 and decided the market was too lucrative to ignore. But American Express was not starting from scratch. Founded in 1850 as an express mail service in Buffalo, New York, the company had spent a century building a brand synonymous with reliability and travel services. Their money orders and traveler's cheques were already fixtures in the wallets of businessmen and tourists worldwide. When they entered the charge card business, they brought institutional trust that no startup could replicate.
-
-On October 1, 1958, they launched their own charge card with a $6 annual fee — one dollar more than Diner's Club, deliberately signaling premium positioning. On launch day, 250,000 cards were already issued, accepted at 17,500 merchants. In May 1959, American Express became the first issuer to offer embossed plastic cards, replacing the cardboard competitors with something more durable and prestigious. The Centurion logo, borrowed from their traveler's cheques, conveyed authority before the card was even presented. Like Diner's Club, it required payment in full each month — it remained a charge card, not a credit card. But American Express understood branding in a way its rivals did not. Where Diner's Club sold utility, American Express sold status.
-
-But Diner's Club and American Express were still charge cards. The true revolution — adding revolving credit to a universally accepted bank card — would come from an unlikely source: a mass mailing in Fresno, California. BankAmericard would prove that millions of ordinary consumers, not just wealthy diners and corporate travelers, wanted access to credit. And they wanted it without visiting a bank, without filling out lengthy applications, and without anyone judging whether they deserved it.
-
-
-t wasn't until the 1960s that the first PVC (polyvinyl chloride) plastic cards were introduced. PVC was a durable and flexible material that could be easily printed on, making it ideal for card manufacturing. These early plastic cards were still relatively simple in design, typically featuring only the cardholder's name and account number.
-
-## 1965:
-American Express has a monthly "Cancellation Bulle-tin" which goes to all the service establishments in-volved. These are instructed not to honor any card unless they first check the cancella-tion bulletin to make sure that the card is not listed.
-
-Then, there is the “Be My Guest Service," another re-finement of living it up on the cuff. Card holders can treat friends to a dinner al-most anywhere in the world without leaving home. They simply send the name of the restaurant and the guest to American Express, where the arrangements are made.
-
-
-
-### Others
-
-<div style="width: 50%; margin: 0 auto;">
-
-{% include figure popup=true image_path="assets/images/credit-card-chronology/mastercharge_launch_ad_18_july_1967.jpg" alt="Mastercharge launch Ad, ca. 1967" caption="Mastercharge Card Launch Ad, The Sacramento Union, 18 July 1967, p. 16" %}
-
-</div>
-
-Master Charge was created in reaction to BankAmericard, because other California banks did not want to issue a card licensed by their giant competitor.
-
-The launch of BankAmericard was not the end of competition but the beginning. In 1966, a group of banks formed the Interbank Card Association specifically to challenge BankAmericard's dominance. Led by Karl H. Hinke of Marine Midland Bank, the consortium included United California Bank, Crocker National Bank, Wells Fargo, and others. Their original card carried only a lowercase "i" inside a circle — a logo so forgettable that branding consultants despaired. In 1969, the association merged with the Western States Bankcard Association and rebranded as "Master Charge," adopting the red and yellow overlapping circles that would become one of the most recognizable logos in financial history. The name changed to MasterCard in 1979.
-
-Now we'll see how credit card payments evolved with time, using new innovations to improve customer experience, reduce fraud, and increase profitability.
 
 ### BASE I
 
@@ -728,5 +924,61 @@ In India, the convergence of credit cards and UPI (Unified Payments Interface) h
 ## Business Innovations
 
 Technology solved the mechanics of payment, but business innovation determined who won the market. American Express launched the Gold Card in 1966, transforming a utilitarian payment instrument into a status symbol. Cashback rewards, pioneered in the 1980s, reversed the traditional flow: instead of consumers paying fees to use cards, issuers began paying consumers to spend. Annual fees, merchant discount rates, and co-branded partnerships with airlines and hotels created multiple revenue streams. Credit bureaus like Experian, TransUnion, and Equifax standardized risk assessment, enabling instant approvals and personalized credit limits. The card itself became a platform for loyalty programs, purchase protection, travel insurance, and concierge services — a tiny rectangle of plastic that carries the weight of an entire financial services ecosystem.
+
+
+## Appendix
+
+### American Express
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_launch_ad_30_sept_1958.jpg" alt="American Express launch Ad, ca. 1958" caption="American Express Credit Card Launch Ad, The Cincinnati Enquirer, 30 September 1958, p. 7" %}
+
+</div>
+
+
+American Express watched Diners Club's success and decided that the market was too lucrative to ignore. But American Express was not starting from scratch. Founded in 1850 as an express mail service in Buffalo, New York, the company had spent a century building a brand synonymous with reliability and travel services. Their money orders and traveler's cheques were already fixtures in the wallets of businessmen and tourists worldwide. When they entered the charge card business, they brought institutional trust that no startup could replicate.
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_1958.webp" alt="The first AMEX cards were made of cardboard and didn't have embossed numbers" caption="The first AMEX cards were made of cardboard and didn't have embossed numbers" %}
+
+</div>
+
+On October 1, 1958, they launched their own charge card with a $6 annual fee — one dollar more than Diner's Club, deliberately signaling premium positioning. On launch day, 250,000 cards were already issued, accepted at 17,500 merchants. The earliest AMEX cards were cardboard. In May 1959, American Express became the first issuer to offer embossed plastic cards, replacing the cardboard competitors with something more durable and prestigious. The Centurion logo, borrowed from their traveler's cheques, conveyed authority before the card was even presented. Like Diner's Club, it required payment in full each month — it remained a charge card, not a credit card. But American Express understood branding in a way its rivals did not. Where Diner's Club sold utility, American Express sold status.
+
+{% include gallery id="amex_1959_gallery" caption="In May 1959, AMEX switched to issuing plastic cards" %}
+
+t wasn't until the 1960s that the first PVC (polyvinyl chloride) plastic cards were introduced. PVC was a durable and flexible material that could be easily printed on, making it ideal for card manufacturing. These early plastic cards were still relatively simple in design, typically featuring only the cardholder's name and account number.
+
+In 1965:
+American Express has a monthly "Cancellation Bulle-tin" which goes to all the service establishments in-volved. These are instructed not to honor any card unless they first check the cancella-tion bulletin to make sure that the card is not listed.
+
+Then, there is the “Be My Guest Service," another re-finement of living it up on the cuff. Card holders can treat friends to a dinner al-most anywhere in the world without leaving home. They simply send the name of the restaurant and the guest to American Express, where the arrangements are made.
+
+
+
+### Master Charge
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/mastercharge_launch_ad_18_july_1967.jpg" alt="Mastercharge launch Ad, ca. 1967" caption="Mastercharge Card Launch Ad, The Sacramento Union, 18 July 1967, p. 16" %}
+
+</div>
+
+Master Charge was created in reaction to BankAmericard, because other California banks did not want to issue a card licensed by their giant competitor.
+
+The launch of BankAmericard was not the end of competition but the beginning. In 1966, a group of banks formed the Interbank Card Association specifically to challenge BankAmericard's dominance. Led by Karl H. Hinke of Marine Midland Bank, the consortium included United California Bank, Crocker National Bank, Wells Fargo, and others. Their original card carried only a lowercase "i" inside a circle — a logo so forgettable that branding consultants despaired. In 1969, the association merged with the Western States Bankcard Association and rebranded as "Master Charge," adopting the red and yellow overlapping circles that would become one of the most recognizable logos in financial history. The name changed to MasterCard in 1979.
+
+Some three years after its formation, Interbank did not have a
+satisfactory identification device similar to BankAmericard’s. Conse-
+quently, in 1969 it purchased the rights to “Master Charge” from the
+Western States Bank Card Association, and most Interbank members
+changed over to the Master Charge card.
+
+
+
+Now we'll see how credit card payments evolved with time, using new innovations to improve customer experience, reduce fraud, and increase profitability.
+
 
 </div>
