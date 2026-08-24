@@ -1212,7 +1212,10 @@ Settlement did not. The money still moves in overnight batches, on business days
 
 Half of Dee Hock's vision shipped. The message moves the way he imagined. The money is still catching up.
 
-
+- card cloning meant a new solution was required - EMV (a form of authentication)
+- Then came internet, online payments. Card numbers getting leaked meant CVV had to be introduced -> PCI guidelines (not storing CVV)
+- For authentication, 3DS was introduced
+- With smartphones auth requirements changed -> 3DS2.0
 ## Appendix
 
 ### American Express
