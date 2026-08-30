@@ -86,6 +86,41 @@ amex_1959_gallery:
     image_path: /assets/images/credit-card-chronology/amex_1959_back.jpeg
     alt: "AMEX Card (back)" 
     title: "AMEX Card (back)"
+centralcard_1981_ads_gallery:
+  - url: /assets/images/credit-card-chronology/centralcard_cash_advance_ad_toi_26_may_1981_p21.png
+    image_path: /assets/images/credit-card-chronology/centralcard_cash_advance_ad_toi_26_may_1981_p21.png
+    alt: "Centralcard Cash Advance Ad, The Times of India, 26 May 1981, p. 21"
+    title: "Centralcard Cash Advance Ad, The Times of India, 26 May 1981, p. 21"
+  - url: /assets/images/credit-card-chronology/centralcard_ad_toi_29_nov_1981_pA5.png
+    image_path: /assets/images/credit-card-chronology/centralcard_ad_toi_29_nov_1981_pA5.png
+    alt: "Centralcard Ad, The Times of India, 29 November 1981, p. A5"
+    title: "Centralcard Ad, The Times of India, 29 November 1981, p. A5"
+centralcard_india_today_ads_gallery:
+  - url: /assets/images/credit-card-chronology/centralcard_ad_india_today_20_nov_1982.png
+    image_path: /assets/images/credit-card-chronology/centralcard_ad_india_today_20_nov_1982.png
+    alt: "Centralcard Ad, India Today, 20 November 1982"
+    title: "Centralcard Ad, India Today, 20 November 1982"
+  - url: /assets/images/credit-card-chronology/centralcard_merchant_ad_india_today_20_nov_1982.png
+    image_path: /assets/images/credit-card-chronology/centralcard_merchant_ad_india_today_20_nov_1982.png
+    alt: "Centralcard Member Establishment Ad, India Today, 20 November 1982"
+    title: "Centralcard Member Establishment Ad, India Today, 20 November 1982"
+  - url: /assets/images/credit-card-chronology/centralcard_ad_india_today_1983.png
+    image_path: /assets/images/credit-card-chronology/centralcard_ad_india_today_1983.png
+    alt: "Centralcard Ad, India Today, 1983"
+    title: "Centralcard Ad, India Today, 1983"
+centralcard_directory_gallery:
+  - url: /assets/images/credit-card-chronology/centralcard_directory_mar_1989.png
+    image_path: /assets/images/credit-card-chronology/centralcard_directory_mar_1989.png
+    alt: "Centralcard Directory of Member Establishments, 5th Edition, March 1989"
+    title: "Centralcard Directory of Member Establishments, 5th Edition, March 1989"
+  - url: /assets/images/credit-card-chronology/centralcard_directory_mar_1989_p2.png
+    image_path: /assets/images/credit-card-chronology/centralcard_directory_mar_1989_p2.png
+    alt: "Centralcard Directory of Member Establishments, Welcome Letter, March 1989"
+    title: "Centralcard Directory of Member Establishments, Welcome Letter, March 1989"
+  - url: /assets/images/credit-card-chronology/centralcard_directory_mar_1989_p3.png
+    image_path: /assets/images/credit-card-chronology/centralcard_directory_mar_1989_p3.png
+    alt: "Centralcard Directory of Member Establishments, Important Features, March 1989"
+    title: "Centralcard Directory of Member Establishments, Important Features, March 1989"
 
 ---
 
@@ -107,6 +142,7 @@ This post is my attempt to give structure to that evolution.
 
 ## What is a Credit Card?
 
+
 At its core, a credit card is an instrument of identification. It links a cardholder to a line of credit issued by a financial institution. In that sense, it is less about the physical object itself and more about what it represents in a financial system.
 
 Of course, modern credit cards are anything but simple physical tokens. They pack in a surprising amount of engineering: magnetic stripes, EMV chips with embedded computing capability, NFC antennas for contactless payments, holograms for anti-counterfeiting, embossed or printed identifiers, and more.
@@ -114,6 +150,18 @@ Of course, modern credit cards are anything but simple physical tokens. They pac
 Each of these features has a story. To understand how they came to exist, we need to look at the social, economic, and technological context in which credit cards evolved.
 
 But first, let’s take a look at the evolution of credit itself.
+
+### Older than plastic
+
+Before we get to 1950, it is worth noting that neither problem is new. Authorization and authentication are not artifacts of the electronic age; they are as old as centralized record-keeping itself.
+
+In Bronze Age Crete, roughly four thousand years ago, Minoan officials carried engraved seal-stones and signet rings — small, intricately carved objects, often worn as jewelry, with mounting holes drilled so they could hang from a wrist or neck. A priestess or merchant entitled to draw goods from a palace magazine — cloth, oil, spices — would take what she needed and press her seal into a lump of soft clay or wax, leaving an impression that recorded the transaction and its value.
+
+The parallels to a modern card are almost uncomfortable.
+
+The carving was **authentication**: unique, hard to reproduce by hand, and proof that the person making the withdrawal was who they claimed to be. The seal itself was an **authorization token**: it had no intrinsic value, but it entitled the palace scribes to update a ledger on the holder's behalf. And the palace archive — thousands of clay nodules, countersigned by multiple seals — was the **database**: salaries accrued as credits, withdrawals posted as debits, balances rolled forward to the next accounting period at harvest. There is evidence in the palace records of negative balances, which is to say, of revolving credit.
+
+We tend to think of plastic as a modern synthetic. But a seal impressed into beeswax is also a polymer bearing an identity, and it was doing the same job in 1900 BCE that an embossed PVC rectangle would do in 1958 CE. What changed was not the idea. What changed was the volume.
 
 
 ## The origins of credit
@@ -268,6 +316,9 @@ So we can establish that credit has been there for several millennia. So what wa
 
 ## Rise of Consumer Credit
 
+
+### traveletter system 1894
+
 By the nineteenth century, productive credit had been a feature of economic life for millennia, yet borrowing for consumption remained socially suspect. Debt was generally considered acceptable when it financed productive assets that generated income, but borrowing to purchase household goods or luxuries was often viewed as imprudent or morally questionable.
 
 The Industrial Revolution began to alter these attitudes. Mass production expanded the supply of consumer goods, rising incomes increased demand for them, and the emergence of a salaried middle class created a large population with predictable future earnings. Together, these developments laid the foundation for modern consumer credit.
@@ -296,6 +347,8 @@ manufacturers to utilize the installment plan was the Singer Sewing
 Machine Company. Other manufacturers began to sell big-ticket con-
 sumer durables, such as pianos, household organs, and stoves, directly
 to consumers through agents by about 1850.
+
+
 
 One of the earliest examples of firms capitalizing on this emerging market came in the United States, where the Singer Sewing Machine Company dramatically expanded sales by introducing an installment-payment plan.
 
@@ -373,9 +426,20 @@ In 1856, Edward Clark, Singer's business partner, introduced the **hire-purchase
 
 Singer also developed an early form of credit scoring. Homeowners often qualified for more favorable terms than renters, reflecting differences in perceived credit risk.
 
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/singer_sewing_machine_ad_the_daily_sun_19_April_1871_p3.png
+" alt="Singer Sewing Machine Ad mentioning instalment purchase, The Daily Sun, 19 April 1871, p. 3" caption="Singer Sewing Machine Ad mentioning instalment purchase, The Daily Sun, 19 April 1871, p. 3" %}
+
+</div>
+
+
 Installment purchases of sewing machines escaped much of the stigma attached to consumer borrowing as they enabled home-based production and could supplement family earnings, i.e. they were a productive asset.
 
 Singer's installment plan demonstrated that mass consumption could be financed through credit. The model soon spread to products such as pianos, furniture, and encyclopedias, helping normalize deferred payment and laying the foundations of modern consumer credit in the US.
+
+#### Aside: The development of the sewing machine in the 1850s not only transformed the lives of tailors, seamstresses and homemakers, but also revolutionized manufacturing and marketing as well. By the turn of the century, the sewing machine, rather like the parlour organ, was a important icon of social status.
+
 
 ## Origins of the credit card
 
@@ -553,6 +617,17 @@ was launched in 1912.
 {% include figure popup=true image_path="assets/images/credit-card-chronology/collect_card_article_1913.jpg" alt="\"Collect Card Real Success\", The Daily Telegram, 14 Feb 1913, p. 6" caption="\"Collect Card Real Success\", The Daily Telegram, 14 Feb 1913, p. 6" %}
 
 </div>
+
+... or so I thought, until I found a Western Union collect card from _1991_. Talk about suffering from success smh.
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/western_union_collect_card_1911.jpg" alt="Western Union Collect Card, c. 1911" caption="Western Union Collect Card, c. 1911" %}
+
+</div>
+
+So the mystery still remains ig. All that for a drop of blood.
+
 Contemporary Western Union advertising and press coverage highlighted the collect card as a new convenience for trusted customers. The card served both as a security measure for the company and as a pass for the customer, allowing holders to send "collect telegrams" and other communications from any Western Union office without additional identification, deposits, guarantees of tolls, or advance payment. Instead, the transaction was charged to the account associated with the card and processed through Western Union’s centralized accounting system. By combining customer identification, account authorization, transaction recording, and deferred billing in a single instrument, the collect card embodied many of the same operational principles that would later characterize charge cards and credit cards.
 
 {% include gallery caption="Western Union Collect Card, c. 1929" %}
@@ -569,6 +644,13 @@ In 1948, the card came to be designated as a "Credit Card".
 <div style="width: 50%; margin: 0 auto;">
 
 {% include figure popup=true image_path="assets/images/credit-card-chronology/western_union_credit_card_article_1948.jpg" alt="\"Western union Issues Credit Cards\", The Charlotte Observer, 9 October 1948, p. 17" caption="\"Western union Issues Credit Cards\", The Charlotte Observer, 9 October 1948, p. 17" %}
+
+</div>
+
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/western_union_credit_card_business-week_1948-10-16_998_p67.jpg" alt="Western Union Credit Card Ad, Businessweek, 16 Oct 1948, p. 67" caption="Western Union Credit Card Ad, Businessweek, 16 Oct 1948, p. 67" %}
 
 </div>
 
@@ -623,31 +705,76 @@ early versions of credit card had in common the advantage of offering an
 alternative to banknotes and coins as well as delay payment in cash (and some
 even offered rollover credit while paying a minimum amount). But most had the
 disadvantage of being limited to the issuing merchant (often a local business).
+
 ### Universal Payment Card
 
+The obvious unifier was the bank: it held the deposits, employed the credit clerks, and already operated the small-loan departments. But in the early 1940s, the notion of a bank offering its customers charge credit was not merely untried — it was a punchline. In August 1942, _Banking_, the journal of the American Bankers Association, printed a cartoon of a fashionable young woman at the paying teller's window:
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/bank_charge_account_cartoon_banking_1942-08_p7.jpg" alt="Bank charge account cartoon, Banking magazine, August 1942" caption="\"Oh, but I don't want one of those deposit accounts — just a charge account like I have at the department store!\" — Cartoon, _Banking_, August 1942, p. 7" %}
+
+</div>
+
+The joke turned on the absurdity of the request. A paying teller could only hand back money the customer had previously deposited; asking him to pay out against a mere promise to settle later inverted everything a bank did. Charge accounts belonged to department stores, not banks. Within a decade, exactly that request — charge it at the store, settle with the bank — would be the industry's newest line of business.[^bank-charge-cartoon-1942]
+
+Merchants, for their part, had already tried to build a universal system themselves. Farrington Manufacturing, maker of the Charga-Plate metal identification tags used by department stores, had long been promoting its pet project, the "United Chargaccount Service" — a central billing office that would gather charge slips from a group of stores and mail the customer a single itemised monthly bill, dividing her payments among the merchants she owed.[^central-billing-1945] The store trade was unmoved: in a National Retail Dry Goods Association survey of 100 stores, 96 said they did not believe central billing would profit them, fearing above all that it would sever the close credit relationship that kept customers loyal to a particular store. Farrington offered to finance a demonstration installation for any group of stores in a town between 40,000 and 200,000 people. There were no takers.[^central-billing-1945] If everyday credit was to be unified, the banks would have to do it.
+
+#### Bankway
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/bankway_card_Dziennik_Dla_Wszystkich_1945_10_27_p5.png" alt="Bankway Credit Card Ad, 1945" caption="The Bankway \"1945 Credit and Identification Card\", made out to a specimen \"Mr. John R. Doe\" — Buffalo Industrial Bank Ad, _Dziennik Dla Wszystkich_ (Buffalo's Polish-language daily), 27 October 1945, p. 5" %}
+
+</div>
+
+The first bank to issue anything it called a credit card was not in Brooklyn or Manhattan, but in Buffalo. On 27 October 1945, the Buffalo Industrial Bank introduced its **Bankway Credit Card** in an advertisement in _Dziennik Dla Wszystkich_ ("Everybody's Daily"), Buffalo's Polish-language newspaper: a "1945 Credit and Identification Card" bearing the customer's name and signature beside that of the bank's president, with the tagline "Buy on time the 'BANKWAY' — ask your dealer!"[^bankway-ad-1945]
+
+Under the Bankway plan, the prospective purchaser went to the bank, established his credit, and was issued a card — renewable yearly — specifying how much installment buying it entitled him to, along with a directory of cooperating retailers.[^bankway-nyt-1945] Presenting the card at any of some 200 participating dealers — in automobiles and airplanes, boats and motors, furniture, household appliances, and home modernization — earned immediate credit after a phone call to the bank, with no further questions asked. The buyer signed an installment contract with the retailer, who sold the contract to the bank; the buyer then paid the installments, with interest at bank financing rates, directly to the bank. The retailer ran no credit check, held no paper, and collected no payments. "We are the first bank in the country to inaugurate such a plan," said Kenneth R. Reid, the vice president in charge of business development, expecting some 600 western New York retailers to join "as rapidly as consumer goods are made available."[^bankway-nb-1946]
+
+Bankway was a genuine bank credit card, and in its market — durable goods bought on installments — it worked. But it was grafted onto the installment contract rather than onto the everyday charge account. The card that would matter more was aimed at the neighbourhood shops.
+
+#### Charg-It
+
+## Add scrip image
+The first steps toward a universal credit card system were taken in 1946 by **John C. Biggins**, a consumer credit specialist at the Flatbush National Bank of Brooklyn. Biggins began thinking about a structural inequality in retailing: small specialty stores could not afford a full-fledged credit department, which left them at a disadvantage against the department stores extending credit to the same customers. Banks, Biggins decided, could come to the rescue of the small merchant — and pick up a nice line of business doing it. His answer was **Charg-It**: a community credit plan under which customers of a number of small stores could charge merchandise, while the local bank stepped in to take over the credit risk and run the complete credit operation. Crucially, the bank would judge creditworthiness from credit bureau records rather than personal relationships — a bank directly giving consumers revolving credit for everyday purchases, for the first time.[^chargit-bw-1950][^flatbush-history]
 
 {% include gallery id="charg_it_gallery" caption="Charg-It Launch News Article and Advertisement, 1946" %}
 
-The first steps toward a universal credit card system emerged in 1946, when Brooklyn banker John C. Biggins introduced the “Charg-It” plan. Operating as a closed-loop system through his bank, it allowed customers of Flatbush National to make purchases at participating local merchants, who submitted sales slips to the bank for payment. The bank would pay the merchant upfront, absorb the bookkeeping and credit risk, and later bill the customer’s account, with repayment drawn directly from their bank balances.
+Flatbush National put Charg-It into trial in 1946, issuing its customers a credit plate and a book of scrip — paper certificates equal to their approved monthly credit limit — to spend at participating Brooklyn shops. The plan was genuinely revolutionary, but it did not outlive the bank itself. Biggins's father, John Biggins, Sr., sold the Flatbush National to the much larger Manufacturers Trust Company, and the new owners — confronted with a Brooklyn experiment that must have baffled them — promptly canceled it.[^flatbush-history]
 
-Charg-It functioned through a form of credit scrip—paper certificates issued by the bank up to a customer’s approved credit limit. These could be used like cash at participating stores, but only within strict controls: customers received new scrip only after settling their outstanding balances, keeping spending tightly regulated by the bank. Importantly, Biggins also helped shift lending practices toward modern credit evaluation by basing creditworthiness on credit bureau records rather than personal relationships.
+Biggins carried the idea with him. He joined the Paterson Savings and Trust Company of Paterson, New Jersey, in 1947 to set up its time-plan department, and there rebuilt Charg-It from scratch.[^chargit-bw-1950] The re-launched plan went into effect on **6 September 1950** — the first bank-sponsored community credit plan of its kind in New Jersey, and one of the first in the country.[^chargit-banking-1950] It had been announced to merchants at a dinner meeting in late August; twenty-five stores — shoe, sporting goods, apparel, furniture, and other small shops — were participating on opening day, and thirty had signed up within weeks.[^chargit-banking-1950][^chargit-bw-1950]
 
-Despite its innovation, the system was cumbersome. Merchants had to physically deliver sales slips to the bank, and scrip was issued only in whole-dollar denominations, making transactions awkward. Limited to a Brooklyn neighborhood and constrained by pre-digital logistics, Charg-It remained geographically restricted. Nevertheless, it laid the conceptual groundwork for later revolving credit systems, including Franklin National Bank’s similar “Charge-It” style programs introduced in 1951, which refined the idea and was the first bank program to actually use a credit "card".
+<div style="width: 50%; margin: 0 auto;">
 
-Biggins’s plan was relatively successful and was later adopted by
-the Paterson Savings and Trust Company of Paterson, New Jersey, in 1950.
-His plan had much greater significance, however, for the credit
-industry because it ushered in the era of the third-party, universal credit
-card—without a doubt, the most important development in the history
+{% include figure popup=true image_path="assets/images/credit-card-chronology/charg-it_formal_opening_banking_1950-10_p84.jpg" alt="Formal opening of the Charg-It booth at Paterson Savings and Trust Company, 6 September 1950" caption="Formal opening of the Charg-It booth in the main lobby of the Paterson Savings and Trust Company, 6 September 1950. President C. Kenneth Fuller stands by as Miss Janet Neer signs up the first customers. _Banking_, October 1950, p. 84" %}
+
+</div>
+
+The mechanics were clever, if fussy. A customer applied at any participating store for either a regular 30-day charge account — billed and payable in full every month — or a revolving account, which allowed up to six months to repay an established limit: a customer granted $180 owed $30 a month, and could keep charging up to the limit so long as payments were regular. Paterson Savings checked the applicant with the local credit bureau, then issued a credit plate similar to the Charga-Plates of the big stores, together with a book of scrip equal to one month's credit limit. Making a purchase meant presenting both plate and scrip book and signing a sales slip; the clerk tore out enough scrip to cover the price and attached it to the slip. Since scrip came in denominations of $1 and up, clerks collected the odd difference in cash (up to 99¢) or took scrip to the next full dollar — the customer being billed only for the purchase. At the end of the day the store turned the slips and scrip over to the bank, which immediately credited the merchant's deposit account for the full amount. Collecting from the customer was henceforth the bank's problem, by means of a single monthly bill covering all Charg-It stores, payable at the bank. Customers paid nothing extra for the privilege — "your magic Charg-It plate is your automatic OK," the bank advertised.[^chargit-bw-1950][^chargit-banking-1950]
+
+The scrip was the control: presenting it proved the account was in good standing, sparing clerks a credit check on every sale. It was also the plan's weak point — fussy to carry, fussier to count. A 1978 retrospective in the Congressional Record described these early plans as involving "a paper credit card and a book of scrip," and judged the scrip's paperwork "burdensome."[^bank-card-congress-1978]
+
+For the merchant, the price was an 8% fee on each Charg-It sales dollar — high next to the 4-6% a big store paid to run its own credit department, but the bank investigated accounts, collected bills, and absorbed the risk, putting the small shop on an equal footing with its bigger competitors.[^chargit-bw-1950] Biggins had organised Retail Charge Account Service, Inc. as the owner of the copyrighted Charg-It plan, which licensed the Paterson bank to operate it locally and set about peddling the idea to other banks. By 1952 the plan had gone west: the First National Bank of Bellevue, Washington, became the fourth Charg-It bank — and the first outside New Jersey — following the National Newark & Essex Banking Company and the First National Bank of Jersey City.[^chargit-west-1952]
+
+Biggins's plan was relatively successful,
+but it had much greater significance for the credit
+industry: it ushered in the era of the third-party, universal credit
+card — without a doubt, the most important development in the history
 of credit cards.
 
 ## Diner's Club
 
-<div style="width: 50%; margin: 0 auto;">
+<div style="width: 30%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_ad_chicago_tribune_25_Aug_1950.jpg" alt="Diner's club Ad, ca. 1950" caption="First Diner's Club Ad, Chicago Tribune, 25 August 1950, p. 40" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_ad_nyt_30_march_1950_p42.png" alt="Diner's club Ad, ca. 1950" caption="First Diner's Club Ad, New York Times, 30 March 1950, p. 42" %}
 
 </div>
+
+
+By the end of 1950, Diners Club had 100% of the credit card business, with 20,000 customers, and was accepted at over 1000 restaurants
+
+### Get a source for this ^
 
 The era of the modern, third-party universal card began with the formation of Diners Club in 1949.
 
@@ -710,19 +837,61 @@ Some primitive anti-fraud measures also emerged during these early years. Mercha
 
 The earliest Diners Club rollout was modest: just 200 cardholders, mostly McNamara's friends and acquaintances, and 14 Manhattan restaurants accepted the card. Within a year, however, the company estimated that 42,000 Americans carried Diners Club cards and more than 330 businesses accepted them.
 
-<div style="width: 30%; margin: 0 auto;">
-
-{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_india_merchants.jpg" alt="Diner's Club India Merchants" caption="Diner's Club India Merchants" %}
-
-</div>
-
-Surviving card booklets show establishments in India accepting the card as early as 1956, making them the earliest documented credit card acceptance locations in the country.
 
 It is worth remembering that these early Diners Club cards were charge cards, not revolving credit cards. Cardholders were required to pay their balance in full every month. Revolving credit cards, allowing customers to carry balances and pay interest, would only appear later, beginning with Franklin National Bank in 1951.
 
 Diners Club continued to grow with little serious competition throughout the 1950s. By the early 1960s, however, competition from other travel-and-entertainment (T&E) cards began to erode its dominant position, leading to declining market share and profitability.
 
 Diners Club still exists today, albeit as a much smaller player. Its modest place in today's payments industry gives little indication that it pioneered the business model and visual vocabulary that would shape the modern credit card industry for decades to come.
+
+## Franklin National Bank
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/franklin_cc_06_1952.png" alt="Franklin National Bank Credit Card sample image" caption="Franklin National Bank Credit Card sample image, _Banking_ Magazine, June 1952, p. 122" %}
+
+</div>
+
+It was the **Franklin National Bank** of Franklin Square, Long Island — headquarters near the first Levittown, in the heart of the burgeoning suburbs surrounding New York City — that refined the neighbourhood charge plan into the recognisable ancestor of today's card. Franklin was the first bank to offer a general-purpose credit card, and the Federal Reserve's task group on bank credit cards dates the program from **August 1951**, calling it the first of the current bank credit cards — although it did not reach full-scale operation until April 1952.[^fed-task-group]
+
+The plan began with the merchants. At a bank-sponsored conference called to consider how local retailers could build their businesses, the shopkeepers pointed out that perhaps their greatest need was more charge accounts; maintaining credit facilities of their own was, for many, an impossible burden. Could the bank help? "We'll try," said Franklin National's president, **Arthur T. Roth** — and the "Franklin Charge Plan" was the result.[^franklin-banking-1952]
+
+The mechanics sharpened the Charg-It design. The purchaser presented a credit card issued by the bank and took the goods without paying cash; at the end of the day, the dealer sent his credit sales slips to the bank, which accepted them like cash — **without recourse** — and immediately credited his account, deducting a 5 percent service charge. At the end of the month, the customer received a statement from the bank with the accumulated slips and paid the bill to the Franklin. A special department, with its own staff, investigated every merchant before admission and every customer before issuing a card, posted tickets to ledgers as they arrived, and billed on a cyclical monthly schedule. Delinquencies ran about the same as on ordinary installment loans.[^franklin-banking-1952]
+
+Gone was the Charg-It scrip. As the Congressional Record's history of payment cards put it, Franklin National refined the early Brooklyn and Paterson plans "with the development of a sales slip worded in the form of a bank draft. This more workable plan was rapidly adopted by other banks and became the basis for the modern-day credit card."[^bank-card-congress-1978] The card also gave its holders a line of credit, allowing them to make only partial payments each month; the bank charged merchants a fee on each transaction and customers interest on the unpaid balances — revolving bank credit in near-modern form.
+
+At first, the new service was used mainly to handle the credit and collection needs of local fuel-oil companies. But by the next year, 750 local merchants and 28,000 customers had signed up, charging $2.5 million in the first year. In 1952, the National Bank of Kalamazoo, Michigan, licensed the program from Franklin and signed up 30 merchants and 18,000 customers in three weeks; other local banks also began offering credit cards.[^franklin-aba] Banking's contemporaneous count, in June 1952, was about 23,000 Nassau County families holding the card, who had charged more than $1,000,000 of goods and services — with some merchants reporting sales volume up by about 30 percent.[^franklin-banking-1952]
+
+Roth hoped the plan would benefit Long Island's stores as much as its consumers, but participation came slowly at first, and his robust restaurant credit service — developed in cooperation with Gourmet and Esquire magazines — was unsuccessful, with too many customers not paying. The business ultimately proved unprofitable in its original iteration, and the card program was eventually wound down; the credit card department and payment window are still extant in a basement room near the vault. But the bank credit card was indeed developed in Franklin Square, and Roth's ideas on consumer credit anticipated developments which reshaped the American economy and are embedded in everyday life today.
+
+## American Express
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_launch_ad_30_sept_1958.jpg" alt="American Express launch Ad, ca. 1958" caption="American Express Credit Card Launch Ad, The Cincinnati Enquirer, 30 September 1958, p. 7" %}
+
+</div>
+
+
+American Express watched Diners Club's success and decided that the market was too lucrative to ignore. But American Express was not starting from scratch. Founded in 1850 as an express mail service in Buffalo, New York, the company had spent a century building a brand synonymous with reliability and travel services. Their money orders and traveler's cheques were already fixtures in the wallets of businessmen and tourists worldwide. When they entered the charge card business, they brought institutional trust that no startup could replicate.
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_1958.webp" alt="The first AMEX cards were made of cardboard and didn't have embossed numbers" caption="The first AMEX cards were made of cardboard and didn't have embossed numbers" %}
+
+</div>
+
+On October 1, 1958, they launched their own charge card with a $6 annual fee — one dollar more than Diner's Club, deliberately signaling premium positioning. On launch day, 250,000 cards were already issued, accepted at 17,500 merchants. The earliest AMEX cards were cardboard. In May 1959, American Express became the first issuer to offer embossed plastic cards, replacing the cardboard competitors with something more durable and prestigious. The Centurion logo, borrowed from their traveler's cheques, conveyed authority before the card was even presented. Like Diner's Club, it required payment in full each month — it remained a charge card, not a credit card. But American Express understood branding in a way its rivals did not. Where Diner's Club sold utility, American Express sold status.
+
+{% include gallery id="amex_1959_gallery" caption="In May 1959, AMEX switched to issuing plastic cards" %}
+
+t wasn't until the 1960s that the first PVC (polyvinyl chloride) plastic cards were introduced. PVC was a durable and flexible material that could be easily printed on, making it ideal for card manufacturing. These early plastic cards were still relatively simple in design, typically featuring only the cardholder's name and account number.
+
+In 1965:
+American Express has a monthly "Cancellation Bulle-tin" which goes to all the service establishments in-volved. These are instructed not to honor any card unless they first check the cancella-tion bulletin to make sure that the card is not listed.
+
+Then, there is the “Be My Guest Service," another re-finement of living it up on the cuff. Card holders can treat friends to a dinner al-most anywhere in the world without leaving home. They simply send the name of the restaurant and the guest to American Express, where the arrangements are made.
+
 
 
 
@@ -797,458 +966,7 @@ Licensing created something no payment card system had needed before: **intercha
 In 1970, under pressure from its franchisees, Bank of America spun the system off into an independent, member-owned organization: National BankAmericard Incorporated (NBI). In 1976, NBI renamed itself Visa. The blue, white, and gold bands first drawn to hang in Fresno shop windows had become the flag of the largest payment network on Earth.
 
 
-
-
-## Evolution of credit card transactions
-
-So far we have followed the card — from a clay tablet in Larsa to a piece of plastic with three colored bands. What we have not followed is the *transaction*: the sequence of steps by which a lunch in Manhattan becomes a debit on one ledger and a credit on another. That sequence is where all the engineering lives.
-
-It helps to know, before we start, that a card payment is not one machine but two.
-
-The first is **authorization** — the question asked at the moment of purchase. Is this person who they claim to be, and are they good for the money? The answer has to come back fast, because a customer is standing at a counter waiting for it.
-
-The second is **settlement** — the actual movement of money from the cardholder's bank to the merchant's bank. Nobody is standing at a counter waiting for this. It can take hours, or days, and historically it did.
-
-These two machines were built at different times, by different people, to solve different problems, and they still run at wildly different speeds. Almost everything that follows is the story of one or the other being pushed to its breaking point and rebuilt.
-
-### Older than plastic
-
-Before we get to 1950, it is worth noting that neither problem is new. Authorization and authentication are not artifacts of the electronic age; they are as old as centralized record-keeping itself.
-
-In Bronze Age Crete, roughly four thousand years ago, Minoan officials carried engraved seal-stones and signet rings — small, intricately carved objects, often worn as jewelry, with mounting holes drilled so they could hang from a wrist or neck. A priestess or merchant entitled to draw goods from a palace magazine — cloth, oil, spices — would take what she needed and press her seal into a lump of soft clay or wax, leaving an impression that recorded the transaction and its value.
-
-The parallels to a modern card are almost uncomfortable.
-
-The carving was **authentication**: unique, hard to reproduce by hand, and proof that the person making the withdrawal was who they claimed to be. The seal itself was an **authorization token**: it had no intrinsic value, but it entitled the palace scribes to update a ledger on the holder's behalf. And the palace archive — thousands of clay nodules, countersigned by multiple seals — was the **database**: salaries accrued as credits, withdrawals posted as debits, balances rolled forward to the next accounting period at harvest. There is evidence in the palace records of negative balances, which is to say, of revolving credit.
-
-We tend to think of plastic as a modern synthetic. But a seal impressed into beeswax is also a polymer bearing an identity, and it was doing the same job in 1900 BCE that an embossed PVC rectangle would do in 1958 CE. What changed was not the idea. What changed was the volume.
-
-### A transaction in 1950
-
-Credit card transactions in 1950 were a very low-tech affair. Let us trace a single Diners Club charge from beginning to end.
-
-**At the restaurant.** You have finished entertaining a guest — duck à l'orange, a bottle of red — and you ask for the bill. Instead of currency, you produce an amusing piece of paperboard and hand it to the waiter.
-
-The waiter carries it to the cash counter and copies the details onto a charge slip by hand: your name, your account number, the amount. He brings the slip back, you sign it, and from your side the transaction is complete.
-
-There is no machine involved anywhere in this process. The only authentication is that the waiter compares the signature you just wrote against the one on the card, and the only authorization is his belief that Diners Club will pay. If the bill runs high — above roughly a hundred dollars for most of the T&E cards of the era — he is supposed to telephone headquarters, collect, and obtain an authorization code before proceeding. American Express staffed a department around the clock, seven days a week, to answer those calls. When Hilton's Carte Blanche got nervous just before the 1959 Christmas season, it slashed its no-questions-asked limit from five hundred dollars to one hundred overnight.
-
-He is also supposed to check your account number against the blacklist — a printed bulletin of stolen, cancelled, and delinquent cards circulated to every participating establishment. American Express called its version the Cancellation Bulletin. Diners Club's list typically ran to about two hundred names; American Express once sent out one with eighteen hundred; Carte Blanche managed a list of thirty-five hundred deadbeats, skips, and stolen cards. As a contemporary account dryly observed, when the lists become that unwieldy, they may prove no help at all. A busy cashier is not going to read three thousand numbers before serving you dessert.
-
-**The merchant wants his money.** The restaurant has delivered the meal and holds a slip of paper. To convert it into cash, it must deposit that slip with Diners Club — daily, weekly, or monthly depending on volume — and then wait. Diners Club worked on a thirty-day billing cycle and deducted 7 percent of the check for its trouble, a fee that covered handling, bookkeeping, and the collection of money from the cardholder that the merchant had already been relieved of chasing.
-
-That 7 percent is the entire business model in one number. The merchant is not paying for technology. He is paying to stop running a bank.
-
-**Paper in the back office.** At Diners Club headquarters the slips were sorted and posted by hand. When Frank McNamara set the company up, he hired a man named Dick Kirkpatrick who built the entire bookkeeping process — sorting charges, billing cardholders, paying restaurants — in a matter of weeks, with no computers of any kind. Diners Club veterans later claimed, not entirely in jest, that Kirkpatrick's manual system was more accurate and more profitable than the computers that replaced it in the sixties.
-
-Billing followed the **country club** convention, borrowed from the practice of clubs that returned each member's signed chits with the monthly statement. The original sales slips went back to the customer in the envelope with the bill.
-
-**The bill comes due.** At the end of the month the statement arrived, thick with your own signatures, and the entire balance was payable. There was no revolving credit; you paid, in full, or you were not a member for much longer.
-
-That is the primordial credit card system, and its loopholes are not hard to find.
-
-There was no online authorization, so below the floor limit the merchant simply trusted that you had the credit. There was no real authentication beyond a signature comparison that most cashiers performed carelessly if at all, so a stolen card worked beautifully. Handwritten slips were routinely illegible. And the feedback loop was catastrophically slow: a card stolen today might not surface on a statement for six weeks.
-
-Fraud arrived immediately and inventively. The FBI created a new category — "most wanted credit-card thief" — for men like Charles Gregory Cannon, arrested in New York with a silver-handled cane, a borrowed British accent, and a two-thousand-dollar portable printing press in his hotel room, which he used to print his own credit cards. A Canadian ring set up a plant to duplicate Diners Club cards and used them not for purchases but as identification, passing a quarter of a million dollars in bad checks at Canadian banks. During the 1959 season at Miami Beach, a ring working the B-girl clubs ran up between seventy-five and a hundred thousand dollars in fraudulent charges; the waiters picked the customers' pockets, and in several cases gave them knockout drops first.
-
-The countermeasures were correspondingly manual. Diners Club kept a staff of twelve men whose full-time job was to physically retrieve invalid cards. American Express turned loose the detective force it had built to protect its traveler's cheques, headed by a former FBI man. Texas passed the first credit-card fraud statute in May 1959, with penalties of ten thousand dollars and ten years.
-
-<blockquote>
-  <p>"It has always been the policy of Diners' to pay off merchants who unknowingly sell goods to a person with a stolen credit card. We absorb the loss and we will continue to do so unless the charges are obviously and flagrantly false."</p>
-  <legend><cite>Philip Adelman, Diners Club official, 1960</cite></legend>
-</blockquote>
-
-That sentence is worth pausing on, because it is the fault line that separates a payment card from a check. If a check bounces, the merchant eats it. If a card transaction is fraudulent and the merchant followed the rules, the *issuer* eats it. The transaction is guaranteed. Everything that follows in this chapter — floor limits, authorization codes, hot lists, chargebacks, real-time networks — is an attempt to manage the consequences of that one promise.
-
-### Mechanizing the slip
-
-The first improvement was not to the network. It was to the handwriting.
-
-Imprinters were not new in 1958. Department stores had been using them with Charga-Plates since the 1930s, and the oil companies had adopted them for their courtesy cards: you laid the metal plate in a bed, dropped a multi-part carbon form on top, and dragged a roller across the assembly. The raised characters punched through the carbon and onto every layer at once. Merchants called the device a knuckle-buster, for reasons that anyone who has used one can explain.
-
-What Bank of America did was bring the imprinter to a general-purpose plastic card — and, on the first attempt, get it wrong. The original BankAmericard system was designed by an outside subcontractor, and the cards it produced were **debossed**: the characters were pressed *into* the plastic rather than raised out of it. Debossed characters do not transfer cleanly. The impressions came out faint, smudged, or blank, and the field kept telling the bank so. The bank, wanting a quick success, did not want to hear it.
-
-<blockquote>
-  <p>"They did not institute a trial, nor did they really want to understand what their market was telling them, namely, that the system was cumbersome to use and card impressions were not readable."</p>
-  <legend><cite>On Bank of America's first credit card team</cite></legend>
-</blockquote>
-
-When 1960's delinquency losses crossed ten million dollars, Howard Leif halted the expansion and changed management. Jack Dillon took over the program and launched a crash effort with the bank's systems group to build a properly **embossed** card with a real credit-tracking system behind it, and brought in Ken Larkin from corporate lending to run it. The statewide reissue was completed in late 1961. The embossed card, imprinter, and multi-part draft became the standard shape of a card transaction for the next twenty-five years.
-
-Here is what that draft actually looked like by the late 1960s. It had three layers: two tissue-paper copies, one for the customer and one for the merchant, and a bottom layer that was an IBM 80-column punch card, complete with the notched corner. The imprinter held a second embossed plate carrying the merchant's own details, so a single pull of the roller stamped both parties onto all three layers. The merchant wrote in the date and the amount by hand — early imprinters had no wheels for those — you signed, and the top copy was yours.
-
-The instruction to compare your signature against the card was, as one study of the period put it, universally issued and almost universally ignored.
-
-Fraud adapted to the new technology as fast as it had to the old one. Embossed characters could be shaved off one card with a blade and re-glued onto another, or heated and re-pressed. The static information on the card was easy to alter and, at the point of sale, essentially impossible to verify. The imprinter solved a legibility problem, not a security one.
-
-> **Aside:** The carbon paper that made imprinters possible has its own love story. Around 1801 the Italian inventor Pellegrino Turri developed carbon paper so that his beloved Countess Carolina Fantoni da Fivizzano could continue writing letters after she lost her sight. One of her surviving letters, from 6 November 1808, reads: "I am desperate because I find myself almost without black paper." Independently, Ralph Wedgwood patented carbon paper in England on 7 October 1806 — also motivated by a desire to help blind people write. Two inventors, two countries, the same romantic impulse, and eventually several billion credit card receipts.
-
-### The bank that already had a computer
-
-Bank of America did not get into credit cards because it had a vision for consumer payments. It got into credit cards because it had spare computing capacity and was looking for something to do with it.
-
-To understand why, you have to understand the check crisis. Check usage in the United States doubled between 1943 and 1952, from four billion a year to eight billion, and bankers were forecasting another billion a year on top of that. Twenty-eight million checks were written every business day; each passed through several banks and took more than two days to clear; on an average day, sixty-nine million checks were somewhere in the pipeline. Unless a check was drawn on the same bank where it was deposited, it had to be sorted by hand and individually tallied on an adding machine at least six times. A forty-person branch kept seven or more people busy doing nothing but sorting, adding, and bundling. Most banks had to close their doors to customers at two in the afternoon simply to finish proofing before the end of the day.
-
-Bank of America was managing 4.6 million accounts and adding twenty-three thousand checking accounts a month. Senior vice president S. Clark Beise realized that the bank's growth would be limited not by demand but by its own inability to service the accounts it already had. In 1950 he engaged the Stanford Research Institute, in secret, to find out whether check bookkeeping could be automated at all.
-
-What came out of that decade-long effort was ERMA — the Electronic Recording Machine, Accounting, a name the marketing department imposed over the engineers' preferred FINAC — and, more consequentially, MICR. SRI's Kenneth Eldredge worked out how to print magnetic ink in shapes that both a machine and a human could read; the American Bankers Association adopted it as the US standard in July 1956 and fixed its position in the bottom right corner of the check a year later. That row of stylized digits along the bottom of every check on earth is Bank of America's, and the bank spent more than three million dollars over the following five years teaching other banks and printers how to produce it.
-
-In parallel, Al Zipf's Systems and Equipment Research department bought the bank a general-purpose computer to learn on: an IBM 702, installed in San Francisco in September 1955, the first computer in an American bank. Staff nicknamed it BEAST, for Bankamerica Electronic Accounting Service Tool. General Electric won the $30 million contract to build thirty-six production ERMAs; the opening ceremonies in 1960 were hosted, across three sites linked by closed-circuit television, by a General Electric spokesman named Ronald Reagan. By June 1961, thirteen ERMA centers running thirty-two computers were handling 2.3 million checking accounts across 238 branches, and 2,332 bookkeeping jobs had ceased to exist.
-
-It was in this context that Howard Leif, asked to find other services that might benefit from all this new processing capacity, commissioned Arthur Andersen to study the options. Among their suggestions was a credit card. Western Union had issued credit cards as early as 1912 and abandoned them under the weight of operating costs and credit losses — but a computer, the reasoning went, could bring those costs down and give the bank tight credit control. The program was initiated in 1958.
-
-And so the credit card inherited the check's architecture. A piece of paper is created at the point of sale. It is deposited at a bank. It is proofed, sorted, posted, and eventually returned to the person who signed it. Country club billing is just canceled checks by another name; it felt natural to cardholders precisely because their bank was already mailing their canceled checks back to them every month.
-
-There was one crucial difference, and it was a disaster. Checks were MICR. Sales drafts were punch cards.
-
-<blockquote>
-  <p>"Here we were with a whole infrastructure that was geared to processing checks. We were experts at MICR document processing. We processed over a million checks a day... So, what do we do, we introduce a punch card centric application. Just when punch cards are becoming obsolete."</p>
-  <legend><cite>A data processing manager at First National Bank of Atlanta, on 1970</cite></legend>
-</blockquote>
-
-The details of what this meant in practice are almost comic. The punch-card layer of the sales draft arrived at the bank having spent a week in a cash register and a mail sack: folded, stapled, torn, stained, taped, and occasionally wet. It came in two sizes — the standard 80-column card and a compact 51-column version — which had to be separated before anything could touch them, because every sorter, reader, and tabulator in the building expected 80 columns of pristine cardboard.
-
-Then the cards went to Keypunch, where operators punched the account number, merchant number, and amount into the *original source document* — a third carbon copy, with a hand-written dollar amount, produced by a merchant who may not have pressed very hard. When an operator made a mistake, she could not throw the card away and start over; it was the transaction. Some enterprising company sold tiny silver mylar patches to cover the bad punches, and banks bought them by the case. The patches came loose. The adhesive picked up dust. An IBM 084 sorter ran at two thousand cards a minute and an IBM 2540 reader at six hundred, and at those speeds a stray shred of tape mangles a great many cards very quickly. For documents too far gone to patch, there was a Xerox machine that copied a ruined card onto a fresh blank, which then went back to Keypunch to be punched again.
-
-Balanced batches went to the Tabulating department to be listed and totaled. If the total was wrong, the batch went back to Keypunch, then back to Tab, round and round — the whole batch relisted for a single bad item, because this was a bank and everything had to prove at every step. Every handling was another chance for a jam. Then the cards were read into an IBM 360/40 — one pass for the 80-column cards, one for the 51-column — sorted by account number for cardholder posting and by merchant number for merchant credit, and finally sorted again into account-number sequence so the original drafts could be stuffed into the right envelope for country club billing.
-
-<blockquote>
-  <p>"It took as much or more time to process a few thousand credit card transactions as it took to process a million checks."</p>
-  <legend><cite>First National Bank of Atlanta, on the BankAmericard application</cite></legend>
-</blockquote>
-
-Which is to say: at the exact moment the industry decided to scale, it had chosen the slowest possible substrate to scale on. Bank of America's real head start was never the punch cards. It was that it employed several hundred people who understood, from a decade of ERMA, what it took to run a large system reliably every single night.
-
-### Interchange has entered the chat
-
-Everything above describes a **closed loop**: the organization that issued the card was the same organization that paid the merchant. Diners Club paid the restaurant and billed you. Bank of America paid the drugstore and billed you. One ledger, one company, one set of books.
-
-That ended in 1966.
-
-American banking law prevented Bank of America from opening branches outside California, so the only route to a national card was to license the program. For $25,000 up front plus a royalty of one-eighth, one-quarter, or three-eighths of a percent depending on volume, a bank elsewhere in the country received the BankAmericard name, the blue-white-and-gold bands, the accounting software, a set of manuals, and an invitation to a training session in San Francisco. (The licensees quickly discovered that the training session was run by the marketing department, and that they learned far more by turning up at a BankAmericard processing center and talking to the operations people.) The licenses were deliberately non-exclusive for antitrust reasons, and licensees could in turn sign up *agent* banks — which serviced local merchants in the licensee's name — and *associate* banks, which issued cards under their own name and carried their own receivables.
-
-The result was a system in which a cardholder's bank and a merchant's bank could be two different institutions that had never met. This is the birth of **interchange**, and it required inventing an entire settlement mechanism from scratch.
-
-Here is the mechanism BankAmericard Service Corporation chose. The acquiring bank credited its merchant immediately, less the discount. It then completed a special **clearing draft** against the issuing bank for the total of a batch of sales drafts, less the interchange reimbursement fee. The clearing draft looked like a cashier's check, MICR line and all, and could therefore be pushed through the ordinary Federal Reserve check-clearing system. The physical sales drafts, meanwhile, went into the mail, addressed directly to the issuing bank — exactly the way out-of-town checks had been handled in the nineteenth century.
-
-Why not simply clear the card drafts through the Fed, alongside the checks? Because the Fed said no. There were technical objections — an 80-column punch card is bigger than a check and encodes its data as holes rather than magnetic ink — but the real objection was ideological. The Federal Reserve had spent decades trying to eliminate discounts on cleared checks, and a debt instrument that arrived pre-discounted was not something it wished to touch.
-
-<blockquote>
-  <p>"Had the Federal Reserve agreed when asked (and they were) to clear bank card activity, would the service have evolved as it subsequently has? ... It is clear there would be no BASE II and no INAS today had the Federal Reserve said yes."</p>
-  <legend><cite>Dee Hock, 1974</cite></legend>
-</blockquote>
-
-The consequence of splitting the money from the paper was a timing bomb. The clearing draft, moving through the efficient Fed system, almost always arrived *before* the sack of sales drafts moving through the post office. The issuing bank was therefore forced to pay out, park the amount in a suspense ledger, and wait — sometimes six or eight days, sometimes months — for the paper it needed in order to bill anybody. And when the paper did arrive, the totals frequently did not match, because small acquirers often ran an adding-machine tape over the drafts rather than key-punching them.
-
-The interchange fee itself was, at this point, barely a rule at all:
-
-<blockquote>
-  <p>"It could send the amount of the discount that it received from the merchant less a processing fee, or if it didn't want to calculate each and every one... it could send the average discount it was getting from all of its merchants less a processing fee. Well they would say 'my average is two percent.' How are you going to audit that? ... So the issuer has all the costs because he's extending the credit and eating defaults, but he was getting almost nothing when the customer traveled."</p>
-  <legend><cite>Bennett Katz, Visa's long-time general counsel</cite></legend>
-</blockquote>
-
-### The paper tiger goes feral
-
-By 1968 both machines — authorization and settlement — were failing simultaneously, and each failure made the other worse.
-
-Take authorization first. Every merchant had a floor limit, typically $50 for an ordinary card and $100 for a starred one, with higher limits for airlines and hotels. Above the limit, the merchant telephoned the acquirer's authorization center. The authorizer looked at the first four digits of the account number to decide whether the card was his bank's or somebody else's. If it was his own, he searched a printed hot card list, then waded through a binder of computer-printed account sheets to find your balance and credit limit, then checked a hand-written list of authorizations already given since the binder was last printed, and finally read back an authorization code.
-
-If it was another bank's card, he put the merchant on hold, placed a long-distance call to the issuer's authorization center, and had *that* authorizer repeat the entire procedure at the other end of the line.
-
-<blockquote>
-  <p>"It took about 15 to 20 minutes to make a $35 purchase, which didn't make you very popular at the point of sale."</p>
-  <legend><cite>Chuck Russell, who later succeeded Dee Hock as CEO</cite></legend>
-</blockquote>
-
-The system's incentives then pulled it apart. Merchants realized it was prudent to obtain an authorization in advance for every possible sale, however unlikely, since an authorization transferred the fraud liability off their books. Cardholders' credit lines were consumed by holds for purchases that never happened, and people were declined for credit they actually had. Authorization costs exploded, because merchants made a local call while the banks absorbed every long-distance bank-to-bank call. Meanwhile other merchants went the opposite way: some encouraged customers to pay cash above the floor limit, some sized up the customer's appearance and skipped the call entirely, and some simply re-used an authorization code from an earlier transaction, correctly assuming that nobody could detect it under a manual system.
-
-Criminals, meanwhile, did the obvious thing. Floor limits are a published-in-practice number, and it took no time at all to pattern them and to make long strings of under-limit purchases that never triggered a single call. A card stolen from a mailbox could be worked for a week before the issuing bank saw the first sales draft and over a month before the cardholder — who had never asked for the card — received a statement for it. Restaurant cashiers ran extra drafts on a customer's card. Less reputable merchants submitted under-limit drafts on stolen cards and split the proceeds with the thief.
-
-The numbers moved accordingly. Fraud-specific losses on bankcards went from $140,000 in 1967 to $2.2 million in 1969; total bankcard losses, by Federal Reserve estimates, from $12 million in 1967 to $115.5 million in 1970.
-
-And on the settlement side, the paper simply stopped moving.
-
-<blockquote>
-  <p>"Meanwhile, the merchant bank, having already been paid and under immense pressure to handle its own cardholder transactions, had no incentive to process [interchange] transactions and get them to the issuing bank for billing to the cardholder. Since each bank was both a merchant-signing bank and a card-issuing bank, they began to play tit-for-tat, while back rooms filled with unprocessed transactions, customers went unbilled, and suspense ledgers swelled like a hammered thumb. It became an accounting nightmare."</p>
-  <legend><cite>Dee Hock</cite></legend>
-</blockquote>
-
-<blockquote>
-  <p>"I was shown a room that was warehouse-sized, full of IBM 80-column tab cards (which were the drafts) that they couldn't settle. We're talking millions and millions of dollars ... they had never got the debit or the credit side of the transaction through clearing because they couldn't find them!"</p>
-  <legend><cite>Chuck Russell</cite></legend>
-</blockquote>
-
-The two failures compounded. Because settlement was slow, issuers could not see under-floor-limit fraud until the drafts finally showed up, by which time thousands of dollars had gone. Because fraud was rising, banks lowered floor limits, which pushed more transactions into an authorization system that was already melting.
-
-This is the crisis that produced the meeting in Columbus, Ohio in October 1968, and out of that meeting, as we saw earlier, came National BankAmericard Incorporated in 1970 and Dee Hock. The organizational half of that story — the member-owned cooperative, the constitution, the operating regulations — is genuinely the more important half. But it mattered because it made the technical half possible: a cooperative that all the banks owned could build shared infrastructure that no single bank would ever have been allowed to build.
-
-Hock's own framing of the problem is worth recording, because everything Visa built afterwards follows from it:
-
-<blockquote>
-  <p>"It seems ordinary and obvious now. It was a revelation then. We were not in the credit card business. 'Credit card' was a misnomer based on banking jargon. The card was no more than a device bearing symbols for the exchange of monetary value. That it took the form of a piece of plastic was nothing but an accident of time and circumstance. We were really in the business of the exchange of monetary value."</p>
-  <legend><cite>Dee Hock</cite></legend>
-</blockquote>
-
-Money, in this view, is simply guaranteed alphanumeric data. And data can move at the speed of light.
-
-### BASE I: authorization goes electronic
-
-The first machine to be rebuilt was authorization, and the reason is straightforward: it was the one with a customer standing in front of it.
-
-In April 1973, NBI put **BASE I** into production — the first real-time electronic authorization network for bank-issued cards. The design was a central switch, sitting in a data center in San Mateo, California, connected on one side to member banks' authorization centers and on the other, eventually, to their host computers. An acquirer's authorization request went to the switch; the switch worked out which issuer owned that account number and routed the message there; the issuer's answer came back the same way. Software was written by an outside firm called Compata, the switch ran on DEC PDP-11 minicomputers, and the banks' authorization centers were fitted with Sanders terminals. The original capacity target was a modest 3,500 authorizations an hour.
-
-Two design decisions in BASE I have outlived everything else about it.
-
-The first is **stand-in processing**. If an issuer's computer was down, or its night staff simply did not answer, the switch could authorize on the issuer's behalf according to limits the issuer had lodged in advance. NBI could also stand in for *acquirers*, answering merchant authorization calls after the acquiring centers had closed for the night. This is why a card transaction works at three in the morning on a bank holiday.
-
-The second is that a card network is, structurally, a message switch that happens to be owned by its participants — not a bank, not a processor, not a clearinghouse. Everything Visa became is downstream of that shape.
-
-The effect on the front line was immediate. An authorization that had taken five minutes on a good day, and fifteen to twenty on a bad one, now took under a minute; at launch, only four member banks had direct CPU interfaces, so most requests still involved a human at the issuing end and ran closer to ninety seconds. Even ninety seconds was transformative. And for the first time, authorization was available twenty-four hours a day, seven days a week, without anybody having to be awake at both ends of a long-distance call.
-
-BASE I also began, immediately, to run out of room.
-
-<blockquote>
-  <p>"...the day after Thanksgiving was the biggest shopping day of the year... Well anyway, BASE I died a horrible death; several times... they would have an [acquirer] that would choke them to death and cause it to crash. Well instead of shutting down the big users, bringing it back up and letting it start to breathe again, they just brought it all back up and guess what? It went right back down again. That day was one of the most horrible in Visa."</p>
-  <legend><cite>Frank Fojtik, on Black Friday 1974</cite></legend>
-</blockquote>
-
-Frank Fojtik — hired from Singer, where he had built electronic cash registers, and who described his technical expertise as the product of "a whole lot of scars I got on my ass" — reorganized BASE I enough to survive Christmas 1975, and then the organization had to choose a platform for the long term. The debate was DEC's next PDP-11 versus IBM's System/370 line. Hock, characteristically, refused to let either vendor's salespeople in the room and instead assigned his own staff to argue both sides.
-
-He had, characteristically, already made up his mind — for DEC — and the meeting was largely theatre. What changed it was a last courtesy call from IBM's San Francisco office, at that time considered a professional Siberia within IBM. Bob Irwin turned up in well-polished paratrooper boots with Roger Peirce, whose shirt looked slept in, and delivered a blunt, unpolished pitch. When Hock started hassling them, Irwin stood up, told him that if he was too dumb to understand the difference between what IBM and DEC brought to the table then he was wasting Irwin's time, and walked out, slamming the door.
-
-<blockquote>
-  <p>"Dee, rarely at a loss for words, was speechless for a few moments, then he turned to me, and said, 'Hell, chief, if they feel that strongly, they are the people to go with.' And that's how the decision was made."</p>
-  <legend><cite>Chuck Russell</cite></legend>
-</blockquote>
-
-The choice of *operating system* mattered more than the choice of hardware. IBM's mainstream offerings were built for batch work; CICS was judged neither reliable nor efficient enough. Peirce instead proposed the **Airline Control Program**, an obscure IBM product with an unusually relevant pedigree. ACP had grown out of Sabre, the American Airlines reservation system, been generalized into PARS, adopted by most US airlines, and finally split out and licensed on its own from 1972. It was later renamed TPF, and it still runs most of the world's airline, hotel, and car rental reservation systems.
-
-ACP was an operating system and database in one, designed around a single assumption: an unpredictably large number of simultaneous, short transactions, each needing very little CPU and a lot of I/O. Its network routines imposed under five percent overhead where other operating systems imposed thirty. It multitasked cooperatively, suspending a transaction whenever it went to disk or network and picking up new ones in the gap. Maintenance could be done online; application programs could be swapped in without shutting down; CPUs and disks were redundant with automatic failover; and after a crash it restarted in seconds rather than minutes.
-
-The clinching argument was existence proof. BASE I's capacity requirement had climbed from 3,500 authorizations an hour at launch to 50,000 by 1976 — about fourteen per second. Live PARS installations were already doing fifty to seventy-five transactions per second, on a much heavier workload. An IBM team rewrote BASE I for ACP in under a year, the authorization traffic was cut over to a pair of System/370 model 138s in late 1977, and capacity roughly tripled overnight. Because the System/370 instruction set stayed backwards compatible, every later capacity increase became a hardware purchase rather than a software project.
-
-One more piece of BASE I is worth recording, because it is the moment the network stopped being a single computer. John Totten, moved onto BASE I after another project was cancelled, went in to discuss budget numbers in December 1976 and instead delivered this:
-
-<blockquote>
-  <p>"...here we are, providing the service off of one computer in one data center, which is made out of wood, combustible wood, on a hillside that has dry grass, above a road where a car could catch on fire; we're right below a parking lot where kids are parking their cars, and the cars could come off the edge and drop into the building; and not only that, we're a mile from the San Andreas fault! ... If your goal is to run the credit card industry of the world, we really should have some sort of redundant, parallel site."</p>
-  <legend><cite>John Totten</cite></legend>
-</blockquote>
-
-He came back on Monday to find that he had a new job and six months to do it in. Totten's shortlist was headed by Charlotte, North Carolina, on cost; Hock overruled him in favour of McLean, Virginia, on the grounds that a European banker reading Visa's letterhead should recognise a Washington DC address. Totten picked a steel-framed building on the same telephone grid as the CIA, leased the top two floors, and moved staff in while the elevators were still unfinished. The center opened on schedule in July 1977.
-
-Rather than leave the second site idle, the BASE I rewrite was extended so that two ACP installations could run *simultaneously*, each with its own affinity of end-points but each able to take the whole world's traffic if the other went dark — something none of the airlines had ever attempted. Data changes, including stand-in limits and negative card lists, were replicated between the centers as they happened. The pattern proved good enough that Visa later added centers in England and Japan on the same model.
-
-International authorization, meanwhile, got a beautifully pragmatic stopgap. Overseas acquirers still had to telex the issuing bank and wait across a time-zone gap, so Fojtik wrote software that emulated a telex machine and bridged it into BASE I. A foreign bank telexed a number in San Mateo that answered on a modem attached to one of the old PDP-11s; the program parsed the free-form telex, reformatted it as a BASE I authorization request, submitted it, and telexed the answer back seconds later. Because card numbers, expiry dates, and amounts are individually recognisable, the parser could be extremely forgiving about ordering and whitespace. The real network links to the UK and Canada followed in 1977.
-
-### BASE II: settlement goes electronic
-
-Authorization was only half the problem. Sales drafts were still being sorted and mailed, bank to bank, in sacks.
-
-The volume made the deadline. NBI members exchanged 95 million interchange drafts in 1972 and projected 225 million by the end of 1975. Hock's plan for the second phase was not to sort the paper faster — the Fed's answer to the check problem — but to **truncate** it: capture the draft as data at the acquirer, clear the data through a central computer overnight, and leave the paper where it was.
-
-That was a computing problem and, more awkwardly, a cultural one. Truncating the paper meant cardholders would stop receiving their original signed drafts in the monthly envelope, and country club billing was what everybody was used to. Cardholders liked the drafts: they jogged the memory, they let you check your own signature, they served as evidence of payment for expense reports and — importantly — for the IRS.
-
-Hock's team suspected that customers were not attached to the originals so much as accustomed to them. So in early 1973 they ran an experiment with six technically capable member banks. Acquirers captured the draft details electronically and transmitted them to the issuer, who printed the information onto the punch-card layer of a *blank* draft and mailed that out instead. NBI called it a **facsimile draft**. It looked nearly identical to the original; what it lacked was the merchant's scribbled item detail and the cardholder's signature.
-
-Cardholders requested one original for every five hundred facsimiles. Forty-five percent of those requests turned out to be caused by the acquirer's processing name for a merchant differing from its trading name — a fixable data problem, and a species of complaint anyone who has scrutinised a modern card statement will recognise instantly. In October 1973 NBI reported no significant objections, and BASE II became culturally possible.
-
-The design fell to Win Derman, NBI's twenty-fifth employee, with B Ray Traweek managing the project. The original plan had been to key transactions into the same Sanders terminals used by BASE I; Derman argued, correctly, that the volumes made that absurd, and won the argument for a **batch** architecture instead. What resulted was a computerised clearinghouse — not the first automated clearing house in existence, but by far the largest, the first national one, and the first for bankcards.
-
-The nightly cycle went like this. Acquirers converted their captured transactions into the BASE II format and ran them through an NBI-supplied validation program called the **edit package**, which checked that dates were well-formed, card numbers were valid, and every field was present. The batch was the atomic unit: if it passed, every transaction in it would clear; if it failed, the acquirer fixed or removed the offenders and ran it again. That single decision spared NBI an entire category of exception handling, and it meant the amount submitted always equalled the amount credited, minus fees. The validated batch went onto a magnetic tape, mounted on a **tape transmission unit** — a custom DEC PDP-11/10 with a tape drive, a modem, and a bell — one of which DEC installed and maintained at each of the 88 BankAmericard processing centers in the country.
-
-Starting at 5:00 PM Pacific, the central mainframe dialled each TTU in turn and read its tape. This five-hour *input phase* ended, for each center, with the mainframe sending a command that rang the TTU's bell, telling the operator to unmount the outgoing tape and mount a blank one — the tapes of the era could not hold both directions at once. Then came a two-hour *sort and calculation phase*: total each acquirer's submissions, subtract the interchange reimbursement fee and NBI's processing fee (1.95 percent and 2.5 cents an item), sort everything by issuer, and compute what each member net owed or was owed. Then a five-hour *output phase*, dialling every center again to stream back its incoming transactions, a full clearing report, and its settlement figure. By 5:00 AM Pacific every bank had everything it needed to bill its cardholders and settle its position.
-
-The 5:00 PM start was not chosen because it is close of business in California.
-
-<blockquote>
-  <p>"We, even in those days, thought this was a worldwide system, so we ran everything worldwide. We didn't arbitrarily pick 5:00 PM. We said 5:00 PM is GMT 0:00."</p>
-  <legend><cite>Win Derman</cite></legend>
-</blockquote>
-
-BASE II also changed the shape of settlement itself. Previously the system had done **bilateral gross settlement**: every acquirer collected separately from every issuer, which in a system of *n* members implies up to *n(n−1)* transfers a day, most of them offsetting. BASE II made every member settle with the clearinghouse only, and settle **net** — one figure per member per day, the difference between what they owed and what they were owed.
-
-The mainframe had to be an IBM, which was a problem, because Hock had previously sworn never to do business with IBM again. Traweek and Derman solved this through diplomacy of a sort:
-
-<blockquote>
-  <p>"We arranged what we called 'the pillow call.' We got the highest ranking guy we could find in IBM and we convinced him to come out. We said 'look, this is going to be an unpleasant call — strap a pillow on your ass because you're going to get beaten!' So we went into this meeting and Dee basically railed and ranted at the guy for an hour and then went out, but after it was all done, it worked, and they decided they would do business with IBM."</p>
-  <legend><cite>Roger Peirce</cite></legend>
-</blockquote>
-
-NBI ordered a System/370 model 145 — notably the first IBM mainframe to use silicon memory chips rather than magnetic core — and Peirce personally oversaw its installation in April 1974. The system was finished in November 1974, inside its $7 million budget and eighteen-month schedule. Issuers were required to *receive* electronically from 1 November 1974; acquirers who had not yet automated their data capture were allowed to keep mailing paper through the Christmas season, with a hard cutover on 1 March 1975. Both dates held.
-
-One detail of the launch is a useful corrective to any tidy story about electronic settlement. The movement of good and final funds was still accomplished with clearing drafts — which BASE II now filled out on the members' behalf, after which an NBI employee got in her car and drove them down the hill to a Bank of America branch. The last step was not automated until the 1980s.
-
-The effects were large and immediate. Clearing time went from six to eight days to overnight. Float collapsed, mostly for acquirers, who could now recover funds they had already advanced to merchants. NBI estimated $14 to $17 million saved in gross clearing costs in the first year alone. Issuers received transaction details at the same moment they paid, which eliminated the reconciliation nightmare entirely. And — the point most easily missed — faster clearing meant faster *fraud detection*, because under-floor-limit fraud was invisible until the drafts arrived.
-
-BASE II's other legacy was that it turned NBI into a general-purpose data pipe between its members. From the beginning it carried chargebacks, reversals, and requests for originals alongside sales drafts; later it carried rewards for recovered cards and reimbursements for foreign acquirers' telex costs. Between BASE I for messages and BASE II for batches, the network could now move anything.
-
-Multi-currency settlement took another decade. Until the mid-1980s, foreign transactions were cleared and settled in US dollars only, with the *acquirer* performing the conversion at a time of its choosing and at a rate typically padded a few points in its own favour — profitable for the acquirer, baffling for a cardholder whose bill showed neither the local currency nor the rate that had applied on the day of purchase. A team under David Nordemann designed a scheme in which Visa itself performed all conversions at wholesale rates plus a disclosed fee, and members cleared and settled in their own currency. The hard part was not the software. It was finding a bank willing to guarantee fixed exchange rates from the moment BASE II started collecting data until funds actually moved several hours later; Barclays, with a large foreign exchange department, eventually agreed to carry that risk. Multi-currency settlement began in 1986.
-
-### The magnetic stripe
-
-None of this reached the merchant's counter. A merchant in 1975 was still consulting a printed bulletin of bad card numbers, telephoning for authorizations above a floor limit, and pulling a roller across a carbon draft. Roughly a billion dollars a year was being lost in the gap.
-
-Closing that gap needed two things: a terminal cheap enough for a small shop, and a card a machine could read.
-
-<div style="width: 50%; margin: 0 auto;">
-
-{% include figure popup=true image_path="assets/images/credit-card-chronology/magstripe_article_1972.jpg" alt="Article on Magnetic Stripe" caption="Article on magstripe, The Memphis Press-Scimitar, 25 September 1972, p. 14" %}
-
-</div>
-
-The magnetic stripe came out of domestic frustration. In the late 1960s, IBM engineer Forrest Parry was trying to attach magnetic tape to plastic cards for CIA identification badges, and nothing worked: adhesives interfered with the tape's magnetic properties, mechanical fasteners were too bulky. He brought samples home and described the problem to his wife, Dorothea, who was doing the ironing. She suggested the iron. The heat bonded the tape to the plastic without damaging it. The world's most widely deployed data storage medium was invented on an ironing board.
-
-Getting from there to a standard took considerably longer, and the fight was genuinely instructive about how standards get made.
-
-There were two rival approaches: optics and magnetics. The oil and retail industries favoured **OCR** — the account number was already embossed in a machine-readable font so that it would print legibly on drafts, so why not read the card directly? Standard Oil of California had been optically scanning card drafts since 1956, and Data Source Corporation shipped what appears to be the first OCR card-reading POS terminal in 1971; the very first unit installed reportedly caught an unauthorized card on its fourteenth transaction. The banking and airline industries favoured the **magstripe**, which the airlines had adopted for their own cards in 1969 and which cash dispenser manufacturers were already using.
-
-When it became clear that a dozen banks were about to run POS pilots with mutually incompatible cards, the American Bankers Association convened a task force. It evaluated the options on four criteria — availability, reliability, cost, and security — and in February 1971 recommended the magstripe. On the first three, the case was strong and largely uncontested: the technology existed, it had proven durable in the field, and although the stripe roughly doubled the cost of a card, the reader heads were cheaper and simpler than optical sensors. On the fourth, the task force wrote that the stripe "was thought to have the greatest security against casual fraud because it is difficult to alter, the data is not visible, and it requires a fairly high level of sophistication and collusion to counterfeit."
-
-Every clause of that sentence was about to be attacked.
-
-First, though, the tracks. The banks and the airlines could not agree on data density. Reliable equipment of the day read 75 bits per inch; newer equipment promised 210. The banks needed only an account number and an expiry date, which at 5 bits per character and 75 bpi gave them 40 numeric characters — ample — and they argued that lighter packing would survive the abuse cards actually receive, which in the era's own examples included scraping ice off windshields and jimmying locked doors. The airlines needed the cardholder's *name* for automated ticketing, which meant alphanumerics, which meant 7 bits a character, which meant they had to have 210 bpi.
-
-The compromise was to cut the stripe into tracks. **Track 1**, at 210 bpi, went to the airlines: 79 alphanumeric characters, including the name. **Track 2**, at 75 bpi, went to the ABA: 40 numeric characters. Every card would carry both, and a device could read either. A **Track 3** at 210 bpi was defined shortly afterwards, allocated to the thrift industry and intended to be *rewritable* — terminals and cash dispensers would update it after each transaction, and there were ambitions of storing digitised fingerprints or voice prints on it. It was briefly used that way by offline cash dispensers and quickly abandoned once bankers grasped how easily it could be read and altered with ordinary audio equipment. Most issuers dropped it to make the stripe shorter.
-
-To this day, payment card stripes carry two tracks, recorded at different densities, containing roughly the same information — a fossil of an argument between bankers and airlines in 1971.
-
-The security fight began almost immediately. George Warfel of the Western States Bankcard Association, a trained engineer, pointed out that for about $150 of widely available audio parts and transistors, an amateur could build a device to copy the contents of one ABA-encoded stripe onto another. He called it a **skimmer** — "It is just like the tape-dubbing machine used by college students to copy tape cassettes — except it works for cards."
-
-His attack scenario was precise and, in hindsight, prophetic. A gas station attendant copies the stripe from a good card onto a stolen one. POS terminals read only the stripe, so every authorization succeeds. But the *paper draft* still picks up the embossed numbers on the front, which belong to the dead account — and in the pre-BASE II world that draft might take weeks to reach an issuer who would then have no idea which real account had been skimmed. Worse, if terminals were shared across networks, one could skim a BankAmericard onto a Master Charge.
-
-<blockquote>
-  <p>"Today you can buy transistors like gum-drops, in plastic bags by the dozen. The radio catalogs list 'credit card reader heads' along with hi-fi components. Thus, what was secret in '67 is common knowledge today. What was secure in '67 is vulnerable today."</p>
-  <legend><cite>George Warfel, 1971</cite></legend>
-</blockquote>
-
-Warfel's real objection was not to the magstripe but to the *simplicity* of the ABA's encoding and the openness of the environment it would live in. Cash dispensers used magstripes too, but they used them safely — Docutel scrambled a code that the customer had to key in, Burroughs added a second unalterable stripe encoded at manufacture, IBM rotated its read heads 45 degrees — and could afford to, because the security cost nothing against a $20,000 machine used under controlled conditions. The ABA was proposing to put the same stripe on millions of cards and read it in hundreds of thousands of terminals bought by small shopkeepers.
-
-The task force's response was to concede the vulnerability and relocate the argument. With high-coercivity materials the stripe would be hard for a hobbyist to rewrite, they said; and more importantly, security is a property of the *system*, not of the card. In the world they were designing for, terminals would not merely authorize but capture and transmit the transaction, so the stripe would become the only source of account data and Warfel's mismatch would evaporate. Fraud detection at the issuer and pattern analysis of transaction logs would then find the skimming merchant.
-
-That is a very modern answer, and it is essentially the answer the industry still gives.
-
-In April 1973 the attack resumed from a more interested quarter. Jack Scantlin, chairman of Transaction Technology Incorporated — a Citicorp subsidiary — invited twenty-two Caltech students to build devices that could defraud the ABA-encoded stripe, offering $5,000, $2,500 and $1,000 in prizes. Working skimmers came back, some built for as little as $25, and Scantlin issued a press release announcing a "cheap and easy way to defraud the magnetic stripe." Citicorp promptly claimed that management had known nothing about the contest and would never have condoned it.
-
-TTI had a $30 million reason for its concern. It had developed a proprietary alternative called the **Magic Middle**: a hidden layer sandwiched inside the card, opaque to the eye but transparent to infrared, punched with holes in four data tracks plus a clocking track — a punch card you could not see. It was christened in October 1973, by which point Citibank had already issued nearly a million Citicards containing it and installed readers at 1,200 merchants. Citibank's stated position was gracious ("Whether our technology dominates is not relevant to us. It was developed for our own use"), and lasted less than a year before it began licensing the Magic Middle nationwide and working with NCR and Docutel to put readers into cash registers and dispensers.
-
-The ABA's counter-move was cheeky and effective. It simply amended the criteria: any encoding technique proposed as a standard must incur no licensing fees, must have sufficient capacity, and must be available to any issuer in any industry. This disqualified the Magic Middle and OCR simultaneously, which the ABA cheerfully admitted while assuring everyone it was in the best interests of all issuers. Citibank kept licensing and never signed enough banks to matter — few were willing to pay licensing fees and higher card costs to depend on a competitor's secret technology.
-
-NBI watched all of this from the sidelines for most of the decade. Then, at the end of the 1970s, Hock decided it was time to force the point, because full automation of the point of sale was the precondition for a **zero floor limit** world in which every transaction is authorized and fraud stops being invisible.
-
-The standard-writing fell to Win Derman. To the ABA's fields he added two of his own. The first was a three-digit **service code**, which at the time only indicated whether the card could be used in international interchange, domestic interchange, or neither — some Visa International members operated in non-convertible currencies. One digit would have done; Derman reserved three, and today those extra digits carry what kind of authorization is required and what services the card supports. The second was a **PIN verification value**, generated by a one-way function, allowing a terminal or ATM to check a PIN offline.
-
-Derman also wanted Visa cards to use the airlines' Track 1 format rather than the ABA's US-specific one, so that airline terminals could read them — American Express already had that compatibility, and Visa was pushing into travel and entertainment. Convincing US banks to abandon a format they were already issuing was going to be hard, so he found a better argument than compatibility: the ABA format encoded expiry as MMYY, the American way, while the airlines' IATA format used YYMM, which is what banks outside the US already did. Visa, he pointed out, was an international organization, and its standard should not be American-centric. The banks agreed, the format code at the front of the stripe let everyone migrate gradually, and Derman got the standard ratified by Interbank, the ABA, ANSI and ISO.
-
-In 1979 Visa adopted a bylaw requiring every card bearing its mark issued after 1980 to carry a magnetic stripe encoded to that standard. Citibank, which had joined Visa after the ban on dual membership was lifted, threatened to sue for the destruction of its licensing market, then settled for a three-month extension of the deadline.
-
-The card-encoding debate was closed. It would reopen, roughly fifteen years later, when manufacturers worked out how to embed a computer in a piece of plastic.
-
-### Dialing for dollars
-
-A standard card is useless without a terminal to read it, and the terminals of the late 1970s cost $1,000 to $2,000 apiece. Worse, they needed dedicated leased data lines with hefty monthly fees. For a shop doing a handful of card transactions a day, the leased line plus the merchant discount ate the margin entirely.
-
-Fojtik's insight, when Visa started the terminal project in 1979, was that every merchant accepting cards already had exactly the right piece of infrastructure: a voice telephone line, which they were already using to call for authorizations. A terminal that dialled a local number would add no telecoms cost at all — and would shorten the call.
-
-Visa considered building the terminals itself, remembered how badly its one attempt at writing software for member banks had gone, and instead wrote the specification and let vendors compete. The requirements were deliberately austere. Authorization only, so no storage and no printer. A small keypad for the amount. Some way to display the response. As small as possible, because merchant counter space is precious and any device that demands a lot of it will not be adopted. Conventional power. And, above all, it had to reach the merchant for under $500.
-
-The pilot ran from June 1980 to December 1981, with 800 units from GTE, Northern Telecom, Sweda International and Taltek — and, before it was over, from a young Hawaiian company called Verifone, whose ZON terminal would go on to define the category. The devices were sturdier than specified: Visa asked for an 18-month mean time to failure and got about 36 months in practice. Authorizations took around 20 seconds, at least twice as fast as a phone call and with far less manual keying to get wrong.
-
-The fraud results were the striking part. Even in 1980, only 12 to 15 percent of interchange transactions were being authorized at all; everything else fell under a floor limit. Pilot merchants authorized *everything*. Within days the number of recovered cards jumped; over the test, participating merchants recovered more than 3,000 cards and declined over 10,000 transactions that the old procedures would have waved through. Chargebacks against pilot merchants fell 82 percent, because a merchant who swipes every card never fails to consult a warning bulletin. And the terminals turned out to deter as well as detect — one member bank reported incidents in which a thief, watching his stolen card go into the terminal, turned and ran out of the store.
-
-> **Aside:** Routing authorizations over ordinary voice lines had an amusing security dimension. Early telephone networks used *in-band signaling*: the same audio channel carried both conversation and control signals, so a 2,600 Hz tone told a switch that a trunk was idle. In 1957 a blind seven-year-old named Joe Engressia discovered he could whistle it perfectly, and in 1971 John Draper found that a toy whistle packaged in Cap'n Crunch cereal produced it exactly — earning him the name Captain Crunch and founding the sport of phone phreaking. The fix, deployed from 1983, was Signaling System 7, which moved control signalling to entirely separate channels. Card authorization traffic inherited the benefit without ever having asked for it.
-
-Getting merchants to buy the terminals required an economic lever, and Visa reached for the strongest one it had: the interchange fee. Transactions authorized through a POS terminal qualified for a **Terminal Interchange Reimbursement Fee** of one percent, roughly 20 percent below the prevailing average. Because that is the fee acquirers pay issuers, it gave acquirers a direct incentive to push terminals, which they did by cutting merchant discount rates.
-
-Which meant the proposal had to clear a board dominated by large issuers, who would be funding an automation program that helped acquirers and merchants more than it helped them. For those issuers, the printed warning bulletin was working fine — precisely because it was impossible to comply with, and therefore a reliable justification for charging losses back to the merchant. Hock said so out loud, at the ABA's national bankcard conference:
-
-<blockquote>
-  <p>"If you think carefully about warning bulletins, their functioning becomes apparent. They permit a card issuing bank, for a small fee, to employ the collective power of Visa or Interbank to force the merchant signing bank or the merchant to accept all losses which result from failure to follow an impossible procedure, which, in turn, was imposed by the collective power of the organization."</p>
-  <legend><cite>Dee Hock</cite></legend>
-</blockquote>
-
-His plan was a resolution committing Visa USA's members to authorizing 80 percent of interchange transactions within five years — a target unreachable without mass terminal adoption, and therefore without the TIRF. Knowing it would be contentious, he left it off the agenda mailed out before the 1982 board meeting in Bermuda, where Visa paid for directors' spouses to attend and invited them into the meetings, on the theory that directors behave better in company. Hock had learned the departure time of every director's flight. As the ones likely to oppose him drifted off to the airport, he adjusted his mental tally, and when the arithmetic worked he changed the subject and introduced the resolution. It passed unanimously. The larger issuers spent years afterwards wondering when exactly they had voted for it.
-
-It took seven years rather than five to reach 80 percent, for an unglamorous reason: medium and large merchants set their technology plans on multi-year cycles and will not adopt anything until the next planning window opens, no matter how quickly it pays for itself.
-
-While the merchants deliberated, the terminals grew up. The first generation only authorized; the merchant still filled in and deposited a paper draft. By the mid-1980s most terminals also did **data capture** — storing each transaction and transmitting the batch to the acquirer overnight — and had printers that produced customer and merchant receipts. Visa promptly offered a further TIRF discount for transactions both authorized *and* cleared electronically within three days, and the multi-part carbon draft and the knuckle-buster finally disappeared from ordinary commerce.
-
-That change was more consequential than "less paper" makes it sound. Banks had always justified the merchant discount by the cost of supplying drafts, imprinters, training, and draft processing. The terminals eliminated most of those costs, and the TIRF pushed discount rates down further, converting acquiring into a pure scale business that looked a great deal more like data processing than like banking. By the late 1980s many banks had either outsourced merchant processing to specialists like First Data Resources or left the business altogether. Through the 1970s nearly every member was both an issuer and an acquirer; a decade later, they specialised. The four-party model that textbooks describe as the natural structure of card payments is really an artifact of a terminal that cost less than $500.
-
-### The cash machine and the card that was not credit
-
-While all of this was happening to credit cards, a parallel machine was being built to solve a different problem — getting cash out of a bank when the bank was shut — and it ended up supplying both a killer application for the magnetic stripe and an entirely new kind of card.
-
-<div style="width: 50%; margin: 0 auto;">
-
-{% include figure popup=true image_path="assets/images/credit-card-chronology/barclaycash_launch_28_june_1967.jpg" alt="Barclaycash Launch" caption="Barclaycash Launch, Daily Post (Merseyside ed.), 28 June 1967, p. 3" %}
-
-</div>
-
-On 27 June 1967, Barclays installed the first cash dispenser at its Enfield branch in north London. The inventor, John Shepherd-Barron, claimed the idea came to him in the bath, by way of chocolate vending machines. His machine did not read a card at all: it accepted paper vouchers impregnated with radioactive carbon-14, which the machine detected to authenticate the user, and it paid out a maximum of £10 — "quite enough," he said, "for a wild weekend." The first customer was Reg Varney, star of the BBC sitcom *On the Buses*.
-
-The United States followed two years later. In September 1969 Chemical Bank unveiled its machine at a branch in Rockville Centre, Long Island, built by Donald Wetzel's team at Docutel in Dallas. Crucially, the Docutel machine read plastic cards with magnetic stripes. That was the technically superior path, and it became the template.
-
-It also mattered enormously for the stripe's fortunes. When the ABA task force was arguing about encoding in 1971, the only environment in which magstripes were actually in production use was cash dispensing — which is why the cash dispenser manufacturers' security practices, with their PINs and unalterable second stripes and rotated read heads, formed the backdrop to the whole debate. The ATM gave the magstripe a decade of field experience before it ever reached a merchant counter, and it accustomed customers to the idea that a card could be read by a machine and validated by something they knew rather than something they signed.
-
-And it produced the **debit card**. A card that opens an ATM is a card that identifies an account, not a line of credit. Once the terminals at merchant counters could read the same stripe, there was no technical reason a purchase could not be posted against a deposit account instead — identical plastic, identical network, completely different instrument underneath. Through the 1980s banks merged their ATM and point-of-sale card functions into single pieces of plastic, and the debit card became ordinary. It also touched off a long argument with merchants, who had accepted card discount fees when cards were a small minority of transactions and objected considerably when a fee-bearing card began replacing the check.
-
-### What was actually built
-
-By the mid-1980s, every element of the modern card transaction was in place, and each of them exists because something specific broke.
-
-The embossed card exists because handwritten slips were illegible. The imprinter exists because copying by hand was slow and wrong. The floor limit exists because authorizing everything was unaffordable in 1968. The authorization code exists to move fraud liability from the merchant to the issuer. Interchange exists because branching laws kept Bank of America out of forty-nine states. The interchange fee exists because the bank taking the credit risk is not the bank collecting the merchant discount. BASE I exists because a five-minute phone call cannot scale. Stand-in processing exists because issuers' computers go down. The magnetic stripe exists because a terminal cannot read embossing reliably, and its two tracks at two densities exist because banks and airlines wanted different things in 1971. Chargebacks and arbitration exist because a guaranteed transaction needs a court. The dial terminal exists because leased lines were too expensive for a corner shop, and the zero floor limit — every transaction authorized, which is what you experience today — exists because the terminal made authorization nearly free.
-
-One more artifact deserves a mention, because it is the piece of 1970s engineering you touch most often.
-
-In 1974 Hock started a project called BASE IV — internally, *Electronic Value Exchange* — to design a world in which every financial transaction was electronic from origin to settlement: any device, any asset, one switch in the middle. It was never built. The technology was too expensive, most of it would have had to run inside member banks' processing centers, and it was not clear the public was ready. Roger Peirce advised Hock to put the design on the shelf, because "the world's not ready for this."
-
-But BASE IV left behind one thing. BASE I's original message format was fixed in length and content — enough fields for a credit authorization and nothing more — and that was obviously inadequate for the world BASE IV imagined. So IBM designed an extensible format instead: a message type indicator, followed by eight bytes treated as a bitmap in which each of 64 bits says whether a particular field, defined in an external dictionary, is present or absent, with one bit reserved to chain another bitmap and field set behind the first. Add a new capability, and you add a row to a table rather than rewriting a switch. Variable-length fields carry their own length prefix, so intermediaries can pass values they do not understand.
-
-After a protracted fight with the airline industry, that format was ratified by ANSI and ISO as **ISO 8583**. It is how single-message debit was added later, and the CVV, and the CVV2 printed on the signature panel. It is the message your card sends today.
-
-Which brings us back to the two machines. Authorization — Hock's first problem — was solved so thoroughly that a request from a terminal in Tokyo reaches an issuer in Boise and returns in under two seconds, in any of two hundred countries, at any hour. The message really does move at close to the speed of light, exactly as Hock predicted it would when he decided that money was nothing more than guaranteed alphanumeric data.
-
-Settlement did not. The money still moves in overnight batches, on business days, through clearing systems whose basic architecture BASE II established in 1974 and correspondent banking established well before that. Tap a card and the answer comes back instantly; the funds arrive one to three business days later, and if they are crossing a border they may pass through two or three intermediary banks, each holding pre-funded balances in foreign currencies for exactly this purpose.
-
-Half of Dee Hock's vision shipped. The message moves the way he imagined. The money is still catching up.
-
-- card cloning meant a new solution was required - EMV (a form of authentication)
-- Then came internet, online payments. Card numbers getting leaked meant CVV had to be introduced -> PCI guidelines (not storing CVV)
-- For authentication, 3DS was introduced
-- With smartphones auth requirements changed -> 3DS2.0
-## Appendix
-
-### American Express
-
-<div style="width: 50%; margin: 0 auto;">
-
-{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_launch_ad_30_sept_1958.jpg" alt="American Express launch Ad, ca. 1958" caption="American Express Credit Card Launch Ad, The Cincinnati Enquirer, 30 September 1958, p. 7" %}
-
-</div>
-
-
-American Express watched Diners Club's success and decided that the market was too lucrative to ignore. But American Express was not starting from scratch. Founded in 1850 as an express mail service in Buffalo, New York, the company had spent a century building a brand synonymous with reliability and travel services. Their money orders and traveler's cheques were already fixtures in the wallets of businessmen and tourists worldwide. When they entered the charge card business, they brought institutional trust that no startup could replicate.
-
-<div style="width: 50%; margin: 0 auto;">
-
-{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_1958.webp" alt="The first AMEX cards were made of cardboard and didn't have embossed numbers" caption="The first AMEX cards were made of cardboard and didn't have embossed numbers" %}
-
-</div>
-
-On October 1, 1958, they launched their own charge card with a $6 annual fee — one dollar more than Diner's Club, deliberately signaling premium positioning. On launch day, 250,000 cards were already issued, accepted at 17,500 merchants. The earliest AMEX cards were cardboard. In May 1959, American Express became the first issuer to offer embossed plastic cards, replacing the cardboard competitors with something more durable and prestigious. The Centurion logo, borrowed from their traveler's cheques, conveyed authority before the card was even presented. Like Diner's Club, it required payment in full each month — it remained a charge card, not a credit card. But American Express understood branding in a way its rivals did not. Where Diner's Club sold utility, American Express sold status.
-
-{% include gallery id="amex_1959_gallery" caption="In May 1959, AMEX switched to issuing plastic cards" %}
-
-t wasn't until the 1960s that the first PVC (polyvinyl chloride) plastic cards were introduced. PVC was a durable and flexible material that could be easily printed on, making it ideal for card manufacturing. These early plastic cards were still relatively simple in design, typically featuring only the cardholder's name and account number.
-
-In 1965:
-American Express has a monthly "Cancellation Bulle-tin" which goes to all the service establishments in-volved. These are instructed not to honor any card unless they first check the cancella-tion bulletin to make sure that the card is not listed.
-
-Then, there is the “Be My Guest Service," another re-finement of living it up on the cuff. Card holders can treat friends to a dinner al-most anywhere in the world without leaving home. They simply send the name of the restaurant and the guest to American Express, where the arrangements are made.
-
-
-
-### Master Charge
+## Master Charge
 
 <div style="width: 50%; margin: 0 auto;">
 
@@ -1272,3 +990,290 @@ Now we'll see how credit card payments evolved with time, using new innovations 
 
 
 </div>
+
+## Credit Cards in India
+
+The credit card ecosystem in India developed slowly. Although Diners Club had been present in the country since 1960, it took decades for Indian banks to embrace the credit card.
+
+The first bank to rise up to the challenge was the government-owned (_sarkārī_) Central Bank of India.
+
+### Diners Club in India
+
+<div style="width: 30%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_india_merchants.jpg" alt="Diners Club India Merchants" caption="Diners Club India Merchants" %}
+
+</div>
+
+Surviving card booklets show establishments in India accepting the card as early as 1956, making them the earliest documented credit card acceptance locations in the country. The card itself arrived a few years later, in **November 1959**, when Kali Mody, a noted Bombay businessman, bought the franchise from Diners Club International to establish Diners Club India — becoming its first chairman and its member no. 1.[^kali-mody] The first fifteen members were drawn from Indian business circles, and the earliest member establishments read like a roll call of mid-century elite India: the Taj Mahal Hotel, the Oberoi properties, Gaylord Restaurant, Clarks Hotel, Burlingtons.[^diners-25y]
+
+At launch in 1960, about 300 affiliated establishments across 30 Indian cities honoured the card, concentrated in Bombay and Delhi.[^diners-1960-ad]
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_india_ad_4_sept_1961.png" alt="Diners Club India Ad, The Times of India, 4 Sept 1961, p. 8" caption="Diners Club India Ad, The Times of India, 4 Sept 1961, p. 8" %}
+
+</div>
+
+In its first year, the network grew to over 600 establishments and 2,300 "selected members", each paying an annual fee of Rs. 30 for a single itemised bill a month.[^diners-1961-ad] Like its American parent, the Indian card was a travel-and-entertainment charge card — airline tickets, hotel rooms, restaurant bills, a consolidated monthly bill payable in full — and, like its parent, it ran into collection trouble early, as this 1962 defaulter notice shows.
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_india_fraud_indian_express_25_oct_1962.png" alt="Diners Club India Defaulter Notice, The Indian Express, 25 Oct 1962, p. 8" caption="Diners Club India Defaulter Notice, The Indian Express, 25 Oct 1962, p. 8" %}
+
+</div>
+
+Growth was slow but steady: by 1978 the club counted 12,000 cardholders and over 2,000 member establishments across India and Nepal.[^diners-1978-ad] The operation had passed to the Aggarwal family in 1976, with Shamsunder Aggarwal as managing director.[^diners-1978-ad] By its twenty-fifth year, Diners Club India had grown to 50,000 cardholders and 6,500 member establishments, with offices in five Indian cities and a monthly members' magazine, _Signature_, covering travel, hotels and shopping.[^diners-25y]
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_ad_imprint_magazine_may_1983_p36.png" alt="Diners Club India Ad, Imprint magazine, May 1983, p. 36" caption="Diners Club India Ad, Imprint magazine, May 1983, p. 36" %}
+
+</div>
+
+Membership stayed forbiddingly exclusive. In 1988 an applicant needed either an annual income of Rs. 60,000 or assets worth Rs. 1.5 lakh, and was screened for "credit worthiness, the ability to spend and the intention to pay back" in a process that could take five weeks; the enrolment fee was Rs. 1,350, and the monthly bill had to be settled within fifteen days on pain of 2 percent interest.[^charge-it-1988] The gatekeeping worked as a business: membership grew from 7,000 in 1976 to 77,000 in 1987, with the club taking about 6 percent commission on its member establishments' billings.[^charge-it-1988] In **May 1990**, Citibank took over the Indian Diners Club franchise from the Aggarwal family,[^citibank-diners-1990] and by 1993 Citibank Diners Club was counted among the major card players in the country.[^cashing-in-1993]
+
+Across the same decades, the cost of admission climbed steadily — a 45-fold rise over 27 years:
+
+<div style="width: 80%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_joining_fees_1961_1988.png" alt="Diners Club India joining fees, 1961-1988" caption="Diners Club India's cost of joining, 1961–88: entrance fee and annual fee as advertised. The 1961 ad quotes the annual fee alone; the 1982 and 1988 figures are single unitemised amounts. Sources: The Times of India, 28 Jun 1961, p. 9; 6 Nov 1978, p. 5; 25 Feb 1980, p. 5; 20 Jan 1981, p. 7; 28 Nov 1982, p. 5; 23 Jan 1988, p. A2." %}
+
+</div>
+
+
+
+### Centralcard
+
+<div style="width: 100%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/centralcard_launch_ad.png" alt="Centralcard launch Ad, The Times of India, 12 August 1980, p. 4" caption="Centralcard launch Ad, The Times of India, 12 August 1980, p. 4" %}
+
+</div>
+
+**Centralcard** was the first ever bank-issued charge card in India. It was formally launched by Central Bank of India at a press event in **Bombay**
+on **Monday, 11 August 1980**. The event was led by the bank's former chairman, P. F. Gutta and, executive director, Narayanan Vaghul.
+
+The idea for Centralcard had been conceived by Gutta during his tenure as chairman of the bank.
+
+Although the basic features of the scheme were similar to the credit card systems in vogue in developed countries, it did not offer revolving credit. Instead, it was advertised as a **convenience card**.
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/centralcard_launch_event.webp" alt="Centralcard launch event" caption="Centralcard launch event, Source: Forbes India@75" %}
+
+</div>
+
+Vaghul highlighted this distinction, stressing that the scheme included a _"safeguard against extension of consumer credit to the card holder"_. The card holder's account would simply be debited with the amount of bills signed by him at monthly intervals.
+Thus, it was _"more a means of convenience and not an instrument for credit extension"_.
+
+The facility was offered to current and savings account holders of the bank. There was no membership fee or renewal fee.
+
+Initially, Centralcard was not affiliated with either Visa or Mastercard, and was an independent system. 
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/centralcard_prelaunch_ad_toi_6_july_1980_p18.png" alt="Centralcard pre-launch Ad soliciting merchants, The Times of India, 6 July 1980, p. 18" caption="Centralcard pre-launch Ad soliciting merchants, The Times of India, 6 July 1980, p. 18" %}
+
+</div>
+
+Unlike BankAmericard, Centralcard did not charge establishments a membership fee. I was unable to find the merchant discount rate charged by Centralcard at launch.
+
+At launch, 400 establishments comprising hotels, restaurants and department stores accepted the card. The bank had ambitiously projected that it would issue 20,000 cards by the end of 1980, but the target proved wildly optimistic. By March 1982, nearly two years after its launch, Centralcard had attracted fewer than 3000 cardholders.
+
+Starting in May 1981, a cheque-cashing privilege was attached to the card. A cardholder could walk into any of Central Bank's nearly 2,000 branches and encash a personal cheque for up to Rs. 2,500 per month. Advertised as "ideal for businessmen, travellers, salesmen, executives, tourists".
+
+The back office was computerised from the beginning. The initial Centralcard system was developed by **TCS** and ran on the bank's **Burroughs 6700** mainframe; in 1982 it was handed over to the bank's own computer department, where Viswanathan Sundararaman — who would rise from programmer to Chief Officer (Computer Policy & Planning) over a twenty-year career at the bank — maintained it and successively migrated it, first to a **PDP-11** and then to an in-house Unix-based machine.[^sundararaman]
+
+
+#### The Mastercard alliance (1982)
+
+By early 1982, the scheme had grown to more than 2,700 cardholders and over 650 member-establishments. On 25 March 1982, Central Bank announced that it had entered into an agreement with MasterCard International Inc., becoming a principal member of the network.
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/centralcard_mastercard_tieup_ad_toi_26_mar_1982_p23.png" alt="Centralcard Mastercard tie-up Ad, The Times of India, 26 March 1982, p. 23" caption="Centralcard Mastercard tie-up Ad, The Times of India, 26 March 1982, p. 23" %}
+
+</div>
+
+MasterCard, which had only recently shed its old name, Master Charge, then had over 24,000 member banks and financial institutions. Its cards were held by more than 83 million people, and over 3 million establishments in 140 countries honoured them. A MasterCard holder visiting India _"could now avail of the services of the branches of the Central Bank and ever-increasing Centralcard member establishments in India"_.
+
+The economic rationale, as explained by chairman B. V. Sonalker, was that foreign tourists with credit cards _"had a tendency to spend more than those having currency or traveller cheques"_, and the tie-up would draw more foreign exchange into the country. The bank hoped to add 10,000 cardholders and 2,500 establishments within the year.
+
+The settlement plumbing, on the Indian side, was entirely manual. Sundararaman, who developed the bank's MasterCard processing, recalls that there was no online connectivity with the network at all: data had to be sent to MasterCard on **weekly tapes** for settlement.[^sundararaman]
+
+
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/centralcard_mastercard_ad_business_world_1986.jpg" alt="Centralcard-Mastercard Ad, Business World, 1986" caption="Centralcard-Mastercard Ad, Business World, 1986" %}
+
+</div>
+
+By 1986, Air India and Indian Airlines had started accepting Centralcard. An advertisement from that year noted that the card was valid in Nepal as well.
+
+#### Franchising the card (1987)
+
+A significant development came in 1987. By then Centralcard had more than 25,000 cardholders and 6,000 member establishments. These establishments included
+hotels, restaurants, shopping centres, airlines, emporiums, hospitals, chemists
+and others.
+
+On 18 October 1987, Vysya Bank announced that it had entered into an agreement with Central Bank of India to issue Centralcards to its own customers, enrol new member-establishments, and service both Centralcard and MasterCard holders.
+
+Bank of America had to license BankAmericard to other banks due to the prevailing restrictions on interstate banking in the US. India had no such restrictions. The decision to license Centralcard to other banks seems to have been taken due to the slower than expected growth of the program.
+
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/centralcard_vysya_ad_business_india_aug_1988.jpg" alt="Vysya Bank Centralcard Ad, Business India, August 1988" caption="Vysya Bank Centralcard Ad, Business India, August 1988" %}
+
+</div>
+
+By August 1988 Vysya Bank was advertising its centralcards. Vysya Bank became the **first private sector bank in India to issue a charge card**.
+
+The card was repositioned for a new era. It was no longer merely a convenience but a "STATUS SYMBOL" and represented "BUYING POWER".
+
+#### Visa arrives, and the network matures
+
+Visa, the other global network, had been in India since 1981 through Andhra Bank — but Centralcard's own tryst with it came only at the decade's end, almost seven years after the Mastercard tie-up. The earliest firm evidence is an advertisement in the February 1989 issue of _Business India_, which declares "Centralcard's international tie-up with the world's two largest credit card chains, Mastercard and VISA, offers a huge potential clientele of over 536 million", and prints actual Visa and MasterCard cards alongside a Centralcard. Since every earlier Centralcard advertisement, through August 1988, displays MasterCard alone, the Visa arrangement was publicised for the first time somewhere between September 1988 and February 1989.[^centralcard-visa-1989] By then, the number of cardholders had breached 40,000, and over 8,000 member establishments were honouring the card.
+
+<div style="width: 60%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/centralcard_ad_business_india_feb_1989.png" alt="Centralcard Ad, Business India, February 1989" caption="Centralcard Ad, Business India, February 1989" %}
+
+</div>
+
+What kind of tie-up was this, exactly? The surviving record suggests it began as an acceptance arrangement rather than a full membership. A Visa advertisement from June 1992 lists Central Bank of India in its "for merchants only" column — together with Bank of America and Bank of Baroda — while cardholders are directed to Andhra Bank, Canara Bank, Vijaya Bank, Citibank, ANZ Grindlays, Hongkong Bank and Standard Chartered.[^visa-ad-1992] The bank's own retrospective history, for its part, records that it "became a principal member of Mastercard in 1982 and affiliated to VISA International in **1991**". The 1989 advertising thus most likely marks Visa cards being honoured across the Centralcard merchant network, formalised into a full affiliation two years later.
+
+The distinction mattered less than it might seem, because of how these network alliances worked. Once an Indian card sporting a Visa or MasterCard tie-up enrolled a merchant establishment, that establishment became a Visa or MasterCard merchant, obliged to accept any card bearing those logos — no issuer could hold a merchant exclusively.[^ace-of-strategy-1991] A visiting cardholder's bill then worked its way down a chain: the merchant claimed the money from the Indian bank, the Indian bank claimed it from Visa, and Visa claimed it from the foreign bank that had issued the card.[^playing-cards-1992] Decades on, the bank's 2007 IPO prospectus would describe the resulting product split: a Centralcard could "be issued as either a Master Card or a Visa Card if it is to be used in India and Nepal only or as a Master Card if it is to be used overseas as well". Visa was the domestic variant; MasterCard was the international one.[^cbi-rhp-2007]
+
+{% include gallery id="centralcard_directory_gallery" caption="Centralcard Directory of Member Establishments, 5th Edition, March 1989" %}
+
+The fifth edition of the card's directory of member establishments, from March 1989, captures the scheme in its mature form: issued jointly by Central Bank of India, The Vysya Bank Ltd and United Bank of India, with Bank of India also sharing the merchant network — four banks, one card. The executive director's covering letter to cardholders lists the network's span: shops, hotels, restaurants, departmental stores, emporia, booksellers, tour operators, travel agents, chemists, hospitals, Indian Airlines, Air India and other international airlines. The directory's instructions page documents the card's operating rules: cards expired on the last day of the month printed on them, were renewed automatically for two years, and every cardholder was instructed to quote their card number in all correspondence — the familiar plumbings of a settled card system.
+
+#### Co-branded cards arrive
+
+By 1991, the scheme had learned the newest trick of the mature card industry. The Leela group of hotels and Centralcard launched **The Leela-CentralCard** — one of India's earliest co-branded cards — promising "a close and confined circle" of members welcomed at 16,000 establishments, an accident insurance cover of Rs. 10 lakh, a 15% discount at select five-star hotels in Delhi, Madras, Bangalore, Ahmedabad and Pune, and, naturally, special treatment at The Leela Kempinski, Bombay and The Leela Beach, Goa.
+
+<div style="width: 40%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/leela_centralcard_ad_india_today_apr_1991.png" alt="The Leela-CentralCard Ad, India Today, April 1991" caption="The Leela-CentralCard Ad, India Today, April 1991" %}
+
+</div>
+
+Half a world away, Diners Club had evolved from a fourteen-restaurant experiment into a global T&E network; BankAmericard had exploded out of Fresno and franchised itself into Visa. Centralcard ran the same gauntlet in miniature — launch, network alliance, franchising, co-branding — a decade behind, at Indian scale, and without ever quite giving up the founding demand that convenience should not quietly metastasise into debt.
+
+
+### Andhra Bank and the Bancard
+
+The first competitor to Centralcard came from another public sector bank. In **July 1981**, Andhra Bank launched the **Andhra Bancard** — and unlike Centralcard, it was affiliated with an international network from the very beginning: an agreement signed in 1981 made Andhra Bank a principal member of **Visa International**, the first Indian bank to tie up with a global card network.[^andhra-mc-1988] By late 1982, the Bancard was being advertised as accepted for Indian Airlines tickets.[^andhra-ia-ad]
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/andhra_bank_launch_ad_toi_10_july_1981.png" alt="Andhra Bancard launch Ad, The Times of India, 10 July 1981" caption="Andhra Bancard launch Ad, The Times of India, 10 July 1981" %}
+
+</div>
+
+The Bancard loosened Centralcard's template in consequential ways. An applicant did not need to bank with Andhra Bank — an income of Rs. 3,000 a month, or a company with a paid-up capital of Rs. 5 lakh, was eligibility enough.[^charge-it-1988] The card came laden with goodies: cash advance, cheque discounting, add-on cards for a spouse or dependent children, and free round-the-clock personal accident insurance from the moment one became a member — "unlike other schemes which offer insurance only if the cardholder purchases an airline ticket".[^indian-express-1992][^charge-it-1988] The pitch worked: 7,000 members in its first year grew to 30,000 cardholders and 6,000 member establishments by early 1987, and eventually to over 41,000 cardholders — the highest of any bank card of its day.[^charge-it-1988][^a-creditable-venture]
+
+In January 1987, Andhra Bank announced it would introduce the country's first **gold card**,[^a-creditable-venture] and in May 1988 it signed up as a principal member of Mastercard International as well — a membership that let it service the cards of visiting foreign tourists, and earn foreign exchange in the bargain.[^andhra-mc-1988]
+
+### The world opens up: RBI allows international cards (1986)
+
+Every Indian card of the early eighties ended at the border: Diners Club cards issued to Indians were valid only within the country,[^diners-1979] and the bank cards that followed were honoured in India and Nepal alone. That changed in 1986. Responding to requests from firms engaged in international business, the Reserve Bank of India permitted international credit cards to be issued in the country for the first time — a facility limited in scale, and restricted to firms and companies holding valid blanket foreign-exchange permits.[^a-creditable-venture][^rbi-announce-1986]
+
+**American Express** — already the most popular card among Indian member establishments, being widely circulated and settling its dues within a week — was the first to launch an international card in India, though its gold and platinum tiers were never issued in the country.[^a-creditable-venture] **Diners Club** followed in September 1986 with an international card aimed at the business traveller abroad, covering airline tickets, hotel accommodation, entertaining clients, car rentals, even telephone and telex services.[^diners-intl-1986] The **international Centralcard** arrived on 26 October 1986, in Central Bank's platinum jubilee year, in collaboration with Mastercard International, aimed at the roughly 4,000 blanket-permit-holding corporate bodies across the country.[^centralbank-intl-1986]
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/centralcard_international_ad_toi_31_oct_1986_p9.png" alt="International Centralcard Ad, The Times of India, 31 Oct 1986, p. 9" caption="International Centralcard Ad, The Times of India, 31 Oct 1986, p. 9" %}
+
+</div>
+
+Note how thinly the door was opened: these cards were for corporate permit-holders, not ordinary travellers. For most Indians, the world of the credit card remained a domestic one.
+
+### The bank-card wave
+
+Once the two public sector pioneers had shown the way, the rest of the industry followed, each with a card of its own:
+
+- **Bank of Baroda** launched the **BOBCARD** in **September 1985**; by early 1988 it had over 15,000 cardholders and 2,200 merchant establishments. The card was unaffiliated to Visa or Mastercard at launch, though the bank later joined Visa International as a principal member and put the Mastercard logo on its premium BoB Exclusive.[^bobcard]
+- **Canara Bank** launched the **Cancard** in **1987**, with no membership or renewal fee and add-on cards for family members; by October 1988 it had 50,000 cardholders and 5,000 member establishments across India and Nepal.[^cancard]
+- **Vijaya Bank** launched its card in Bombay in **January 1988**, affiliated with Visa International like Andhra Bank's card before it; its first cardholder was T.T. Vasu.[^vijaya][^vijaya-vasu]
+- **State Bank of India**, characteristically cautious, preferred to back a **cheque-guarantee card** — an identity card assuring shops that a customer's cheque was good — rather than a true credit card.[^charge-it-1988]
+
+By early 1987, there were already over 1.5 lakh credit card holders in the country;[^a-creditable-venture] five years on, one count found more than eight Indian banks running card schemes.[^playing-cards-1992]
+
+### Foreign banks and the arrival of revolving credit
+
+Foreign banks came late to the Indian card market, but they changed the product itself. **ANZ Grindlays** became the first foreign bank to launch a domestic card in India — the Visa-affiliated **Grindlays Classic Card**, in February 1989[^grindlays-visa] — and, more consequentially, the **first bank to offer revolving credit in India**: the option of paying as little as 10 percent of the monthly bill and carrying the balance forward.[^grindlays-revolving] Three decades after the BankAmericard, the defining feature of the modern credit card — debt that rolls over and accrues interest — had finally arrived in the country.
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/grindlays_revolving_credit_ad_toi_2_nov_1989_p12.png" alt="Grindlays revolving credit Ad, The Times of India, 2 Nov 1989, p. 12" caption="Grindlays revolving credit Ad, The Times of India, 2 Nov 1989, p. 12" %}
+
+</div>
+
+The other foreign names came piecemeal. **Hongkong Bank** launched its credit card in early 1992, restricted to existing customers who fit a predefined profile; cardholders could pay a minimum of 10 percent of their monthly dues and carry the balance forward at 2.5 percent monthly interest.[^cashing-in-1993] **American Express** entered as an issuer in June 1993, by which time some twenty banks were issuing Mastercard in India.[^card-sharp-1993] **Standard Chartered** would introduce the country's first photocard in 1999.[^stanchart-photocard]
+
+<div style="width: 100%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_india_ad_toi_24_oct_1993.png" alt="American Express India Ad, The Times of India, 24 October 1993" caption="American Express Card Ad, The Times of India, 24 October 1993" %}
+
+</div>
+
+The private-bank era began properly with **HDFC Bank**, which soft-launched its credit-card business in Chennai in December 2001 with an international silver card on Visa[^hdfc-2001] — a latecomer whose card business would grow to be the largest in the country.
+
+[^kali-mody]: Diners Club Ad, The Times of India, 6 Nov 1978, p. 5; Imprint magazine, May 1983, p. 20. See also [Parsiana's profile of Kali Mody](https://www.parsiana.com/current-issue/articles.aspx?id=PAbSsdmYFUE=&issue=226).
+[^diners-25y]: Diners Club 25 years Ad, The Times of India, 2 Mar 1984, p. 13.
+[^diners-1960-ad]: Diners' Club Ad, The Times of India, 10 Nov 1960, p. 3.
+[^diners-1961-ad]: Diners' Club Ad, The Times of India, 28 June 1961, p. 9.
+[^diners-1978-ad]: Diners Club Ad, The Times of India, 6 Nov 1978, p. 5.
+[^charge-it-1988]: "CHARGE IT!", Neeta Lal, The Times of India, 23 Jan 1988, p. A2.
+[^citibank-diners-1990]: "Diners Club franchise for Citibank," The Times of India, 25 May 1990, p. 15; "Citibank launches 'corporate card'," The Times of India, 6 Feb 1991, p. 15.
+[^cashing-in-1993]: "Cashing in on Consumerism," The Indian Express, 5 July 1993, p. 12.
+[^andhra-mc-1988]: "Andhra Bank pact with Mastercard," The Times of India, 6 May 1988, p. 20.
+[^andhra-ia-ad]: Andhra Bancard–Indian Airlines tie-up Ad, The Times of India, 5 Nov 1982, p. 21.
+[^indian-express-1992]: "Credit cards — convenience at the helm," The Indian Express, 6 July 1992, p. 13.
+[^a-creditable-venture]: "A creditable venture," Gauri Lankesh, The Times of India, 30 Jan 1987, p. 20.
+[^diners-1979]: "Credit card system urged," The Times of India, 3 Nov 1979, p. 15.
+[^rbi-announce-1986]: The Times of India, 28 Nov 1986, p. 18.
+[^diners-intl-1986]: "Diners Club's new credit card," The Times of India, 6 Sep 1986, p. 13.
+[^centralbank-intl-1986]: "Central Bank's new credit card," The Times of India, 27 Oct 1986, p. 13.
+[^bobcard]: "Bright prospects for bank credit cards," The Times of India, 18 Feb 1988, p. 11; "Playing one's cards right," The Times of India, 26 July 1992, p. 16.
+[^cancard]: "Canara Bank's progress after Cancard facility," The Times of India, 20 Oct 1988, p. 10.
+[^vijaya]: "Vijaya Bank's credit card," The Times of India, 13 Jan 1988, p. 10.
+[^vijaya-vasu]: The Indian Express, 26 Jan 1988.
+[^playing-cards-1992]: "Playing one's cards right," The Times of India, 26 July 1992, p. 16.
+[^grindlays-visa]: "Grindlays Visa credit cards," The Times of India, 20 Mar 1989, p. 15.
+[^grindlays-revolving]: ANZ Grindlays Silver Card Ad, The Times of India, 24 May 1995, p. 9; Grindlays revolving credit Ad, The Times of India, 2 Nov 1989, p. 12.
+[^card-sharp-1993]: "Card Sharp," The Times of India, 23 Oct 1993, p. A5.
+[^stanchart-photocard]: Standard Chartered Instabuys Ad, The Times of India, 14 Jan 1999, p. 17.
+[^hdfc-2001]: "Business Digest," The Times of India, 21 Dec 2001, p. 15.
+[^centralcard-visa-1989]: Centralcard Ad, Business India, February 1989.
+[^visa-ad-1992]: Visa Ad, The Times of India, 5 June 1992, p. 16.
+[^ace-of-strategy-1991]: "An ace of a strategy," The Times of India, 10 Mar 1991, p. 14.
+[^cbi-rhp-2007]: Central Bank of India, Red Herring Prospectus, 2007.
+[^bank-charge-cartoon-1942]: Cartoon, _Banking_, August 1942, p. 7.
+[^central-billing-1945]: "Central Billing?", _Business Week_, 3 November 1945, pp. 86-87.
+[^bankway-ad-1945]: Buffalo Industrial Bank, Bankway Credit Card Ad (in Polish), _Dziennik Dla Wszystkich_ ("Everybody's Daily"), Buffalo, 27 October 1945, p. 5.
+[^bankway-nyt-1945]: "Buffalo Bank Initiates Plan for Buying on Time," The New York Times, 15 November 1945, p. 26.
+[^bankway-nb-1946]: John Winters Fleming, "New Way to Buy on Credit," _Nation's Business_, June 1946, p. 107; see also "Shopper's Plan," _Banking_, April 1946, p. 89, and "New Credit Plan," _Radio News_, October 1946, p. 141.
+[^chargit-bw-1950]: "Charge It — With the Bank," _Business Week_, 23 September 1950, pp. 58, 60.
+[^chargit-banking-1950]: "Community Charge Account: Charge It at the Store; Pay for It at the Bank," _Banking_, October 1950, p. 84.
+[^chargit-west-1952]: "'Charg-It' Plan Goes West," _Banking_, August 1952, p. 71.
+[^flatbush-history]: ["The First Credit Card," Flatbush History](https://www.flatbushhistory.com/articles/first-credit-card), drawing on Louis Hyman, _Borrow: The American Way of Debt_ (Vintage, 2012).
+[^bank-card-congress-1978]: "The Evolution of the Debit Card as a Means of Payment," Congressional Record — Senate, 1 February 1978.
+[^fed-task-group]: Federal Reserve System, [Report of the System Task Group on Bank Credit Card and Check Credit Plans: Appendices](https://fraser.stlouisfed.org/docs/historical/brimmerpapers/bak00290c03126.pdf), Andrew F. Brimmer Papers, FRASER, Federal Reserve Bank of St. Louis.
+[^franklin-banking-1952]: "A Bank's Retail Charge Account Service," _Banking_, June 1952, p. 122.
+[^franklin-aba]: Figures as recounted in the American Bankers Association's published history of the bank credit card.
+[^sundararaman]: Viswanathan Sundararaman, "Credit Card System & Master Card System," [LinkedIn profile — Projects](https://www.linkedin.com/in/viswanathan-sundararaman-b3a6193/details/projects/). Sundararaman worked at Central Bank of India from 1975 to 1995, rising from programmer to Chief Officer (Computer Policy & Planning).
+
+## Appendix
+
+### Indian "Credit Card" in 1960s
+some cheque shit
+
+### Centralcard Ads
+{% include gallery id="centralcard_1981_ads_gallery" caption="Centralcard advertisements in The Times of India, 1981" %}
+
+{% include gallery id="centralcard_india_today_ads_gallery" caption="Centralcard advertisements in India Today, 1982-83" %}
