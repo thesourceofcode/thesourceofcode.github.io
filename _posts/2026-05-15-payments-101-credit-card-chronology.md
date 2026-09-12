@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Payments 101 - The Credit Card Chronology"
+title: "The Credit Card Chronology"
 toc: true
 toc_label: "Contents"
 toc_sticky: true
@@ -9,6 +9,15 @@ tags:
   - Money
   - Payments
   - Credit Cards
+oldest_credit_card_gallery:
+  - url: /assets/images/credit-card-chronology/oldest_credit_card_front.jpg
+    image_path: /assets/images/credit-card-chronology/oldest_credit_card_front.jpg
+    alt: "Oldest credit card — Front"
+    title: "Front Side"
+  - url: /assets/images/credit-card-chronology/oldest_credit_card_back.jpg
+    image_path: /assets/images/credit-card-chronology/oldest_credit_card_back.jpg
+    alt: "Oldest credit card — Back"
+    title: "Back Side"
 gallery:
   - url: /assets/images/credit-card-chronology/collect_card_1929_front.png
     image_path: /assets/images/credit-card-chronology/collect_card_1929_front.png
@@ -68,6 +77,15 @@ diners_club_booklet_gallery:
     image_path: /assets/images/credit-card-chronology/diners_club_booklet_back.jpg
     alt: "Diner's Club Booklet (back)"
     title: "Diner's Club Booklet (back)"
+amex_green_card_gallery:
+  - url: /assets/images/credit-card-chronology/amex_green.jpeg
+    image_path: /assets/images/credit-card-chronology/amex_green.jpeg
+    alt: "Amex green card (front)"
+    title: "Amex green card (front)"
+  - url: /assets/images/credit-card-chronology/amex_green_back.jpg
+    image_path: /assets/images/credit-card-chronology/amex_green_back.jpg
+    alt: "Amex green card (back)"
+    title: "Amex green card (back)"
 bofa_1955_ibm_gallery:
   - url: /assets/images/credit-card-chronology/ibm_702.jpg
     image_path: /assets/images/credit-card-chronology/ibm_702.jpg
@@ -95,55 +113,101 @@ centralcard_1981_ads_gallery:
     image_path: /assets/images/credit-card-chronology/centralcard_ad_toi_29_nov_1981_pA5.png
     alt: "Centralcard Ad, The Times of India, 29 November 1981, p. A5"
     title: "Centralcard Ad, The Times of India, 29 November 1981, p. A5"
-centralcard_india_today_ads_gallery:
-  - url: /assets/images/credit-card-chronology/centralcard_ad_india_today_20_nov_1982.png
-    image_path: /assets/images/credit-card-chronology/centralcard_ad_india_today_20_nov_1982.png
-    alt: "Centralcard Ad, India Today, 20 November 1982"
-    title: "Centralcard Ad, India Today, 20 November 1982"
-  - url: /assets/images/credit-card-chronology/centralcard_merchant_ad_india_today_20_nov_1982.png
-    image_path: /assets/images/credit-card-chronology/centralcard_merchant_ad_india_today_20_nov_1982.png
-    alt: "Centralcard Member Establishment Ad, India Today, 20 November 1982"
-    title: "Centralcard Member Establishment Ad, India Today, 20 November 1982"
-  - url: /assets/images/credit-card-chronology/centralcard_ad_india_today_1983.png
-    image_path: /assets/images/credit-card-chronology/centralcard_ad_india_today_1983.png
-    alt: "Centralcard Ad, India Today, 1983"
-    title: "Centralcard Ad, India Today, 1983"
-centralcard_directory_gallery:
-  - url: /assets/images/credit-card-chronology/centralcard_directory_mar_1989.png
-    image_path: /assets/images/credit-card-chronology/centralcard_directory_mar_1989.png
-    alt: "Centralcard Directory of Member Establishments, 5th Edition, March 1989"
-    title: "Centralcard Directory of Member Establishments, 5th Edition, March 1989"
-  - url: /assets/images/credit-card-chronology/centralcard_directory_mar_1989_p2.png
-    image_path: /assets/images/credit-card-chronology/centralcard_directory_mar_1989_p2.png
-    alt: "Centralcard Directory of Member Establishments, Welcome Letter, March 1989"
-    title: "Centralcard Directory of Member Establishments, Welcome Letter, March 1989"
-  - url: /assets/images/credit-card-chronology/centralcard_directory_mar_1989_p3.png
-    image_path: /assets/images/credit-card-chronology/centralcard_directory_mar_1989_p3.png
-    alt: "Centralcard Directory of Member Establishments, Important Features, March 1989"
-    title: "Centralcard Directory of Member Establishments, Important Features, March 1989"
+# centralcard_india_today_ads_gallery:
+#   - url: /assets/images/credit-card-chronology/centralcard_ad_india_today_20_nov_1982.png
+#     image_path: /assets/images/credit-card-chronology/centralcard_ad_india_today_20_nov_1982.png
+#     alt: "Centralcard Ad, India Today, 20 November 1982"
+#     title: "Centralcard Ad, India Today, 20 November 1982"
+#   - url: /assets/images/credit-card-chronology/centralcard_merchant_ad_india_today_20_nov_1982.png
+#     image_path: /assets/images/credit-card-chronology/centralcard_merchant_ad_india_today_20_nov_1982.png
+#     alt: "Centralcard Member Establishment Ad, India Today, 20 November 1982"
+#     title: "Centralcard Member Establishment Ad, India Today, 20 November 1982"
+#   - url: /assets/images/credit-card-chronology/centralcard_ad_india_today_1983.png
+#     image_path: /assets/images/credit-card-chronology/centralcard_ad_india_today_1983.png
+#     alt: "Centralcard Ad, India Today, 1983"
+#     title: "Centralcard Ad, India Today, 1983"
+# centralcard_directory_gallery:
+#   - url: /assets/images/credit-card-chronology/centralcard_directory_mar_1989.png
+#     image_path: /assets/images/credit-card-chronology/centralcard_directory_mar_1989.png
+#     alt: "Centralcard Directory of Member Establishments, 5th Edition, March 1989"
+#     title: "Centralcard Directory of Member Establishments, 5th Edition, March 1989"
+#   - url: /assets/images/credit-card-chronology/centralcard_directory_mar_1989_p2.png
+#     image_path: /assets/images/credit-card-chronology/centralcard_directory_mar_1989_p2.png
+#     alt: "Centralcard Directory of Member Establishments, Welcome Letter, March 1989"
+#     title: "Centralcard Directory of Member Establishments, Welcome Letter, March 1989"
+#   - url: /assets/images/credit-card-chronology/centralcard_directory_mar_1989_p3.png
+#     image_path: /assets/images/credit-card-chronology/centralcard_directory_mar_1989_p3.png
+#     alt: "Centralcard Directory of Member Establishments, Important Features, March 1989"
+#     title: "Centralcard Directory of Member Establishments, Important Features, March 1989"
 
 ---
 
 <div class="text-justify" markdown="1">
-Credit cards are so ordinary today that it’s easy to forget how remarkable the whole system really is.
 
-A customer taps a piece of plastic, and within a few hundred milliseconds, a global network of institutions coordinates to decide whether money should move. This happens millions of times a day.
+<style>
+.tt { position: relative; border-bottom: 1px dotted #999; cursor: help; }
+.tt .tt-c { visibility: hidden; opacity: 0; transition: opacity .15s; position: absolute; bottom: 130%; left: 50%; transform: translateX(-50%); width: 22em; padding: .6em .8em; font-size: .75em; line-height: 1.5; background: #fff; border: 1px solid #bbb; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,.15); z-index: 99; color: #333; text-align: left; }
+.tt:hover .tt-c { visibility: visible; opacity: 1; }
+</style>
 
-As a software developer working in fintech, I found myself staring at these systems with a mix of curiosity and disbelief. There are issuing banks, acquiring banks, card networks, merchants, processors, fraud engines, compliance layers, and decades of technical and institutional baggage holding everything together.
+This blog began with a simple <span class="tt">thought:<span class="tt-c">What are thoughts anyways? Where do they come from?</span></span>
 
-As I learned more, it became clear that modern card payments are the result of a long evolution shaped by changing socioeconomic, technological, and regulatory constraints. Like a sculpture being carved over decades, each layer added detail, complexity, and occasionally new problems to solve.
+**If phones have NFC sensors and credit cards support NFC payments, can a phone itself be used as a POS machine?**
 
-As John Gall put it in _Systemantics_:
+Imagine making an online purchase and, instead of typing in your card details, simply tapping your physical card against your phone.
+
+But then I wondered if it would actually be useful. After all, wallets like Apple Pay and Samsung Pay already let us store our cards on our phones, effectively removing the need for the physical card.
+
+
+I looked into it and turns out this functionality is already in active use, both for sellers (softPOS) and end users (Tap to Pay).
+
+I started thinking more deeply about the nature of credit cards. And eventually, I stumbled upon a much more fundamental question:
+
+**What even is a credit card?**
+
+As a software developer working in fintech, I already had a fair idea about modern credit cards and the elaborate payment systems built around
+them. But I wanted to understand the **_why_**.
+
+Why do credit cards exist in the form they do? What problems were they originally created to solve? How did those early solutions grow into the elaborate payment infrastructure we have today?
+
+
+So I decided to read (and write) about their origins and the context in which they evolved.
+
+As John Gall wrote in _Systemantics_:
 
 > "A complex system that works is invariably found to have evolved from a simple system that worked."
 
-This post is my attempt to give structure to that evolution.
+or, as _motabhai_ put it:
+
+<div style="width: 40%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/chronology_meme.webp" alt="\"_Understand the Chronology_\"" caption="\"_Understand the Chronology_\"" %}
+
+</div>
+
+Hence, this blog.
+
+
+The original plan was to write about the evolution of card payment technology. But as I kept reading, I was equally fascinated by the history of the credit card itself. So I decided to split the blog in two parts. This part will
+focus on the history and origins of the credit card, with the evolution of card payment technology delegated to part two.
+{: .notice--info}
+
+
+
+
+
 
 
 ## What is a Credit Card?
 
+Well, its not a Debit Card, that's for sure. In fact, I was very surprised to learn that credit cards were created much before debit cards.<span class="tt">*<span class="tt-c">More on this in part 2</span></span>
 
-At its core, a credit card is an instrument of identification. It links a cardholder to a line of credit issued by a financial institution. In that sense, it is less about the physical object itself and more about what it represents in a financial system.
+On a serious note, at its core, a credit card is an instrument of identification. As a matter of fact, early versions were frequently labelled as _"Credit Identification Card"_.
+
+But what is the fundamental concept of a credit card—_the first principle_, so to speak?
+
+
+It links the cardholder to a line of credit issued by a financial institution. In that sense, it is less about the physical object itself and more about what it represents in a financial system.
 
 Of course, modern credit cards are anything but simple physical tokens. They pack in a surprising amount of engineering: magnetic stripes, EMV chips with embedded computing capability, NFC antennas for contactless payments, holograms for anti-counterfeiting, embossed or printed identifiers, and more.
 
@@ -151,20 +215,11 @@ Each of these features has a story. To understand how they came to exist, we nee
 
 But first, let’s take a look at the evolution of credit itself.
 
-### Older than plastic
-
-Before we get to 1950, it is worth noting that neither problem is new. Authorization and authentication are not artifacts of the electronic age; they are as old as centralized record-keeping itself.
-
-In Bronze Age Crete, roughly four thousand years ago, Minoan officials carried engraved seal-stones and signet rings — small, intricately carved objects, often worn as jewelry, with mounting holes drilled so they could hang from a wrist or neck. A priestess or merchant entitled to draw goods from a palace magazine — cloth, oil, spices — would take what she needed and press her seal into a lump of soft clay or wax, leaving an impression that recorded the transaction and its value.
-
-The parallels to a modern card are almost uncomfortable.
-
-The carving was **authentication**: unique, hard to reproduce by hand, and proof that the person making the withdrawal was who they claimed to be. The seal itself was an **authorization token**: it had no intrinsic value, but it entitled the palace scribes to update a ledger on the holder's behalf. And the palace archive — thousands of clay nodules, countersigned by multiple seals — was the **database**: salaries accrued as credits, withdrawals posted as debits, balances rolled forward to the next accounting period at harvest. There is evidence in the palace records of negative balances, which is to say, of revolving credit.
-
-We tend to think of plastic as a modern synthetic. But a seal impressed into beeswax is also a polymer bearing an identity, and it was doing the same job in 1900 BCE that an embossed PVC rectangle would do in 1958 CE. What changed was not the idea. What changed was the volume.
 
 
 ## The origins of credit
+
+At `$DayJob` we have a philosophical concept of "Shape of Nature".
 
 The concept of credit likely began to take shape with the agricultural revolution around 10,000 years ago. In agrarian economies, farmers needed seeds, water, fertilizer, and labor months before any harvest could generate income. Under these conditions, credit emerges naturally: value is provided now in exchange for value received later.
 
@@ -260,6 +315,8 @@ Physical evidence of credit practices in ancient India is virtually nonexistent.
 
 However, we have significant literary evidence. The Rig Veda, composed between 1500 and 1200 BCE, includes a prayer to _Varuna_ requesting discharge from debt.
 
+<details><summary>Rant</summary>I am so disappointed at this</details>
+
 
 <div style="width: 100%; margin: 0 auto;">
 
@@ -312,6 +369,58 @@ Buddhism stands apart in its relative permissiveness. The Buddha issued no blank
 So we can establish that credit has been there for several millennia. So what was it about 20th century America that led to the credit card revolution?
 
 ## Medieval evolution of credit
+
+Not so fast. Before we get to 20th century America, we have around six centuries of Europe to cross.
+
+The Roman world had bankers too — but they operated inside a Mediterranean market enclosed by a single state: one legal system, one army, one enforcement apparatus. When the Western Empire came apart, long-distance trade and the institutions that enforced obligations at a distance collapsed together, and the credit instruments died with the conditions that had sustained them. For roughly five hundred years, most of Europe's economy ran local and small: manors, rents in kind, barter, little silver.
+
+Then commerce returned faster than coin could. Between roughly 950 and 1350, in the period Robert Lopez called the Commercial Revolution of the Middle Ages,[^lopez-commercial-1971] Italian ports reopened the Mediterranean and Europe began to re-monetize. But specie remained scarce, heavy, and lethally dangerous to haul. Moving a chest of silver from Bruges to Barcelona was not a payment method; it was an expedition.
+
+So merchants rebuilt credit, this time in ink. "Credit commonly entered into the commercial practice of the Middle Ages"[^postan-1928] — and the Church's prohibition of usury, rather than suppressing it, determined the shapes it took. Three innovations from the period matter most to our story.
+
+### The bill of exchange
+
+<!-- IMAGE SUGGESTION: a diagram of the four parties to a bill of exchange, arrows of money and paper between city A and city B -->
+
+The paper trail starts in Genoa, which preserves Europe's earliest surviving notarial registers, from 1154 — the cartulary of the notary Giovanni Scriba. Robert Lopez called them "the first source that contains a fairly large number of documents showing bankers at work".[^lopez-genoa-registers]
+
+Among those registers are exchange contracts (instrumentum ex causa cambii) which Raymond de Roover called "undoubtedly the prototype of the bill of exchange, for it fulfilled exactly the same function".[^deroover-1953] By the 14th century the instrument had matured into the lettera di cambio: no longer a notarized promise to pay, but an informal handwritten order to pay, addressed by a merchant to his own correspondent abroad. No notary, no seal, no ceremony.
+
+Here is a real one. On 12 December 1399 at Bruges, Jacopo Goscio delivered £55 Flemish gros to the Orlandini-Benizi company, which drew on Francesco da Prato & Co. in Barcelona, ordering payment of £312 10s in Barcelonese currency two months later to one Domenico Sancio.[^munro-bruges-1399] Note what is missing from the document: no interest appears anywhere. It was there, of course, smuggled inside the exchange rate, which the two parties negotiated at each end. The scholastics blessed the construction with a tidy formula: "absent money, which is worth less, is being bought or exchanged for present money, which is worth more".[^bell-brooks-moore] Cambium non est mutuum: exchange is not a loan. When modern researchers computed the interest implicit in the Datini companies' exchange spreads, it came out "broadly comparable" to ordinary commercial loan returns. The ban had not stopped credit; it had laundered credit into foreign exchange.
+
+Hunt and Murray call the bill of exchange "the most important financial innovation of the time", because it fused credit, payment, and currency exchange in one sheet of paper.[^hunt-murray-1999] The card-era parallel is direct: a credit card lets you leave a store with the goods while no money moves; a bill of exchange let a merchant leave Bruges with the cloth while no silver moved.
+
+### Deposit banking
+
+The second innovation is quieter: money that moves by being written down twice.
+
+Medieval moneychangers and bankers accepted deposits and recorded them in their books. Once your silver sat in a Genoese bank, you could pay another of the bank's customers by instructing the banker to transfer the claim: one debit, one credit, no coins touched, the ledger absorbing the payment. In 12th-century Genoa such book entries could be assigned outright to another merchant — early deposit-transfer banking, and the conceptual root of the cheque.[^geva-2015] The ledger, not the coin, was becoming the system of record.
+
+The most spectacular surviving ledger of the age belonged not to Italian merchants but to warrior monks. The Order of the Temple, founded in 1119 to protect pilgrims on the roads of the Holy Land, ended up protecting their money as well. Its network of preceptories on both ends of the Mediterranean "meant that they could make specie available where and when it was needed and in the form which was locally acceptable".[^barber-1994] Deposit-taking is documented from at least 1211[^torre-2023]; by the 1290s the Temple was effectively running the French treasury, and its Journal du Trésor for March 1295 to July 1296 shows more than sixty open accounts — king, clergy, nobles, bourgeois — with transfers executed by ledger entry rather than circulating paper.[^delisle-1889] It ended at dawn on Friday, 13 October 1307, when Philip IV of France — chronically overdrawn — had every Templar in the kingdom arrested in a single coordinated sweep.
+
+### Banking networks
+
+The third innovation was scale: the network.
+
+<!-- IMAGE SUGGESTION: map of the Bardi/Peruzzi or Medici branch-and-correspondent network across Europe and the Mediterranean -->
+
+Florence's Bardi and Peruzzi companies — Edwin Hunt's "super-companies" — fielded on the order of fifteen branches and a hundred factors, from Naples, Rome, Genoa, and Venice to Paris, London, Bruges, Rhodes, Cyprus, and Tunis, on capital exceeding 100,000 florins.[^hunt-1994] Deposit with the house in Florence, draw on its correspondent in Bruges. Borrow in London against revenues collected in Italy. The branches and correspondents vouched for strangers to one another, so finance at a distance became something you could simply buy.
+
+The super-companies also left the era's great cautionary tale. Between September 1336 and December 1337, Bardi and Peruzzi advanced Edward III of England at least £82,400 for his wars.[^fryde-1967] When the houses failed — the Peruzzi in 1343, the Bardi in January 1346 — the chronicler Giovanni Villani blamed royal default in round, thunderous figures: 900,000 gold florins owed to the Bardi by the English king alone, and 600,000 more to the Peruzzi.[^villani] The numbers are almost certainly inflated; the mess was not.[^hunt-1990-sapori] Villani's moral stands anyway: sovereign risk kills banks.
+
+The next generation picked a safer sovereign. The Medici Bank, founded in 1397, anchored itself not on kings but on the papacy — between 1420 and 1435 the Rome branch supplied around 62% of the bank's profits.[^deroover-medici] Why the Pope? de Roover explains:
+
+> "the pope was the only medieval ruler who had revenue flowing into his treasury from all corners of Europe, even from Scandinavia, Iceland, and Greenland... pilgrims, suitors, and emissaries preferred to provide themselves with letters of credit instead of carrying money in belts or saddle bags."[^deroover-medici]
+
+This is the thread that runs straight to the travel instruments later in our story: the Western Union collect card, the Air Travel Card, the Diners Club. The medieval version was slower and handwritten. The underlying idea — that your credentials travel because your network does — was already complete.
+
+Nor was Europe alone, or first. Tang China, squeezed by the same arithmetic, produced feiqian (飛錢), "flying cash": amid a coin shortage so severe that exporting cash from the capital was banned, merchants deposited coin with provincial Capital Liaison Offices and carried home a two-part certificate whose halves were rejoined at payout; the state took the system over in 812.[^feiqian] In the Islamic world, the suftaja — "a loan of money in order to avoid the risk of transport", in Joseph Schacht's tidy definition — let a paymaster in one city promise repayment in another; the geographer Ibn Ḥawqal recorded one for 42,000 dinars cashed at Audaghost around the year 977.[^suftaja] India had its own instrument family: the hundi — an unconditional written order to pay that worked as remittance draft, loan instrument, and bill of exchange all at once, with written records of its use going back at least to the twelfth century.[^hundi] The sarrafs who issued hundis also took deposits on interest and settled payments by book entry — giro — the same ledger trick as their Genoese contemporaries. When the Jain merchant Banarasi Das started out in trading around 1600, his father equipped him with a two-hundred-rupee hundi. (Etymology alert: the claim that our word "cheque" descends from the Arabic sakk is beloved by economic historians and rejected by linguists.)[^quinn-roberds] Same constraints, same designs: where money is scarce, heavy, and dangerous to move, paper becomes the message and trust becomes the infrastructure.
+
+So why then, and why there? Economically, credit instruments resurface when trade outgrows the coin supply, and between roughly 950 and 1350 Europe's did exactly that. Institutionally, they need enforcement at a distance — commune courts, notaries, fair courts — and for five hundred years nothing in Europe could enforce a debt five hundred kilometers from home. Culturally, the usury prohibition did not smother credit; it dictated credit's camouflage, which is why the era's killer instrument is a loan masquerading as a currency swap. And technologically, the entire edifice rode what Michael Clanchy called the transition from memory to written record.[^clanchy-1979]
+
+Rome had had bankers too; the lesson of the apocalypse in between is that credit needs two things at once — enough trade to make promises valuable, and enough trust infrastructure to make them credible at a distance. For five centuries Europe had neither; between the twelfth and fourteenth centuries it rebuilt both. Credit without coin, payments as ledger entries, finance across distance — the substrate was back. What nobody had yet imagined was extending any of it to ordinary households. That would take mass production, disposable income, and a salaried middle class with predictable paychecks — which is where we turn next.
+
+
 
 
 ## Rise of Consumer Credit
@@ -414,6 +523,18 @@ the leader in installment sales.
 
 ### Installment Credit
 
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/cowperthwait_ad_harpers_bazar_20_july_1872_p487.jpg
+" alt="B.M. Cowperthwait & Co. Ad. mentioning installment payments, Harper's Bazar Magazine, 20 July 1872, p. 487" caption="B.M. Cowperthwait & Co. Ad. mentioning installment payments, Harper's Bazar Magazine, 20 July 1872, p. 487" %}
+
+</div>
+
+
+1807, Cowperthwait
+
+
 In the 1850s, a Singer sewing machine cost about $125 — roughly a quarter of the annual income of an average American worker. The price placed it beyond the reach of most households.
 
 <div style="width: 50%; margin: 0 auto;">
@@ -434,6 +555,21 @@ Singer also developed an early form of credit scoring. Homeowners often qualifie
 </div>
 
 
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/singer_sewing_machine_ad_the_statesman_12_july_1885.jpeg
+" alt="‘Singer Machines for Modern Tailoring’, The Statesman, 12 July 1885 in
+Ranabir Ray Choudhury, Early Calcutta Advertisements: A Selection From The
+Statesman, 1875-1925, 1992. Calcutta: The Statesman Commercial Press. p. 184" caption="‘Singer Machines for Modern Tailoring’, The Statesman, 12 July 1885 in
+Ranabir Ray Choudhury, Early Calcutta Advertisements: A Selection From The
+Statesman, 1875-1925, 1992. Calcutta: The Statesman Commercial Press. p. 184" %}
+
+</div>
+
+
+
+
+
 Installment purchases of sewing machines escaped much of the stigma attached to consumer borrowing as they enabled home-based production and could supplement family earnings, i.e. they were a productive asset.
 
 Singer's installment plan demonstrated that mass consumption could be financed through credit. The model soon spread to products such as pianos, furniture, and encyclopedias, helping normalize deferred payment and laying the foundations of modern consumer credit in the US.
@@ -443,7 +579,20 @@ Singer's installment plan demonstrated that mass consumption could be financed t
 
 ## Origins of the credit card
 
-By the late nineteenth century, the United States was undergoing rapid industrialization and economic expansion. Businesses were growing, trade was increasing, and consumers were becoming more mobile than ever before. These changing economic conditions created new problems and new opportunities. In response, businesses began experimenting with novel ways to extend credit and manage transactions, laying some of the groundwork for what would eventually become the modern credit card.
+### Older than plastic
+
+Before we get to 1950, it is worth noting that neither problem is new. Authorization and authentication are not artifacts of the electronic age; they are as old as centralized record-keeping itself.
+
+In Bronze Age Crete, roughly four thousand years ago, Minoan officials carried engraved seal-stones and signet rings — small, intricately carved objects, often worn as jewelry, with mounting holes drilled so they could hang from a wrist or neck. A priestess or merchant entitled to draw goods from a palace magazine — cloth, oil, spices — would take what she needed and press her seal into a lump of soft clay or wax, leaving an impression that recorded the transaction and its value.
+
+The parallels to a modern card are almost uncomfortable.
+
+The carving was **authentication**: unique, hard to reproduce by hand, and proof that the person making the withdrawal was who they claimed to be. The seal itself was an **authorization token**: it had no intrinsic value, but it entitled the palace scribes to update a ledger on the holder's behalf. And the palace archive — thousands of clay nodules, countersigned by multiple seals — was the **database**: salaries accrued as credits, withdrawals posted as debits, balances rolled forward to the next accounting period at harvest. There is evidence in the palace records of negative balances, which is to say, of revolving credit.
+
+We tend to think of plastic as a modern synthetic. But a seal impressed into beeswax is also a polymer bearing an identity, and it was doing the same job in 1900 BCE that an embossed PVC rectangle would do in 1958 CE. What changed was not the idea. What changed was the volume.
+
+
+**DELETE THIS**: By the late nineteenth century, the United States was undergoing rapid industrialization and economic expansion. Businesses were growing, trade was increasing, and consumers were becoming more mobile than ever before. These changing economic conditions created new problems and new opportunities. In response, businesses began experimenting with novel ways to extend credit and manage transactions, laying some of the groundwork for what would eventually become the modern credit card.
 
 ### First mention of credit cards
 
@@ -476,11 +625,9 @@ However, all these were essentially prepaid instruments and the invention of tru
 
 ### First card with "credit" on it:
 
-<div style="width: 40%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/oldest_credit_card_1896.webp" alt="The Depot Carriage & Baggage co. customer card" caption="The Depot Carriage & Baggage Co. Customer Card, c. 1896" %}
 
-</div>
+{% include gallery id="oldest_credit_card_gallery" caption="The Depot Carriage & Baggage Co. Customer Card, c. 1897" %}
 
 This is the first customer card, that we know of, to use the expression "credit". It was issued in 1896 by a transports company as a loyalty card, for exclusive use in the customer's relationship with the issuing company.
 
@@ -564,7 +711,7 @@ Upon charging a purchase, the consumer presented the charge plate to the clerk, 
 While still a closed-loop credit product, the Charga-Plate represented an important step forward: it transformed the card from a simple identifier into a tool for automating transaction processing.
 
 #### Familiar Feature: Customer Signature
-<div style="width: 25%; margin: 0 auto;">
+<div style="width: 50%; margin: 0 auto;">
 
 {% include figure popup=true image_path="assets/images/credit-card-chronology/charge_plate_back.webp" alt="Charga Plate Back" caption="Charga Plate Back containig signature card" %}
 
@@ -582,7 +729,15 @@ Modern credit cards also used this feature, although in recent times with the ad
 
 #### Innovation: Revolving Credit
 
-<div style="width: 25%; margin: 0 auto;">
+<div style="width: 60%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/budgetted_charge_account_montreal_gazette_12_sept_1935_p20.png" alt="Henry Morgan & Co. Budgetted Charge Account Ad, The Gazette, Montreal, 12 Sept 1935, p. 20" caption="Henry Morgan & Co. Budgetted Charge Account Ad, The Gazette, Montreal, 12 Sept 1935, p. 20" %}
+
+</div>
+
+Henry Morgan first revolved credit
+
+<div style="width: 40%; margin: 0 auto;">
 
 {% include figure popup=true image_path="assets/images/credit-card-chronology/wanamaker_revolving_credit_launch_ad_22_aug_1938.jpg" alt="John Wanamaker revolving credit launch Ad" caption="John Wanamaker Revolving Credit Launch Ad, The Philadelphia Inquirer, 22 August 1938, p. 5" %}
 
@@ -677,6 +832,9 @@ Although these card programs frequently operated at a financial loss, oil compan
 A major milestone occurred in July 1938, when several regional Standard Oil companies agreed to honor one another’s cards. This arrangement created the first national credit card interchange system, allowing cardholders to use a single card across multiple affiliated companies and geographic regions. The innovation foreshadowed the broader credit card networks that would emerge in the postwar era, laying the groundwork for modern payment systems in which a single card can be accepted by many independent merchants across vast distances.
 
 
+### Hotels
+
+
 
 ### Airlines
 
@@ -737,6 +895,10 @@ Bankway was a genuine bank credit card, and in its market — durable goods boug
 #### Charg-It
 
 ## Add scrip image
+
+https://archive.org/details/sim_burroughs-clearing-house_1950-11_35_2/page/28/mode/1up
+https://archive.org/details/sim_burroughs-clearing-house_1950-11_35_2/page/74/mode/1up
+
 The first steps toward a universal credit card system were taken in 1946 by **John C. Biggins**, a consumer credit specialist at the Flatbush National Bank of Brooklyn. Biggins began thinking about a structural inequality in retailing: small specialty stores could not afford a full-fledged credit department, which left them at a disadvantage against the department stores extending credit to the same customers. Banks, Biggins decided, could come to the rescue of the small merchant — and pick up a nice line of business doing it. His answer was **Charg-It**: a community credit plan under which customers of a number of small stores could charge merchandise, while the local bank stepped in to take over the credit risk and run the complete credit operation. Crucially, the bank would judge creditworthiness from credit bureau records rather than personal relationships — a bank directly giving consumers revolving credit for everyday purchases, for the first time.[^chargit-bw-1950][^flatbush-history]
 
 {% include gallery id="charg_it_gallery" caption="Charg-It Launch News Article and Advertisement, 1946" %}
@@ -752,6 +914,13 @@ Biggins carried the idea with him. He joined the Paterson Savings and Trust Comp
 </div>
 
 The mechanics were clever, if fussy. A customer applied at any participating store for either a regular 30-day charge account — billed and payable in full every month — or a revolving account, which allowed up to six months to repay an established limit: a customer granted $180 owed $30 a month, and could keep charging up to the limit so long as payments were regular. Paterson Savings checked the applicant with the local credit bureau, then issued a credit plate similar to the Charga-Plates of the big stores, together with a book of scrip equal to one month's credit limit. Making a purchase meant presenting both plate and scrip book and signing a sales slip; the clerk tore out enough scrip to cover the price and attached it to the slip. Since scrip came in denominations of $1 and up, clerks collected the odd difference in cash (up to 99¢) or took scrip to the next full dollar — the customer being billed only for the purchase. At the end of the day the store turned the slips and scrip over to the bank, which immediately credited the merchant's deposit account for the full amount. Collecting from the customer was henceforth the bank's problem, by means of a single monthly bill covering all Charg-It stores, payable at the bank. Customers paid nothing extra for the privilege — "your magic Charg-It plate is your automatic OK," the bank advertised.[^chargit-bw-1950][^chargit-banking-1950]
+
+
+<div style="width: 80%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/charg-it-scrip_1950-11_burroughs_clearing_house_p75.jpg" alt="\"Charg-It\" application form, sales slip and scrip book, Burroughs Clearing House, Nov. 1950, p. 75" caption="\"Charg-It\" application form, sales slip and scrip book, Burroughs Clearing House, Nov. 1950, p. 75" %}
+
+</div>
 
 The scrip was the control: presenting it proved the account was in good standing, sparing clerks a credit check on every sale. It was also the plan's weak point — fussy to carry, fussier to count. A 1978 retrospective in the Congressional Record described these early plans as involving "a paper credit card and a book of scrip," and judged the scrip's paperwork "burdensome."[^bank-card-congress-1978]
 
@@ -821,11 +990,34 @@ Diners Club was a pioneer and had to invent many of its own growth strategies. O
 
 One particularly colorful story from the company's early years involves Alfred Bloomingdale. In one city where local restaurants had collectively agreed not to accept Diners Club, Bloomingdale reportedly opened a restaurant of his own simply to establish a foothold for the card.
 
+
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_oldest.png" alt="Specimen of first Diner's Club Card" caption="Specimen of first Diner's Club Card, c. 1950" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_oldest_known_design.png
+" alt="Photo of oldest known Diner's Club Card design, Businessweek, 11 Nov. 1950, p. 34" caption="Photo of oldest known Diner's Club Card design, Businessweek, 11 Nov. 1950, p. 34" %}
 
 </div>
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_oldest.webp" alt="Specimen of first Diner's Club Card" caption="Specimen of first Diner's Club Card, c. 1950, Source: [gloria.hr](https://www.gloria.hr/gl/promo/prva-kreditna-kartica-nastala-je-prije-75-godina-zbog-zaboravnosti-15572237)" %}
+
+</div>
+
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_1951.png" alt="Diner's Club card c. 1951" caption="Diner's Club card c. 1951, Source: [newnumismatics.weebly.com](https://newnumismatics.weebly.com/)" %}
+
+</div>
+
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_1952.jpg" alt="Diner's Club card c. 1952" caption="Diner's Club card c. 1952" %}
+
+</div>
+
 
 The card itself evolved remarkably quickly while retaining features that remain familiar today. The earliest cards were made of flimsy cardboard and already contained the essential elements of a modern payment card: the cardholder's name, account number, signature, and expiration date.
 
@@ -887,6 +1079,8 @@ On October 1, 1958, they launched their own charge card with a $6 annual fee —
 
 t wasn't until the 1960s that the first PVC (polyvinyl chloride) plastic cards were introduced. PVC was a durable and flexible material that could be easily printed on, making it ideal for card manufacturing. These early plastic cards were still relatively simple in design, typically featuring only the cardholder's name and account number.
 
+{% include gallery id="amex_green_card_gallery" caption="Amex green card, c. 1970" %}
+
 In 1965:
 American Express has a monthly "Cancellation Bulle-tin" which goes to all the service establishments in-volved. These are instructed not to honor any card unless they first check the cancella-tion bulletin to make sure that the card is not listed.
 
@@ -939,6 +1133,20 @@ Nothing about how a mass-market credit card should work was obvious in 1958, and
 The earlist BankAmericard cards featured **debossed** numbers, instead of the **embossed** system that later came to be used. The card itself was plastic with account information, similar to the new American Express card, and the imprinter transferred that information onto the sales draft, reducing copy errors. Early imprinters had no wheels for the date or amount, so merchants wrote those in by hand and the customer signed to authorize the charge. The back office, however, was computerized from the very beginning — Bank of America had been the first bank in America to install a computer, an IBM 702, in 1955 — and the sales drafts were designed for the machine: each had a punch card as its bottom layer, punched with the transaction details upon deposit.
 
 
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/bankamericard_embossed_1959.jpg" alt="BankAmericard embossed design with star, c. 1959" caption="BankAmericard embossed design with star, c. 1959" %}
+
+</div>
+
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/bankamericard_embossed_1960.jpg" alt="BankAmericard embossed design with star, c. 1960" caption="BankAmericard embossed design with star, c. 1960" %}
+
+</div>
+
+
 
 {% include gallery id="bofa_1955_ibm_gallery" caption="An IBM 702 was installed in BofA's Van Ness Avenue branch in San Francisco in 1955" %}
 
@@ -989,25 +1197,34 @@ changed over to the Master Charge card.
 Now we'll see how credit card payments evolved with time, using new innovations to improve customer experience, reduce fraud, and increase profitability.
 
 
-</div>
 
 ## Credit Cards in India
 
-The credit card ecosystem in India developed slowly. Although Diners Club had been present in the country since 1960, it took decades for Indian banks to embrace the credit card.
-
-The first bank to rise up to the challenge was the government-owned (_sarkārī_) Central Bank of India.
+You might be surprised to learn that credit cards were being accepted at some Indian establishments as far back as _1956_. The first credit card to be issued in India was
+Diners Club. It was first issued here in 1960, a decade after its launch in the US. For 20 years it was the only credit card issued in India! It took decades for Indian banks
+to warm up to the idea of credit cards. The first bank cards were issued in 1980.
 
 ### Diners Club in India
 
 <div style="width: 30%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_india_merchants.jpg" alt="Diners Club India Merchants" caption="Diners Club India Merchants" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_india_merchants.jpg" alt="Diners Club booklet showing Indian merchants" caption="Diners Club booklet showing Indian merchants, ca. 1956" %}
 
 </div>
 
-Surviving card booklets show establishments in India accepting the card as early as 1956, making them the earliest documented credit card acceptance locations in the country. The card itself arrived a few years later, in **November 1959**, when Kali Mody, a noted Bombay businessman, bought the franchise from Diners Club International to establish Diners Club India — becoming its first chairman and its member no. 1.[^kali-mody] The first fifteen members were drawn from Indian business circles, and the earliest member establishments read like a roll call of mid-century elite India: the Taj Mahal Hotel, the Oberoi properties, Gaylord Restaurant, Clarks Hotel, Burlingtons.[^diners-25y]
+Surviving Diners Club booklets show that foreign-issued Diners Club cards were being honoured in India as early as **1956**. The first establishments to honour the cards were **Ritz Hotel** and
+**Airlines Hotel**, both located in Bombay (now Mumbai). It was not until **1960**, however, that Diners Club cards began to be issued in India.
 
-At launch in 1960, about 300 affiliated establishments across 30 Indian cities honoured the card, concentrated in Bombay and Delhi.[^diners-1960-ad]
+**Kali Homy Mody**, a noted Parsi businessman, was friends with Alfred Bloomingdale and Frank McNamara from his time in the US. The duo agreed to give him the Indian franchise.[^kali-mody-friends] In  **November 1959** Kali Mody bought the franchise from Diners Club International for establishing Diners Club India.[^kali-mody-1959]
+
+On **30 March 1960**, Alfred Bloomingdale visited India _"to explore the possibility of increasing
+American tourist traffic to this country"_.[^bloomingdale-india-vist] By then, **"Diners' Club (India) Private Ltd."** had been formed
+in Bombay.[^diners-club-unit] Kali Mody was its first chairman and member no. 1.[^kali-mody-imprint]
+
+At launch in 1960, about 300 affiliated establishments across <span class="tt">30<span class="tt-c">If I counted it correctly 😅</span></span> Indian cities honoured the card, concentrated in Bombay and Delhi.[^diners-1960-ad]. The earliest member establishments included: the Taj Mahal Hotel, the Oberoi properties, Clarks Hotel, Burlingtons.[^diners-25y]
+
+Like their international counterparts, the earliest cards were actually paper <span class="tt">booklets.<span class="tt-c">I could not find a specimen of an Indian Diners Club card from this era.</span></span>[^kali-mody-parsiana] Card membership was by invitation, to people with sound financial credentials. Soliciting card members was considered risky because of the potential for defaults.[^diners-india-invite]
+
 
 <div style="width: 50%; margin: 0 auto;">
 
@@ -1015,7 +1232,13 @@ At launch in 1960, about 300 affiliated establishments across 30 Indian cities h
 
 </div>
 
-In its first year, the network grew to over 600 establishments and 2,300 "selected members", each paying an annual fee of Rs. 30 for a single itemised bill a month.[^diners-1961-ad] Like its American parent, the Indian card was a travel-and-entertainment charge card — airline tickets, hotel rooms, restaurant bills, a consolidated monthly bill payable in full — and, like its parent, it ran into collection trouble early, as this 1962 defaulter notice shows.
+In its first year, the network grew to over 600 establishments and 2,300 "selected members", each paying an annual fee of Rs. 30 for a single itemised bill a month.[^diners-1961-ad] Like its American parent, the Indian card was a **charge card** focused on Travel & Entertainment (airline tickets, hotel rooms, restaurant bills etc.)
+
+The card was a symbol of privilege, entirely divorced from the financial realities of most people. In 1960, monthly per capita income in India was just Rs. 25 [IMF](https://www.elibrary.imf.org/view/journals/024/1962/003/article-A005-en.xml), while more than half of the country’s population lived below the poverty line. [V. M. Dandekar & N. Rath (1971)](https://books.google.co.in/books/about/Poverty_in_India.html?id=ePQtAAAAMAAJ) 
+
+Against such widespread poverty, the very existence of credit cards feels absurd. The Rs. 30 annual fee was **more than the monthly income** of an average Indian! It is clear that the card was intended for an exceptionally small and affluent segment of the population.
+
+Affluence, it turned out, was no guarantee against delinquency:
 
 <div style="width: 50%; margin: 0 auto;">
 
@@ -1023,7 +1246,17 @@ In its first year, the network grew to over 600 establishments and 2,300 "select
 
 </div>
 
-Growth was slow but steady: by 1978 the club counted 12,000 cardholders and over 2,000 member establishments across India and Nepal.[^diners-1978-ad] The operation had passed to the Aggarwal family in 1976, with Shamsunder Aggarwal as managing director.[^diners-1978-ad] By its twenty-fifth year, Diners Club India had grown to 50,000 cardholders and 6,500 member establishments, with offices in five Indian cities and a monthly members' magazine, _Signature_, covering travel, hotels and shopping.[^diners-25y]
+This was a business that required substantial working capital. Mody was able to finance the franchise with credit from banks. But after the banks were
+nationalized in **1969**, getting credit became difficult. As card spending increased, Mody struggled to finance the operation. Members took their time to pay while the establishments that accepted the card expected prompt settlement. Caught between slow-paying cardholders and merchants clamoring for payment, Kali ultimately decided to sell the business to the Aggarwal family in **1976**.[^kali-mody-friends][^diners-india-invite]
+By then, Diners Club India had grown to around 7,000 cardholders.[^charge-it-1988]
+
+The Aggarwal family had been involved with Diners Club India since 1969. On the eve of the nationalisation of India’s banks that year, Kali Mody made a calculated move to forestall government interference in his enterprise. He arranged for Union Bank of India to sell its **20%** stake in Diners Club to his friends Shamsunder and Perveez Aggarwal.[^kali-mody-parsiana]
+
+**Shamsunder Aggarwal** became the managing director of Diners Club India in **1976**.[^diners-1978-ad] Until then, the risk of defaults had discouraged the company from actively soliciting new cardholders. Shamsunder changed course, computerising the accounts and setting out to expand the business.[^diners-india-invite]. In **1977**, Diners Club India launched **_Signature_**, a bi-monthly[^parsiana-membership-form] magazine covering travel, hotels and shopping that also served as a vehicle for promoting the card.[^diners-25y] The business had long operated from a third-floor office in Dady House on Veer Nariman Road, in Fountain. In **1979**, Shamsunder moved the operation to a new office at Raheja Chambers in Nariman Point.[^diners-25y]
+
+Within two years of the change in ownership, the number of cardholders had nearly doubled to **12,000**, while more than **2,000** member establishments across India and Nepal accepted the card in 1978.[^diners-1978-ad]
+
+By its twenty-fifth year <span class="tt">**(1984)**<span class="tt-c">1960 was the first year, 1961 would be second and so on.</span></span>, Diners Club India had grown to **50,000** cardholders and **6,500** member establishments, with offices in five Indian cities.[^diners-25y]
 
 <div style="width: 50%; margin: 0 auto;">
 
@@ -1031,9 +1264,9 @@ Growth was slow but steady: by 1978 the club counted 12,000 cardholders and over
 
 </div>
 
-Membership stayed forbiddingly exclusive. In 1988 an applicant needed either an annual income of Rs. 60,000 or assets worth Rs. 1.5 lakh, and was screened for "credit worthiness, the ability to spend and the intention to pay back" in a process that could take five weeks; the enrolment fee was Rs. 1,350, and the monthly bill had to be settled within fifteen days on pain of 2 percent interest.[^charge-it-1988] The gatekeeping worked as a business: membership grew from 7,000 in 1976 to 77,000 in 1987, with the club taking about 6 percent commission on its member establishments' billings.[^charge-it-1988] In **May 1990**, Citibank took over the Indian Diners Club franchise from the Aggarwal family,[^citibank-diners-1990] and by 1993 Citibank Diners Club was counted among the major card players in the country.[^cashing-in-1993]
+Membership stayed forbiddingly exclusive. In 1988 an applicant needed either an annual income of **Rs. 60,000** or assets worth **Rs. 1.5 lakh**, and was screened for "credit worthiness, the ability to spend and the intention to pay back" in a process that could take five weeks. The enrolment fee was **Rs. 1,350**, and the monthly bill had to be settled within fifteen days, failing which a 2 percent interest would be levied.[^charge-it-1988] Membership grew to **77,000** in 1987, with the club taking about **6** percent commission on its member establishments' billings.[^charge-it-1988] 
 
-Across the same decades, the cost of admission climbed steadily — a 45-fold rise over 27 years:
+Across the same decades, the cost of admission climbed steadily, becoming **45**-fold over 27 years:
 
 <div style="width: 80%; margin: 0 auto;">
 
@@ -1041,7 +1274,22 @@ Across the same decades, the cost of admission climbed steadily — a 45-fold ri
 
 </div>
 
+The operations were crippled for over a month in 1986 due to a strike by the employees:
 
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_strike_toi_3_jan_1986_p9.png" alt="Diners Club India suspension notice, The Times of India, 3 Jan 1986, p. 9" caption="Diners Club India suspension notice, The Times of India, 3 Jan 1986, p. 9" %}
+
+</div>
+
+Its interesting how this announcement tries to paint the union president as a troublemaker and never mentions _why_ the workmen were striking. It
+was because the majority of its employees were receiving salaries **lower than those earned by peons** in similarly profitable corporations else where.[^diners-strike-mag] A company built around money somehow didn't fairly compensate its workers. Funny how that works.
+
+
+In **May 1990**, Citibank took over the Indian Diners Club franchise from the Aggarwal family,[^citibank-diners-1990] and by 1993 Citibank Diners Club was counted among the major card players in the country.[^cashing-in-1993]
+
+I didn't bother looking up the history after this point. Diners Club cards are still issued in India, in partnership with HDFC Bank. They are a miniscule
+portion of the country's credit card market.
 
 ### Centralcard
 
@@ -1050,6 +1298,9 @@ Across the same decades, the cost of admission climbed steadily — a 45-fold ri
 {% include figure popup=true image_path="assets/images/credit-card-chronology/centralcard_launch_ad.png" alt="Centralcard launch Ad, The Times of India, 12 August 1980, p. 4" caption="Centralcard launch Ad, The Times of India, 12 August 1980, p. 4" %}
 
 </div>
+
+The first bank to rise up to the challenge was the government-owned (_sarkārī_) Central Bank of India.
+
 
 **Centralcard** was the first ever bank-issued charge card in India. It was formally launched by Central Bank of India at a press event in **Bombay**
 on **Monday, 11 August 1980**. The event was led by the bank's former chairman, P. F. Gutta and, executive director, Narayanan Vaghul.
@@ -1060,7 +1311,7 @@ Although the basic features of the scheme were similar to the credit card system
 
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/centralcard_launch_event.webp" alt="Centralcard launch event" caption="Centralcard launch event, Source: Forbes India@75" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/centralcard_launch_event_copy.png" alt="Centralcard launch event" caption="Centralcard launch event, Source: Forbes India@75" %}
 
 </div>
 
@@ -1083,7 +1334,13 @@ At launch, 400 establishments comprising hotels, restaurants and department stor
 
 Starting in May 1981, a cheque-cashing privilege was attached to the card. A cardholder could walk into any of Central Bank's nearly 2,000 branches and encash a personal cheque for up to Rs. 2,500 per month. Advertised as "ideal for businessmen, travellers, salesmen, executives, tourists".
 
-The back office was computerised from the beginning. The initial Centralcard system was developed by **TCS** and ran on the bank's **Burroughs 6700** mainframe; in 1982 it was handed over to the bank's own computer department, where Viswanathan Sundararaman — who would rise from programmer to Chief Officer (Computer Policy & Planning) over a twenty-year career at the bank — maintained it and successively migrated it, first to a **PDP-11** and then to an in-house Unix-based machine.[^sundararaman]
+<div style="width: 75%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/burroughs_b6700.jpg" alt="Burroughs B6700" caption="Burroughs B6700" %}
+
+</div>
+
+The back office was computerised from the beginning. The initial Centralcard system was developed by **TCS** and ran on the bank's **Burroughs B6700** mainframe; in 1982 it was handed over to the bank's own computer department, where Viswanathan Sundararaman — who would rise from programmer to Chief Officer (Computer Policy & Planning) over a twenty-year career at the bank — maintained it and successively migrated it, first to a **PDP-11** and then to an in-house Unix-based machine.[^sundararaman]
 
 
 #### The Mastercard alliance (1982)
@@ -1104,11 +1361,6 @@ The settlement plumbing, on the Indian side, was entirely manual. Sundararaman, 
 
 
 
-<div style="width: 50%; margin: 0 auto;">
-
-{% include figure popup=true image_path="assets/images/credit-card-chronology/centralcard_mastercard_ad_business_world_1986.jpg" alt="Centralcard-Mastercard Ad, Business World, 1986" caption="Centralcard-Mastercard Ad, Business World, 1986" %}
-
-</div>
 
 By 1986, Air India and Indian Airlines had started accepting Centralcard. An advertisement from that year noted that the card was valid in Nepal as well.
 
@@ -1147,8 +1399,6 @@ What kind of tie-up was this, exactly? The surviving record suggests it began as
 
 The distinction mattered less than it might seem, because of how these network alliances worked. Once an Indian card sporting a Visa or MasterCard tie-up enrolled a merchant establishment, that establishment became a Visa or MasterCard merchant, obliged to accept any card bearing those logos — no issuer could hold a merchant exclusively.[^ace-of-strategy-1991] A visiting cardholder's bill then worked its way down a chain: the merchant claimed the money from the Indian bank, the Indian bank claimed it from Visa, and Visa claimed it from the foreign bank that had issued the card.[^playing-cards-1992] Decades on, the bank's 2007 IPO prospectus would describe the resulting product split: a Centralcard could "be issued as either a Master Card or a Visa Card if it is to be used in India and Nepal only or as a Master Card if it is to be used overseas as well". Visa was the domestic variant; MasterCard was the international one.[^cbi-rhp-2007]
 
-{% include gallery id="centralcard_directory_gallery" caption="Centralcard Directory of Member Establishments, 5th Edition, March 1989" %}
-
 The fifth edition of the card's directory of member establishments, from March 1989, captures the scheme in its mature form: issued jointly by Central Bank of India, The Vysya Bank Ltd and United Bank of India, with Bank of India also sharing the merchant network — four banks, one card. The executive director's covering letter to cardholders lists the network's span: shops, hotels, restaurants, departmental stores, emporia, booksellers, tour operators, travel agents, chemists, hospitals, Indian Airlines, Air India and other international airlines. The directory's instructions page documents the card's operating rules: cards expired on the last day of the month printed on them, were renewed automatically for two years, and every cardholder was instructed to quote their card number in all correspondence — the familiar plumbings of a settled card system.
 
 #### Co-branded cards arrive
@@ -1175,6 +1425,13 @@ The first competitor to Centralcard came from another public sector bank. In **J
 </div>
 
 The Bancard loosened Centralcard's template in consequential ways. An applicant did not need to bank with Andhra Bank — an income of Rs. 3,000 a month, or a company with a paid-up capital of Rs. 5 lakh, was eligibility enough.[^charge-it-1988] The card came laden with goodies: cash advance, cheque discounting, add-on cards for a spouse or dependent children, and free round-the-clock personal accident insurance from the moment one became a member — "unlike other schemes which offer insurance only if the cardholder purchases an airline ticket".[^indian-express-1992][^charge-it-1988] The pitch worked: 7,000 members in its first year grew to 30,000 cardholders and 6,000 member establishments by early 1987, and eventually to over 41,000 cardholders — the highest of any bank card of its day.[^charge-it-1988][^a-creditable-venture]
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/andhra_bank_indian_airlines_ad_toi_5_nov_1982_p21.png" alt="Andhra Bank Indian Airlines Ad, The Times of India, 5 Nov 1982" caption="Andhra Bank Indian Airlines Ad, The Times of India, 5 Nov 1982" %}
+
+</div>
+
 
 In January 1987, Andhra Bank announced it would introduce the country's first **gold card**,[^a-creditable-venture] and in May 1988 it signed up as a principal member of Mastercard International as well — a membership that let it service the cards of visiting foreign tourists, and earn foreign exchange in the bargain.[^andhra-mc-1988]
 
@@ -1223,12 +1480,51 @@ The other foreign names came piecemeal. **Hongkong Bank** launched its credit ca
 
 The private-bank era began properly with **HDFC Bank**, which soft-launched its credit-card business in Chennai in December 2001 with an international silver card on Visa[^hdfc-2001] — a latecomer whose card business would grow to be the largest in the country.
 
-[^kali-mody]: Diners Club Ad, The Times of India, 6 Nov 1978, p. 5; Imprint magazine, May 1983, p. 20. See also [Parsiana's profile of Kali Mody](https://www.parsiana.com/current-issue/articles.aspx?id=PAbSsdmYFUE=&issue=226).
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/hdfc_bank_credit_card_ad_toi_13_oct_2002_p7.png
+" alt="Oldest known HDFC Bank credit card Ad, The Times of India, 13 October 2002, p. 7" caption="Oldest known HDFC Bank credit card Ad, The Times of India, 13 October 2002, p. 73" %}
+
+</div>
+
+</div>
+
+[^lopez-commercial-1971]: Robert S. Lopez, _The Commercial Revolution of the Middle Ages, 950–1350_ (Cambridge University Press, 1971).
+[^postan-1928]: M.M. Postan, "Credit in Medieval Trade," _Economic History Review_ 1:2 (1928), pp. 234–261.
+[^lopez-genoa-registers]: Robert S. Lopez on Genoa's notarial registers, quoted in Benjamin Geva, "The Order to Pay Money in Medieval Continental Europe," _Osgoode Hall Law Journal_ 52 (2015); the Genoese exchange contracts of 1157–1191 are printed in Lopez & Raymond, _Medieval Trade in the Mediterranean World_ (2nd ed., 2001).
+[^deroover-1953]: Raymond de Roover, _L'Évolution de la lettre de change, XIVe–XVIIIe siècles_ (Paris, 1953).
+[^munro-bruges-1399]: Worked example via John Munro, following Raymond de Roover, _Money, Banking and Credit in Mediaeval Bruges_ (1948).
+[^bell-brooks-moore]: Adrian Bell, Chris Brooks, and Tony Moore, "Cambium non est mutuum: Exchange and Interest Rates in Medieval Europe," University of Reading working paper (Datini letters dataset, 1383–1411).
+[^hunt-murray-1999]: Edwin S. Hunt & James M. Murray, _A History of Business in Medieval Europe, 1200–1550_ (Cambridge University Press, 1999), p. 65.
+[^geva-2015]: Benjamin Geva, "The Order to Pay Money in Medieval Continental Europe," _Osgoode Hall Law Journal_ 52 (2015); also his _The Payment Order of Antiquity and the Middle Ages_ (Hart, 2011).
+[^barber-1994]: Malcolm Barber, _The New Knighthood: A History of the Order of the Temple_ (Cambridge University Press, 1994), ch. 7.
+[^torre-2023]: Ignacio de la Torre, in _The Templars_, ed. Burgtorf & Nicholson (Routledge, 2023); earliest documentation of deposit-taking from the _Layettes du Trésor des Chartes_.
+[^delisle-1889]: L. Delisle, "Mémoire sur les opérations financières des Templiers," _Mémoires de l'Institut national de France_ 33.2 (1889); the surviving _Journal du Trésor_ covers 19 March 1295 to 4 July 1296.
+[^hunt-1994]: Edwin S. Hunt, _The Medieval Super-Companies: A Study of the Peruzzi Company of Florence_ (Cambridge University Press, 1994).
+[^fryde-1967]: E.B. Fryde, "Financial Resources of Edward III in the Netherlands, 1337–40," _Revue belge de philologie et d'histoire_ 45 (1967).
+[^villani]: Giovanni Villani, _Nuova Cronica_, book XIII.88 (Florentine-style January 1345 = January 1346 in our reckoning).
+[^hunt-1990-sapori]: Edwin S. Hunt, "A New Look at the Dealings of the Bardi and Peruzzi with Edward III," _Journal of Economic History_ 50:1 (1990), pp. 149–162; Armando Sapori, _La crisi delle compagnie mercantili dei Bardi e dei Peruzzi_ (Florence, 1926).
+[^deroover-medici]: Raymond de Roover, _The Rise and Decline of the Medici Bank, 1397–1494_ (1948; Norton reissue, 1963), ch. IX, on the Rome branch — "i nostri che seguono la Corte di Roma".
+[^clanchy-1979]: Michael Clanchy, _From Memory to Written Record: England 1066–1307_ (1979).
+[^feiqian]: Lien-sheng Yang, _Money and Credit in China: A Short History_ (1952), pp. 51–52; Denis Twitchett, _Financial Administration under the T'ang Dynasty_ (1963; 2nd ed. 1970), pp. 66–83; Richard von Glahn, _Fountain of Fortune_ (1996), pp. 48–51.
+[^suftaja]: Joseph Schacht, _An Introduction to Islamic Law_ (1964), p. 149; N. Levtzion, "Ibn Hawqal, the Cheque, and Awdaghost," _Journal of African History_ 9:2 (1968), pp. 223–233.
+[^hundi]: Irfan Habib, "The System of Bills of Exchange (Hundis) in the Mughal Empire," _Proceedings of the Indian History Congress_ 33 (1972), pp. 290–303; Najaf Haider, "The Moneychangers (Ṣarrāfs) in Mughal India," _Studies in People's History_ 6:2 (2019), on deposits on interest and transfers via hundi and book entries (giro); Banarasi Das, _Ardhakathanaka_ (c. 1641), the earliest vernacular merchant autobiography.
+[^quinn-roberds]: Stephen Quinn and William Roberds, "The Evolution of the Check as a Means of Payment: A Historical Survey," Federal Reserve Bank of Atlanta working paper (2008); E. Ashtor, "Banking Instruments between the Muslim East and the Christian West," _Journal of European Economic History_ 1:3 (1972), defends the derivation of "check" from sakk — the OED does not.
+[^kali-mody-friends]: [Memories of Modys](https://www.parsiana.com/current-issue/articles.aspx?id=QEU0F%2btnigk%3d&issue=276)
+[^kali-mody-1959]: Diners Club Ad, The Times of India, 6 Nov 1978, p. 5
+[^kali-mody-imprint]: Imprint magazine, May 1983, p. 20
+[^kali-mody-parsiana]: [To Kali’s credit](https://www.parsiana.com/current-issue/articles.aspx?id=PAbSsdmYFUE=&issue=226).
+[^diners-india-invite]: [A creditable couple](https://www.parsiana.com/current-issue/articles.aspx?id=OLU5Uit5vcA%3d&issue=375)
+[^parsiana-membership-form]: Diners Club Membership Application form, _Parsiana_ Magazine, May-June 1978, p. 9
 [^diners-25y]: Diners Club 25 years Ad, The Times of India, 2 Mar 1984, p. 13.
+[^bloomingdale-india-vist]: Mr. A. S. Bloomingdale, The Times of India, 1 April 1960, p. 5.
+[^diners-club-unit]: Diners' Club Unit, The Times of India, 31 March 1960, p. 5.
 [^diners-1960-ad]: Diners' Club Ad, The Times of India, 10 Nov 1960, p. 3.
 [^diners-1961-ad]: Diners' Club Ad, The Times of India, 28 June 1961, p. 9.
 [^diners-1978-ad]: Diners Club Ad, The Times of India, 6 Nov 1978, p. 5.
 [^charge-it-1988]: "CHARGE IT!", Neeta Lal, The Times of India, 23 Jan 1988, p. A2.
+[^diners-strike-mag]: Diners Club crippled for over a month by employees strike over low salary, _India Today_ Magazine, 28 Feb 1986; [Online version](https://www.indiatoday.in/magazine/economy/story/19860228-diners-club-crippled-for-over-a-month-by-employees-strike-over-low-salary-800629-1986-02-27)
 [^citibank-diners-1990]: "Diners Club franchise for Citibank," The Times of India, 25 May 1990, p. 15; "Citibank launches 'corporate card'," The Times of India, 6 Feb 1991, p. 15.
 [^cashing-in-1993]: "Cashing in on Consumerism," The Indian Express, 5 July 1993, p. 12.
 [^andhra-mc-1988]: "Andhra Bank pact with Mastercard," The Times of India, 6 May 1988, p. 20.
@@ -1270,10 +1566,53 @@ The private-bank era began properly with **HDFC Bank**, which soft-launched its 
 
 ## Appendix
 
+### Oldest credit card oldest image
+
+<div style="width: 40%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/oldest_credit_card_1896.webp" alt="The Depot Carriage & Baggage co. customer card" caption="The Depot Carriage & Baggage Co. Customer Card, c. 1896" %}
+
+</div>
+
+### Other Credit cards
+
+National Credit Card
+
+<div style="width: 40%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/medford_mail_tribune_1952-04-21_page2.png" alt="National Credit Card Inc. Ad, Medford Tribune, 21 April 1952, p. 2" caption="National Credit Card Inc. Ad, Medford Tribune, 21 April 1952, p. 2" %}
+
+</div>
+
+### Other Amex card images
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_1959_paper_real_1.webp" alt="Amex paper credit card, c. 1959" caption="Amex paper credit card, c. 1959" %}
+
+</div>
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_1959_paper_real_2.jpg" alt="Amex paper credit card, c. 1959" caption="Amex paper credit card, c. 1959" %}
+
+</div>
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_1959_plastic_real.jpg" alt="Amex plastic credit card, c. 1959" caption="Amex plastic credit card, c. 1959" %}
+
+</div>
+
 ### Indian "Credit Card" in 1960s
-some cheque shit
+A cheque cashing card Ad in 1969
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/credit_card_ad_indian-express-1969-08-20-page-7.png" alt="Central Bank Credit Card Ad, The Indian Express, 20 August 1969, p. 7" caption="Central Bank Credit Card Ad, The Indian Express, 20 August 1969, p. 7" %}
+
+</div>
 
 ### Centralcard Ads
 {% include gallery id="centralcard_1981_ads_gallery" caption="Centralcard advertisements in The Times of India, 1981" %}
 
-{% include gallery id="centralcard_india_today_ads_gallery" caption="Centralcard advertisements in India Today, 1982-83" %}

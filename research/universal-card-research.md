@@ -1,3 +1,21 @@
+https://fraser.stlouisfed.org/files/docs/historical/brimmerpapers/bak00290c03128.pdf?utm_source=chatgpt.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 1942 cartoon in banking magazine: assets/images/credit-card-chronology/bank_charge_account_cartoon_banking_1942-08_p7.jpg
 
 

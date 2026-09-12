@@ -12,3 +12,20 @@ get the india singer ad from chowdhury pdf
 
 
 bank of america timeplan: https://www.vacavilleheritagecouncil.org/lccn/sn93004521/1946-04-19/ed-1/seq-10/#utm_source=chatgpt.com
+
+
+diners club:
+
+https://restaurant-ingthroughhistory.com/tastes-of-the-decades/
+
+https://restaurant-ingthroughhistory.com/tag/diners-club/
+
+western union train ticket: https://streamlinermemories.info/South/MP50-12TT.pdf?utm_source=chatgpt.com
+
+
+why do credit cards expire: https://www.linkedin.com/pulse/why-do-credit-cards-expire-lokhandwala-pmp-certified-scrum-master
+
+history of credit card: https://slidetodoc.com/the-history-of-credit-and-credit-cards-christine/?utm_source=chatgpt.com
+
+
+first credit card: https://www.saturdayeveningpost.com/2016/04/day-cash-died/?utm_source=chatgpt.com
