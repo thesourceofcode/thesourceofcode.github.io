@@ -1234,7 +1234,10 @@ Like their international counterparts, the earliest cards were actually paper <s
 
 In its first year, the network grew to over 600 establishments and 2,300 "selected members", each paying an annual fee of Rs. 30 for a single itemised bill a month.[^diners-1961-ad] Like its American parent, the Indian card was a **charge card** focused on Travel & Entertainment (airline tickets, hotel rooms, restaurant bills etc.)
 
-The card was a symbol of privilege, entirely divorced from the financial realities of most people. In 1960, monthly per capita income in India was just Rs. 25 [IMF](https://www.elibrary.imf.org/view/journals/024/1962/003/article-A005-en.xml), while more than half of the country’s population lived below the poverty line. [V. M. Dandekar & N. Rath (1971)](https://books.google.co.in/books/about/Poverty_in_India.html?id=ePQtAAAAMAAJ) 
+Signing up establishments took some guile. Kali Mody's son, **Jim (Jamshed)**, was roped in to get some female students from St Xavier's College to visit textile showrooms and shops posing as buyers, asking to see numerous materials. Then, before asking the salesperson to cut the cloth, the girls would inquire, _"Do you accept Diners Club cards?"_ The response invariably was, _"What is that?"_ The fear of losing substantial sales prompted some to accept the card. In return for the students' efforts, Jim would treat them to dinner at a restaurant.[^kali-mody-friends]
+
+#### Privilege for the miniscule elite
+The card was a symbol of privilege, entirely divorced from the financial realities of most people. In 1960, monthly per capita income in India was just Rs. 25[^IMF-1960], while more than half of the country’s population lived below the poverty line.[^india-poverty-1960]
 
 Against such widespread poverty, the very existence of credit cards feels absurd. The Rs. 30 annual fee was **more than the monthly income** of an average Indian! It is clear that the card was intended for an exceptionally small and affluent segment of the population.
 
@@ -1246,13 +1249,14 @@ Affluence, it turned out, was no guarantee against delinquency:
 
 </div>
 
+#### The sale to Aggarwals
 This was a business that required substantial working capital. Mody was able to finance the franchise with credit from banks. But after the banks were
 nationalized in **1969**, getting credit became difficult. As card spending increased, Mody struggled to finance the operation. Members took their time to pay while the establishments that accepted the card expected prompt settlement. Caught between slow-paying cardholders and merchants clamoring for payment, Kali ultimately decided to sell the business to the Aggarwal family in **1976**.[^kali-mody-friends][^diners-india-invite]
 By then, Diners Club India had grown to around 7,000 cardholders.[^charge-it-1988]
 
 The Aggarwal family had been involved with Diners Club India since 1969. On the eve of the nationalisation of India’s banks that year, Kali Mody made a calculated move to forestall government interference in his enterprise. He arranged for Union Bank of India to sell its **20%** stake in Diners Club to his friends Shamsunder and Perveez Aggarwal.[^kali-mody-parsiana]
 
-**Shamsunder Aggarwal** became the managing director of Diners Club India in **1976**.[^diners-1978-ad] Until then, the risk of defaults had discouraged the company from actively soliciting new cardholders. Shamsunder changed course, computerising the accounts and setting out to expand the business.[^diners-india-invite]. In **1977**, Diners Club India launched **_Signature_**, a bi-monthly[^parsiana-membership-form] magazine covering travel, hotels and shopping that also served as a vehicle for promoting the card.[^diners-25y] The business had long operated from a third-floor office in Dady House on Veer Nariman Road, in Fountain. In **1979**, Shamsunder moved the operation to a new office at Raheja Chambers in Nariman Point.[^diners-25y]
+**Shamsunder Aggarwal** became the managing director of Diners Club India in **1976**.[^diners-1978-ad] Until then, the risk of defaults had discouraged the company from actively soliciting new cardholders. Shamsunder changed course, computerizing the accounts and setting out to expand the business.[^diners-india-invite] In **1977**, Diners Club India launched **_Signature_**, a bi-monthly[^parsiana-membership-form] magazine covering travel, hotels and shopping that also served as a vehicle for promoting the card.[^diners-25y] The business had long operated from a third-floor office in Dady House on Veer Nariman Road. In **1979**, Shamsunder moved the operation to a new office at Raheja Chambers in Nariman Point.[^diners-25y]
 
 Within two years of the change in ownership, the number of cardholders had nearly doubled to **12,000**, while more than **2,000** member establishments across India and Nepal accepted the card in 1978.[^diners-1978-ad]
 
@@ -1274,6 +1278,7 @@ Across the same decades, the cost of admission climbed steadily, becoming **45**
 
 </div>
 
+#### A union strike
 The operations were crippled for over a month in 1986 due to a strike by the employees:
 
 <div style="width: 50%; margin: 0 auto;">
@@ -1285,7 +1290,7 @@ The operations were crippled for over a month in 1986 due to a strike by the emp
 Its interesting how this announcement tries to paint the union president as a troublemaker and never mentions _why_ the workmen were striking. It
 was because the majority of its employees were receiving salaries **lower than those earned by peons** in similarly profitable corporations else where.[^diners-strike-mag] A company built around money somehow didn't fairly compensate its workers. Funny how that works.
 
-
+#### Citibank and beyond
 In **May 1990**, Citibank took over the Indian Diners Club franchise from the Aggarwal family,[^citibank-diners-1990] and by 1993 Citibank Diners Club was counted among the major card players in the country.[^cashing-in-1993]
 
 I didn't bother looking up the history after this point. Diners Club cards are still issued in India, in partnership with HDFC Bank. They are a miniscule
@@ -1515,6 +1520,8 @@ The private-bank era began properly with **HDFC Bank**, which soft-launched its 
 [^kali-mody-1959]: Diners Club Ad, The Times of India, 6 Nov 1978, p. 5
 [^kali-mody-imprint]: Imprint magazine, May 1983, p. 20
 [^kali-mody-parsiana]: [To Kali’s credit](https://www.parsiana.com/current-issue/articles.aspx?id=PAbSsdmYFUE=&issue=226).
+[^IMF-1960]: [India’s Third Five Year Plan](https://www.elibrary.imf.org/view/journals/024/1962/003/article-A005-en.xml)
+[^india-poverty-1960]: [V. M. Dandekar & N. Rath (1971)](https://books.google.co.in/books/about/Poverty_in_India.html?id=ePQtAAAAMAAJ)
 [^diners-india-invite]: [A creditable couple](https://www.parsiana.com/current-issue/articles.aspx?id=OLU5Uit5vcA%3d&issue=375)
 [^parsiana-membership-form]: Diners Club Membership Application form, _Parsiana_ Magazine, May-June 1978, p. 9
 [^diners-25y]: Diners Club 25 years Ad, The Times of India, 2 Mar 1984, p. 13.
