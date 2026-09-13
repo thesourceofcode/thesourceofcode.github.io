@@ -1304,15 +1304,14 @@ portion of the country's credit card market.
 
 </div>
 
-The first bank to rise up to the challenge was the government-owned (_sarkārī_) Central Bank of India.
+Surprisingly, the first Indian bank to issue credit cards was not a private institution, but a government-owned (_sarkārī_) bank: the <span class="tt">**Central Bank of India (CBI)**<span class="tt-c">Note: The actual Indian "central bank" is called the **Reserve Bank of India**</span></span>. It was one of the banks nationalized in 1969. Coincidentally, like Diners Club India, CBI too was founded by a Parsi, **Sir Sorabji Pochkhanawala**. Established in **1911**, Central Bank of India was the first Indian commercial bank which was wholly owned and managed by Indians.[^central-bank-about]
 
 
 **Centralcard** was the first ever bank-issued charge card in India. It was formally launched by Central Bank of India at a press event in **Bombay**
-on **Monday, 11 August 1980**. The event was led by the bank's former chairman, P. F. Gutta and, executive director, Narayanan Vaghul.
+on **Monday, 11 August 1980**.[^centralcard-launch-report] The event was led by the bank's former chairman, P. F. Gutta and, executive director, Narayanan Vaghul. The idea for Centralcard had been conceived by Gutta during his tenure as chairman of the bank.[^centralcard-launch-report]
 
-The idea for Centralcard had been conceived by Gutta during his tenure as chairman of the bank.
+Although the basic features of the scheme were similar to the credit card systems in vogue in developed countries, it did not offer revolving credit. Instead, it was advertised as a <span class="tt">**convenience card**.<span class="tt-c">Its not clear whether the card was made of plastic or cardboard at launch. Most probably plastic.</span></span>
 
-Although the basic features of the scheme were similar to the credit card systems in vogue in developed countries, it did not offer revolving credit. Instead, it was advertised as a **convenience card**.
 
 <div style="width: 50%; margin: 0 auto;">
 
@@ -1321,11 +1320,11 @@ Although the basic features of the scheme were similar to the credit card system
 </div>
 
 Vaghul highlighted this distinction, stressing that the scheme included a _"safeguard against extension of consumer credit to the card holder"_. The card holder's account would simply be debited with the amount of bills signed by him at monthly intervals.
-Thus, it was _"more a means of convenience and not an instrument for credit extension"_.
+Thus, it was _"more a means of convenience and not an instrument for credit extension"_.[^centralcard-launch-report]
 
-The facility was offered to current and savings account holders of the bank. There was no membership fee or renewal fee.
+The facility was offered to current and savings account holders of the bank.[^centralcard-launch-report] There was no membership fee or renewal fee.[^centralmaster-businessworld-1986]
 
-Initially, Centralcard was not affiliated with either Visa or Mastercard, and was an independent system. 
+Initially, Centralcard was NOT affiliated with either Visa or Mastercard, and was an independent system.[^centralcard-launch-report] 
 
 <div style="width: 50%; margin: 0 auto;">
 
@@ -1333,24 +1332,27 @@ Initially, Centralcard was not affiliated with either Visa or Mastercard, and wa
 
 </div>
 
-Unlike BankAmericard, Centralcard did not charge establishments a membership fee. I was unable to find the merchant discount rate charged by Centralcard at launch.
+Unlike BankAmericard, Centralcard did not charge establishments a membership fee.[^centralmaster-businessworld-1986] I was unable to find the merchant discount rate charged by Centralcard at launch.
 
-At launch, 400 establishments comprising hotels, restaurants and department stores accepted the card. The bank had ambitiously projected that it would issue 20,000 cards by the end of 1980, but the target proved wildly optimistic. By March 1982, nearly two years after its launch, Centralcard had attracted fewer than 3000 cardholders.
+At launch, **400** establishments comprising hotels, restaurants and department stores had agreed to honour the card by the end of the year.[^centralcard-launch-report] The bank had ambitiously projected that it would issue 20,000 cards by the end of 1980, but the target proved wildly optimistic. By March 1982, nearly two years after its launch, Centralcard had attracted fewer than 3000 cardholders.[^centralmaster-tieup-toi]
 
-Starting in May 1981, a cheque-cashing privilege was attached to the card. A cardholder could walk into any of Central Bank's nearly 2,000 branches and encash a personal cheque for up to Rs. 2,500 per month. Advertised as "ideal for businessmen, travellers, salesmen, executives, tourists".
+Starting in May 1981, a cheque-cashing privilege was attached to the card. A cardholder could walk into any of Central Bank's nearly 2,000 branches and encash a personal cheque for up to Rs. 2,500 per month. Advertised as "ideal for businessmen, travellers, salesmen, executives, tourists".[^cash-flash-ad]
+
+#### Computerized since inception
 
 <div style="width: 75%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/burroughs_b6700.jpg" alt="Burroughs B6700" caption="Burroughs B6700" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/burroughs_b6700.jpg" alt="A Burroughs B6700 system" caption="A Burroughs B6700 system" %}
 
 </div>
 
-The back office was computerised from the beginning. The initial Centralcard system was developed by **TCS** and ran on the bank's **Burroughs B6700** mainframe; in 1982 it was handed over to the bank's own computer department, where Viswanathan Sundararaman — who would rise from programmer to Chief Officer (Computer Policy & Planning) over a twenty-year career at the bank — maintained it and successively migrated it, first to a **PDP-11** and then to an in-house Unix-based machine.[^sundararaman]
+The back office was computerised from the beginning. The initial Centralcard system was developed by **TCS** and ran on the bank's **Burroughs B6700** mainframe. In 1982 it was handed over to the bank's own computer department, where **Viswanathan Sundararaman** maintained it and successively migrated it, first to a **PDP-11** and then to an in-house Unix-based machine.[^sundararaman]
 
 
 #### The Mastercard alliance (1982)
 
-By early 1982, the scheme had grown to more than 2,700 cardholders and over 650 member-establishments. On 25 March 1982, Central Bank announced that it had entered into an agreement with MasterCard International Inc., becoming a principal member of the network.
+On **25 March 1982**, Central Bank announced that it had entered into an agreement with MasterCard International Inc., becoming a principal member of the network.[^centralmaster-tieup-toi]
+It was the **first Indian bank to tie-up with Mastercard**. By then, the Centralcard scheme had grown to more than 2,700 cardholders and over 650 member-establishments.[^centralmaster-tieup-toi] 
 
 <div style="width: 50%; margin: 0 auto;">
 
@@ -1358,24 +1360,28 @@ By early 1982, the scheme had grown to more than 2,700 cardholders and over 650 
 
 </div>
 
-MasterCard, which had only recently shed its old name, Master Charge, then had over 24,000 member banks and financial institutions. Its cards were held by more than 83 million people, and over 3 million establishments in 140 countries honoured them. A MasterCard holder visiting India _"could now avail of the services of the branches of the Central Bank and ever-increasing Centralcard member establishments in India"_.
+MasterCard, which had only recently shed its old name, Master Charge, then had over 24,000 member banks and financial institutions. Its cards were held by more than 83 million people, and over 3 million establishments in 140 countries honoured them. A MasterCard holder visiting India _"could now avail of the services of the branches of the Central Bank and ever-increasing Centralcard member establishments in India"_.[^centralmaster-tieup-toi]
 
-The economic rationale, as explained by chairman B. V. Sonalker, was that foreign tourists with credit cards _"had a tendency to spend more than those having currency or traveller cheques"_, and the tie-up would draw more foreign exchange into the country. The bank hoped to add 10,000 cardholders and 2,500 establishments within the year.
-
-The settlement plumbing, on the Indian side, was entirely manual. Sundararaman, who developed the bank's MasterCard processing, recalls that there was no online connectivity with the network at all: data had to be sent to MasterCard on **weekly tapes** for settlement.[^sundararaman]
+The economic rationale, as explained by chairman B. V. Sonalker, was that foreign tourists with credit cards _"had a tendency to spend more than those having currency or traveller cheques"_, and the tie-up would draw more foreign exchange into the country.
 
 
 
+The settlement mechanism was entirely manual. Sundararaman, who developed the bank's MasterCard processing, recalls that there was no online connectivity with the network at all. Data had to be sent to MasterCard on **weekly tapes** for settlement.[^sundararaman]
 
-By 1986, Air India and Indian Airlines had started accepting Centralcard. An advertisement from that year noted that the card was valid in Nepal as well.
+
+By 1986, Air India and Indian Airlines had started accepting Centralcard.[^centralmaster-businessworld-1986]
+
+
+**Aside:** An advertisement from 1986 noted that Centralcard was valid in Nepal as well. Even Diners Club India listed merchants "across India and Nepal". Apparently India and Nepal
+have long maintained close financial ties. In fact, even today, on the backside of Indian credit and debit cards, you will find a line similar to this: "Not valid for payment in Foreign Exchange in <span class="tt">Nepal<span class="tt-c">There’s something amusing about the fact that this warning has put "Nepal" on virtually every debit and credit card issued in India. While "India" itself rarely makes an appearance</span></span> & Bhutan".
+I haven’t looked into the details of why this is the case, but it seems like the two countries have some sort of bilateral currency arrangement.
+{: .notice--info}
 
 #### Franchising the card (1987)
 
-A significant development came in 1987. By then Centralcard had more than 25,000 cardholders and 6,000 member establishments. These establishments included
-hotels, restaurants, shopping centres, airlines, emporiums, hospitals, chemists
-and others.
+By 1987, Centralcard had more than 25,000 cardholders and 6,000 member establishments. These establishments included hotels, restaurants, shopping centres, airlines, emporiums, hospitals, chemists and others.[^central-vysya-toi]
 
-On 18 October 1987, Vysya Bank announced that it had entered into an agreement with Central Bank of India to issue Centralcards to its own customers, enrol new member-establishments, and service both Centralcard and MasterCard holders.
+On **18 October 1987**, **Vysya Bank** announced that it had entered into an agreement with Central Bank of India to issue Centralcards to its own customers, enrol new member-establishments, and service both Centralcard and MasterCard holders.[^central-vysya-toi]
 
 Bank of America had to license BankAmericard to other banks due to the prevailing restrictions on interstate banking in the US. India had no such restrictions. The decision to license Centralcard to other banks seems to have been taken due to the slower than expected growth of the program.
 
@@ -1388,63 +1394,89 @@ Bank of America had to license BankAmericard to other banks due to the prevailin
 
 By August 1988 Vysya Bank was advertising its centralcards. Vysya Bank became the **first private sector bank in India to issue a charge card**.
 
-The card was repositioned for a new era. It was no longer merely a convenience but a "STATUS SYMBOL" and represented "BUYING POWER".
+The card was repositioned for a new era. It was no longer merely a _convenience_ but a "STATUS SYMBOL" and represented "BUYING POWER".
 
-#### Visa arrives, and the network matures
+#### The Visa tie-up
 
-Visa, the other global network, had been in India since 1981 through Andhra Bank — but Centralcard's own tryst with it came only at the decade's end, almost seven years after the Mastercard tie-up. The earliest firm evidence is an advertisement in the February 1989 issue of _Business India_, which declares "Centralcard's international tie-up with the world's two largest credit card chains, Mastercard and VISA, offers a huge potential clientele of over 536 million", and prints actual Visa and MasterCard cards alongside a Centralcard. Since every earlier Centralcard advertisement, through August 1988, displays MasterCard alone, the Visa arrangement was publicised for the first time somewhere between September 1988 and February 1989.[^centralcard-visa-1989] By then, the number of cardholders had breached 40,000, and over 8,000 member establishments were honouring the card.
+By 1989, Central Bank of India had entered into an agreement with Visa as well. The earliest firm evidence is an advertisement in the February 1989 issue of _Business India_, which declares "Centralcard's international tie-up with the world's two largest credit card chains, Mastercard and VISA, offers a huge potential clientele of over 536 million".
+By then, the number of cardholders had breached **40,000**, and over **8,000** member establishments were honouring the card.[^centralcard-visa-1989] 
 
 <div style="width: 60%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/centralcard_ad_business_india_feb_1989.png" alt="Centralcard Ad, Business India, February 1989" caption="Centralcard Ad, Business India, February 1989" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/centralcard_ad_business_india_feb_1989.jpg" alt="Centralcard Ad, _Business India_ Magazine, January 23 to February 5, 1989, p. 208" caption="Centralcard Ad, _Business India_ Magazine, January 23 to February 5, 1989, p. 208" %}
 
 </div>
 
-What kind of tie-up was this, exactly? The surviving record suggests it began as an acceptance arrangement rather than a full membership. A Visa advertisement from June 1992 lists Central Bank of India in its "for merchants only" column — together with Bank of America and Bank of Baroda — while cardholders are directed to Andhra Bank, Canara Bank, Vijaya Bank, Citibank, ANZ Grindlays, Hongkong Bank and Standard Chartered.[^visa-ad-1992] The bank's own retrospective history, for its part, records that it "became a principal member of Mastercard in 1982 and affiliated to VISA International in **1991**". The 1989 advertising thus most likely marks Visa cards being honoured across the Centralcard merchant network, formalised into a full affiliation two years later.
+Here's how these network alliances worked: Once an Indian card sporting a Visa or MasterCard tie-up enrolled a merchant establishment, that establishment became a Visa or MasterCard merchant, obliged to accept any card bearing those logos. No issuer bank could hold a merchant exclusively.[^ace-of-strategy-1991] A visiting cardholder's bill then worked its way down a chain: the merchant claimed the money from the Indian bank, the Indian bank claimed it from Visa, and Visa claimed it from the foreign bank that had issued the card.[^playing-cards-1992]
 
-The distinction mattered less than it might seem, because of how these network alliances worked. Once an Indian card sporting a Visa or MasterCard tie-up enrolled a merchant establishment, that establishment became a Visa or MasterCard merchant, obliged to accept any card bearing those logos — no issuer could hold a merchant exclusively.[^ace-of-strategy-1991] A visiting cardholder's bill then worked its way down a chain: the merchant claimed the money from the Indian bank, the Indian bank claimed it from Visa, and Visa claimed it from the foreign bank that had issued the card.[^playing-cards-1992] Decades on, the bank's 2007 IPO prospectus would describe the resulting product split: a Centralcard could "be issued as either a Master Card or a Visa Card if it is to be used in India and Nepal only or as a Master Card if it is to be used overseas as well". Visa was the domestic variant; MasterCard was the international one.[^cbi-rhp-2007]
 
-The fifth edition of the card's directory of member establishments, from March 1989, captures the scheme in its mature form: issued jointly by Central Bank of India, The Vysya Bank Ltd and United Bank of India, with Bank of India also sharing the merchant network — four banks, one card. The executive director's covering letter to cardholders lists the network's span: shops, hotels, restaurants, departmental stores, emporia, booksellers, tour operators, travel agents, chemists, hospitals, Indian Airlines, Air India and other international airlines. The directory's instructions page documents the card's operating rules: cards expired on the last day of the month printed on them, were renewed automatically for two years, and every cardholder was instructed to quote their card number in all correspondence — the familiar plumbings of a settled card system.
+However, the Centralcard-Visa tie-up was seemingly an acceptance arrangement rather than a full membership. A Visa advertisement from June 1992 lists Central Bank of India in its "for merchants only" column (together with Bank of America and Bank of Baroda).[^visa-ad-1992] In practice, this meant that people holding Visa cards could pay at a merchant that accepted Centralcard, but a Centralcard holder could not use their card at a merchant that accepted Visa.
+
+This arrangement enabled merchants tied up with Central Bank of India to expand their customer base, while allowing the bank to retain control over where and how its cards could be used.
+The trade-off was that Centralcard holders were restricted to this network and could not tap into Visa's broader network of affiliated merchants.
+I suspect this arrangement may have been the bank hedging its bets: taking advantage of Visa's large international (and increasingly domestic) base of cardholders, while keeping open the possibility of building a larger network of its own.
+
+
+
+
+By March 1989, the card was being issued jointly by Central Bank of India, The Vysya Bank Ltd and United Bank of India, with Bank of India also sharing the merchant network. The network covered a wide range of establishments including shops, hotels, restaurants, departmental stores, emporia, booksellers, tour operators, travel agents, chemists, hospitals, Indian Airlines, Air India and other international airlines.[^centralcard-directory]
 
 #### Co-branded cards arrive
 
-By 1991, the scheme had learned the newest trick of the mature card industry. The Leela group of hotels and Centralcard launched **The Leela-CentralCard** — one of India's earliest co-branded cards — promising "a close and confined circle" of members welcomed at 16,000 establishments, an accident insurance cover of Rs. 10 lakh, a 15% discount at select five-star hotels in Delhi, Madras, Bangalore, Ahmedabad and Pune, and, naturally, special treatment at The Leela Kempinski, Bombay and The Leela Beach, Goa.
 
 <div style="width: 40%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/leela_centralcard_ad_india_today_apr_1991.png" alt="The Leela-CentralCard Ad, India Today, April 1991" caption="The Leela-CentralCard Ad, India Today, April 1991" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/leela_centralcard_ad_india_today_apr_1991.jpg" alt="The Leela-CentralCard Ad, India Today, April 1991, p. 170" caption="The Leela-CentralCard Ad, India Today, April 1991, p. 170" %}
 
 </div>
 
-Half a world away, Diners Club had evolved from a fourteen-restaurant experiment into a global T&E network; BankAmericard had exploded out of Fresno and franchised itself into Visa. Centralcard ran the same gauntlet in miniature — launch, network alliance, franchising, co-branding — a decade behind, at Indian scale, and without ever quite giving up the founding demand that convenience should not quietly metastasise into debt.
+In 1991, Central Bank of India launched one of India's earliest co-branded cards in partnership with The Leela group of hotels: **The Leela-CentralCard**. It promised its "close and confined circle" of members a welcome at 16,000 establishments, an accident insurance cover of Rs. 10 lakh, a 15% discount at select five-star hotels in Delhi, Madras, Bangalore, Ahmedabad and Pune, and, naturally, special treatment at The Leela Kempinski, Bombay and The Leela Beach, Goa.
+
+By this point, Centralcard had grown to over **66,000** cardholders and **16,500** member establishments.[^parsiana-1991]
+
+#### The nineties and beyond
+
+The rest, as they say, is history <span class="tt">(which I didn't bother looking up)<span class="tt-c">Doing all this is a big time sink</span></span>
+
+
+In **October 2020** Central Bank of India reported zero monthly credit card transactions. By **December 2020** the active credit cards had dropped to zero as well, and it hasn't changed as of July 2026.[^rbi-bankwise] The bank still had a **3.25 lakh** card base in the form of co-branded cards with State Bank of India in FY24[^cbi-iar-2024], but the co-branded Credit Card arrangement between Central Bank of India & SBI Cards has been discontinued w.e.f. **26.07.2025**.[^cbi-iar-2026]
+
+After 40 years, the credit card chapter for this pioneering bank has finally closed...
+
+...is what I would have said, but check this out: [Credit Card 2: Electric Boogaloo](https://www.thehindubusinessline.com/money-and-banking/central-bank-to-enter-wealth-management-credit-card-biz-in-h2-fy27/article71044338.ece)
+
+The first is about to become the newest!
+
 
 
 ### Andhra Bank and the Bancard
 
-The first competitor to Centralcard came from another public sector bank. In **July 1981**, Andhra Bank launched the **Andhra Bancard** — and unlike Centralcard, it was affiliated with an international network from the very beginning: an agreement signed in 1981 made Andhra Bank a principal member of **Visa International**, the first Indian bank to tie up with a global card network.[^andhra-mc-1988] By late 1982, the Bancard was being advertised as accepted for Indian Airlines tickets.[^andhra-ia-ad]
+In **July 1981**, **Andhra Bank** launched the **Andhra Bancard**. It was a **charge card** affiliated with **Visa**, unlike Centralcard, which was an independent network at launch. Amusingly, the second bank to issue credit cards
+in India was also a public-sector bank. Although it followed Central Bank of India into credit cards, Andhra Bank was the **first Indian bank to partner with Visa**.[^andhra-mc-1988] 
 
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/andhra_bank_launch_ad_toi_10_july_1981.png" alt="Andhra Bancard launch Ad, The Times of India, 10 July 1981" caption="Andhra Bancard launch Ad, The Times of India, 10 July 1981" %}
-
-</div>
-
-The Bancard loosened Centralcard's template in consequential ways. An applicant did not need to bank with Andhra Bank — an income of Rs. 3,000 a month, or a company with a paid-up capital of Rs. 5 lakh, was eligibility enough.[^charge-it-1988] The card came laden with goodies: cash advance, cheque discounting, add-on cards for a spouse or dependent children, and free round-the-clock personal accident insurance from the moment one became a member — "unlike other schemes which offer insurance only if the cardholder purchases an airline ticket".[^indian-express-1992][^charge-it-1988] The pitch worked: 7,000 members in its first year grew to 30,000 cardholders and 6,000 member establishments by early 1987, and eventually to over 41,000 cardholders — the highest of any bank card of its day.[^charge-it-1988][^a-creditable-venture]
-
-<div style="width: 50%; margin: 0 auto;">
-
-{% include figure popup=true image_path="assets/images/credit-card-chronology/andhra_bank_indian_airlines_ad_toi_5_nov_1982_p21.png" alt="Andhra Bank Indian Airlines Ad, The Times of India, 5 Nov 1982" caption="Andhra Bank Indian Airlines Ad, The Times of India, 5 Nov 1982" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/andhra_bank_launch_ad_toi_10_july_1981.png" alt="Andhra Bancard launch Ad, The Times of India, 10 July 1981, p. 6" caption="Andhra Bancard launch Ad, The Times of India, 10 July 1981, p. 6" %}
 
 </div>
 
 
-In January 1987, Andhra Bank announced it would introduce the country's first **gold card**,[^a-creditable-venture] and in May 1988 it signed up as a principal member of Mastercard International as well — a membership that let it service the cards of visiting foreign tourists, and earn foreign exchange in the bargain.[^andhra-mc-1988]
+Contrary to Centralcard, an applicant did not need to have an account with Andhra Bank. An income of Rs. 3,000 a month, or a company with a paid-up capital of Rs. 5 lakh, was eligibility enough.[^charge-it-1988] The card was packed with features: cash advance, cheque discounting, add-on cards for a spouse or dependent children, and free round-the-clock personal accident insurance from the moment one became a member, "unlike other schemes which offer insurance only if the cardholder purchases an airline ticket".[^indian-express-1992][^charge-it-1988]
 
-### The world opens up: RBI allows international cards (1986)
+<div style="width: 50%; margin: 0 auto;">
 
-Every Indian card of the early eighties ended at the border: Diners Club cards issued to Indians were valid only within the country,[^diners-1979] and the bank cards that followed were honoured in India and Nepal alone. That changed in 1986. Responding to requests from firms engaged in international business, the Reserve Bank of India permitted international credit cards to be issued in the country for the first time — a facility limited in scale, and restricted to firms and companies holding valid blanket foreign-exchange permits.[^a-creditable-venture][^rbi-announce-1986]
+{% include figure popup=true image_path="assets/images/credit-card-chronology/andhra_bank_indian_airlines_ad_toi_5_nov_1982_p21.png" alt="Andhra Bank lands Indian Airlines Ad, The Times of India, 5 Nov 1982" caption="Andhra Bank lands Indian Airlines Ad, The Times of India, 5 Nov 1982" %}
 
-**American Express** — already the most popular card among Indian member establishments, being widely circulated and settling its dues within a week — was the first to launch an international card in India, though its gold and platinum tiers were never issued in the country.[^a-creditable-venture] **Diners Club** followed in September 1986 with an international card aimed at the business traveller abroad, covering airline tickets, hotel accommodation, entertaining clients, car rentals, even telephone and telex services.[^diners-intl-1986] The **international Centralcard** arrived on 26 October 1986, in Central Bank's platinum jubilee year, in collaboration with Mastercard International, aimed at the roughly 4,000 blanket-permit-holding corporate bodies across the country.[^centralbank-intl-1986]
+</div>
+
+7,000 members in its first year grew to 30,000 cardholders and 6,000 member establishments by early 1987, and eventually to over 41,000 cardholders by 1988 — the highest of any bank card of its day![^charge-it-1988][^a-creditable-venture]
+
+In January 1987, Andhra Bank announced it would introduce the country's first **gold card**,[^a-creditable-venture] and in May 1988 it signed up as a principal member of Mastercard International as well. This allowed the bank to service the cards of visiting foreign tourists, and earn foreign exchange.[^andhra-mc-1988]
+
+### The world opens up
+
+Every Indian card in the early eighties ended at the border: All the bank cards, along with diners club cards issued in India, were valid in India and Nepal alone. That changed in **1986**. Responding to requests from firms engaged in international business, the Reserve Bank of India permitted international credit cards to be issued in the country for the first time. The facility was limited in scale, and restricted to firms and companies holding valid blanket foreign-exchange permits.[^a-creditable-venture][^rbi-announce-1986]
+
 
 <div style="width: 50%; margin: 0 auto;">
 
@@ -1452,7 +1484,10 @@ Every Indian card of the early eighties ended at the border: Diners Club cards i
 
 </div>
 
-Note how thinly the door was opened: these cards were for corporate permit-holders, not ordinary travellers. For most Indians, the world of the credit card remained a domestic one.
+Following the announcement, **Diners Club India** launched an international card in **September 1986**. Aimed at the business traveller abroad, it covered airline tickets, hotel accommodation, car rentals, telephone and telex services etc.[^diners-intl-1986] The **international Centralcard** arrived on **26 October 1986**, in Central Bank's platinum jubilee year. Issued in collaboration with Mastercard International, it was aimed at the roughly 4,000 blanket-permit-holding corporate bodies across the country.[^centralbank-intl-1986]
+
+Today we can do international transactions by simply enabling the toggle in the bank's app. I can't imagine having to get a permit to do an international transaction. Hell, did you know that the maximum income tax rate in India in 1980 was **72 percent!** Crazy times.
+
 
 ### The bank-card wave
 
@@ -1467,7 +1502,7 @@ By early 1987, there were already over 1.5 lakh credit card holders in the count
 
 ### Foreign banks and the arrival of revolving credit
 
-Foreign banks came late to the Indian card market, but they changed the product itself. **ANZ Grindlays** became the first foreign bank to launch a domestic card in India — the Visa-affiliated **Grindlays Classic Card**, in February 1989[^grindlays-visa] — and, more consequentially, the **first bank to offer revolving credit in India**: the option of paying as little as 10 percent of the monthly bill and carrying the balance forward.[^grindlays-revolving] Three decades after the BankAmericard, the defining feature of the modern credit card — debt that rolls over and accrues interest — had finally arrived in the country.
+Foreign banks came late to the Indian card market, but they brought substantial innovation. **ANZ Grindlays** became the first foreign bank to launch a domestic card in India:  the Visa-affiliated **Grindlays Classic Card**, in **February 1989**.[^grindlays-visa] More consequentially, it was the **first bank to offer revolving credit in India**: the option of paying as little as 10 percent of the monthly bill and carrying the balance forward.[^grindlays-revolving] Three decades after the BankAmericard, the defining feature of the modern credit card had finally arrived in the country.
 
 <div style="width: 50%; margin: 0 auto;">
 
@@ -1475,7 +1510,13 @@ Foreign banks came late to the Indian card market, but they changed the product 
 
 </div>
 
-The other foreign names came piecemeal. **Hongkong Bank** launched its credit card in early 1992, restricted to existing customers who fit a predefined profile; cardholders could pay a minimum of 10 percent of their monthly dues and carry the balance forward at 2.5 percent monthly interest.[^cashing-in-1993] **American Express** entered as an issuer in June 1993, by which time some twenty banks were issuing Mastercard in India.[^card-sharp-1993] **Standard Chartered** would introduce the country's first photocard in 1999.[^stanchart-photocard]
+The other foreign names came piecemeal. **Hongkong Bank** launched its credit card in early 1992, restricted to existing customers who fit a predefined profile; cardholders could pay a minimum of 10 percent of their monthly dues and carry the balance forward at 2.5 percent monthly interest.[^cashing-in-1993] 
+
+**American Express** cards were being accepted in India since **1959** when the **Taj Hotel**, Mumbai was signed up as the first merchant.[^amex-in-intv] By 1987, it was the most popular card among Indian member establishments, due to being widely circulated and settling its dues within a week.[^a-creditable-venture]. But this was for foreign-issued AMEX cards, the cards were still not
+being issued domestically. This started changing when they launched a US dollar corporate card in **1986**.[^amex-in-intv] Since it was US dollar denominated, it could only be used outside India.[^amex-in-intv]
+
+**American Express** entered as an issuer in **June 1993**, when they launched an Indian rupee billed consumer credit card.[^card-sharp-1993][^amex-in-intv] It was followed by an Indian rupee billed
+Corporate Card in 1996.[^amex-in-intv] **Standard Chartered** would introduce the country's first photocard in 1999.[^stanchart-photocard]
 
 <div style="width: 100%; margin: 0 auto;">
 
@@ -1483,7 +1524,8 @@ The other foreign names came piecemeal. **Hongkong Bank** launched its credit ca
 
 </div>
 
-The private-bank era began properly with **HDFC Bank**, which soft-launched its credit-card business in Chennai in December 2001 with an international silver card on Visa[^hdfc-2001] — a latecomer whose card business would grow to be the largest in the country.
+The private-bank era began properly with **HDFC Bank**, which soft-launched its credit-card business in Chennai in December 2001 with an international silver card on Visa.[^hdfc-2001]
+A latecomer bank whose card business would grow to be the largest in the country.
 
 
 <div style="width: 50%; margin: 0 auto;">
@@ -1493,6 +1535,9 @@ The private-bank era began properly with **HDFC Bank**, which soft-launched its 
 
 </div>
 
+# Reflections on writing this blog
+
+I have read too many obituaries. Many more than I would have liked.
 </div>
 
 [^lopez-commercial-1971]: Robert S. Lopez, _The Commercial Revolution of the Middle Ages, 950–1350_ (Cambridge University Press, 1971).
@@ -1533,12 +1578,21 @@ The private-bank era began properly with **HDFC Bank**, which soft-launched its 
 [^charge-it-1988]: "CHARGE IT!", Neeta Lal, The Times of India, 23 Jan 1988, p. A2.
 [^diners-strike-mag]: Diners Club crippled for over a month by employees strike over low salary, _India Today_ Magazine, 28 Feb 1986; [Online version](https://www.indiatoday.in/magazine/economy/story/19860228-diners-club-crippled-for-over-a-month-by-employees-strike-over-low-salary-800629-1986-02-27)
 [^citibank-diners-1990]: "Diners Club franchise for Citibank," The Times of India, 25 May 1990, p. 15; "Citibank launches 'corporate card'," The Times of India, 6 Feb 1991, p. 15.
+[^central-bank-about]: [Profile - Central Bank of India](https://centralbank.bank.in/en/about-us/profile)
+[^centralcard-launch-report]: "Central Bank's customer service card", The Times of India, 12 August 1980
+[^centralmaster-businessworld-1986]: Centralcard-Mastercard Ad, _BusinessWorld_ Magazine, March 31 - April 13, 1986, p. 64
+[^centralmaster-tieup-toi]: "Centralcard tie-up with Mastercard", The Times of India, 26 March 1982, p. 13
+[^cash-flash-ad]: Centralcard "Cash in a Flash" Ad, The Times of India, 26 May 1981, p. 21
+[^central-vysya-toi]: "Vyasa Bank to issue Centralcards", The Times of India, 19 Oct 1987, p. 11 [Note: The bank's name was misspelled from "Vysya" to "Vyasa"]
+[^centralcard-directory]: Centralcard member establishments directory, 5th ed., March 1989
+[^parsiana-1991]: Centralcard Ad, _Parsiana_ Magazine, August 1991, p. 58
+[^rbi-bankwise]: Reserve Bank of India, Bank-wise ATM/POS/Card Statistics - July 2026, [rbi.org.in](https://www.rbi.org.in/Scripts/ATMView.aspx?atmid=185)
+[^cbi-iar-2024]: Central Bank of India, Integrated Annual Report FY 2023-24, p. 190, [centralbank.bank.in](https://centralbank.bank.in/sites/default/files/CBI-IAR2024.pdf).
+[^cbi-iar-2026]: Central Bank of India, Integrated Annual Report FY 2025-26, p. 295, [centralbank.bank.in](https://centralbank.bank.in/sites/default/files/CBI-IAR2026-Interactive-Hindi-English%20Combine.pdf).
 [^cashing-in-1993]: "Cashing in on Consumerism," The Indian Express, 5 July 1993, p. 12.
 [^andhra-mc-1988]: "Andhra Bank pact with Mastercard," The Times of India, 6 May 1988, p. 20.
-[^andhra-ia-ad]: Andhra Bancard–Indian Airlines tie-up Ad, The Times of India, 5 Nov 1982, p. 21.
 [^indian-express-1992]: "Credit cards — convenience at the helm," The Indian Express, 6 July 1992, p. 13.
 [^a-creditable-venture]: "A creditable venture," Gauri Lankesh, The Times of India, 30 Jan 1987, p. 20.
-[^diners-1979]: "Credit card system urged," The Times of India, 3 Nov 1979, p. 15.
 [^rbi-announce-1986]: The Times of India, 28 Nov 1986, p. 18.
 [^diners-intl-1986]: "Diners Club's new credit card," The Times of India, 6 Sep 1986, p. 13.
 [^centralbank-intl-1986]: "Central Bank's new credit card," The Times of India, 27 Oct 1986, p. 13.
@@ -1550,12 +1604,13 @@ The private-bank era began properly with **HDFC Bank**, which soft-launched its 
 [^grindlays-visa]: "Grindlays Visa credit cards," The Times of India, 20 Mar 1989, p. 15.
 [^grindlays-revolving]: ANZ Grindlays Silver Card Ad, The Times of India, 24 May 1995, p. 9; Grindlays revolving credit Ad, The Times of India, 2 Nov 1989, p. 12.
 [^card-sharp-1993]: "Card Sharp," The Times of India, 23 Oct 1993, p. A5.
+[^amex-in-intv]: [Amex India CEO interview, Th Economic Times](https://economictimes.indiatimes.com/opinion/interviews/our-card-members-come-from-all-walks-of-life-manoj-adlakha-american-express/articleshow/69675966.cms)
 [^stanchart-photocard]: Standard Chartered Instabuys Ad, The Times of India, 14 Jan 1999, p. 17.
 [^hdfc-2001]: "Business Digest," The Times of India, 21 Dec 2001, p. 15.
-[^centralcard-visa-1989]: Centralcard Ad, Business India, February 1989.
+[^centralcard-visa-1989]: Centralcard Ad, _Business India_ Magazine, January 23 to February 5, 1989, p. 208.
 [^visa-ad-1992]: Visa Ad, The Times of India, 5 June 1992, p. 16.
 [^ace-of-strategy-1991]: "An ace of a strategy," The Times of India, 10 Mar 1991, p. 14.
-[^cbi-rhp-2007]: Central Bank of India, Red Herring Prospectus, 2007.
+
 [^bank-charge-cartoon-1942]: Cartoon, _Banking_, August 1942, p. 7.
 [^central-billing-1945]: "Central Billing?", _Business Week_, 3 November 1945, pp. 86-87.
 [^bankway-ad-1945]: Buffalo Industrial Bank, Bankway Credit Card Ad (in Polish), _Dziennik Dla Wszystkich_ ("Everybody's Daily"), Buffalo, 27 October 1945, p. 5.
