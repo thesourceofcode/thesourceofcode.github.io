@@ -29,3 +29,24 @@ history of credit card: https://slidetodoc.com/the-history-of-credit-and-credit-
 
 
 first credit card: https://www.saturdayeveningpost.com/2016/04/day-cash-died/?utm_source=chatgpt.com
+
+
+
+
+ebsco search:
+- Irwin Ross. "The Credit Card's Painful Coming-of-Age." Fortune.
+Vol. LXXXIV, No. 4, October, 1971, p. 108.
+
+newspaper search
+https://medium.com/@dgwbirch/dining-out-on-diners-club-878b485729f2
+
+
+Diners Club pending:
+
+In the nation’s expense-account economy, nobody is anybody unless he can say “Charge it.” - https://time.com/archive/6801390/modern-living-credit-card-game/
+
+The monopoly lasted about seven years: American Express and Hilton's Carte Blanche arrived in 1958.[^mandell-history] Diners Club had gone public in 1955; by February 1958 it had **560,000 members billing $92 million a year**, and it closed the decade with over a million members and a New York Stock Exchange listing.[^vanatta][^simmons-catastrophe] The long glide down came later: a $56.6 million sale to Chase Manhattan was blocked on antitrust grounds in 1965–66; Schneider died in 1964; Bloomingdale engineered Continental Insurance's takeover and was forced out of the top job in 1969; Citibank bought the company in 1981. American Express passed it in travel-and-entertainment volume in 1966.[^mandell-history][^evans-schmalensee]
+
+https://newspaperarchive.com/daily-independent-journal-dec-18-1951-p-15/?utm_source=chatgpt.com/
+
+Rivals came and mostly died: **Trip-Charge** of Chicago ("Charge Everything Everywhere"); **National Credit Card, Inc.** (forty-two states in 1951, bankrupt by 1954); the **Esquire Club** and the **Duncan Hines Signet Club**; the **Gourmet Guest Club**; the hotel industry's counter-attack, the American Hotel Association's **Universal Travelcard**, which had 90,000 subscribers within five months of its 1956 launch and 4,400 hotels behind it.[^evans-schmalensee][^nyt-grutzner-1956] "Of the early major entrants, only Diners Club survived the decade."[^evans-schmalensee]

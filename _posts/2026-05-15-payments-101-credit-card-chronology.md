@@ -68,15 +68,24 @@ douglas_dc3_gallery:
     image_path: /assets/images/credit-card-chronology/douglas_dc3_1942.webp
     alt: "1942 flight of NC25609 over the St. Paul airport and Mounds Park, showing off its “Buy War Bonds” titling. NWA promotional photo in the Borden collection at the NWAHC"
     title: "1942 flight of NC25609 over the St. Paul airport and Mounds Park, showing off its “Buy War Bonds” titling. NWA promotional photo in the Borden collection at the NWAHC"
-diners_club_booklet_gallery:
-  - url: /assets/images/credit-card-chronology/diners_club_booklet.jpg
-    image_path: /assets/images/credit-card-chronology/diners_club_booklet.jpg
-    alt: "Diner's Club Booklet (front)"
-    title: "Diner's Club Booklet (front)"
-  - url: /assets/images/credit-card-chronology/diners_club_booklet_back.jpg
-    image_path: /assets/images/credit-card-chronology/diners_club_booklet_back.jpg
-    alt: "Diner's Club Booklet (back)"
-    title: "Diner's Club Booklet (back)"
+diners_club_directory_gallery:
+  - url: /assets/images/credit-card-chronology/diners_directory_front.jpeg
+    image_path: /assets/images/credit-card-chronology/diners_directory_front.jpeg
+    alt: "Diner's Club Northeastern directory (front)"
+    title: "Diner's Club Northeastern directory (front)"
+  - url: /assets/images/credit-card-chronology/diners_directory_back.jpeg
+    image_path: /assets/images/credit-card-chronology/diners_directory_back.jpeg
+    alt: "Diner's Club Northeastern directory (back)"
+    title: "Diner's Club Northeastern directory (back)"
+diners_club_plastic_gallery:
+  - url: /assets/images/credit-card-chronology/diners_card_plastic_1962_front.jpeg
+    image_path: /assets/images/credit-card-chronology/diners_card_plastic_1962_front.jpeg
+    alt: "Diner's Club plastic card (front)"
+    title: "Diner's Club plastic card (front)"
+  - url: /assets/images/credit-card-chronology/diners_card_plastic_1962_back.jpeg
+    image_path: /assets/images/credit-card-chronology/diners_card_plastic_1962_back.jpeg
+    alt: "Diner's Club plastic card (back)"
+    title: "Diner's Club plastic card (back)"
 amex_green_card_gallery:
   - url: /assets/images/credit-card-chronology/amex_green.jpeg
     image_path: /assets/images/credit-card-chronology/amex_green.jpeg
@@ -181,7 +190,7 @@ or, as _motabhai_ put it:
 
 <div style="width: 40%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/chronology_meme.webp" alt="\"_Understand the Chronology_\"" caption="\"_Understand the Chronology_\"" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/meme_chronology.webp" alt="\"_Understand the Chronology_\"" caption="\"_Understand the Chronology_\"" %}
 
 </div>
 
@@ -695,6 +704,20 @@ While the U.S. led these commercial innovations, global parallels were already f
 
 ### Department Stores
 
+Descriptions and illustrations of dif-
+ferent types of plates, as well as the metal-embossing machines that made them,
+are found in William H. Leffingwell, The Office Appliance Manual (Chicago, 1926),
+405–37
+
+These cards served the
+dual purpose of identifying a customer with a charge account and also
+of providing a mechanism for keeping records of customer purchases.
+The use of such cards continued to grow after the end of the First
+World War until the growth was halted by the depression. During the
+Second World War, most firms did not use these cards as a result of
+the wartime credit restrictions - lewis mandel 1972book
+
+
 Department stores had already been extending credit to consumers in the form of charge accounts.
 
 As department stores grew, so did the volume of credit transactions. Recording a customer's details on every charge slip was cumbersome for clerks and slowed down the checkout process. Introduced by Farrington Manufacturing in 1928, the Charga-Plate was designed to streamline this workflow.
@@ -844,7 +867,7 @@ A major milestone occurred in July 1938, when several regional Standard Oil comp
 
 </div>
 
-In 1936, a coalition of airlines launched the Air Travel Card, one of the earliest organized charge card systems and a key precursor to the modern credit card. Under the Universal Air Travel Program (UATP), the allowed business travelers to charge airfare and pay later, introducing an early form of standardized account-based payment in commercial travel. UATP operated its own private clearinghouse to process transactions, helping to streamline billing between airlines and corporate customers. Notably, the Air Travel Card also introduced a numbering system that remains in use today, with UATP cards still beginning with the digit “1.”
+In 1936, a coalition of airlines launched the Air Travel Card, one of the earliest organized charge card systems and a key precursor to the modern credit card. Under the Universal Air Travel Program (UATP), the allowed business travelers to charge airfare and pay later, introducing an early form of standardized account-based payment in commercial travel. UATP operated its own private clearinghouse to process transactions, helping to streamline billing between airlines and corporate customers. Notably, the Air Travel Card also introduced a numbering system that remains in use today, with UATP cards still beginning with the digit “1.” Only UATP cards start with the number 1 because they were first.
 
 The system proved highly successful and influential. By 1941, the Air Travel Card accounted for roughly half of participating airlines’ revenues, demonstrating the viability of large-scale deferred payment systems. Its scale continued to grow, and by 1968 UATP was processing around one billion dollars in sales across 111,000 business accounts, with approximately 1.5 million cards in circulation. As one of the earliest standardized, multi-issuer charge systems with centralized clearing, the Air Travel Card helped establish foundational practices—such as account numbering, centralized transaction processing, and post-purchase billing—that later shaped the development of modern credit cards.
 
@@ -892,6 +915,23 @@ Under the Bankway plan, the prospective purchaser went to the bank, established 
 
 Bankway was a genuine bank credit card, and in its market — durable goods bought on installments — it worked. But it was grafted onto the installment contract rather than onto the everyday charge account. The card that would matter more was aimed at the neighbourhood shops.
 
+##### Credit vs Charge
+
+In modern lexicon we differentiate between **charge cards** and **credit cards** based on the presence of revolving credit.
+
+If you've used credit cards, you might have come across the term **"Minimum Amount Due"**. Modern credit cards have this feature
+of revolving credit, where you can pay a certain percent of your total overdue amount (e.g. 10%) and can keep using the credit card. The remaining overdue
+amount will attract an interest at obscene rates (starting from 1.5% per month/18% per annum). This allows credit card holders to spend
+more than what they can comfortably repay in a month. Not being prudent with this feature is a surefire way to enter a debt trap.
+
+Early cards did not have this feature. You had to repay the entire amount you owed at the end of the month, failing which could
+result in fines.
+
+Although this is a well established distinction now, early cards used them interchangeably with many charge cards calling themselves
+as credit cards.
+
+##### Unfamiliar feature: Customer address
+
 #### Charg-It
 
 ## Add scrip image
@@ -932,109 +972,519 @@ industry: it ushered in the era of the third-party, universal credit
 card — without a doubt, the most important development in the history
 of credit cards.
 
-## Diner's Club
+## Diners Club
 
-<div style="width: 30%; margin: 0 auto;">
+<div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_ad_nyt_30_march_1950_p42.png" alt="Diner's club Ad, ca. 1950" caption="First Diner's Club Ad, New York Times, 30 March 1950, p. 42" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_oldest_known_design.png" alt="Photo of oldest known Diners Club Card design, Businessweek, 11 Nov. 1950, p. 34" caption="Photo of oldest known Diners Club Card design, Businessweek, 11 Nov. 1950, p. 34" %}
+
+</div>
+
+Despite prior attempts, the era of the modern, third-party, universal card truly began with **"Diners' Club"**.
+
+There is a famous story about its invention. Although there are some variations in later sources, the story as it appeared in _Newsweek_ on 29 January 1951 (p. 73) is as follows:
+
+> "About a year ago, Frank McNamara, president of a New York credit company, enjoyed a wholesome, expensive lunch in a New York restaurant. Halfway through his coffee, McNamara made a
+familiar, embarrassing discovery; he had left his wallet at home. By the time his wife arrived and the tab had been
+settled, McNamara was deep in thought. Result: the "Diner's Club," one of the fastest-growing service organizations."
+
+This story reads like a legend: a troubled McNamara, struck by a flash of insight, goes on to kick-start a multibillion-dollar industry. It’s the stuff of fairy tales.
+
+Except it’s fake.
+
+<div style="width: 40%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/meme_fake_news.jpg"%}
 
 </div>
 
 
-By the end of 1950, Diners Club had 100% of the credit card business, with 20,000 customers, and was accepted at over 1000 restaurants
 
-### Get a source for this ^
+This story was invented in 1950 by the company's first press agent, **Matty Simmons**.
 
-The era of the modern, third-party universal card began with the formation of Diners Club in 1949.
 
-Charge cards had already been used for decades, but their main purpose was to act as a vehicle for increasing sales of other goods—oil, department store merchandise, and similar products. By the middle of the twentieth century, both charge accounts and installment credit were already widespread.
-
-The pioneering insight behind Diners Club was to imagine credit itself as a product to be sold—an end in itself rather than merely a means to sell something else. The founders did not invent any radically new ideas. Instead, they combined a number of well-established practices into a new business model centered around a portable, universal charge card. Although John Biggins had earlier developed a true universal credit card, Diners Club was the first to implement and market such a card successfully on a large scale.
-
-There is a famous story about Frank McNamara, the founder of Diners Club, forgetting his wallet at a restaurant and conceiving the idea for the card on the spot. However, this incident almost certainly never happened. The story was later fabricated by the company's press agent, Matty Simmons, and became part of the company's mythology.
+When he had asked McNamara how he actually got the idea, the founder merely smiled:
 
 <blockquote>
   <p>"I just get ideas. I write them down
 and think about them for a while. Then I throw out the
 ones that don’t float. This one was never discarded."</p>
-  <legend><cite>Frank MacNamara, On how he came up with the idea of Diner's Club</cite></legend>
+  <legend><cite>Frank McNamara, on how he came up with the idea of Diners Club</cite></legend>
 </blockquote>
 
-Frank McNamara founded Diners Club with his lawyer Ralph Schneider and his friend Alfred Bloomingdale, with a modest initial capital. Their company acted as an intermediary between customers and merchants: customers would "charge" their purchases, merchants would send the signed sales slips to the Diners Club office for payment, and Diners Club would bill customers at the end of the month.
+"That wouldn't do," Simmons confessed decades later. "I had to glamorize the creation of the credit-card plan…" So he wrote this apocryphal tale
+which has been repeated and publicized for decades. It ended up becoming a part of the company's official history, and the Diners Club website still presents this story as fact.[^simmons-catastrophe]
 
-**MAJOR"S NAME WAS COMPSON SATZ: https://www.linkedin.com/pulse/death-cash-legendary-supper-never-happened-jeffrey-robinson/**
-The first-ever Diners Club transaction took place on **February 8, 1950**, at Major's Cabin Grill in Manhattan, a restaurant that McNamara frequented.
 
+
+There's also the question of how could a businessman who had forgotten his wallet still have his Diners Club card? Where do we keep our cards? That's right: in our wallets. The card would have been sitting right there alongside the cash he'd left behind, leaving McNamara in exactly the same predicament.
+
+In fact, the version Simmons intended was that McNamara "hadn't brought enough cash"[^simmons-catastrophe], not that he forgot his wallet itself. This is the version
+that actually makes sense. The story intended to portray the intended motivation for Diners Club as not having enough cash at hand, not the "forgot
+his wallet" version that has been incorectly reported everywhere. Its almost as if nobody bothered to stop and think through what they were publishing 🤦‍♀️.
+
+The actual inception of this idea was less dramatic and more interesting.
+
+
+### Genesis of the idea
+
+The real story begins in 1949.
+
+Francis X. (Frank) McNamara was the head of a finance company, the **Hamilton Credit Corporation** (incorporated in New York on **24 March 1949**).[^nydos-diners] He ran the company from his attorney Ralph Schneider's office on the 68th floor of the Empire State Building. Schneider
+was a Harvard Law School graduate "who gave him the use of a desk".[^mandell-history][^simmons-catastrophe][^linkedin-simmons]
+
+One day, he happened to cross paths with his friend, Alfred Bloomingdale, while the latter was visiting New York. Bloomingdale was the
+grandson of one of the founders of the posh Bloomingdale store, that is to say, he was born into generational wealth.
+
+Frank invited Alfred to join him and Ralph for lunch at **Major's Cabin Grill**, where he ate lunch everyday.[^mandell-history][^linkedin-simmons]
+It was a popular New York restaurant of the period whose location next door to the Empire State Building was then a considerable asset.[^mandell-history]
+
+
+As the three men continued talking, the topic of the conversation shifted to an amusing scheme being run by one of Hamilton Credit's clients.
+
+This businessman, operating in Bronx, **lent his own store charge accounts to his poor neighbours for a fee**. If one of his neighbors needed a prescription in the middle of the night, this entrepreneur would tell the neighbor to go to a particular
+drugstore and use his charge account, which he would okay over the phone. If the prescription were, say, $30, he would then charge the
+neighbor $40 and collect it over time.[^mandell-history]
+
+
+What intrigued them the most was this novel idea of a middleman using *his own creditworthiness* to borrow credit from a store and re-extend it to a stranger with a markup.[^mandell-history]
+
+The three men picked the Bronx scheme apart and found two flaws in it:
+1. The man was lending to the wrong people (the poor are the least able to repay)
+2. He had to wait for an emergency before anyone needed his service
+
+They pondered over the idea and thought of issuing "charge cards"
+for extending credit. Charge cards were already commonplace at the "important restaurants" in New York, in fact, Bloomingdale had 21 of them. Perhaps because
+they were sitting in a restaurant they thought this scheme would work best at restaurants. Restaurants offered the mirror image of the Bronx scheme. They had steady, everyday patronage by people who could comfortably pay.
+
+They perceived the primary market to be
+salesmen traveling around New York who would probably want a way
+to charge their meals.
+
+They called the proprietor of the restaurant, "Major" **Compson Satz**, over to the table and asked how much he would pay for business he would not ordinarily get. "Without flinching, Major replied, **"7 percent"**, a number that established a major industry and persevered as the industry standard for several decades." Asked later where the figure had come from, Major answered: "A travel agent would have charged 10 percent."[^mandell-history]
+
+
+### An enterprise is born
+
+<div style="width: 30%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_ad_nyt_30_march_1950_p42.png" alt="Diners Club Ad, ca. 1950" caption="First Diners Club Ad, New York Times, 30 March 1950, p. 42" %}
+
+</div>
+
+Encouraged by their discussion over the luncheon, the men decided to set up a small business to test their idea. 
+
+It was not a radically new concept, they simply combined well-established credit practices into a business: **a third party interposed between the
+grantors of credit (restaurants) and the users of credit (diners), selling credit itself as the product**. The commission charged to the restaurants, called **"discount"**, would be the means of paying for the operation.[^mandell-history]
+
+To Frank McNamara, it was an idea that had potential, and he believed someday the card would be honored at restaurants all over New York City. **_Restaurants_**—thus the name Diners Club.[^simmons-catastrophe]
+
+
+To start the new enterprise, Bloomingdale wrote a $5,000 check, while McNamara and Schneider contributed additional funds, bringing the total
+initial capital to $18,000. McNamara contributed Hamilton Credit's receivables totalling $35,000 and was able to borrow $35,000 from
+the bank against it. Thus,
+a new company was begun within the folds of the <span class="tt">Hamilton Credit Corporation.<span class="tt-c">The corporate entity that launched Diners Club cards was Hamilton Credit Corporation; it would not be renamed "The Diners' Club, Inc." until September 1955.[^nydos-diners]</span></span>[^mandell-history][^diners-capital-conflict]
+
+
+Shortly after that luncheon, Bloomingdale returned to California. Although he was personally intrigued by the idea, Bloomingdale had lent the money to McNamara more out of friendship
+than in hopes of beginning a profitable venture.[^mandell-history]
+
+McNamara and Schneider lost no time in launching the new enterprise from their office in New York's Empire State Building. They had two problems to solve:
+- They didn't know how to sell the plan to the public
+- They had limited contacts in the restaurant industry
+
+McNamara tried soliciting a number of restaurants but was struck out everywhere. The problem was that he was persuading restaurants to
+issue credit to customers that would be paid by him at a later date, while they didn't have the slightest idea who he was.
+
+
+As a result, they hired **Matty Simmons** as their press agent. Simmons was doing public relations for many leading restaurants and nightclubs in New York at the time and as a result had contacts in the restaurant industry.
+
+Major's was the first restaurant to agree to honor Diners Club cards, who, in all likelihood, didn't have much of a choice. Simmons helped
+add more restaurants to this lonely list, including _The Chambord_, _Bagatelle_, _Embassy Club_ etc.[^simmons-catastrophe]
+
+Cards were sent, unsolicited, "to several thousand prominent businessmen with a letter revealing its wonders". There was no membership fee and the
+card had fourteen restaurants listed on its back that honoured Diners Club.[^simmons-saturday][^simmons-catastrophe]
+
+The scheme was simple: McNamara and Schneider would issue charge cards to be used at New York–area establishments. Every month, they'd bill the user of the card for his charges during the previous 30 days. The cardholders would be charged nothing, the restaurant would receive 94 percent of the total, and Diners Club would get the rest.
+
+The Diners Club was in business.
+
+
+### The "First Lunch"
+
+<div style="width: 80%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/majors_cabin_grill_1940s.webp" alt="Major's Cabin Grill postcard, ca. 1940s" caption="Major's Cabin Grill postcard, ca. 1940s" %}
+
+</div>
+
+
+The era of the modern credit card started on **8 February 1950**, with the first Diners Club transaction happening at **Major's Cabin Grill**.[^simmons-saturday]
+
+On that fateful day, McNamara, Schneider, and Simmons sat down to lunch at Major’s, each carrying a freshly issued cardboard card.
+
+When the bill arrived, McNamara produced his card, numbered 1000 (i.e., #1). The waiter stared at it, puzzled. Then he remembered that Major had briefed the staff that very morning. He glanced at Major, who nodded from twenty feet away.[^simmons-saturday][^simmons-catastrophe]
+
+The waiter walked off with the bill and card in hand. He returned with a triplicate sheet given to him by the cashier, which had a rectangular box with the price of the lunch and a space for a tip. Two carbon sheets separated the three pages, so that when McNamara signed for lunch, the signature would appear on all three sheets. [^simmons-saturday][^simmons-catastrophe]
+
+After McNamara had signed, the waiter pulled the third sheet (customer copy) and handed it to him. The top sheet was to be sent to the Diners Club, and the middle sheet (merchant copy) was kept by the restaurant.[^simmons-saturday][^simmons-catastrophe]
+
+Frank turned to Ralph and Matty and smiled:
 <blockquote>
   <p>"Goddamn it! It worked!"</p>
-  <legend><cite>Frank MacNamara, On completing the first ever diner's club transaction</cite></legend>
+  <legend><cite>Frank McNamara, on completing the first Diners Club transaction</cite></legend>
 </blockquote>
 
-The founders originally charged participating merchants a 6% discount fee, but McNamara soon realized this was insufficient to make the business profitable. After the first couple dozen restaurants had signed up, the fee for new merchants was increased to 7%. A $3 annual membership fee was also introduced to improve profitability.
+At that singular moment in history, Major's Cabin Grill was the only place on the planet where "a credit card" was accepted in lieu of cash.
 
-For customers, the mechanics of the transaction looked familiar. Instead of paying with cash, they simply handed over their Diners Club card and said, "Charge it." Rather than receiving bills from dozens of individual establishments, they received a single monthly statement from Diners Club. Interestingly, the company followed the old practice of "country club billing," mailing the original signed sales receipts along with the monthly bill.
+This was the first ever transaction done by a Diners Club card. It wasn't the first universal charge card, that was Bankway. Nor was it
+the first universal "Credit Card" transaction, since there was no revolving credit involved. Yet, it was the beginning of a revolution in payments.
 
-For merchants, however, the arrangement was fundamentally different. Instead of maintaining their own charge accounts and bookkeeping, restaurants simply mailed the signed charge slips to Diners Club and received payment from the company. Diners Club effectively inserted itself as a trusted middleman, using its own creditworthiness to pay merchants immediately while collecting payment from customers later. This removed much of the administrative burden from merchants while still allowing them to offer credit to their patrons.
 
-The card was marketed primarily as a convenience. Business travelers no longer had to carry large amounts of cash that could be lost or stolen, nor worry about checks being refused outside their hometown. Receiving a single consolidated monthly bill simplified expense reporting, corporate reimbursements, and tax deductions.
 
-Yet convenience alone does not explain the card's early appeal. Its greatest attraction was prestige. Diners Club cards were issued selectively to affluent professionals and business executives. Possessing one signaled that both you—and by extension your employer—were considered financially trustworthy. In an era before electronic authorization, simply presenting the card was enough. The waiter accepted it, you signed the sales slip, and your signature served as a guarantee of payment. Naturally, this also meant that stolen-card fraud was relatively easy.
+### Mechanics of a transaction
 
-<div style="width: 50%; margin: 0 auto;">
+Strictly speaking, what they had built was a **charge card**, not a credit card. For the technically inclined readers, the following
+diagram should help understanding the transaction mechanics:
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_magazine.png" alt="Diner's Club Magazine, Nov 1960" caption="Diner's Club Magazine, Nov 1960" %}
+```mermaid
+sequenceDiagram
+    participant Customer
+    participant Restaurant
+    participant DinersClub as Diners Club
+    Restaurant->>Customer: Present bill
+    Customer->>Restaurant: Present card and say "charge it"
+    Restaurant->>Customer: Present triplicate charge slip
+    Customer->>Restaurant: Sign slip
+    Restaurant-->>Customer: Customer copy
+    Restaurant->>DinersClub: Mail signed slip
+    DinersClub-->>Restaurant: Pay 94% of the bill
+    Note over DinersClub: Keeps 6% merchant discount
+    DinersClub-->>Customer: Monthly itemized bill with signed slips
+    Customer->>DinersClub: Pay bill at month-end
+```
+
+
+For customers, the mechanics were familiar to the pre-existing charge cards: hand over the card, say "charge it", sign the slip, pay the bill at the end of the month. The only distinct feature was that the card could be used
+at multiple restaurants. So instead of paying the bills for multiple restaurant charge accounts, customers received a single unified and itemized bill, from Diners Club.
+
+The bill also came with the original signed sales slips enclosed. This was known as **"country club billing"** and managing all
+the paperwork was a very resource and time intensive job.[^mandell-history][^vanatta]
+
+For merchants the scheme was substantially different. Instead of maintaining their own charge account department and dealing with collection
+from individuals, they could simply mail the signed slips to Diners Club and get paid promptly, with the club absorbing the risk.
+
+The price was the **merchant discount**: restaurants received only 94% of the bill amount, with Diners Club keeping 6% as its commission.[^simmons-catastrophe]
+
+
+### Growing the Business
+
+I grew up in a world where credit cards were already commonplace. Most big offline retailers and all online websites accepted credit cards
+in India by the time I finished school. Merchants accepting credit cards seems to be a no-brainer to me. Which is why it is very amusing to me
+that there was a time when sellers had to be convinced to accept credit cards.
+
+In that regard, Diners Club was the pioneer. It convinced a critical mass of merchants to trust a third-party for extending credit
+to consumers. It created the market that allowed modern credit cards to flourish.
+
+In the early years of the Diners Club operation, new ideas and
+innovations flew about at a rapid pace, and nearly every aspect of today's credit card business that was technologically feasible was tried.
+
+
+As Simmons stated in his Book, _The Credit Card Catastrophe_:
+
+> We were in a
+business no one had ever been in before, so there were
+no guidelines and few limitations. We couldn't hire
+experts because there were no experts where there had
+been no business.
+
+Their first challenge was signing up restaurants and customers. 
+
+The unsolicited mailing of the cards to prominent businessmen helped create the first cardholders. For marketing to customers, the initial approach was simple and inexpensive, they slipped advertising leaflets under the doors of offices in the Empire State Building. The card was free and there was no credit check. The applicants simply walked up to the office and "if they looked trustworthy and claimed to have a job, they were given a card."
+
+Simmons's contacts helped them onboard the initial cohort of restaurants, who joined "albeit begrudgingly". They claimed to the restaurants
+that someone _charging_ for food and drink will spend more money than if he had to pay with cash.
+
+In the first month of operation, Diners Club did **$2,000** of business. In the second month it grew even more rapidly and they
+needed additional capital. When they approached Bloomingdale for more funding, he demanded a substantial stake in the firm. Confident in their venture's success, the two entrepreneurs refused to give up significant ownership.[^mandell-history][^simmons-catastrophe]
+
+As a result, Bloomingdale began
+his own credit card operation in Los Angeles, known as Dine and Sign.
+
+#### A quarrel between friends
+
+<div style="width: 100%; margin: 0 auto;">
+
+{% include figure popup=true image_path="/assets/images/credit-card-chronology/dine_n_sign.jpg" alt="Dine n Sign Card" caption="Dine n Sign Card" %}
 
 </div>
 
-Diners Club was a pioneer and had to invent many of its own growth strategies. One of its most successful innovations was the Diners Club Magazine. Originally created simply to publish updated lists of participating restaurants and businesses, the magazine became an effective negotiating tool when signing up new merchants and eventually grew into a profitable publication in its own right.
+https://oregonnews.uoregon.edu/lccn/sn90066132/1951-05-02/ed-1/seq-17.pdf
 
-One particularly colorful story from the company's early years involves Alfred Bloomingdale. In one city where local restaurants had collectively agreed not to accept Diners Club, Bloomingdale reportedly opened a restaurant of his own simply to establish a foothold for the card.
+https://newspaperarchive.com/daily-independent-journal-may-01-1951-p-14/?utm_source=chatgpt.com/
 
+Following his friends on the east coast, Bloomingdale signed up 25 restaurants in Los Angeles. He issued 20,000 cards. To figure out whom to send the cards to he used indicators
+of affluence, e.g. he bought a list of **Cadillac owners**, all of whom were mailed free Dine and Sign cards.
+Within three months he was doing $150,000 of monthly business, but the business was facing a myriad of problems. The staff could not tell from the charge
+slips who was charging because the signature frequently bore no resemblance to the name. So Bloomingdale was forced to hire handwriting
+experts who examined voting records to try to find out who was using the cards.
+
+The credit
+card was so new that recipients thought it was a gag and started using
+them to "play along." Some of them lent the cards out to their friends,
+creating additional problems.
+
+
+The business was floundering and Alfred was running out of capital. By this time his friends in
+New York
+were doing about $250,000 a month and losing money. Before the end of 1950 the two systems were merged, under
+the assumption that "if they were all going to go broke, they might as well do it together".
+Bloomingdale invested an additional $25,000 and got a 15% stake in the consolidated business. A second billing office was opened in L.A. and
+Bloomingdale was made vice-president for western operations.[^mandell-history][^simmons-catastrophe][^nyt-bloomingdale-1968]
+
+
+#### Financing the cashless dream
+
+By the fall of 1950 the card was honored in New York, Chicago, Boston, Philadelphia, Miami and Los Angeles, and nearly **30,000 cardholders** were charging **$250,000 a month**, yet the company, grossing some $16,000 a month from its percentage, was still **losing money**.[^simmons-catastrophe]
+
+
+Financing the operation was a challenge in itself. They tried different techniques. The initial merchant discount rate **(MDR)** had been 6%,
+but after the first two dozen establishments were signed it was determined that it was not enough. The fee to all new signees was raised to 7%
+(the suggestion by Major).
+
+No bank was willing to extend the credit
+needed by the corporation. Therefore, in its first year of operation, the
+company was forced to use a **"factor"** (moneylenders who loan money for commercial ventures) to whom Diners Club sold its
+accounts receivable at a discount.
+
+
+
+Another problem was that they had to pay the restaurants before they collected money from cardholders. Not being a bank, it could not fund
+itself on deposits.
+
+An interesting trick they used exploited the cheque clearing systems of the era. Since they had offices in both Los Angeles and in New York,
+i.e. on the opposite coasts of the US, they took advantage of this by writing cheques for New York bills from the L.A account and vice versa.
+This provided the company additional float. Until one instance that bloomingdale recalled: "one time a bank merged with helicopter and all my
+checks bounced."[^mandell-history]
+
+They also introduced a **$3 annual membership** fee for cardholders. While there were apprehensions that this would lead to loss of customers, it only
+ended up removing the customers who didn't use the card.
+Schneider's hunch that "we'd lose the people who don't use the card, but the people who do won't mind paying a small fee", proved exactly right; only the non-users dropped out. By early 1951 the company became profitable[^time-1951] and it did not post another losing year for the next seventeen years.[^simmons-catastrophe]
+
+It was then able to obtain credit, first from a small bank
+named Sterling Bank and later, when the company became much more
+successful, from the larger banks, which began to compete for the privilege of lending it money.
+
+By 1953 the fee was $5 a year[^nyt-rice-1953] and by the end of the decade the merchant commissions covered the entire cost of running the company, so the fee was nearly pure profit.[^ebsco-diners][^black-1961]
+
+By the first anniversary the club had **42,000 members and 330 establishments**; Time marveled that they "need never pay the waiter when they wind up a spirited evening on the town. They simply sign the check, get billed once a month."[^time-1951]. Credit losses ran a quarter of one percent, and the largest tab any member had yet signed was $496.[^simmons-catastrophe]
+
+The Henry Hudson Hotel extended the right to charge
+rooms to members so it was literally no longer merely, a
+"Diners" club. Other hotels quickly followed suit. Budget Rent-a-Car agreed to become the first car-rental system to honor
+the card.
+
+#### The appeal of the card
+
+By the end of its first year, articles started appearing in national media outlets like _Businessweek_, _Time_ etc. Cardholders were growing
+rapidly.
+
+Apart from the fact that it reduced the need to carry cash, one of the main appeals of the Diners Club card for customers was **prestige**. The fact that they were trusted to hold what amounted to
+a blank cheque was a source of pride. McNamara claimed that "If you're a businessman and you're entertaining clients or working on a deal, the
+people with you will be impressed."
+
+Another reason to prefer the card for spending was taxes. Taxes, substantially increased
+to support the war, were still high, and entertainment
+spending for business was deductible, but bookkeeping
+for this purpose was haphazard as were records at most
+corporations for entertainment expenditures. Using Diners CLub card for spending meant that you received an itemized bill at the end of the month.
+This served as "ready-made accounting of their expenses for income-tax purposes" that they could submit to the <span class="tt">IRS.
+<span class="tt-c">Even the _Joker_ doesn't mess with the IRS!</span></span>
+
+As Hillel Black put it in 1961: "only the needy carry cash." A reader survey that year found the average member was 42½ years old, married, a college graduate with 2.1 children, a $30,419 house and an income of **$16,876 — three times the national average**; salesmen and corporate executives made up over 45% of the rolls.[^black-1961]
+
+Diners Club sought to quantify its benefit for merchants and commissioned a survey that found out that a Diners Club cardholder spent **18%**
+more than a cash customer. This was their standard answer to restaurants who grumbled about surrendering 7%.
+
+
+A big-brain move Diners Club did is starting the _Diners Club Magazine_, later renamed _Signature_. Originally a newsletter titled _Diners Club News_ and "stuffed into billing envelopes", it was created by Simmons.
+The magazine was opt-out rather than opt-in, with a $1
+annual fee, and very few people "get around to saying
+they don't want something". This led to over 90% of the members subscribing to the magazine, which was briefly just as profitable
+as the card business (because of restaurant advertisements). The $1 was added to the annual fee so it qualified for second-class postage.
 
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_oldest_known_design.png
-" alt="Photo of oldest known Diner's Club Card design, Businessweek, 11 Nov. 1950, p. 34" caption="Photo of oldest known Diner's Club Card design, Businessweek, 11 Nov. 1950, p. 34" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_magazine.png" alt="Diners Club Magazine, Nov 1960" caption="Diners Club Magazine, Nov 1960" %}
 
 </div>
+
+The magazine became an important bargaining chip when signing up merchants. Diners Club offered coverage in the magazine as a benefit
+to prospective merchants to make the 7% MDR easier to swallow. Simmons wrote its restaurant column under the pen name **Franco Borghese**; a good review would jam a restaurant for weeks.[^simmons-catastrophe]
+
+_Signature_ was the first magazine to carry mail-order ads that gave the purchaser the ease of simply filling in his credit card number with the order. Huge online businesses like Amazon have business models that are really based on this original Signature innovation: buy with your credit card.[^simmons-saturday]
+
+
+
+#### Some stubborn shops
+
+Signing up merrchants was an uphill battle. The 7% MDR was a constant source of complaints, but any requests to decrease it was firmly denied.
+
+There were times when establishments made a united front against Diners Club in an area, but all of these attempts were outmaneuvered by the
+witty entrepreneurs. There was an instance when the restaurant association in the state of Washington
+attempted to keep out Diners Club by having association members agree
+to not accept the card. Bloomingdale broke that boycott through the
+extreme method of starting his own restaurant in downtown Seattle.
+Since his was the only restaurant that would accept Diners Club,
+cardholding businesspeople who happened to be in Seattle would flock
+to it. Pretty soon, the other downtown restaurants that were dependent
+on the patronage of traveling businesspeople gave in.[^mandell-history]
+
+When top restaurants in Milwaukee (and then Seattle) organized a rate revolt in the late 1950s, demanding the discount be cut and threatening mass exit, Simmons flew in, privately bought the ringleaders off with ad pages and cash advances, and watched the rebellion die mid-meeting when Mokey Friedman of Eugene's Restaurant rose to his feet: "I've known Al Bloomingdale for years. I knew Al when he'd pay a thousand bucks just to watch two flies fuck. He doesn't need our money. I'm not dropping out." All but the two instigators stayed, at full rate; the Seattle revolt "evaporated."[^simmons-catastrophe]
+
+Sometimes they even paid money upfrot to establishments in exchange of future Diners Club charges to sign them up. **Stork Club** and Toots Shor's were among these establishments with Stork CLub receiving $50,000.[^simmons-catastrophe]
+
+Airlines offered fierce resistance as well, until Simmons signed up Northeastern Airlines and other airlines fell in place for the
+fear of losing clients.
+
+Department stores resisted for the longest. They were not even able to sign up Bloomingdale's, the store started by Alfred's granfather!
+
+Though the 7% MDR eventually had to be reduced. Starting with airlines, due to high ticket amount the MDR was reduced to 3%.
+Although the company tried very hard to maintain a uniform discount for restaurants, in order to not favor one over another, it
+was forced to break that rule when it began to sign up restaurant chains.[^mandell-history]
+
+In addition, Diners Club was not able to maintain its policy of paying
+only once a month when the credit volume from restaurants grew
+extremely large. In places like New York, the company often had to pay
+twice or three times a month, although it maintained its once-a-month
+payment policy in more rural areas.[^mandell-history]
+
+
+### Cometh the fraudster
+
+The card soon attracted people willing to exploit it. At first there were no spending limits and no way to know whether a card
+was blocked. In the earliest days, the number of establishments was so low that Diners Club just called them and told the
+card numbers not to accept. Later they developed **hot lists**, list of blocked cardholders that were periodically sent to
+the establishments. The cashier would check the card number against the hotlist before accepting a card payment.
+
+Later the concept of floor limits was introduced. Below a certain amount the cashier could simply accept the card, but above
+that threshold, say **$100**, the cashier had to call Diners Club and authorize the transaction. He/She was given an authorization
+code that was written down on the charge slip.
+Diners Club even hired a detective to catch card thieves! 
+
+In the winter of 1958–59 a stolen-card ring worked Miami Beach for **$75,000–$100,000** in false billing, sometimes with the aid of knockout drops; one nightclub billed $500 to a phantom customer *and added $400 for the tip*. Texas passed the first credit-card-crime statute in May 1959.[^black-1961]
+
+
+
+### Going international
 
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_oldest.webp" alt="Specimen of first Diner's Club Card" caption="Specimen of first Diner's Club Card, c. 1950, Source: [gloria.hr](https://www.gloria.hr/gl/promo/prva-kreditna-kartica-nastala-je-prije-75-godina-zbog-zaboravnosti-15572237)" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_french.jpg" alt="French Diners Club Card, ca. 1957" caption="French Diners Club Card, ca. 1957" %}
 
 </div>
 
+The Diners Club went international before its 2nd anniversary. In **1951**, finders services announced a credit card plan in U.K.
+under license from Diners Club. At start this was a very informal agreement. A British citizen on the American lecture circuit became
+intrigued by the Diners Club idea. When he approached the company
+and asked whether he could start it in England, he was given the go-
+ahead. Thereafter, they merely exchanged charges, with no franchise
+fee or other payment coming to Diners Club. Later on, they concluded a
+more formal agreement, and eventually the American Diners Club
+owned 50 percent and one share.[^mandell-history]
+
+In 1953, Diners Club becomes the first internationally accepted charge card when businesses in the U.K., Canada, Cuba, and Mexico agree to accept the card.
+
+The first international issuance was in **1955** in France. Thereafter it spread acrosss Europe and the rest of the world.
+
+finders card: https://www.theguardian.com/lifeandstyle/2013/feb/13/hugo-dunn-meynell?utm_source=chatgpt.com
+https://pure.bangor.ac.uk/ws/portalfiles/portal/19758173/2017_Ascent_of_plastic_money.pdf, p. 10
+https://www.hatads.org.uk/catalogue/record/f91ccbcc-7026-46d7-83c0-711fe6f55a32
+
+
+### Evolution of the card
+
+When Diners Club started in 1950, the list of restaurants honoring the card easily fit on the back of the
+cardboard credit card.
 
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_1951.png" alt="Diner's Club card c. 1951" caption="Diner's Club card c. 1951, Source: [newnumismatics.weebly.com](https://newnumismatics.weebly.com/)" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_oldest.webp" alt="Specimen of first Diners Club Card" caption="Specimen of first Diners Club Card, c. 1950, Source: [gloria.hr](https://www.gloria.hr/gl/promo/prva-kreditna-kartica-nastala-je-prije-75-godina-zbog-zaboravnosti-15572237)" %}
 
 </div>
 
+When those numbers grew, they
+printed the card on an accordion pullout, and there
+were seven pages of listings. The next step was a booklet with the credit card as its cover.
 
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_1952.jpg" alt="Diner's Club card c. 1952" caption="Diner's Club card c. 1952" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_1951.png" alt="Diners Club booklet c. 1951" caption="Diners Club booklet c. 1951, [Source](https://newnumismatics.weebly.com/)" %}
 
 </div>
 
 
-The card itself evolved remarkably quickly while retaining features that remain familiar today. The earliest cards were made of flimsy cardboard and already contained the essential elements of a modern payment card: the cardholder's name, account number, signature, and expiration date.
+<div style="width: 80%; margin: 0 auto;">
 
-{% include gallery id="diners_club_booklet_gallery" caption="Diner's Club Booklet" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_booklet.jpg" alt="Diners Club booklet c. 1956" caption="Diners Club booklet c. 1956" %}
 
-At first, the list of participating establishments fit comfortably on the back of the card. As acceptance grew, the card expanded into an accordion fold listing hundreds of merchants. Eventually it became a small booklet, with the credit card serving as its cover. By the mid-1950s, the booklet had grown so large that the card was once again separated into its own standalone form, while regional directories listed participating establishments. The cardboard card itself would not be replaced by plastic until the 1960s.
+</div>
 
-Some primitive anti-fraud measures also emerged during these early years. Merchants were given floor limits, above which additional verification was required, and periodically received hot lists of stolen or cancelled cards.
+By the midfifties,
+the number of services and places honoring the card
+was so large and the book so thick that they started issuing a separate credit card. By the end of the
+decade, they had regional booklets for the United States
+and individual listings for foreign countries.
+The card
+continued to made of cardboard until the advent of
+plastic in the sixties.
 
-The earliest Diners Club rollout was modest: just 200 cardholders, mostly McNamara's friends and acquaintances, and 14 Manhattan restaurants accepted the card. Within a year, however, the company estimated that 42,000 Americans carried Diners Club cards and more than 330 businesses accepted them.
 
 
-It is worth remembering that these early Diners Club cards were charge cards, not revolving credit cards. Cardholders were required to pay their balance in full every month. Revolving credit cards, allowing customers to carry balances and pay interest, would only appear later, beginning with Franklin National Bank in 1951.
 
-Diners Club continued to grow with little serious competition throughout the 1950s. By the early 1960s, however, competition from other travel-and-entertainment (T&E) cards began to erode its dominant position, leading to declining market share and profitability.
+{% include gallery id="diners_club_directory_gallery" caption="Diners Club Northeastern directory, Nov. 1961" %}
 
-Diners Club still exists today, albeit as a much smaller player. Its modest place in today's payments industry gives little indication that it pioneered the business model and visual vocabulary that would shape the modern credit card industry for decades to come.
+{% include gallery id="diners_club_plastic_gallery" caption="Diners Club plastic card, ca. 1962" %}
+
+
+### After the origins
+
+Frank McNamara sold his shares in Diners Club in 1952. He was doubtful of the future growth potential of the company.
+
+<blockquote>
+  <p>"It'll peter out at 250,000 members, last for a while, then disappear like the zoot suit."</p>
+  <legend><cite>Frank McNamara, on selling his stake in Diners Club, 1952</cite></legend>
+</blockquote>
+
+Needless to say, this did not happen and Diners Club kept growing. A year after he sold, membership passed a quarter million[^simmons-catastrophe] and was more than
+a million by the end of the decade?
+
+Diners Club went public in **1955**.
+
+There were some interesting promotional tactics they utilized. They sponsored the production of a film, *The Man from the Diners' Club*.
+To launch the film, Simmons and his brother proposed putting an entire town on credit cards for 24 hours: on **13 March 1963**, cards were issued to **all ~10,000 residents of Winsted, Connecticut**. The Board of Selectmen obligingly made it *unlawful for any person to pay cash* for the day, junior cards went to the children. Simmons wrote the front-page obituary in the Winsted Evening Citizen: "CASH DIED TODAY! … Cash, which was born several thousand years ago, the son of Barter, the adopted child of Trade, died today in Winsted, Connecticut." It went off without a hitch; at day's end Schneider shook his hand: **"This is it. This is the future."**[^winsted-1963]
+
+A lot happened after this, but this blog is focused on the origins. You can check out the references to learn more about the history.
+
+Diners Club still exists today, albeit as a much smaller player. As Mandell observed, "its relatively small place in today's credit card marketplace gives little indication of its status as the pioneer of the modern credit card industry… their contributions have largely been forgotten."[^mandell-history]
+
+
+
+
+
+
+### No credit for Neil
+A funny bit of trivia I found: In 1974, Diners Club **denied** Neil Armstrong's application for the card. 5 years _after_ he had walked on the moon!
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_neil_armstrong_denial.jpeg" alt="Neil Armstrong card denial letter, 1974" caption="Neil Armstrong card denial letter, 1974" %}
+
+</div>
+
+
+
+
 
 ## Franklin National Bank
 
@@ -1288,7 +1738,7 @@ The operations were crippled for over a month in 1986 due to a strike by the emp
 </div>
 
 Its interesting how this announcement tries to paint the union president as a troublemaker and never mentions _why_ the workmen were striking. It
-was because the majority of its employees were receiving salaries **lower than those earned by peons** in similarly profitable corporations else where.[^diners-strike-mag] A company built around money somehow didn't fairly compensate its workers. Funny how that works.
+was because the majority of its employees were receiving salaries **lower than those earned by peons** in similarly profitable corporations else where.[^diners-strike-mag] A company built around money somehow decided not to fairly compensate its workers. Funny how that works.
 
 #### Citibank and beyond
 In **May 1990**, Citibank took over the Indian Diners Club franchise from the Aggarwal family,[^citibank-diners-1990] and by 1993 Citibank Diners Club was counted among the major card players in the country.[^cashing-in-1993]
@@ -1436,10 +1886,13 @@ By this point, Centralcard had grown to over **66,000** cardholders and **16,500
 
 #### The nineties and beyond
 
-The rest, as they say, is history <span class="tt">(which I didn't bother looking up)<span class="tt-c">Doing all this is a big time sink</span></span>
+The rest, as they say, is history <span class="tt">(which I didn't bother looking up).<span class="tt-c">Doing all this is a big time sink</span></span>
 
 
-In **October 2020** Central Bank of India reported zero monthly credit card transactions. By **December 2020** the active credit cards had dropped to zero as well, and it hasn't changed as of July 2026.[^rbi-bankwise] The bank still had a **3.25 lakh** card base in the form of co-branded cards with State Bank of India in FY24[^cbi-iar-2024], but the co-branded Credit Card arrangement between Central Bank of India & SBI Cards has been discontinued w.e.f. **26.07.2025**.[^cbi-iar-2026]
+In **October 2020** Central Bank of India reported zero monthly credit card transactions.
+By **December 2020** the active credit cards had dropped to zero as well, and it hasn't changed as of July 2026.[^rbi-bankwise]
+The bank still had a **3.25 lakh** card base in the form of co-branded cards with State Bank of India in FY24[^cbi-iar-2024],
+but the co-branded credit card arrangement between Central Bank of India & SBI Cards has been discontinued w.e.f. **26.07.2025**.[^cbi-iar-2026]
 
 After 40 years, the credit card chapter for this pioneering bank has finally closed...
 
@@ -1535,9 +1988,15 @@ A latecomer bank whose card business would grow to be the largest in the country
 
 </div>
 
-# Reflections on writing this blog
+# Reflections on writing this blog 
 
 I have read too many obituaries. Many more than I would have liked.
+
+Today i can look up all the humanity's knowledge at the push of a button
+
+but how did people in those times do it? they would have had to sift through shit manually. always grateful for the searhc engine and OCR tech
+
+It was fascinating reading about how people imagined a cashless society to be and comparing it with how it actually turned out.
 </div>
 
 [^lopez-commercial-1971]: Robert S. Lopez, _The Commercial Revolution of the Middle Ages, 950–1350_ (Cambridge University Press, 1971).
@@ -1625,6 +2084,28 @@ I have read too many obituaries. Many more than I would have liked.
 [^franklin-banking-1952]: "A Bank's Retail Charge Account Service," _Banking_, June 1952, p. 122.
 [^franklin-aba]: Figures as recounted in the American Bankers Association's published history of the bank credit card.
 [^sundararaman]: Viswanathan Sundararaman, "Credit Card System & Master Card System," [LinkedIn profile — Projects](https://www.linkedin.com/in/viswanathan-sundararaman-b3a6193/details/projects/). Sundararaman worked at Central Bank of India from 1975 to 1995, rising from programmer to Chief Officer (Computer Policy & Planning).
+[^mandell-history]: Lewis Mandell, _The Credit Card Industry: A History_ (Twayne Publishers, 1990), ch. 1, "Diners Club: The Birth of an Industry," pp. 1–10, based on the author's interview with Alfred Bloomingdale given shortly before Bloomingdale's death. (Mandell spells the lawyer's name "Snyder" throughout; every other source gives Schneider.)
+[^simmons-catastrophe]: Matty Simmons, _The Credit Card Catastrophe_ (Barricade Books, 1995), ch. 1–4, pp. 15–45.
+[^simmons-saturday]: [The First Credit Card Ever, The Saturday Evening Post, 4 April 2016](https://www.saturdayeveningpost.com/2016/04/day-cash-died/)
+[^nyt-bloomingdale-1968]: ["Opponent of Proposed Curbs on Travel", New York Times, 18 February 1968, Section F, p. 3](https://www.nytimes.com/1968/02/18/archives/opponent-of-proposed-curbs-on-travel.html)
+[^linkedin-simmons]: [The Death of Cash and The Legendary Diners Club Supper That Never Happened, Jeffrey Robinson, 2 May 2020](https://www.linkedin.com/pulse/death-cash-legendary-supper-never-happened-jeffrey-robinson)
+[^black-1961]: Hillel Black, _Buy Now, Pay Later_ (William Morrow, 1961), ch. "The Rub in Aladdin's Lamp," pp. 12–33.
+[^evans-schmalensee]: David S. Evans & Richard Schmalensee, _Paying with Plastic: The Digital Revolution in Buying and Borrowing_, 2nd ed. (MIT Press, 2005), pp. 53–59.
+[^vanatta]: Sean H. Vanatta, _Plastic Capitalism: Banks, Credit Cards, and the End of Financial Control_ (Yale University Press, 2024), pp. 55–58.
+[^nydos-diners]: New York Department of State, Division of Corporations, entity #61961 — filed 24 March 1949 as "Hamilton Credit Corporation"; renamed "The Diners' Club, Inc." 29 September 1955 (NY State open data: data.ny.gov, Active Corporations dataset).
+[^diners-capital-conflict]: Simmons's account of the founding money differs: Schneider invested $10,000 and McNamara $8,000, with McNamara keeping 90% of the stock "since he was going to run the whole thing" (Simmons, pp. 17, 23–24). Mandell's figures come from Bloomingdale's own interview.
+[^dinersclub-75years]: Diners Club International, ["Diners Club International Celebrates 75 Years,"](https://www.forbes.com/sites/diners-club-international/2025/02/14/diners-club-international-celebrates-75-years/) Forbes BrandVoice, 14 February 2025.
+[^globeandmail-2009]: Brian Milner, ["A historical look at the origins of the credit card,"](https://www.theglobeandmail.com/globe-investor/personal-finance/a-historical-look-at-the-origins-of-the-credit-card/article1205463/) _The Globe and Mail_, 25 November 2009.
+[^sep-simmons-2016]: Matty Simmons, ["The First Credit Card Ever,"](https://www.saturdayeveningpost.com/2016/04/day-cash-died/) _The Saturday Evening Post_, 4 April 2016.
+[^time-1951]: _Time_, 1951, as reprinted in Time's own retrospective ["Now You Know: What Was the First Credit Card?"](https://time.com/4512375/first-credit-card/) (19 October 2016).
+[^nyt-rice-1953]: Diana Rice, "Charge-Account Vacations Gain Favor," _The New York Times_, 2 August 1953, p. 19.
+[^ebsco-diners]: ["Diners Club Begins a New Industry,"](https://www.ebsco.com/research-starters/history/diners-club-begins-new-industry/) EBSCO Research Starters.
+[^lat-2000]: Marcy Gordon, ["A Humble Start for Today's Necessity,"](https://www.latimes.com/archives/la-xpm-2000-mar-12-mn-7952-story.html) _Los Angeles Times_, 12 March 2000.
+[^nyt-grutzner-1956]: Charles Grutzner, "Living High Without Money," _The New York Times_, 2 December 1956, p. 26.
+[^nyt-mcnamara-obit]: "Frank McNamara of Diners Club Dies; Built It Into $6 Million-a-Year Business," _The New York Times_, 11 November 1957.
+[^winsted-1963]: Ordinance text and Mayor John E. Lynch's remarks in the _Hartford Courant_, 23 October 1962, via [David G. W. Birch](https://medium.com/@dgwbirch/dining-out-on-diners-club-878b485729f2); Simmons's own accounts in _The Credit Card Catastrophe_, ch. 8, and his _Saturday Evening Post_ piece (2016).
+[^diners-buyout-conflict]: The sources disagree on the price: Simmons says McNamara sold his half for $500,000 (Simmons, pp. 34–35); Mandell, from Bloomingdale, says $250,000 for his 70%, with the two buyers borrowing $125,000 each (Mandell, p. 6); Black (1961) says "$200,000."
+[^dinersclub-history]: Diners Club International, [official history timeline](https://www.dinersclub.com/about-us/history/), accessed 2026.
 
 ## Appendix
 
@@ -1636,6 +2117,10 @@ I have read too many obituaries. Many more than I would have liked.
 
 </div>
 
+### Discrepancies in Diners Club Origins
+- Unsure if McNamara actualy knew Bloomingdale before starting Diners Club, feels like a fabrication. But too detailed to be fake.
+- When exactly did Dine and Sign start and merge with Diners CLub, I found a 1951 dine and sign card. Maybe the ops were merged but name was different?
+
 ### Other Credit cards
 
 National Credit Card
@@ -1645,6 +2130,28 @@ National Credit Card
 {% include figure popup=true image_path="assets/images/credit-card-chronology/medford_mail_tribune_1952-04-21_page2.png" alt="National Credit Card Inc. Ad, Medford Tribune, 21 April 1952, p. 2" caption="National Credit Card Inc. Ad, Medford Tribune, 21 April 1952, p. 2" %}
 
 </div>
+
+### Other Diners Club card images
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_1952.jpg" alt="Diners Club card c. 1952" caption="Diners Club card c. 1952" %}
+
+</div>
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_club_booklet_back.jpg" alt="Diners Club booklet (back) c. 1956" caption="Diners Club booklet (back) c. 1956" %}
+
+</div>
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/diners_card_plastic_hires.jpg" alt="Diners CLub plastic card, ca. 1962" caption="Diners CLub plastic card, ca. 1962" %}
+
+</div>
+
+
 
 ### Other Amex card images
 
@@ -1677,4 +2184,3 @@ A cheque cashing card Ad in 1969
 
 ### Centralcard Ads
 {% include gallery id="centralcard_1981_ads_gallery" caption="Centralcard advertisements in The Times of India, 1981" %}
-
