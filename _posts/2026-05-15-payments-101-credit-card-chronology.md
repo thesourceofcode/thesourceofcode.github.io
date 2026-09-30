@@ -583,8 +583,8 @@ Installment purchases of sewing machines escaped much of the stigma attached to 
 
 Singer's installment plan demonstrated that mass consumption could be financed through credit. The model soon spread to products such as pianos, furniture, and encyclopedias, helping normalize deferred payment and laying the foundations of modern consumer credit in the US.
 
-#### Aside: The development of the sewing machine in the 1850s not only transformed the lives of tailors, seamstresses and homemakers, but also revolutionized manufacturing and marketing as well. By the turn of the century, the sewing machine, rather like the parlour organ, was a important icon of social status.
-
+**Aside:** The development of the sewing machine in the 1850s not only transformed the lives of tailors, seamstresses and homemakers, but also revolutionized manufacturing and marketing as well. By the turn of the century, the sewing machine, rather like the parlour organ, was a important icon of social status.
+{: .notice--info}
 
 ## Origins of the credit card
 
@@ -1508,36 +1508,138 @@ Roth hoped the plan would benefit Long Island's stores as much as its consumers,
 
 ## American Express
 
-<div style="width: 50%; margin: 0 auto;">
+American Express had an excellent reason to dislike the credit card: it already had an excellent business without one.
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_launch_ad_30_sept_1958.jpg" alt="American Express launch Ad, ca. 1958" caption="American Express Credit Card Launch Ad, The Cincinnati Enquirer, 30 September 1958, p. 7" %}
+Founded in **1850** as an express company carrying freight and valuables, it had expanded into money orders, travelers cheques and travel services. Its travelers cheque, introduced in **1891**, solved a familiar problem: how to carry money abroad without losing everything if your wallet disappeared. The customer signed the cheque when buying it, then signed again when spending or cashing it. American Express guaranteed payment and could replace lost cheques. Its name became familiar to travelers, hotels, banks and shopkeepers around the world.[^amex-background]
 
-</div>
+<div style="width: 80%; margin: 0 auto;">
 
-
-American Express watched Diners Club's success and decided that the market was too lucrative to ignore. But American Express was not starting from scratch. Founded in 1850 as an express mail service in Buffalo, New York, the company had spent a century building a brand synonymous with reliability and travel services. Their money orders and traveler's cheques were already fixtures in the wallets of businessmen and tourists worldwide. When they entered the charge card business, they brought institutional trust that no startup could replicate.
-
-<div style="width: 50%; margin: 0 auto;">
-
-{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_1958.webp" alt="The first AMEX cards were made of cardboard and didn't have embossed numbers" caption="The first AMEX cards were made of cardboard and didn't have embossed numbers" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_travelers_cheque_20_dollars.jpg" alt="An American Express twenty-dollar travelers cheque showing signature and countersignature fields" caption="A later $20 American Express travelers cheque, illustrating the signature and countersignature arrangement; its issue date is unspecified. Image via <a href='https://commons.wikimedia.org/wiki/File:American_Express_Traveler_Cheque,_with_denomination_20_US-Dollars.jpg'>Wikimedia Commons</a>, listed there as public domain." %}
 
 </div>
 
-On October 1, 1958, they launched their own charge card with a $6 annual fee — one dollar more than Diner's Club, deliberately signaling premium positioning. On launch day, 250,000 cards were already issued, accepted at 17,500 merchants. The earliest AMEX cards were cardboard. In May 1959, American Express became the first issuer to offer embossed plastic cards, replacing the cardboard competitors with something more durable and prestigious. The Centurion logo, borrowed from their traveler's cheques, conveyed authority before the card was even presented. Like Diner's Club, it required payment in full each month — it remained a charge card, not a credit card. But American Express understood branding in a way its rivals did not. Where Diner's Club sold utility, American Express sold status.
+For American Express, the arrangement had another attraction. **The customer paid first.** Between selling a cheque and redeeming it, the company held the money and could invest it. This was the profitable *float* that Diners Club threatened to disturb. A traveler who could sign for dinner or a hotel room might buy fewer cheques before leaving home.
 
-{% include gallery id="amex_1959_gallery" caption="In May 1959, AMEX switched to issuing plastic cards" %}
+### The card that almost came first: 1946
 
-t wasn't until the 1960s that the first PVC (polyvinyl chloride) plastic cards were introduced. PVC was a durable and flexible material that could be easily printed on, making it ideal for card manufacturing. These early plastic cards were still relatively simple in design, typically featuring only the cardholder's name and account number.
+American Express had considered a card **before Diners Club existed**. In **July 1946**, an unnamed airline executive approached assistant vice president **Louis S. Kelly** with a suggestion: an American Express travel charge card for business people. Reed initially liked the idea and asked **William Eichelberger**, the company's travel sales manager, to study it.[^amex-1946-plan]
 
-{% include gallery id="amex_green_card_gallery" caption="Amex green card, c. 1970" %}
+By the end of 1946, Eichelberger had drawn up a **corporate travel card** proposal. Participating companies would deposit **$400–$500** with American Express as security against default or misuse. Their travelers could then charge transportation and other travel arrangements through American Express offices, or directly with carriers willing to accept the card. Eichelberger forecast **5,000 participating firms**, **$20 million in annual revenue** and **$1 million in profit**. These were projections for an unlaunched business, but they were substantial: American Express's entire net profit in 1947 was about $2 million.[^amex-1946-plan]
 
-In 1965:
-American Express has a monthly "Cancellation Bulle-tin" which goes to all the service establishments in-volved. These are instructed not to honor any card unless they first check the cancella-tion bulletin to make sure that the card is not listed.
+The deposit made the proposal more cautious than an unsecured card, but Grossman describes it as protection against default, rather than simply a prepaid balance to spend down. The later *Forbes* account compresses the proposal into a deposit-and-draw arrangement resembling a debit card; Grossman's fuller account shows why it is better understood here as a proposed travel charge plan backed by a security deposit.[^amex-1946-plan]
 
-Then, there is the “Be My Guest Service," another re-finement of living it up on the cuff. Card holders can treat friends to a dinner al-most anywhere in the world without leaving home. They simply send the name of the restaurant and the guest to American Express, where the arrangements are made.
+Reed worried about travelers cheque sales, but Eichelberger argued that business travelers already used airline and railroad credit cards and were not major cheque buyers. Most of Reed's staff were less enthusiastic. They questioned the credit risks and the forecast of 5,000 firms. An outside aviation executive supported the plan, and Reed took it back to an officers' conference. There it was shelved, recorded by an assistant as being put **“in indefinite suspense.”** No card was issued.[^amex-1946-plan]
 
+When Diners Club appeared in 1950, American Express was therefore revisiting an opportunity it had already examined and set aside.
 
+Lewis Mandell describes the company's decision to enter cards chiefly as a hedge against that threat. Matty Simmons, watching from inside Diners Club, gives the same struggle a human face: American Express president **Ralph T. Reed** resisted the venture, while **Howard L. Clark** and **Robert Townsend** argued that the company could not afford to let somebody else take its customers.[^amex-mandell-entry][^amex-simmons-buyout]
 
+### Buying the competition
+
+One way to deal with Diners Club was to buy it.
+
+In **1956**, Clark and Townsend opened discussions through investment banker **Belmont Towbin** and public relations man **Benjamin Sonnenberg**. Diners Club's principal owners, Ralph Schneider and Alfred Bloomingdale, were receptive. American Express would acquire an operating card business, with its merchants, customers and experience, instead of inventing one inside a company accustomed to receiving money in advance.
+
+Simmons remembers negotiations over a roughly $5 million payment for Schneider's and Bloomingdale's interests, with further incentives. Peter Z. Grossman's company history describes a stock proposal with a similar initial valuation, but different terms. The accounts agree on the outcome: **Reed rejected the deal**. When discussions revived in 1957, the business had grown, the proposed price had grown with it, and agreement was no easier.[^amex-simmons-buyout][^amex-grossman-planning]
+
+There was also an argument for building an American Express card. The company's own name, travel offices and relationships with banks could give it a reach that a young competitor would struggle to match. Its executives did not need to persuade the public that American Express existed. They needed to persuade Reed that a card belonged inside it.
+
+On **2 December 1957**, Reed finally authorized the venture. In early 1958, **Robert R. Mathews** was put in charge of organizing it. By March, the launch date had been fixed: **1 October**. The company now had a deadline, but much of the machinery behind the promise remained to be built.[^amex-grossman-planning]
+
+### A quarter of a million customers before opening day
+
+**By June 1958, American Express had publicly announced its forthcoming card; the scheme would begin operating on 1 October.** The distinction matters: the summer was spent recruiting customers and establishments for a service that was not yet available to use. The company's own launch advertisement, published on **30 September**, said the card had been announced **“three months ago.”** Grossman describes the publicity unfolding in stages: press rumors in May prompted confirmation, followed a few weeks later by newspaper advertisements inviting applications.[^amex-summer-announcement]
+
+American Express assembled its starting network partly by absorbing smaller card operations. It took over **Gourmet's card business** and the **American Hotel Association's Universal Travelcard**. The latter was particularly useful: an organization that had resisted the independent card companies now supplied American Express with access to hotel customers and thousands of participating hotels.
+
+Grossman puts the hotel association's list at about **150,000 cardholders** and **4,500 hotels**, and Gourmet's at more than **40,000**. *Time*, reporting just before launch, gave somewhat higher membership figures: 160,000 and 45,000. These were lists inherited from existing programs, rather than a count of new, paying American Express customers; nevertheless, they gave the venture a substantial head start.[^amex-grossman-launch][^amex-time-launch]
+
+Then came the solicitations. *Time* reported that **six million application forms** had been distributed through **3,500 banks**, while the company's overseas offices were recruiting establishments to accept the card. Grossman describes applications arriving in mailbags and a mailroom expanded to eighteen employees. The company had originally forecast only 48,000 members in its first year. Demand was already outrunning the plan.[^amex-time-launch][^amex-grossman-launch]
+
+<div style="width: 60%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_launch_ad_30_sept_1958.jpg" alt="American Express advertisement announcing that its credit card would begin operating on 1 October 1958" caption="The launch announcement in The Cincinnati Enquirer, 30 September 1958, p. 7A. Notice the qualification beneath transportation: tickets were purchased at American Express offices." %}
+
+</div>
+
+On **1 October 1958**, the American Express card began operating with approximately **250,000 cards issued** and **17,500 accepting establishments**. Its launch advertisement offered a signature that would become “as good as gold the world around.” Hotels, restaurants and nightclubs were joined by car rentals, florists, gift shops and transportation purchased through American Express offices.[^amex-grossman-launch][^amex-postal-history]
+
+The advertisement quoted **$6 a year**, a dollar above Diners Club's $5. The higher price was intended to suggest a more exclusive product. Before launch, *Time* had reported a $6 initial charge and a $4 annual renewal; the newspaper announcement shown here advertised the simpler $6 yearly price. On the merchant side, American Express could compete on price too. Simmons describes a typical 6 percent commission against Diners Club's 7 percent, although actual rates varied by industry and volume.[^amex-time-launch][^amex-simmons-war][^amex-paying-prices]
+
+The card was called the **American Express Credit Card**, but its original terms made it a **charge card**: the monthly bill was payable in full. Customers were not being offered BankAmericard's revolving balance. American Express earned membership fees and merchant discounts, while financing the interval between paying an establishment and collecting from its customer.
+
+<div style="width: 60%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/amex_1958.webp" alt="Sample American Express paper card with a purple border, printed account details and an expiry date of 30 April 1959" caption="The original paper card design, illustrated by a John J. Smith sample expiring 30 April 1959. The Centurion, already used on travelers cheques, gave the new card a familiar identity." %}
+
+</div>
+
+### The war at the restaurant counter
+
+For Diners Club, the arrival of American Express meant fighting a company with a century-old reputation, a worldwide organization and money to spend.
+
+Simmons recalls Diners Club mailing a million solicitations around the launch, against eight million invitations from American Express. He also remembers the advertising imbalance: American Express announced its arrival in twenty-three major newspapers, while Diners Club responded in six. Those are a participant's recollections, but they capture the scale of the challenge.[^amex-simmons-war]
+
+Some of the competition was less dignified than newspaper advertising. Diners Club left boxes of membership applications at restaurants and hotels. According to Simmons, American Express representatives began replacing those displays with their own. After a complaint and an apology, Diners Club retaliated anyway. Simmons says its salesmen destroyed about **10,000 American Express displays** before he stopped the campaign.[^amex-simmons-war]
+
+It was a peculiar way to build the future of payments: arguing over whose leaflets stood beside the cash register.
+
+The larger contest was over acceptance. An establishment could take both cards, so signing a restaurant did not automatically deprive the rival of it. Each company had to recruit customers who would actually spend, persuade merchants that those customers were worth the commission, and process the resulting bills. A formidable brand helped with the first two jobs. It did not perform the third.
+
+Mandell gives American Express **more than 475,000 cardholders** and **32,000 accepting establishments** at the end of its first year. That was rapid growth, but growth and profitability were turning out to be different things.[^amex-mandell-entry]
+
+### The float runs backwards
+
+The new business reversed the cash flow that had made travelers cheques so comfortable.
+
+| Product | Who supplied the money first? | What happened before final settlement? |
+| --- | --- | --- |
+| Travelers cheque | The traveler paid American Express when buying it. | American Express held the funds until the cheque was redeemed. |
+| Charge card | American Express paid the establishment before collecting from the cardholder. | American Express financed an outstanding receivable and bore the risk of nonpayment. |
+
+A charge card still involved extending credit, even when the contract required payment in full each month. Grossman describes American Express promising to settle with establishments in **ten days**, while some cardholders took **ninety days or even six months** to pay. The company could not invest those outstanding balances as travelers cheque float; it had to fund them.[^amex-grossman-trouble]
+
+Its operating arrangements made matters worse. Franklin National Bank's **Arthur Roth** had offered to handle credit checking and bookkeeping while American Express supplied the brand and marketing. American Express ultimately kept the work in-house, with accounting initially under its comptroller. Staffing and procedures were inadequate. Merchant payments fell behind, correspondence accumulated, and accounting was at one point two months in arrears.[^amex-grossman-launch][^amex-grossman-trouble]
+
+Simmons says the race for members encouraged relaxed credit standards at American Express, and that Diners Club followed its rival down the same path. Both paid for that enthusiasm in rising losses. Grossman estimates the American Express card operation lost approximately **$4 million in its first two years**.[^amex-simmons-recovery][^amex-grossman-trouble]
+
+There were safeguards, but they required work. Hillel Black's contemporary *Buy Now, Pay Later* describes an American Express department taking authorization calls around the clock, clerks checking incoming sales slips against individual account limits, and lists of lost, stolen or invalid cards circulated to merchants. A list containing eighteen hundred names was useful only if the cashier actually checked it.[^amex-black-controls]
+
+### George Waters makes the card pay
+
+By **1960**, Howard Clark had succeeded Reed as president. The question of combining with Diners Club returned, now with the possibility that Diners would take over American Express's struggling card operation. The company that had considered buying the pioneer was considering handing its own card business to it.[^amex-simmons-recovery][^amex-grossman-recovery]
+
+In **spring 1961**, Clark brought in **George W. Waters**, formerly a senior executive at the grocery chain **Colonial Stores**. Waters brought experience in retail management and data processing. Simmons credits him with recognizing how computers could improve the billing system and with making faster merchant payments a competitive weapon.[^amex-forbes][^amex-simmons-computers]
+
+Merger talks continued that autumn. Grossman describes American Express's board approving a combination in principle, before antitrust advisers warned against joining the two major competitors. The talks broke off in **November 1961**. American Express would have to make its own operation work.[^amex-grossman-recovery]
+
+Waters rebuilt the accounting arrangements, caught up correspondence and tightened credit controls. Collections began when a payment was **thirty days overdue**, rather than waiting ninety days to press the customer. Chronic late payers lost their cards; new applicants faced tougher scrutiny. Membership fees rose from $6 to $8 and then $10, while merchant discounts were adjusted and cooperative advertising helped promote accepting establishments.[^amex-grossman-recovery]
+
+In **1962**, the card division finally made a small profit. It had **900,000 cardholders** and **82,000 accepting establishments**. By **1967**, it had more than **two million cardholders**, annual charge volume of **$1.1 billion**, and card profits of **$6.5 million**. The product created to defend travelers cheques was becoming a major business in its own right.[^amex-grossman-recovery]
+
+### A travel card with a worldwide head start
+
+American Express's international reach was part of the proposition **from the 1958 launch**. Its overseas offices and existing bank and merchant relationships supplied a ready organization for recruiting acceptance abroad. The original advertisement explicitly promised worldwide use; the company's Japanese timeline records initial card issuance in the **United States and Canada**. International acceptance and issuing cards locally in individual countries were separate stages of expansion.[^amex-time-launch][^amex-japan-history]
+
+Mandell argues that those international connections, backed by substantial financial resources, explain American Express's growing strength in the travel and entertainment market. Travelers could use a familiar company both to arrange a journey and to pay along the way. The *Forbes* account adds a further benefit introduced in **1963**: cardholders could cash personal checks for up to **$300** at overseas American Express offices.[^amex-mandell-entry][^amex-forbes]
+
+Airline acceptance took longer. Selling a ticket on the card **through an American Express travel office** was different from an airline accepting the card directly. Mandell dates the end of the airlines' resistance to outside travel and entertainment cards to **1964**, with intervention by the U.S. Civil Aeronautics Board. Winning that business strengthened the card's claim to cover the whole journey.[^amex-mandell-airlines]
+
+### Paper, plastic, gold and green
+
+The launch card was paper, with a purple border, a Centurion at the left and printed account details. In **May 1959**, American Express replaced it with an **embossed plastic card**. Raised characters allowed a merchant to imprint the customer's details onto a sales slip, reducing the need to copy them by hand.[^amex-postal-history]
+
+{% include gallery id="amex_1959_gallery" caption="The purple plastic design introduced in May 1959, shown here on a sample card and its reverse." %}
+
+American Express's historical account, reproduced by the Smithsonian National Postal Museum, calls it the first major issuer to introduce a plastic card. That claim needs a narrower reading: **BankAmericard had already launched with plastic cards in September 1958**. Amex's May 1959 change belongs to the transition of travel and entertainment cards from paper to embossed plastic, rather than the invention of plastic payment cards generally.[^amex-postal-history][^bac-stearns-launch]
+
+The premium identity also developed in stages. The **Executive Credit Card**, later known as the **Gold Card**, arrived in **1966**. The familiar **green design followed in 1969**. American Express's archivist explains that the redesign changed purple to the green of money, moved the Centurion to the center, put the signature panel on the reverse, and dropped “Credit Card” from the product name.[^amex-company-timeline][^amex-green-history]
+
+{% include gallery id="amex_green_card_gallery" caption="The green American Express card design, introduced in 1969; these examples are from circa 1970." %}
+
+American Express had entered to defend a successful travel-money business. It survived because it learned to run the less comfortable business behind the card: extending credit, collecting bills and paying merchants reliably. Its worldwide organization and carefully cultivated prestige gave it an advantage, but the early losses showed how much operational work that advantage still required.
+
+Meanwhile, another 1958 entrant was trying something different in California: a bank card for everyday purchases, with balances that customers could carry from month to month.
 
 ## BankAmericard
 
@@ -2295,6 +2397,28 @@ It was fascinating reading about how people imagined a cashless society to be an
 
 
 [^bac-fed-1968]: Board of Governors of the Federal Reserve System, _Bank Credit-Card and Check-Credit Plans_ (July 1968), p. 12. The survey reports more than 14 million accounts at reporting banks in September 1967, with 35 percent considered active; these are industry totals, not BankAmericard network totals.
+
+[^amex-background]: David S. Evans and Richard Schmalensee, _Paying with Plastic: The Digital Revolution in Buying and Borrowing_, 2nd ed. (MIT Press, 2004), ch. 3, pp. 57–59; American Express, [company history](https://www.americanexpress.com/china/en/aboutamex/corpinfo_history.shtml), entries for 1850, 1891 and 1915.
+[^amex-mandell-entry]: Lewis Mandell, _The Credit Card Industry: A History_ (Twayne Publishers, 1990), ch. 2, pp. 28–29, on the defensive rationale, first-year membership and acceptance, Universal Travelcard, and the advantages of international connections and capital.
+[^amex-simmons-buyout]: Matty Simmons, _The Credit Card Catastrophe_ (Barricade Books, 1995), ch. 5–6, pp. 59–66. Simmons recounts the negotiations from Diners Club's side; his approximately $5 million figure concerns the founders' interests and should not be read as an agreed cash price for every outstanding share.
+[^amex-1946-plan]: Peter Z. Grossman, _American Express: The Unofficial History of the People Who Built the Great Financial Empire_ (Crown, 1987), pp. 264–265 (PDF pp. 294–295), on the July 1946 suggestion to Louis S. Kelly, William Eichelberger's proposal, the $400–$500 security deposit, financial forecasts, Reed's initial support, staff opposition and eventual shelving. Daniel Gross et al., “American Express and the Charge Card,” _Forbes Greatest Business Stories of All Time_, supplied excerpt PDF p. 4, also dates the proposal to 1946 but describes it more briefly as a deposit-and-draw program. The article follows Grossman's fuller description of the deposit as security against default or abuse.
+[^amex-grossman-planning]: Peter Z. Grossman, _American Express: The Unofficial History of the People Who Built the Great Financial Empire_ (Crown, 1987), pp. 267–280, on the 1956–57 acquisition discussions, Reed's authorization in December 1957, and the organization of the new venture in 1958.
+[^amex-grossman-launch]: Grossman, _American Express_, pp. 279–285, on Franklin National's proposal, the accounting arrangements, the Gourmet and American Hotel Association lists, membership forecasts, application processing, and the launch card.
+[^amex-summer-announcement]: American Express launch advertisement, _The Cincinnati Enquirer_, **30 September 1958**, p. 7A, reproduced above: it says “Since it was announced three months ago” and that the card “goes into effect” the following day, 1 October. This places the public announcement around **June 1958**, without establishing a particular day. Grossman, _American Express_, p. 284, distinguishes May press rumors and confirmation from the newspaper application campaign a few weeks later. The article therefore says **by June**, rather than assigning an unsupported exact announcement date.
+[^amex-time-launch]: “Credit-Card Game,” _Time_, 22 September 1958, pp. 82, 84; supplied in `research/amex/EBSCO-FullText-08_21_2026.pdf`. This contemporary report gives six million prelaunch application forms distributed through 3,500 banks, an initial $6 charge and $4 renewal, and lists of 160,000 hotel-card holders and 45,000 Gourmet members. Grossman's retrospective account gives approximately 150,000 and more than 40,000 respectively. The launch advertisement in _The Cincinnati Enquirer_, 30 September 1958, p. 7A, instead advertises a fee of “$6.00 a year.”
+[^amex-postal-history]: American Express company history in the Smithsonian National Postal Museum's [American Express exhibition](https://postalmuseum.si.edu/exhibition/america%E2%80%99s-mailing-industry-industry-segments-financial-services-industry/american-express), on the 1 October 1958 launch, 250,000 cards, 17,500 establishments, and the May 1959 plastic transition. Its “first major issuer” language is qualified here because BankAmericard was already plastic in 1958. David L. Stearns, _Electronic Value Exchange_ (Springer, 2011), pp. 16–17, explains embossing and imprinters, but compresses Amex's paper-to-plastic chronology.
+[^amex-simmons-war]: Simmons, _The Credit Card Catastrophe_, ch. 7, pp. 67–70, on mailings, newspaper advertising, membership fees, merchant commissions and the destruction of application displays. The display incident and campaign totals are explicitly presented as Simmons's recollections.
+[^amex-paying-prices]: Evans and Schmalensee, _Paying with Plastic_, 2nd ed., pp. 58–59, on premium membership pricing and initial merchant discounts varying by establishment and volume: 5–7 percent for restaurants and 3–5 percent for hotels.
+[^amex-simmons-recovery]: Simmons, _The Credit Card Catastrophe_, ch. 7, pp. 74–75, on credit standards, losses, renewed merger proposals, Waters and the fee increase.
+[^amex-grossman-trouble]: Grossman, _American Express_, pp. 285–288, on accounting backlogs, merchant settlement promises, slow collection and approximately $4 million of losses during the first two years.
+[^amex-black-controls]: Hillel Black, _Buy Now, Pay Later_ (William Morrow, 1961), pp. 27–28, on telephone authorizations, manual account checks and circulated lists of invalid cards.
+[^amex-grossman-recovery]: Grossman, _American Express_, pp. 299–303, on Clark, Waters, the 1961 merger discussions and antitrust advice, collection policy, fees, the first profit in 1962, and growth through 1967. Thirty days refers to how long a payment was **overdue** before collection pressure began, not the total time allowed to settle a new purchase.
+[^amex-forbes]: Daniel Gross et al., “American Express and the Charge Card,” from _Forbes Greatest Business Stories of All Time_ (1996), supplied as `research/amex/forbes-amex.pdf`, PDF pp. 6–7, on Waters's Colonial Stores background and the 1963 overseas personal-check cashing service. Daniel Gross and Peter Z. Grossman are different authors.
+[^amex-simmons-computers]: Simmons, _The Credit Card Catastrophe_, p. 95, on Waters's data-processing experience, computer billing and faster merchant settlement. Simmons associates plastic with Waters's 1960s reforms; the plastic introduction itself is dated here to May 1959 using the company history and surviving card designs.
+[^amex-japan-history]: American Express Japan, [company timeline](https://www.americanexpress.com/ja-jp/company/history/), 1958 entry: card issuance in the United States and Canada. Overseas acceptance at launch is described in the contemporary _Time_ report and the September 1958 launch advertisement; it does not imply that every overseas market already had a local issuing operation.
+[^amex-mandell-airlines]: Mandell, _The Credit Card Industry_, ch. 2, p. 28, on IATA's resistance to travel and entertainment cards and the removal of the prohibition in 1964 with the help of the Civil Aeronautics Board.
+[^amex-company-timeline]: American Express, [company history](https://www.americanexpress.com/china/en/aboutamex/corpinfo_history.shtml), 1966 entry: introduction of the Executive Credit Card, subsequently the Gold Card.
+[^amex-green-history]: American Express, [“Our Green Card used to be purple,” archivist video and transcript](https://www.linkedin.com/posts/american-express_believe-it-or-not-the-american-express-green-activity-7336763778572709891-L5fa), published for the company's 175th anniversary in 2025: the 1969 change to green, repositioning of the Centurion and signature panel, and removal of “Credit Card” from the name.
 
 ## Appendix
 
