@@ -1543,85 +1543,243 @@ Then, there is the “Be My Guest Service," another re-finement of living it up 
 
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/bankamericard_launch_ad_18_sept_1958.jpg" alt="BankAmericad launch Ad, ca. 1958" caption="BankAmericard Launch Ad, The Lemoore Advance, 18 September 1958, p. 5" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/bankamericard_launch_ad_18_sept_1958.jpg" alt="Newspaper advertisement announcing BankAmericard in September 1958" caption="BankAmericard launch advertisement, The Lemoore Advance, 18 September 1958, p. 5" %}
 
 </div>
 
-### Fresno BEE had multi paged Ad, find it
+In September 1958, thousands of households in **Fresno, California**, received a small piece of plastic in the mail. They hadn't applied for it. They hadn't sat across a desk from a loan officer. Yet here was a card they could take shopping, with a bank promising to pay the merchant and collect from them later.
 
-The era of the modern bank credit card — a universal card with revolving credit attached — began with the BankAmericard in 1958.
+It was called **BankAmericard**. The bank behind it was **Bank of America**, and the experiment would eventually grow into **Visa**.[^bac-stearns-launch]
 
-Banks were, at first glance, unlikely pioneers. At the beginning of the 1950s, most banks did not promote consumer credit of any kind. Unsecured consumer lending was considered the domain of merchants and less-than-reputable finance companies; as the credit historian Lewis Mandell put it, "If a bank had a consumer loan department, it was often found in the basement where no one could see the furtive borrower." One critic complained that early bank card experiments were "lowering banking's image by engaging in an activity more properly associated with pawn shops."
+By now, the ingredients should look familiar. Stores had offered revolving credit, Diners Club had gathered unrelated merchants under one card, and banks had experimented with local charge account plans. BankAmericard brought those practices together and put the machinery of a large consumer bank behind them. Its importance lies in making that combination work on a scale the earlier bank plans had struggled to reach.[^bac-vanatta-launch]
 
-Some smaller banks had experimented anyway. Of the roughly one hundred bank card schemes launched in the US after 1947, only 27 were still operating by 1958. The failures shared a structural problem: a card system needs a critical mass of both cardholders and merchants, and American banking regulations of the era prohibited banks from branching across state lines — in many states, even across a city. Most bank cards were doomed to remain neighborhood products.
+But first, it nearly drowned in its own success.
 
-There was one bank, however, that had the scale, the capital, and — crucially — the corporate culture to make it work: Bank of America. Founded by A. P. Giannini, the son of an Italian immigrant who prided himself on serving "the little fellow," Bank of America had built its empire on precisely the consumer lending other banks considered beneath them. It financed televisions, refrigerators, and automobiles on installment; at one point in the 1950s it held a $60 million portfolio made up largely of $200 refrigerator loans. And it operated in California, a state that permitted statewide branching. With some 700 branches, $5 billion in assets, and a banking relationship with well over half the state's residents, it was the largest bank in the world — known locally, only half-jokingly, as MotherBank.
+### A bank for "the little fellow"
 
-<blockquote>
-  <p>"We were always a leader in installment credit. Anything you could buy on time we financed... the credit card was just a natural extension of that."</p>
-  <legend><cite>Ken Larkin, Bank of America executive</cite></legend>
-</blockquote>
+Most large banks of the early 1950s were reluctant to lend consumers money, especially without collateral. Commercial lending was respectable banking; unsecured consumer credit was more readily associated with retailers and finance companies. Small banks had tried credit cards anyway, but by 1958 only **27 of roughly 100 earlier bank card schemes** were still operating.[^bac-mandell-banks][^bac-stearns-launch]
 
-Unlike Diners Club, the BankAmericard did not spring from a (real or invented) flash of inspiration at a restaurant table. It emerged from a think tank. In 1956, a middle manager named Joseph Williams convinced the bank to set up a small Customer Services Research Department, and there was never much doubt about what management expected it to produce: the bank had already studied the idea of an all-purpose credit card three times before.
+There was also a geographical problem. A card needed enough customers to interest merchants and enough merchants to interest customers. American banking rules restricted branch networks, and banks could not simply open branches across state lines. A small local bank could build a useful neighborhood card, but following its customers farther afield was another matter.
 
-Williams did not invent much from scratch either. He had friends at Sears and Mobil Oil who quietly let his team observe their credit operations, and he patterned the new system directly on theirs. From that research came features that would remain essentially frozen for decades: a 25-day grace period during which no interest accrued, and an interest rate of 1½ percent per month — 18 percent a year. There was no black magic involved. If those numbers were good enough for Sears, with its fifty years of credit experience, they were good enough for Bank of America.
+Bank of America had an unusual advantage: **California permitted statewide branching**. It also had a culture shaped by its founder, **A. P. Giannini**, and his commitment to serving ordinary people. Financing consumers' cars, appliances, and homes was already a substantial part of its business. When the card was being launched, the bank had **638 offices and seven million individual deposit accounts** across California. That was an enormous base from which to recruit both borrowers and merchants.[^bac-vanatta-launch]
 
-The pioneering insight behind the BankAmericard was what Williams did with those borrowed parts. He saw that a card could work in two ways: as a convenience device, like the Diners Club card, or as a generator of instant personal loans. He structured the BankAmericard to do both, at the cardholder's option. When the bill arrived, the customer alone decided whether to pay in full and owe nothing, or pay in part and finance the rest. Where a traditional installment loan meant sitting across a desk from a loan officer — often with your spouse, co-signing the note — the BankAmericard was self-service credit. The financing decision moved from the bank to the cardholder, and the line between buying and borrowing quietly blurred.
+The bank also had experience handling millions of small accounts. Its investment in computers promised to reduce the administrative cost of processing all those purchases and repayments. A universal card could become another way to sell consumer loans, provided the bank could make the paperwork manageable.
 
-Like every card system before it, the BankAmericard faced the chicken-and-egg dilemma: merchants would not pay to accept a card nobody carried, and nobody would carry a card no merchant accepted. Williams's solution was blunt. Rather than recruit cardholders, he would create them.
+### Genesis of the idea
 
-The bank called it "The Drop." In the weeks leading up to September 18, 1958, Bank of America mailed roughly 60,000 unsolicited, ready-to-use BankAmericards to households in Fresno, California. No applications, no credit checks — the cards simply arrived in the mail, as if dropped from the sky. Fresno was chosen partly because 45 percent of its families already banked with Bank of America, and partly because it was isolated enough that if the card flopped, the damage to the bank's reputation would be contained. The launch was deliberately low-key; the Fresno Bee sandwiched six paragraphs about it between the business briefs and the livestock report.
+The bank had come close to launching a card **five years before Fresno**. In **June 1953**, the First National Bank of San Jose introduced a credit card, prompting Bank of America to investigate a plan of its own. By July, it had drafted operating procedures for a **“BankAmerica Charge-It Plan.”**[^bac-wolters-planning]
 
-Nothing about how a mass-market credit card should work was obvious in 1958, and Williams's team was making it up as they went. They decided, on little more than intuition, that credit limits should range from $300 to $500. Merchants would pay a 6 percent discount on each transaction and $25 a month to rent an imprinter. Each merchant was assigned a floor limit — typically $25 to $100 — below which no authorization was needed; above it, the merchant had to telephone the bank for approval, a process that was entirely manual and exceedingly slow.
+The proposed system sounds cumbersome today. A customer would carry both a **metal plate and a paper card**. The plate supplied the name and account number for imprinting; the paper card showed the available credit. After each purchase, the clerk would subtract the amount from the limit written on the card. The bank would mail a replacement card at the next billing cycle. It proposed ordinary thirty-day accounts, ninety-day accounts for particularly good risks, and a separate revolving account charging **1 percent a month**.[^bac-wolters-planning]
+
+Management shelved the plan. Displaying credit limits could embarrass customers, and payments crossing replacement cards in the mail could leave them unable to use credit they had already repaid. The bank was also wary after an unsuccessful life-insured savings product called **LISA**, and its existing check-processing workload made another mountain of paper unappealing. The idea survived, but the bank wanted a more workable system.[^bac-wolters-planning]
+
+In late **1956**, Bank of America established its **Customer Services Research (CSR) Department**, led by **Joseph P. Williams**, who reported to controller **Howard Leif** and president **S. Clark Beise**. Arthur Andersen had suggested a card as a way to put the bank's investment in automation to further use. That December, Beise instructed Williams to investigate charge account banking.[^bac-wolters-planning]
+
+Over the following **ten months**, Williams and research specialists **Loren Lewis and Robert Thompson** consulted managers at **seven banks**, studied retailers' credit operations, and surveyed customers and merchants. Their **October 1957 report** recommended a single plastic card with a revolving credit option. Proposed limits were **$300 or $500**, and purchases above a specified floor limit would require a telephone call to the bank. Williams also recommended keeping the experiment in one test area until the bank understood its usage, costs, and profitability.[^bac-wolters-design]
+
+Williams borrowed freely from businesses that already knew how to extend credit. He had contacts at **Sears and Mobil Oil**, and patterned the new plan on their operations. BankAmericard customers would pay no annual fee. They could settle their monthly bill in full without interest, or make a partial payment and carry the remainder at **1½ percent a month**, equivalent to **18 percent a year**.[^bac-stearns-launch]
+
+This choice was central to the product. Diners Club had consolidated bills that still had to be paid in full. BankAmericard combined that convenience with a continuing line of credit. Once the bank had assigned a limit, the customer could decide when to borrow against it, without applying for a separate installment loan for each purchase.
+
+The card moved a lending decision into the shop. Handing over a piece of plastic could mean either "I'll pay this at the end of the month" or "I'll pay this over time."
+
+### The Fresno "Drop"
+
+The plan still had the familiar chicken-and-egg problem. Why would a merchant pay to accept a card nobody carried? Why would a customer bother with a card nobody accepted?
+
+Williams's answer was to put cards into thousands of customers' hands at once.
+
+Bank of America chose **Fresno** for its trial. It already had banking relationships with about **45 percent of the city's families**, and the city was sufficiently removed from San Francisco and Los Angeles to contain the embarrassment if the experiment failed. The bank recruited **more than 300 local retailers** before sending out the cards.[^bac-stearns-launch][^bac-vanatta-launch]
+
+On **28 March 1958**, the bank publicly announced that its Fresno charge account service would begin that fall. Over the summer, about **twenty CSR representatives**, working with employees from nearly **two dozen local branches**, recruited the first merchants.[^bac-wolters-drop]
+
+Around the launch on **18 September 1958**, ready-to-use BankAmericards went out unsolicited to approximately **60,000 customers**. Williams called it **"the drop"**. There was no application or face-to-face interview; the bank relied heavily on its existing customer relationships. That is different from saying it did no credit checking at all: the historical accounts describe limited screening, which became increasingly inadequate as distribution accelerated.[^bac-drop-count][^bac-vanatta-launch]
 
 <div style="width: 40%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/bankamericard_fresno.webp" alt="The first BankAmericard design used in the Fresno drop" caption="The first BankAmericard design" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/bankamericard_fresno.webp" alt="Early BankAmericard belonging to a Fresno customer, valid through March 1959" caption="An early Fresno BankAmericard, valid through March 1959. The first design was quite different from the familiar blue, white, and gold cards that followed." %}
 
 </div>
 
-The earlist BankAmericard cards featured **debossed** numbers, instead of the **embossed** system that later came to be used. The card itself was plastic with account information, similar to the new American Express card, and the imprinter transferred that information onto the sales draft, reducing copy errors. Early imprinters had no wheels for the date or amount, so merchants wrote those in by hand and the customer signed to authorize the charge. The back office, however, was computerized from the very beginning — Bank of America had been the first bank in America to install a computer, an IBM 702, in 1955 — and the sales drafts were designed for the machine: each had a punch card as its bottom layer, punched with the transaction details upon deposit.
+The mailing was accompanied by a **three-page advertisement in the Fresno Bee on 18 September 1958**, inviting consumers to **“carry your credit in your pocket.”** The participating merchants were listed, telling customers where to shop and showing reluctant shopkeepers that their competitors had already joined. Over the next five months, another **800 Fresno-area retailers** enrolled.[^bac-wolters-drop]
 
+The contrast with the early Diners Club operation is striking. McNamara and Schneider had started with a handful of restaurants and a small office. Bank of America could place thousands of borrowing facilities into circulation through its existing branches and customer records.
+
+### Mechanics of a transaction
+
+At the counter, paying with BankAmericard resembled the charge card routine we have already seen: present the card, have the details copied onto a sales slip, sign, and take the goods. The difference became clear when the monthly bill arrived.
+
+```mermaid
+sequenceDiagram
+    participant Customer
+    participant Merchant
+    participant Bank as Bank of America
+    Customer->>Merchant: Present BankAmericard
+    opt Purchase exceeds merchant's floor limit
+        Merchant->>Bank: Telephone for authorization
+        Bank-->>Merchant: Approve or decline
+    end
+    Merchant->>Customer: Prepare sales slip for signature
+    Customer->>Merchant: Sign sales slip
+    Merchant-->>Customer: Give goods and customer copy
+    Merchant->>Bank: Deposit sales draft
+    Bank-->>Merchant: Credit proceeds less merchant discount
+    Bank-->>Customer: Send monthly statement
+    alt Pay the bill in full within the allowed period
+        Customer->>Bank: Repay without interest
+    else Make the required partial payment
+        Customer->>Bank: Pay part of the balance
+        Note over Customer,Bank: Remaining balance carries interest
+    end
+```
+
+For merchants, the initial price was a **6 percent discount** on transactions, plus **$25 a month to rent an imprinter**. In exchange, the bank took over billing and collection. Each merchant also had a **floor limit**: above that amount, the clerk had to telephone the bank for approval. Authorization was a manual process, and waiting for it could be slow and awkward.[^bac-stearns-launch]
+
+For small shopkeepers, giving up a percentage of each sale could still be worthwhile. Running a private charge account meant maintaining ledgers, posting bills, chasing late payments, and financing customers while waiting to be paid. The bank offered to take that work off their hands.
+
+Large retailers such as **Sears, J. C. Penney, and Montgomery Ward** were much harder to persuade. They already had credit operations of their own, and those accounts helped keep customers coming back. Accepting a general bank card meant paying a fee while weakening that connection.[^bac-stearns-launch][^bac-vanatta-launch]
+
+For customers, the appeal was one card, one monthly bill, and a borrowing facility they could use without another visit to the bank. There was also the novelty of the thing. Paying with plastic was still sufficiently unusual for other shoppers to gather around and watch.[^bac-stearns-launch]
+
+### Plastic, paper, and computers
+
+The card looked modern, but a purchase still generated a trail of paper.
+
+Bank of America worked with **Dashew Business Machines**, whose equipment could manufacture plastic cards using information read from IBM punch cards. Card production at that scale helped make the mass mailing possible. Embossed cards and imprinters subsequently allowed account details to be transferred onto sales drafts, reducing transcription errors; merchants still wrote in the purchase amount and date by hand.[^bac-vanatta-launch][^bac-stearns-launch]
 
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/bankamericard_embossed_1959.jpg" alt="BankAmericard embossed design with star, c. 1959" caption="BankAmericard embossed design with star, c. 1959" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/bankamericard_embossed_1959.jpg" alt="Embossed BankAmericard specimen from approximately 1959" caption="An embossed BankAmericard, c. 1959. Raised account details could be copied onto a paper sales slip with an imprinter." %}
 
 </div>
-
 
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/bankamericard_embossed_1960.jpg" alt="BankAmericard embossed design with star, c. 1960" caption="BankAmericard embossed design with star, c. 1960" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/bankamericard_embossed_1960.jpg" alt="BankAmericard specimen from approximately 1960 with blue, white, and gold bands" caption="BankAmericard, c. 1960, with the blue, white, and gold design that became the system's identifying mark." %}
 
 </div>
 
+The relationship between the card and the computer was less straightforward than that origin story suggests. Although automation helped interest Beise in the project, **Williams recommended postponing electronic equipment during the experimental stage**. Wolters describes limited automation being introduced under the management that took over after the early losses. The bank's investment in computers and the automation of the card operation were separate developments, rather than one finished system appearing at the Fresno launch.[^bac-wolters-automation]
 
+As the operation matured, the bank used computers to maintain cardholder accounts and process sales drafts. The drafts had a **punch card as their bottom layer**, which staff punched with transaction details after deposit. Even then, computerized accounting did not mean that every shop could obtain an electronic decision while the customer waited at the counter.[^bac-stearns-launch][^bac-zipf-1966]
 
-{% include gallery id="bofa_1955_ibm_gallery" caption="An IBM 702 was installed in BofA's Van Ness Avenue branch in San Francisco in 1955" %}
+{% include gallery id="bofa_1955_ibm_gallery" caption="Bank of America's investment in computing preceded BankAmericard: an IBM 702 and the Van Ness Avenue branch in San Francisco, pictured in 1955." %}
 
-One more piece of the system deserves attention, because it solved a problem Diners Club never had. Diners Club could hand its cardholders a printed list of participating establishments; the BankAmericard's merchant base would be far too large and diverse for that. How would a cardholder know where the card was accepted? The answer was a mark: three colored bands — blue, white, and gold — printed on the card and on signs hung in merchants' windows. The card identified the cardholder to the system; the mark identified the merchant to the cardholder. It is a design decision still visible in every card network logo on every shop door today.
+The **blue, white, and gold mark** solved another practical problem. As the merchant network grew, a customer needed to recognize acceptance without consulting a directory. Matching colors on the card and on a shop's sign provided that cue.[^bac-stearns-launch]
 
-For merchants, the pitch was the same one Diners Club had made to restaurateurs, and it landed hardest on small shopkeepers drowning in their own charge accounts. The large retailers — Sears, J.C. Penney, Montgomery Ward — refused to accept the card, seeing the bank as a poacher on their proprietary credit operations. But the small merchants came around. Larkin recalled visiting one drugstore owner:
+<div style="width: 60%; margin: 0 auto;">
 
-<blockquote>
-  <p>"He had three girls working on Burroughs bookkeeping machines, each handling 1,000 to 1,500 accounts. I looked at the size of the accounts: $4.58. $12.82. And he was sending out monthly bills on these accounts. Then the customers paid him maybe three or four months later. Think of what this man was spending on postage, labor, envelopes, stationery! His accounts receivables were dragging him under."</p>
-  <legend><cite>Ken Larkin, on signing up early BankAmericard merchants</cite></legend>
-</blockquote>
+{% include figure popup=true image_path="assets/images/credit-card-chronology/bankamericard_acceptance_sign.jpg" alt="Vintage sign reading Your BankAmericard Welcome Here in blue, white, and gold" caption="A surviving BankAmericard acceptance sign, photographed in 2018. Photo: [Infrogmation of New Orleans](https://commons.wikimedia.org/wiki/File:Old_Bankamericard_sign.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); levels adjusted by The RedBurn." %}
 
-Why consumers bothered is a more interesting question. Checks were accepted at local shops, merchants already extended credit to regulars, and anyone who qualified for a BankAmericard could have qualified for an installment loan. Part of the answer was the impersonality of self-service credit; part was consolidation — one card and one bill instead of a dozen store accounts. But mostly, the card was a novelty in an age of novelty. Just as Americans spent hours staring at the test pattern of their new televisions, the citizens of Fresno gathered around the checkout counter to watch someone pay with a BankAmericard.
+</div>
 
-The cautious experiment did not stay cautious for long. Within months, the bank learned that a competitor was preparing to drop a rival card in San Francisco — Bank of America's own back yard — and all restraint was abandoned. Cards were rushed to Modesto and Bakersfield, then San Francisco, Sacramento, and Los Angeles. Within 13 months, 2 million BankAmericards were in circulation and more than 20,000 merchants had signed up. In a single move, Bank of America had created more cardholders in California than Diners Club had ever had nationwide.
+### Growing too quickly
 
-Then came the bill. Williams had assumed delinquencies would run around 4 percent, the rate on the bank's installment loans; they hit 22 percent. He had assumed collections "would never be a problem" and had not bothered to set up a collections department. Fraud was rampant: thieves learned to decipher the floor-limit codes on stolen cards and racked up strings of small purchases that never triggered an authorization call, and burglars stole unembossed cards from the bank's warehouse and offered to sell them back — which, fearing worse, the bank sometimes did. Fifteen months after the Drop, the program had officially lost $8.8 million; with hidden costs like advertising and overhead, the real figure was closer to $20 million. Williams resigned. Newspapers, congressmen, and at least one Sunday pulpit denounced the bank for mailing people a debt machine they had never asked for. (The practice of unsolicited card mailings, which banks used to scatter some 100 million cards across the country, was finally outlawed in 1970.)
+Fresno was meant to be a controlled experiment. Rumors that a competitor was preparing a rival card in San Francisco changed the bank's plans. **Beise was in Europe** when the managing committee met to discuss accelerating the rollout. Leif objected: the bank had not yet learned what it needed from Fresno, and Williams's original report had explicitly judged a longer trial worth the risk of a competitor arriving first.[^bac-wolters-expansion]
 
-What happened next mattered more. Instead of abandoning the program as so many banks had before it — by one account, on the reasoning that "every conceivable mistake had already been made" — Bank of America handed the card to its installment loan men. A collections department was built, an anti-fraud unit established, dishonest merchants dropped, and the merchant discount cut to as low as 3 percent to win over reputable stores. By May 1961 the BankAmericard was profitable, a fact the bank kept quiet: the publicity around its losses was conveniently deterring every other bank from trying.
+The committee proceeded anyway. Between **March and June 1959**, BankAmericard reached Sacramento, San Francisco, and Los Angeles; by **October**, statewide expansion was complete. A contemporary report in *Commercial West*, published that February, already announced that the service would be extended throughout California as rapidly as possible.[^bac-wolters-expansion][^bac-commercialwest-1959]
 
-The final act turned a California card into a global network. The card was profitable but trapped — the same branching laws that had killed the small bank cards prevented Bank of America from following its customers across state lines. So in 1966 it did the next best thing: it licensed the program, charging banks in other territories $25,000 plus royalties for the franchise, the accounting software, and the brand. Barclays became the first international licensee that same year.
+Within about **13 months**, Bank of America had issued **two million cards** and enrolled **more than 20,000 merchants**. Those figures describe distribution and acceptance, however, rather than two million active borrowers: the bank later revised its cardholder count to distinguish mailed cards from cards actually being used.[^bac-stearns-launch][^bac-vanatta-launch]
 
-Licensing created something no payment card system had needed before: **interchange**. For the first time, the bank that issued the card and the bank that served the merchant could be different institutions, and they needed a way to clear and settle transactions between them — acquiring banks mailed sales drafts to issuing banks for payment, less a fee now called the interchange reimbursement fee. The banks left out of the franchise responded by forming a rival cooperative, Interbank, which in 1969 bought the name "Master Charge" and its overlapping-circles mark — later MasterCard.
+Then the losses arrived.
 
-In 1970, under pressure from its franchisees, Bank of America spun the system off into an independent, member-owned organization: National BankAmericard Incorporated (NBI). In 1976, NBI renamed itself Visa. The blue, white, and gold bands first drawn to hang in Fresno shop windows had become the flag of the largest payment network on Earth.
+Williams had expected delinquencies of about **4 percent**, comparable to the bank's installment loans. They reached roughly **20–22 percent**. Fraudsters exploited the gap between paper records and telephone authorization, making repeated purchases below merchants' floor limits. A card could accumulate a substantial debt before the bank noticed what was happening.[^bac-stearns-launch][^bac-vanatta-launch]
+
+Stearns reports **$8.8 million in official losses within 15 months** of the Fresno launch, while citing Joseph Nocera's estimate that the total, including costs not allocated to the program, was closer to **$20 million**. Williams left the bank at the end of 1959. His experiment had demonstrated that customers would use the card; it had also demonstrated how expensive that use could become.[^bac-stearns-launch][^bac-vanatta-launch]
+
+Bank of America persisted. In **January 1960**, Beise transferred the program to the installment loan department, headed by **A. F. “Gus” Wagele**. Williams had not established a collections department; Wagele's team created one, added an anti-fraud unit, introduced limited automation, and consolidated processing centers. The bank also reduced outstanding cards and removed dishonest merchants.[^bac-wolters-recovery]
+
+The recovery involved changing the product as well as tightening control. The interest-free payment period was shortened from **thirty to twenty-five days**, and the bank offered merchant discounts as low as **3 percent** to attract larger retailers. During **1960–61**, it spent more than **$3 million on advertising** and mailed nearly **three million brochures** explaining how the card worked and the responsibilities of borrowing.[^bac-wolters-recovery]
+
+By **May 1961**, the program was reportedly generating a profit, but that milestone depends on the accounting. When Chase Manhattan executives visited Bank of America that summer to understand its recovery, they found advertising and much overhead outside the card program's figures, no charge for the cost of funds on outstanding balances, and write-offs of earlier bad debts. By Chase's accounting methods, BankAmericard would still have been losing money.[^bac-wolters-accounting][^bac-profit]
+
+The subsequent improvement is easier to establish. By **1962**, more than **35,000 retailers** participated and delinquent accounts had fallen below **7 percent**. Wolters reports **$33.4 million in earnings from 1962 through 1966**, with sales growing on average by more than **25 percent a year**. Acceptance broadened beyond everyday shopping: **ten major airlines joined in 1964**, and by **1965** more than half of California's hotels and motels accepted the card.[^bac-wolters-recovery]
+
+The early losses had an unexpected benefit. They discouraged competing banks, giving Bank of America time to repair the system. Even as earnings improved, its executives were reluctant to advertise how well the card was doing. Larkin later recalled answering inquiries with the decidedly unexciting assurance that they were working out the problems.[^bac-wolters-recovery]
+
+The lesson was painfully clear. Distributing credit was easy. Controlling and collecting it required an organization built for the job.
+
+### Crossing state lines — and the Atlantic
+
+Even after recovery, BankAmericard had a limit: it was still principally a California system. Customers traveled, and so did commerce. A card tied to one bank's branch network could not follow them very far.
+
+In **May 1966**, Bank of America announced a national licensing program to other banks through the **BankAmericard Service Corporation (BASC)**. Licensees paid **$25,000**, plus royalties, and received the operating system, accounting software, training, and the right to participate in a shared card network. Initially, licenses generally gave banks exclusive territories.[^bac-stearns-licensing][^bac-banknews-1966]
+
+A *Bank News* report that December described **ten major licensed banks from Boston to Honolulu**, with many launching their programs toward the end of the year. It spelled out the division of responsibility: each bank handled its own billing and collections and assumed its own risks, while honoring cards issued by the other participants. A license supplied a connection to a wider market, while the local bank still did the lending.[^bac-banknews-1966]
+
+The distinction between distributing cards and getting them used remained important as bank cards spread. A **July 1968 Federal Reserve report**, surveying the industry, counted more than **14 million bank credit-card accounts in September 1967**, but only **35 percent** were considered active. These are figures for reporting banks across the industry, rather than BankAmericard alone. The report found higher activity in established plans: building circulation was only the beginning of building a payments business.[^bac-fed-1968]
+
+This was also the beginning of BankAmericard's international expansion. **Barclays became its first international licensee in 1966**, launching **Barclaycard in Britain on 29 June 1966**. Barclays could use its own branches and merchant relationships to establish the local business, while connecting it to the American system.[^bac-stearns-licensing][^bac-barclays]
+
+<div style="width: 30%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/barclaycard_early_design.png" alt="Early Barclaycard specimen with blue, white, and gold bands and a signature across the middle" caption="An early Barclaycard specimen: a British name on the familiar colored bands. This design was used during 1966–1983; the specimen itself is undated. Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Barclaycard.png), public domain." %}
+
+</div>
+
+There is a wrinkle here. At launch, British customers had to settle their balances in full. **Revolving credit was introduced in November 1967**, following agreement with the Bank of England. Licensing the American system did not mean every country could immediately reproduce all its lending features.[^bac-barclays]
+
+Other banks followed. In Japan, **Sumitomo Credit Service partnered with Bank of America in April 1968** and issued its domestic **Sumitomo Credit Card in June**, followed by a separate overseas card in **October 1968**. In Canada, participating banks adopted the name **Chargex**; TD dates its launch to **19 August 1968**.[^bac-sumitomo][^bac-chargex]
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/sumitomo_card.png" alt="Sumitomo Credit Card specimen with a portrait, Japanese lettering, and the words Valid Only in Japan" caption="Sumitomo's domestic card design introduced in 1968. The specimen explicitly says ‘VALID ONLY IN JAPAN’: a local card's launch should not be confused with worldwide acceptance. Source: [Sumitomo Mitsui Card company history](https://www.smbc-card.com/company/info/enkaku.jsp)." %}
+
+</div>
+
+The international system increasingly consisted of banks issuing locally named cards connected through common arrangements. By late **1972**, banks in **15 countries** participated in the program.[^bac-stearns-international]
+
+### From a bank's franchise to a bank-owned network
+
+Licensing changed what a transaction required. A customer might carry a card issued by one bank and shop at a merchant served by another. The system now had to move both transaction records and money **between banks**.
+
+This is **interchange**. The bank serving the merchant, the **acquiring bank**, initially mailed the sales draft to the cardholder's **issuing bank**, which reimbursed it less an agreed fee. The issuer then collected from its customer. A purchase no longer fitted inside one institution's books.[^bac-stearns-licensing]
+
+The arrangement also created friction. Licensees were competitors, yet Bank of America controlled the system on which they depended. They needed common rules for authorization, settlement, and disputes, and a way to govern those rules together.
+
+**Dee Hock**, a banker involved in launching a licensed BankAmericard program at Seattle's National Bank of Commerce, became central to the reorganization. In **1970**, the American licensees formed **National BankAmericard Incorporated (NBI)**, an independent membership organization. Bank of America became a member rather than the system's sole proprietor.[^bac-stearns-nbi]
+
+The distinction matters: Bank of America did not sell every cardholder's loan to a new company. Member banks continued to issue cards, extend credit, and serve merchants. The association governed the arrangements that allowed their customers to transact across the network.
+
+International licensees initially remained under BASC. They subsequently negotiated an organization of their own, **IBANCO (International Bankcard Company)**, established in **1974**. NBI joined it alongside other national associations and banks. International participants now had a common framework for interchange, card designs, marks, and dispute resolution.[^bac-stearns-international]
+
+The technology was changing too, although its advantages had not always seemed obvious even to the bank's own experts. In a **March 1966 Datamation essay**, Bank of America computer executive **A. R. Zipf** questioned the economics of a completely electronic card system. Replacing its **55,000 imprinters** with terminals costing even **$200 each** would require **$11 million**, before communications and data centers. He also pointed out that eliminating paper would require reliable descriptions of purchases from thousands of different merchants, and that approving a transaction electronically would not prevent a customer from subsequently failing to repay it.[^bac-zipf-1966]
+
+Zipf's doubts help explain why the transition took time. The challenge included persuading merchants to buy equipment, changing customers' billing habits, and finding enough savings to justify the investment.
+
+NBI introduced **BASE**, later called **BASE I**, for electronic authorization in **1973**, followed by **BASE II** for electronic clearing and settlement in **1974**. Contemporary reporting makes the distinction tangible. In May 1973, the *St. Louis Post-Dispatch* described the new authorization network as connecting processing centers around the country, including during nights and weekends. In November 1974, the *Burlington Free Press* explained that BASE II would replace the mailing of individual sales drafts between banks with electronic transmission of sales data; the new system had entered nationwide operation on **1 November**.[^bac-stearns-base][^bac-base-newspapers]
+
+One system helped decide whether to approve the purchase; the other helped move the record and settle it afterward. We'll return to both when we examine the evolution of card processing.
+
+### Becoming Visa
+
+The name **BankAmericard** had become awkward. For American member banks, it advertised their giant competitor. Abroad, it suggested an American bank even when the customer's account belonged to a local institution. Meanwhile, names such as Barclaycard, Chargex, and Sumitomocard made a shared international service look like a collection of unrelated products.[^bac-stearns-visa]
+
+The solution was a common name: **Visa**.
+
+A short name that could travel across languages also needed a design that would accommodate the banks' own identities. Product developer **Tom Honey** and his team put **VISA in the central white band**, leaving the top blue band for the issuer's name. A bank could retain its local identity while the Visa mark told customers and merchants which international service the card accessed.[^bac-stearns-visa]
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/bankamericard_visa_transition.jpg" alt="Bank of America card with BankAmericard in the top blue band and VISA in the central white band" caption="A later specimen of the redesigned card, retaining BANKAMERICARD above the new VISA mark; it expires in February 1983. Photo: David L. Stearns, personal collection, reproduced from Electronic Value Exchange (2011), p. 120, fig. 6.1." %}
+
+</div>
+
+So, **when did BankAmericard become Visa?** There were several steps. According to Stearns, **NBI's board approved the change in May 1976**, IBANCO's board followed in **August**, and the new name was announced in **September 1976**. In **March 1977**, NBI became **Visa USA** and IBANCO became the **Visa International Services Association**. Replacement signs, new cards, and advertising carried the name to the public over the ensuing transition.[^bac-stearns-visa]
+
+The rebranding also coincided with a change in competition. In **June 1976**, NBI lifted its prohibition on banks belonging to both its system and Interbank's. Banks could now offer cards from both networks. Bank of America's own advertisement in the **Record Searchlight on 22 February 1977** illustrates the overlap: it offered customers **BankAmericard “with Visa added” and Master Charge** at the same bank.[^bac-duality-ad]
+
+<div style="width: 55%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/bankamericard_visa_mastercharge_ad_1977.jpg" alt="Bank of America advertisement offering BankAmericard with Visa added alongside Master Charge" caption="Bank of America becomes a ‘two-card bank’: a contemporary advertisement showing the Visa name on BankAmericard before the formal organizational renaming in March. Record Searchlight, Redding, 22 February 1977, p. 7." %}
+
+</div>
+
+This explains why histories give both **1976 and 1977**: the first marks the decision and announcement, the second the formal renaming and rollout. Existing names did not disappear from every card overnight. Bank of America's own cards could carry both BankAmericard and Visa, while other issuers retained their names alongside the common mark.
+
+The journey from Fresno had changed the structure of the business. BankAmericard began as one bank lending to its customers through local merchants. Visa emerged as an arrangement through which many banks could issue cards, serve merchants, and settle transactions with one another across national borders.
+
+The little piece of plastic still linked a customer to an account. The name on it now linked that account to a much larger world.
 
 
 ## Master Charge
@@ -2106,6 +2264,37 @@ It was fascinating reading about how people imagined a cashless society to be an
 [^winsted-1963]: Ordinance text and Mayor John E. Lynch's remarks in the _Hartford Courant_, 23 October 1962, via [David G. W. Birch](https://medium.com/@dgwbirch/dining-out-on-diners-club-878b485729f2); Simmons's own accounts in _The Credit Card Catastrophe_, ch. 8, and his _Saturday Evening Post_ piece (2016).
 [^diners-buyout-conflict]: The sources disagree on the price: Simmons says McNamara sold his half for $500,000 (Simmons, pp. 34–35); Mandell, from Bloomingdale, says $250,000 for his 70%, with the two buyers borrowing $125,000 each (Mandell, p. 6); Black (1961) says "$200,000."
 [^dinersclub-history]: Diners Club International, [official history timeline](https://www.dinersclub.com/about-us/history/), accessed 2026.
+
+[^bac-stearns-launch]: David L. Stearns, _Electronic Value Exchange: Origins of the VISA Electronic Payment System_ (Springer, 2011), ch. 1, pp. 18–24. Covers the bank's consumer lending culture, card terms, transaction mechanics, the Fresno mailing, California expansion, and early losses.
+[^bac-vanatta-launch]: Sean H. Vanatta, _Plastic Capitalism: Banks, Credit Cards, and the End of Financial Control_ (Yale University Press, 2024), pp. 71–76. Covers the branch and account counts, Williams's planning, recruitment, plastic card production, limited credit checking, advertising in the Fresno Bee, and the distinction between cards mailed and cards used.
+[^bac-mandell-banks]: Lewis Mandell, _The Credit Card Industry: A History_ (Twayne Publishers, 1990), ch. 3, pp. 26–31, on early bank card plans, bankers' attitudes toward consumer lending, and the adoption of revolving credit.
+[^bac-drop-count]: The sources give different figures for the initial mailing: Vanatta, p. 74, gives nearly 60,000; Stearns, p. 22, gives 65,000. The text uses approximately 60,000 rather than presenting the initial count as exact.
+[^bac-profit]: Stearns, p. 24 and note 92, dates reported profitability to May 1961 but explicitly records Mandell's objection that cost of funds and advertising were excluded; see Mandell, p. 58. Vanatta, pp. 75–76, describes the transfer to installment lending and subsequent recovery.
+[^bac-stearns-licensing]: Stearns, _Electronic Value Exchange_, pp. 26–27, on BASC, licensing fees and territories, Barclays as the first international licensee, and the paper interchange process.
+[^bac-barclays]: Margaret Procter, University of Liverpool / Barclays Group Archives, ["Barclaycard: 50 years of plastic money — the story from the Archives,"](https://blog.archiveshub.jisc.ac.uk/2016/05/31/barclaycard-50-years-of-plastic-money-the-story-from-the-archives/) _Archives Hub Blog_, 31 May 2016. Dates launch to 29 June 1966 and introduction of revolving credit to November 1967. See also Bernardo Batiz-Lazo and Gustavo A. Del Angel, "The Ascent of Plastic Money: International Adoption of the Bank Credit Card, 1950–1975," _Business History Review_ 92 (2018), pp. 509–533, especially the section "Adoption in the United Kingdom"; [DOI](https://doi.org/10.1017/S0007680518000752).
+[^bac-sumitomo]: Sumitomo Mitsui Card, [company history (沿革)](https://www.smbc-card.com/company/info/enkaku.jsp): Sumitomo Credit Service formed in December 1967; Bank of America partnership in April 1968; domestic card in June 1968; separate overseas card in October 1968; combined domestic/international Sumitomo Visa card in February 1980. The domestic specimen pictured is reproduced on this history page.
+[^bac-chargex]: TD Archives, ["Happy Birthday Chargex: The Credit Card turns 50,"](https://stories.td.com/ca/en/article/happy-birthday-chargex-the-credit-card-turns-50) 19 August 2018. Dates TD's Chargex launch to 19 August 1968; this is the bank's own launch date, not a claim that every Canadian participant launched that day.
+[^bac-stearns-nbi]: Stearns, _Electronic Value Exchange_, ch. 2, especially pp. 31, 39–50, on Dee Hock and the formation and membership structure of NBI; Mandell, p. 37, dates NBI's incorporation to July 1970.
+[^bac-stearns-international]: Stearns, _Electronic Value Exchange_, ch. 6, pp. 110–113. Gives 15 participating countries in late 1972 and IBANCO's formation in June 1974. The account distinguishes the domestic transfer to NBI in 1970 from the later international reorganization.
+[^bac-stearns-base]: Stearns, _Electronic Value Exchange_, chs. 4–5, especially pp. 88–89 and 101–104. BASE began limited operation on 4 April 1973 and was later called BASE I; BASE II went into operation in 1974.
+[^bac-stearns-visa]: Stearns, _Electronic Value Exchange_, ch. 6, pp. 117–122, especially pp. 121–122: NBI board approval in May 1976, IBANCO board approval in August, announcement in September, and formal organizational renaming in March 1977. Figure 6.1 on p. 120 illustrates the redesigned card from the author's personal collection. This detailed chronology distinguishes the 1976 naming decision from the 1977 implementation.
+
+
+[^bac-wolters-planning]: Timothy Wolters, “Carry Your Credit in Your Pocket”: The Early History of the Credit Card at Bank of America and Chase Manhattan, _Enterprise & Society_ 1, no. 2 (June 2000), pp. 315–354, especially pp. 325–328. Based on Bank of America archival records, including the July 1953 proposed operating procedures and correspondence explaining why the plan was shelved.
+[^bac-wolters-design]: Wolters, pp. 328–331, on the CSR team's ten-month investigation, its October 1957 report, proposed credit limits and authorization procedures, and recommendation to retain a geographically contained trial. The report's initial $25 authorization threshold was later raised to $100 for cards with a $500 limit (p. 329, note 53).
+[^bac-wolters-drop]: Wolters, p. 332 and note 61: public announcement on 28 March 1958; merchant recruitment that summer; _Fresno Bee_, 18 September 1958, pp. 15A–17A; mailing of nearly 60,000 cards around the launch; 800 additional retailers over the following five months.
+[^bac-wolters-automation]: Wolters, pp. 330–331 and 334, describes Williams's recommendation against electronic equipment during the developmental stage and limited automation under Wagele. James L. McKenney with Duncan C. G. Copeland and Richard O. Mason, _Waves of Change: Business Evolution Through Information Technology_ (Harvard Business School Press, 1995), pp. 66–67, describes subsequent card and IBM 702 system revisions. Stearns, p. 21, instead describes accounting as computerized from the beginning. The text avoids asserting an exact date for first computerized card accounting. McKenney's Fresno/statewide rollout dates also differ from the contemporary records cited by Wolters; those dates have not been adopted.
+[^bac-wolters-expansion]: Wolters, pp. 332–333, on Leif's objections during Beise's absence, the March–June 1959 metropolitan rollout, and statewide completion in October 1959.
+[^bac-commercialwest-1959]: “Charge Plan a Hit,” _Commercial West_, 14 February 1959, p. 36. Reports Beise's announcement that the Fresno service would be extended throughout California as rapidly as possible.
+[^bac-wolters-recovery]: Wolters, pp. 333–335: transfer to Wagele in January 1960; collections and anti-fraud units; consolidation and automation; change in payment period; advertising and brochures; 1962 delinquency and merchant counts; 1962–66 earnings and sales growth; airline and hotel acceptance. The $33.4 million figure concerns the entire 1962–66 period, not annual earnings.
+[^bac-wolters-accounting]: Wolters, pp. 346–347, reconstructing the 1961 visit of Chase executives George A. Roeder Jr. and Charles Agemian from Chase Manhattan corporate records. Describes differing treatment of advertising, overhead, funding costs, and prior bad debts; explains why the program's stated profitability did not translate under Chase's accounting.
+[^bac-banknews-1966]: “Bank-Issued Card in Operation,” _Bank News_ (December 1966), p. 21. Dates announcement of the national licensing program to May, describes ten major licensees from Boston to Honolulu, and explains licensees' separate billing, collections, and credit risks.
+[^bac-zipf-1966]: A. R. Zipf, “A Practical View of Universal Credit,” “The Forum,” _Datamation_ (March 1966), pp. 121–122. A contemporary appraisal of the proposed cashless/checkless society, using BankAmericard's 50,000 merchant members and 55,000 imprinters to illustrate equipment costs, billing difficulties, and the distinction between authorization and repayment risk. The $11 million terminal cost is Zipf's hypothetical calculation, not actual spending.
+[^bac-base-newspapers]: John M. McGuire, “Credit Card Firms Have New Systems On Credit Clearance,” _St. Louis Post-Dispatch_, 11 May 1973, p. 3C (scan filename identifies archive image 67); “New System for BankAmericard,” _Burlington Free Press_, 14 November 1974, p. 6. The latter dates nationwide operation to 1 November and describes the promised replacement of mailed sales drafts; it does not establish that every paper draft immediately disappeared.
+[^bac-duality-ad]: Stearns, pp. 115–116 and 121–122, on removal of the dual-membership prohibition in June 1976 and its connection with Visa's rollout. Bank of America advertisement, _Record Searchlight_ (Redding), 22 February 1977, p. 7, offers BankAmericard “with Visa added” and Master Charge together, providing a contemporary illustration of the shared branding and membership transition.
+
+
+[^bac-fed-1968]: Board of Governors of the Federal Reserve System, _Bank Credit-Card and Check-Credit Plans_ (July 1968), p. 12. The survey reports more than 14 million accounts at reporting banks in September 1967, with 35 percent considered active; these are industry totals, not BankAmericard network totals.
 
 ## Appendix
 
