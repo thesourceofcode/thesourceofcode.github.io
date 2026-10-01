@@ -1488,23 +1488,121 @@ A funny bit of trivia I found: In 1974, Diners Club **denied** Neil Armstrong's 
 
 ## Franklin National Bank
 
+A small shop could sell the same shirts or shoes as a department store. Offering the same credit service was harder.
+
+The large stores had credit departments, account records and clerks to send bills and chase payments. A neighbourhood retailer might have none of those things. Refusing credit could lose a sale; granting it meant tying up money and hoping the customer would pay. **Franklin National Bank's answer was to become the small shop's credit department.**
+
+The bank, based in **Franklin Square on Long Island**, was operating in the expanding suburbs around New York City. Its plan would bring bank credit into ordinary local shopping, using relationships that merchants already had with their customers. It was an important step toward the modern bank card, though the earlier **Charg-It** experiments in Brooklyn and Paterson make an unqualified claim to being the first bank card misleading.[^franklin-vanatta-origins][^bank-card-congress-1978]
+
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/franklin_cc_06_1952.png" alt="Franklin National Bank Credit Card sample image" caption="Franklin National Bank Credit Card sample image, _Banking_ Magazine, June 1952, p. 122" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/franklin_cc_midcontinental_banker_nov_1952.png" alt="Franklin National Bank credit identification card" caption="Franklin National Bank credit identification card, reproduced in Midcontinental Banker, November 1952, p. 13" %}
 
 </div>
 
-It was the **Franklin National Bank** of Franklin Square, Long Island — headquarters near the first Levittown, in the heart of the burgeoning suburbs surrounding New York City — that refined the neighbourhood charge plan into the recognisable ancestor of today's card. Franklin was the first bank to offer a general-purpose credit card, and the Federal Reserve's task group on bank credit cards dates the program from **August 1951**, calling it the first of the current bank credit cards — although it did not reach full-scale operation until April 1952.[^fed-task-group]
+### From oil deliveries to the local shops
 
-The plan began with the merchants. At a bank-sponsored conference called to consider how local retailers could build their businesses, the shopkeepers pointed out that perhaps their greatest need was more charge accounts; maintaining credit facilities of their own was, for many, an impossible burden. Could the bank help? "We'll try," said Franklin National's president, **Arthur T. Roth** — and the "Franklin Charge Plan" was the result.[^franklin-banking-1952]
+**The plan began with oil distributors.** A contemporary Associated Press report, published in the *Snyder Daily News* on **5 May 1952**, said Franklin had started the service about a year earlier, initially confining it to that trade. The bank took over the dealers' customer accounts before extending the arrangement to a wider range of local businesses.[^franklin-oil-1952]
 
-The mechanics sharpened the Charg-It design. The purchaser presented a credit card issued by the bank and took the goods without paying cash; at the end of the day, the dealer sent his credit sales slips to the bank, which accepted them like cash — **without recourse** — and immediately credited his account, deducting a 5 percent service charge. At the end of the month, the customer received a statement from the bank with the accumulated slips and paid the bill to the Franklin. A special department, with its own staff, investigated every merchant before admission and every customer before issuing a card, posted tickets to ledgers as they arrived, and billed on a cyclical monthly schedule. Delinquencies ran about the same as on ordinary installment loans.[^franklin-banking-1952]
+By the time of that report, **50 retail merchants** were participating and the bank was handling **23,000 charge accounts**, with more than **$1 million** in goods and services charged under the plan. A plumber was already included; doctors and dentists were being considered next. Franklin was turning a service first tried for oil deliveries into a credit and collection department for the neighbourhood.[^franklin-oil-1952]
 
-Gone was the Charg-It scrip. As the Congressional Record's history of payment cards put it, Franklin National refined the early Brooklyn and Paterson plans "with the development of a sales slip worded in the form of a bank draft. This more workable plan was rapidly adopted by other banks and became the basis for the modern-day credit card."[^bank-card-congress-1978] The card also gave its holders a line of credit, allowing them to make only partial payments each month; the bank charged merchants a fee on each transaction and customers interest on the unpaid balances — revolving bank credit in near-modern form.
+According to the bank's account in *Banking*, the idea emerged at a conference called to discuss how local merchants could build their businesses. The merchants said that charge accounts were among their greatest needs, but that maintaining their own credit facilities was often beyond their means. Could the bank help?
 
-At first, the new service was used mainly to handle the credit and collection needs of local fuel-oil companies. But by the next year, 750 local merchants and 28,000 customers had signed up, charging $2.5 million in the first year. In 1952, the National Bank of Kalamazoo, Michigan, licensed the program from Franklin and signed up 30 merchants and 18,000 customers in three weeks; other local banks also began offering credit cards.[^franklin-aba] Banking's contemporaneous count, in June 1952, was about 23,000 Nassau County families holding the card, who had charged more than $1,000,000 of goods and services — with some merchants reporting sales volume up by about 30 percent.[^franklin-banking-1952]
+**“We'll try,”** replied president **Arthur T. Roth**.[^franklin-banking-1952]
 
-Roth hoped the plan would benefit Long Island's stores as much as its consumers, but participation came slowly at first, and his robust restaurant credit service — developed in cooperation with Gourmet and Esquire magazines — was unsuccessful, with too many customers not paying. The business ultimately proved unprofitable in its original iteration, and the card program was eventually wound down; the credit card department and payment window are still extant in a basement room near the vault. But the bank credit card was indeed developed in Franklin Square, and Roth's ideas on consumer credit anticipated developments which reshaped the American economy and are embedded in everyday life today.
+Roth was the public advocate of the plan. **William J. Boyle**, the vice president whose signature appears on the card, is credited in the American Bankers Association's later history with devising the service. The May 1952 report identifies him as a former **Macy's credit executive** who ran Franklin's charge-account program.[^franklin-oil-1952] Another Franklin executive, **Edward M. Donohue**, explained the thinking behind its design: shoppers already knew how to buy on a department-store account, so the bank should reproduce that familiar experience at smaller stores.[^franklin-aba][^franklin-vanatta-origins]
+
+The Federal Reserve dates the program's beginnings to **August 1951**, with **full-scale operation in April 1952**. Contemporary newspaper coverage helps explain why both years appear in histories. On **1 May 1952**, the *New York Times* reported that Roth had announced the plan **the previous day**, after months of development and a successful pilot in selected areas. Newspaper advertisements seeking participating Nassau County merchants were to begin on 1 May.[^franklin-fed-1968][^franklin-nyt-launch]
+
+There was an experiment in 1951, then a broader rollout and public announcement in 1952.
+
+### “Charge it” without the scrip
+
+Franklin kept the idea of a bank standing between the shopper and the merchant, but simplified what happened at the counter.
+
+The earlier scrip-based plans required customers to carry paper certificates representing their credit allowance. Franklin's shopper presented an **identification card** and signed a sales slip. There were no stamps or scrip to spend. The bank's account could keep track of the credit behind the card.[^franklin-nyt-launch]
+
+A history reproduced in the *Congressional Record* identifies the crucial paperwork change: Franklin used a **sales slip worded as a bank draft**. The merchant could deposit the signed slip with the bank rather than administer a separate customer account. The record describes this as a more workable arrangement that other banks adopted.[^bank-card-congress-1978]
+
+Recruitment also began at the shop. A participating merchant asked a prospective customer for credit information and sent it to the bank. **The bank made the credit decision.** Once approved, the customer could use the card at the shop that had arranged the account or at other participating merchants. One credit relationship now served purchases at several stores.[^franklin-nyt-launch][^franklin-vanatta-origins]
+
+The *Times* described safeguards on both sides. Merchants agreed to provide satisfactory goods, prices and exchange arrangements. The bank maintained individual credit ratings and set a limit on sales a retailer could authorize without calling.[^franklin-nyt-launch]
+
+Boyle supplied the precise rule in **November 1952**: **up to $5**, the merchant could accept the card without checking; **above $5**, the clerk had to telephone for approval and write the authorization code letter on the sales ticket. Each shop received a chart of telephone numbers arranged by the first letter of the customer's surname. The clerk gave the purchase amount, customer's name and address, and identification-card number. Alphabetical routing directed the call to the appropriate billing desk. Authorization meant reaching a bank employee who could check the account.[^franklin-boyle-operation]
+
+### The merchant gets paid; the bank sends the bill
+
+The mechanics were straightforward, even if running them required a great deal of clerical work.
+
+| Stage | What happened? |
+| --- | --- |
+| Purchase | The approved customer showed the card, signed a sales slip and took the goods. |
+| Merchant settlement | The merchant deposited the day's slips at Franklin. The bank immediately credited the merchant's account, less its discount. |
+| Customer billing | Franklin consolidated the purchases into a monthly statement, with the accumulated sales slips, and collected payment from the customer. |
+
+The standard merchant discount described at launch was **5 percent**. On a $10 sale, the retailer received **$9.50**; Franklin retained **50 cents** to cover administration, financing and the risk that the shopper would not pay. The transaction was accepted **without recourse**: ordinary customer nonpayment became the bank's loss, rather than a debt sent back to the shopkeeper.[^franklin-banking-1952][^franklin-nyt-launch]
+
+For the merchant, the benefit was more than outsourcing the bill. The shop got cash promptly instead of waiting until the end of the month, and no longer had to collect the customer's debt. For the bank, the plan created loans and deepened merchant relationships: the proceeds went into the retailer's bank account, and that relationship could lead to other banking business.[^franklin-vanatta-economics]
+
+Boyle described a special **deposit envelope** that made settlement a daily routine. The merchant totaled the enclosed sales slips, deducted the 5 percent discount and wrote the remaining 95 percent on the outside. Franklin immediately credited that amount to the merchant's account.[^franklin-boyle-operation]
+
+<div style="width: 100%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/franklin_charge_forms_1952.png" alt="Franklin charge-plan monthly statement, merchant deposit envelope, Blumberg's sales draft and alphabetical telephone-authorization chart" caption="The paperwork behind ‘charge it’: customer statement, merchant deposit envelope, a hardware store's sales draft and telephone-authorization chart. Detail from Mid-Continent Banker, November 1952, p. 14." %}
+
+</div>
+
+Franklin set up a **special department with its own staff**. Merchants were investigated before joining; customers were checked before receiving cards. The June 1952 *Banking* report said delinquencies were running at about the same level as the bank's ordinary installment loans.[^franklin-banking-1952]
+
+Boyle's account explains how the department kept the paperwork manageable. Staff sorted incoming tickets and filed them in front of each customer's ledger card. **Ledger postings were made once a month**, unlike the daily posting of checks to ordinary bank accounts. Franklin spread the work across **twelve billing cycles**, with billing dates between the **8th and 24th** of each month. Before mailing, it microfilmed the statement and accompanying sales and payment tickets. The customer received the statement with the original tickets, much as a department-store customer did.[^franklin-boyle-operation]
+
+This was a business of desks, telephones, paper files and microfilm. Boyle estimated that **nine people in about 1,000 square feet** could handle **$3 million in annual charges**; the office could be upstairs, where space cost less. Those were his estimates of operating capacity, rather than a reported staffing total.[^franklin-boyle-operation]
+
+The card made the purchase look effortless. Behind it were credit checks, telephone calls, sales slips, ledgers, statements and collections.
+
+### A bank card, but initially a charge account
+
+The original Franklin arrangement should not be confused with the revolving credit feature familiar from later bank cards.
+
+In the early plan, **the customer paid the monthly bill in full, without an interest charge**. The retailer paid for the credit service through the merchant discount. Historian Sean Vanatta describes Franklin as adapting the department-store charge account to independent shops; David Stearns explicitly cautions against reading modern revolving credit into its original terms.[^franklin-vanatta-origins][^franklin-stearns]
+
+There was room to vary payment periods. Vanatta records Franklin charging merchants **5 percent for 30-day purchases** and **6 percent for 60-day charges**. An extended period could therefore be financed by a higher merchant discount. That is different from a customer carrying a balance indefinitely, paying a minimum amount each month and being charged interest on the remainder.[^franklin-vanatta-economics]
+
+Some later accounts, including the ABA's retrospective history, describe Franklin's card as allowing partial monthly payments with interest. Stearns notes that other histories suggest revolving credit was added later. The contemporary launch descriptions and Vanatta's reconstruction support the narrower conclusion: **Franklin's early contribution was the bank-run retail charge plan, not a demonstrated revolving-credit facility from its first day.**[^franklin-aba][^franklin-stearns]
+
+The intended customer also reflected the period. Donohue spoke of **“Mrs. Housewife.”** Vanatta describes cards issued in a husband's name for purchases made by his wife, with the household's credit standing assessed through the husband. The advertisements promoted convenient family shopping and one monthly bill, while the admission process favored the established customers whom participating merchants and bankers considered creditworthy. This was an expansion of access to credit, but access was still selective.[^franklin-vanatta-customers]
+
+### Could five percent pay for all that paperwork?
+
+Boyle argued that banks already knew much of the work: a signed sales draft could be sorted, recorded and returned much like a check. The extra costs were **credit investigation, collections and losses, and financing**. With sufficient volume, he thought the combined processing and additional costs could fall to **15 cents per draft**. That was a target, not a measured cost achieved by every bank.[^franklin-boyle-economics]
+
+His profit argument depended on how quickly customers repaid. If the money advanced to merchants turned over **eight times a year**, a 5 percent discount on each round of purchases would produce gross income equal to **40 percent of the average money invested**. The discount remained 5 percent of sales; the larger percentage measured repeated use of the financing capital. Boyle put the minimum viable volume at about **$750,000 a year** and expected substantial profits above it. The article projected **$62,500 net income** on **$2.5 million in first-full-year charges**, a forecast rather than an audited result.[^franklin-boyle-economics]
+
+The shopkeeper's calculation was different. Boyle described a merchant expected to put **$40,000 of sales** through the plan, paying **$2,000** in discounts. He estimated that an equivalent credit department of the merchant's own would cost **$5,000–$6,500**, once wages, investigations, stationery, postage, space, equipment, collection and losses were included. His case was that a retailer could buy a shared credit service more cheaply than build one.[^franklin-boyle-economics]
+
+He also urged bankers to adapt their expectations about late payments. Department-store charge accounts could remain unpaid longer than a conventional commercial loan without being treated as a serious collection problem. Boyle cited department-store bad-debt figures to support that argument; those figures were **not Franklin's own loss rate**. His broader point was that thousands of small balances required a different lending judgment from a few large business loans.[^franklin-boyle-credit]
+
+### Growth, imitation and the limits of the local plan
+
+The first reports were encouraging. In **June 1952**, *Banking* counted approximately **23,000 Long Island families** using the service and more than **$1 million in purchases**. Some merchants reported increases in sales of about **30 percent**. These were the bank's early reported results, rather than an independent measurement of what the card alone had added to sales.[^franklin-banking-1952]
+
+In his November article, Boyle reported **about 800 merchants and more than 28,000 retail customers**. He expected the year's charges to exceed **$2.5 million**. The ABA's later history gives 750 merchants and treats $2.5 million as a first-year total; Boyle's contemporary account makes clear that the volume figure was still a forecast when he wrote.[^franklin-boyle-growth][^franklin-aba]
+
+Boyle also offered an explanation for the reported sales gains: they came mainly from **existing customers buying locally**, rather than traveling to New York City or the Nassau County branches of large department stores. His imagined shopper, “Mr. Jones,” entered a haberdasher for three shirts and could be persuaded to take six, plus ties or socks, if offered a charge account. That sales example captures the merchant's incentive: credit could keep business in the neighbourhood and increase the size of a purchase.[^franklin-boyle-growth]
+
+The ABA history reports that the **First National Bank of Kalamazoo, Michigan**, licensed the program in **1952** and recruited **30 merchants and 18,000 customers in three weeks**.[^franklin-aba]
+
+The idea spread because other banks had much the same opportunity: small retailers that needed credit facilities, shoppers who wanted charge accounts, and a bank equipped to finance and collect receivables. Mandell describes more than a hundred banks with card plans by 1955, while many larger banks remained reluctant to enter the business.[^franklin-mandell]
+
+Imitation did not always mean cooperation. In **March 1953**, Franklin sued its former employee **Boyle** after he established a competing charge-plan business and sought to sell similar services to banks around Philadelphia. Vanatta identifies the dispute as an exception to the sharing of methods among charge-account bankers in different local markets. The claim was contested; it should not be treated as proof that Boyle stole the plan.[^franklin-vanatta-boyle]
+
+Nor did a promising launch guarantee profit. The Federal Reserve's later survey describes high startup costs, additional staff, equipment, advertising and unfamiliar lending problems across the first wave of bank card programs. Of almost a hundred banks entering in the two years after Franklin's start, roughly half discontinued their plans. A local bank also had to generate enough purchases within its limited merchant network to justify all that processing work.[^franklin-fed-1968][^franklin-stearns]
+
+That general retreat does not establish that Franklin itself abandoned its card. The Federal Reserve's **1968 report**, drawing on its **1967 survey**, still lists the **Franklin Charge Plan** and dates it to August 1951. It separately lists **Steady-Credit**, beginning in May 1959, and participation in **American Express Executive Credit**, beginning in January 1967.[^franklin-fed-continuity]
+
+Franklin also nearly acquired a role in American Express's new card venture. In **1957**, Roth offered a division of labor: American Express would handle promotion and sales; Franklin would handle credit checks and bookkeeping. American Express ultimately kept those functions in-house. The proposal is a useful measure of what Franklin had learned: credit administration was a service it could offer to a company with a much larger brand and international reach.[^franklin-amex-proposal]
+
+Franklin's lasting contribution was to make a local purchase into a bank-financed transaction: the merchant sold the goods and deposited a signed draft, the bank paid the merchant and collected from the shopper. The network was still local and the repayment terms still evolving, but the familiar roles of the later bank card were coming into view.
 
 ## American Express
 
@@ -2341,8 +2439,12 @@ It was fascinating reading about how people imagined a cashless society to be an
 [^flatbush-history]: ["The First Credit Card," Flatbush History](https://www.flatbushhistory.com/articles/first-credit-card), drawing on Louis Hyman, _Borrow: The American Way of Debt_ (Vintage, 2012).
 [^bank-card-congress-1978]: "The Evolution of the Debit Card as a Means of Payment," Congressional Record — Senate, 1 February 1978.
 [^fed-task-group]: Federal Reserve System, [Report of the System Task Group on Bank Credit Card and Check Credit Plans: Appendices](https://fraser.stlouisfed.org/docs/historical/brimmerpapers/bak00290c03126.pdf), Andrew F. Brimmer Papers, FRASER, Federal Reserve Bank of St. Louis.
+[^franklin-boyle-operation]: William J. Boyle, “It's Easy as A-B-C—Just Say ‘Charge It’,” _Mid-Continent Banker_, November 1952, pp. 14–16; supplied as `bank_credit_cards/midcontinentbanker_195211.pdf`. Forms and telephone-routing chart on p. 14; billing desks on p. 15; $5 authorization threshold, merchant deposits, monthly posting, twelve billing cycles, microfilm and estimated staffing capacity on p. 16.
+[^franklin-boyle-economics]: Boyle, “Just Say ‘Charge It’,” pp. 13, 15–16 and 32. The per-draft cost, capital turnover, minimum volume, profit and merchant-cost figures are Boyle's estimates or projections. The p. 13 summary projects $62,500 net income on $2.5 million in first-full-year charges; the body discusses a larger illustrative operation.
+[^franklin-boyle-credit]: Boyle, “Just Say ‘Charge It’,” pp. 40 and 44. Distinguishes commercial, installment and retail-charge delinquency; cites department-store operating statistics rather than a Franklin bad-debt rate, and describes small, diversified account investments.
+[^franklin-boyle-growth]: Boyle, “Just Say ‘Charge It’,” pp. 13–14 and 32. Reports approximately 800 merchants and over 28,000 retail customers; anticipates annual volume exceeding $2.5 million. Attributes sales gains principally to existing customers shopping locally; the shirt-buying story is an illustrative sales scenario.
 [^franklin-banking-1952]: "A Bank's Retail Charge Account Service," _Banking_, June 1952, p. 122.
-[^franklin-aba]: Figures as recounted in the American Bankers Association's published history of the bank credit card.
+[^franklin-aba]: John Steele Gordon, [“How Credit Cards Fueled Global Economic Growth,”](https://bankingjournal.aba.com/2017/08/how-credit-cards-fueled-global-economic-growth/) _ABA Banking Journal_, 31 August 2017. Credits William Boyle and supplies the retrospective fuel-oil, merchant, customer, volume and Kalamazoo figures. Its description of revolving repayment is qualified here using contemporary launch reports, Vanatta and Stearns. The ABA article abbreviates the Kalamazoo bank's name; Vanatta identifies it as First National Bank and Trust of Kalamazoo.
 [^sundararaman]: Viswanathan Sundararaman, "Credit Card System & Master Card System," [LinkedIn profile — Projects](https://www.linkedin.com/in/viswanathan-sundararaman-b3a6193/details/projects/). Sundararaman worked at Central Bank of India from 1975 to 1995, rising from programmer to Chief Officer (Computer Policy & Planning).
 [^mandell-history]: Lewis Mandell, _The Credit Card Industry: A History_ (Twayne Publishers, 1990), ch. 1, "Diners Club: The Birth of an Industry," pp. 1–10, based on the author's interview with Alfred Bloomingdale given shortly before Bloomingdale's death. (Mandell spells the lawyer's name "Snyder" throughout; every other source gives Schneider.)
 [^simmons-catastrophe]: Matty Simmons, _The Credit Card Catastrophe_ (Barricade Books, 1995), ch. 1–4, pp. 15–45.
@@ -2420,6 +2522,18 @@ It was fascinating reading about how people imagined a cashless society to be an
 [^amex-company-timeline]: American Express, [company history](https://www.americanexpress.com/china/en/aboutamex/corpinfo_history.shtml), 1966 entry: introduction of the Executive Credit Card, subsequently the Gold Card.
 [^amex-green-history]: American Express, [“Our Green Card used to be purple,” archivist video and transcript](https://www.linkedin.com/posts/american-express_believe-it-or-not-the-american-express-green-activity-7336763778572709891-L5fa), published for the company's 175th anniversary in 2025: the 1969 change to green, repositioning of the Centurion and signature panel, and removal of “Credit Card” from the name.
 
+[^franklin-oil-1952]: “Long Island Banks Taking Over Store Charge Accounts,” “Business Mirror,” Associated Press, _The Snyder Daily News_ (Snyder, Texas), **5 May 1952**, p. 8. Supplied clipping: `bank_credit_cards/franklin national bank launch may 5 1952 p. 8.pdf`, copied from the user's Downloads reference folder. The report says the plan began about a year earlier with oil distributors, then gives 50 retail merchants, 23,000 charge accounts and more than $1 million in charges; it mentions a participating plumber and possible admission of doctors and dentists. It identifies William J. Boyle as a former Macy's credit executive running the program. “A year ago” is retained as an approximate description, rather than used to assign an exact start month.
+[^franklin-nyt-launch]: “Nassau's Shoppers to Get Bank Credit: Plan Permits Small Shops to Compete With Branches of Large City Merchants,” _The New York Times_, **1 May 1952**, p. 31; supplied in `bank_credit_cards/franklin national bank launch 1952.pdf`. Reports Roth's announcement the previous day, prior pilot operations, merchant recruitment, the absence of stamps or scrip, customer enrollment and approval, telephone credit checks, immediate settlement and the 5 percent merchant charge. The scan was read visually because its extracted text contains only the database header.
+[^franklin-fed-1968]: Federal Reserve System Task Group, _Bank Credit-Card and Check-Credit Plans_ (Board of Governors, July 1968), p. 9, distributed with Federal Reserve Bank of Dallas Circular No. 68-172, 24 September 1968; [full report on FRASER](https://fraser.stlouisfed.org/files/docs/historical/frbdal/circulars/frbdallas_circ_19680924_no68-172.pdf), also supplied as `bank_credit_cards/bank_credit_card_report.pdf`. Dates Franklin's start to August 1951 and full-scale operation to April 1952; describes the first wave of entry and withdrawal, startup expenses and lack of experience.
+[^franklin-vanatta-origins]: Sean H. Vanatta, _Plastic Capitalism: Banks, Credit Cards, and the End of Financial Control_ (Yale University Press, 2024), ch. 2, pp. 39–42, on replacing scrip, Edward Donohue's account of the merchant conference, department-store methods, merchant-led enrollment, credit checks, signed and imprinted slips, and monthly payment in full. See also Vanatta, “Charge Account Banking: A Study of Financial Innovation in the 1950s,” _Enterprise & Society_ 19, no. 2 (2018), pp. 352–390; supplied accepted manuscript `books_papers/charge_account_banking.pdf`, pp. 12–14.
+[^franklin-vanatta-economics]: Vanatta, _Plastic Capitalism_, ch. 2, pp. 46–48; “Charge Account Banking,” supplied manuscript pp. 25–27. Describes nonrecourse purchase of receivables, Franklin's 5 percent discount for 30-day charges and 6 percent for 60-day charges, merchant deposits and associated banking relationships. The $10 sale / $9.50 settlement is an illustrative calculation, not a reported transaction.
+[^franklin-stearns]: David L. Stearns, _Electronic Value Exchange: Origins of the VISA Electronic Payment System_ (Springer, 2011), ch. 1, pp. 18–19, especially note 67, on early bank charge plans, limits of local acceptance and the distinction between Franklin's original charge arrangement and revolving credit. Stearns notes conflicting accounts suggesting that revolving terms were added later; the launch terms are not treated as proof of such a feature in 1951–52.
+[^franklin-vanatta-customers]: Vanatta, _Plastic Capitalism_, pp. 41–42, on “Mrs. Housewife,” cards and credit in the husband's name, merchants as gatekeepers and the gender, class and racial assumptions of early charge-account marketing and approval.
+[^franklin-mandell]: Lewis Mandell, _The Credit Card Industry: A History_ (Twayne Publishers, 1990), ch. 2, pp. 29–30, on small banks' charge plans, more than a hundred programs by 1955 and larger banks' initial reluctance.
+[^franklin-vanatta-boyle]: Vanatta, “Charge Account Banking,” supplied accepted manuscript pp. 17–18, note 27, citing “Charge Account Firm Sues Bank, Company Selling Like Services: Both Hint They'll Fight Suit; Chargeplan Corp. Asks Injunction, Unspecified Damages,” _The Wall Street Journal_, 20 March 1953, and “LI Bank Says Ex-VP Stole Charge Plan; His Reply: ‘All False’,” _Newsday_, 24 March 1953. These are disputed allegations, not a finding of theft.
+[^franklin-fed-continuity]: Federal Reserve System, _Bank Credit-Card and Check-Credit Plans_ (July 1968), Appendix A, p. 79 (PDF p. 85 in the Dallas circular copy), table of bank credit-card and check-credit plans: Franklin National Bank, Mineola, New York; Franklin Charge Plan, August 1951; Steady-Credit, May 1959; American Express Executive Credit, January 1967. The survey reference date is September 1967. This establishes the plan's listing then, without proving that its terms or administration had remained unchanged throughout.
+[^franklin-amex-proposal]: Peter Z. Grossman, _American Express: The Unofficial History of the People Who Built the Great Financial Empire_ (Crown, 1987), pp. 278–281, on Roth's September and November 1957 proposals, Franklin's credit and bookkeeping experience, and American Express's decision to retain accounting internally.
+
 ## Appendix
 
 ### Oldest credit card oldest image
@@ -2433,6 +2547,14 @@ It was fascinating reading about how people imagined a cashless society to be an
 ### Discrepancies in Diners Club Origins
 - Unsure if McNamara actualy knew Bloomingdale before starting Diners Club, feels like a fabrication. But too detailed to be fake.
 - When exactly did Dine and Sign start and merge with Diners CLub, I found a 1951 dine and sign card. Maybe the ops were merged but name was different?
+
+
+### Franklin card oldest image
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/franklin_cc_06_1952.png" alt="Franklin National Bank charge account identification card, bearing the signature of vice president William J. Boyle" caption="Franklin National Bank's charge account card, reproduced in Banking, June 1952, p. 122. The signature at the bottom is that of vice president William J. Boyle." %}
+
+</div>
 
 ### Other Credit cards
 
