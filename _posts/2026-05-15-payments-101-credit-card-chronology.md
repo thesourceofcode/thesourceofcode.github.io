@@ -909,11 +909,43 @@ Merchants, for their part, had already tried to build a universal system themsel
 
 </div>
 
-The first bank to issue anything it called a credit card was not in Brooklyn or Manhattan, but in Buffalo. On 27 October 1945, the Buffalo Industrial Bank introduced its **Bankway Credit Card** in an advertisement in _Dziennik Dla Wszystkich_ ("Everybody's Daily"), Buffalo's Polish-language newspaper: a "1945 Credit and Identification Card" bearing the customer's name and signature beside that of the bank's president, with the tagline "Buy on time the 'BANKWAY' — ask your dealer!"[^bankway-ad-1945]
+Before Charg-It or Diners Club, **Buffalo Industrial Bank** was already advertising a card that could arrange credit at several independent businesses. Its **Bankway Credit Card** appears in the **27 October 1945** issue of _Dziennik Dla Wszystkich_ ("Everybody's Daily"), Buffalo's Polish-language newspaper. The illustration calls it a **"1945 Credit and Identification Card"**, with spaces for the customer's name, address and signature, and the signature of the bank's president.[^bankway-ad-1945]
 
-Under the Bankway plan, the prospective purchaser went to the bank, established his credit, and was issued a card — renewable yearly — specifying how much installment buying it entitled him to, along with a directory of cooperating retailers.[^bankway-nyt-1945] Presenting the card at any of some 200 participating dealers — in automobiles and airplanes, boats and motors, furniture, household appliances, and home modernization — earned immediate credit after a phone call to the bank, with no further questions asked. The buyer signed an installment contract with the retailer, who sold the contract to the bank; the buyer then paid the installments, with interest at bank financing rates, directly to the bank. The retailer ran no credit check, held no paper, and collected no payments. "We are the first bank in the country to inaugurate such a plan," said Kenneth R. Reid, the vice president in charge of business development, expecting some 600 western New York retailers to join "as rapidly as consumer goods are made available."[^bankway-nb-1946]
+That advertisement establishes that the card was being promoted **by October 1945**, rather than proving the precise day it first became available. An Associated Press dispatch dated **14 November 1945** subsequently reported the bank's announcement of the plan; the _New York Times_ covered it the following day. The publicity thus reached a national audience after the surviving local advertisement.[^bankway-ap-1945][^bankway-nyt-1945]
 
-Bankway was a genuine bank credit card, and in its market — durable goods bought on installments — it worked. But it was grafted onto the installment contract rather than onto the everyday charge account. The card that would matter more was aimed at the neighbourhood shops.
+##### Establish your credit before you shop
+
+Bankway addressed an awkward part of buying expensive goods on time: applying for credit again at each shop. Its advertisement offered instalment purchases of **cars, radios, electrical appliances and household equipment** across western New York, with the bank establishing the buyer's creditworthiness in advance.[^bankway-ad-1945]
+
+The bank presented this as a new convenience built on an existing business. It claimed to have financed merchandise purchases for thousands of people over the preceding **25 years**. The card made that financing easier to obtain at participating dealers; it was not the beginning of the bank's instalment lending.[^bankway-ad-1945]
+
+A new applicant could visit the main office at Washington and Huron streets, or either of its Buffalo branches. **There was no fee for obtaining the card**, and the customer received a booklet identifying participating stores. People who had already established credit with the bank could send in the advertisement's coupon and have a card mailed to them. The coupon asked for their name, street address and employer.[^bankway-ad-1945]
+
+The sales pitch also reflected the moment in which it appeared. Beside the application coupon, the bank encouraged customers to **keep their war bonds and use credit**. Borrowing was presented as a way to acquire goods while retaining those savings. The free card did not, however, make the purchases interest-free.[^bankway-ad-1945][^bankway-ap-1945]
+
+##### What happened at the counter
+
+The customer first established credit at the bank, which determined how much instalment buying it would permit. The card was **renewable annually** and served as evidence of that prior approval. A participating dealer still telephoned the bank to verify the purchase, but did not have to obtain the customer's confidential credit information and conduct a fresh investigation.[^bankway-bcr-1945]
+
+The transaction then followed a familiar instalment-finance route:
+
+1. **The buyer signed an instalment contract with the dealer.**
+2. **The dealer sold the contract to Buffalo Industrial Bank.**
+3. **The buyer repaid the bank in instalments, with interest at the bank's financing rates.**[^bankway-bcr-1945]
+
+This relieved the retailer of investigating the buyer and collecting the resulting payments. It also let one bank's credit approval travel between shops. But **each purchase remained a separate loan**: _Radio News_ explicitly reported that customers made payments separately on each instalment contract. Bankway did not combine all their purchases into one monthly card bill or a revolving balance.[^bankway-radio-1946]
+
+For example, buying a radio and later some furniture could involve the same identification card, but would still produce two contracts with separate repayment obligations. The card simplified arranging the loans; the contracts governed the debts.
+
+##### A dealer network for substantial purchases
+
+By **December 1945**, a contemporary newspaper report put participation at approximately **200 Buffalo-area dealers**. The range extended beyond household appliances to furniture, cars, boats, motors, airplanes, and home-modernisation and repair contractors. Vice president **Kenneth R. Reid** described the arrangement as the first bank plan of its kind in the country.[^bankway-bcr-1945]
+
+The bank expected participation to reach **600 dealers in western New York** as consumer goods became available. That was an expansion forecast, not a demonstrated network size. The goods being financed help explain Bankway's design: these were substantial purchases already suited to repayment over several months.[^bankway-radio-1946]
+
+The **Bankway name outlasted the initial card publicity**. Buffalo Industrial Bank advertisements in **1951** and **April 1952** still carried the Bankway slogan and an "Approved Dealer" emblem. Those later advertisements promoted other bank services, including home-improvement loans; they establish continued use of the financing brand, without proving that the original card scheme remained unchanged or how successful it became.[^bankway-later-ads]
+
+Bankway therefore deserves a place among the early bank-issued credit cards, preceding the Bay Shore Charg-It trial of 1946. Its particular contribution was **a reusable bank credential for obtaining credit at independent dealers**. Charg-It would bring the bank into another kind of relationship: the everyday charge account shared by a group of neighbourhood shops.
 
 ##### Credit vs Charge
 
@@ -1186,7 +1218,7 @@ Frank turned to Ralph and Matty and smiled:
 
 At that singular moment in history, Major's Cabin Grill was the only place on the planet where "a credit card" was accepted in lieu of cash.
 
-This was the first ever transaction done by a Diners Club card. It wasn't the first universal charge card, that was Bankway. Nor was it
+This was the first ever transaction done by a Diners Club card. Earlier bank cards such as Bankway had already connected independent merchants, though Bankway financed separate instalment contracts. Nor was it
 the first universal "Credit Card" transaction, since there was no revolving credit involved. Yet, it was the beginning of a revolution in payments.
 
 
@@ -2482,6 +2514,10 @@ It was fascinating reading about how people imagined a cashless society to be an
 [^bankway-ad-1945]: Buffalo Industrial Bank, Bankway Credit Card Ad (in Polish), _Dziennik Dla Wszystkich_ ("Everybody's Daily"), Buffalo, 27 October 1945, p. 5.
 [^bankway-nyt-1945]: "Buffalo Bank Initiates Plan for Buying on Time," The New York Times, 15 November 1945, p. 26.
 [^bankway-nb-1946]: John Winters Fleming, "New Way to Buy on Credit," _Nation's Business_, June 1946, p. 107; see also "Shopper's Plan," _Banking_, April 1946, p. 89, and "New Credit Plan," _Radio News_, October 1946, p. 141.
+[^bankway-ap-1945]: Associated Press dispatch, Buffalo, 14 November 1945, reporting the Bankway announcement; _Oklahoma City Times_, 14 November 1945, p. 1. [Digitised newspaper page, Oklahoma Historical Society](https://gateway.okhistory.org/ark:/67531/metadc1760931/m1/1/).
+[^bankway-bcr-1945]: "Bank Inaugurates New Credit Plan For Installment Buyers," _The Berrien County Record_, Buchanan, Michigan, 6 December 1945, p. 3. Describes annual card renewal, dealer telephone verification, contract assignment and repayment, approximately 200 dealers, and Kenneth R. Reid's claim of precedence. [Original issue, Buchanan District Library](https://www.buchananlibrary.org/files/542d501d1/1945-12-06_BCR.pdf).
+[^bankway-radio-1946]: Sgt. George Toles, "New Credit Plan," _Radio News_, October 1946, p. 141. Reports separate payments on each instalment contract and the bank's forecast of 600 western New York dealers. Verified against the original page in the repository copy, `bank_credit_cards/Radio-News-1946-10-R.pdf`. [Digitised issue, World Radio History](https://www.worldradiohistory.com/Archive-Radio-News/40s/Radio-News-1946-10-R.pdf).
+[^bankway-later-ads]: Buffalo Industrial Bank advertisements, _Dziennik Dla Wszystkich_, Buffalo, 17 April 1951, p. 5; 15 May 1951, p. 2; and 26 April 1952, p. 5. Surviving scans in `research/bankway_research/` show the Bankway slogan and Approved Dealer emblem; they do not establish continued issuance of the original identification card.
 [^chargit-newsday-1946]: “Bank Starts First Credit Plan,” _Newsday_, 16 August 1946, p. 3. Existing article scan `assets/images/credit-card-chronology/charg_it_launch_1946.jpg`, read visually: Bay Shore inaugural introduction, previous evening’s merchant meeting, Biggins at Manufacturers Trust, vouchers, approximate income allowance, monthly repayment without interest or extra customer charges, merchant-funded service and proposed expansion.
 [^chargit-bayshore-ad]: First National Bank and Trust Company of Bay Shore advertisement, _Newsday_, 22 October 1946, p. 6; existing scan `assets/images/credit-card-chronology/charg_it_ad_1946.jpg`, read visually. Lists eleven merchants and promotes consolidated monthly billing.
 [^chargit-origins]: Sean H. Vanatta, _Plastic Capitalism_ (2024), pp. 38–40 and chapter 2 notes 8–10, p. 311; also “Charge Account Banking” (2018), supplied accepted manuscript pp. 10–12. Vanatta identifies Bay Shore as the first trial and finds no contemporary evidence for earlier accounts of a tiny Flatbush-area operation. Compare Lewis Mandell, _The Credit Card Industry_ (1990), p. 26, which places a Brooklyn program in 1947. The contemporary 1946 newspaper and advertisement support the chronology used here. Competition with Manufacturers Trust’s department-store customers is Vanatta’s suggested explanation, not a demonstrated motive in the launch report.
