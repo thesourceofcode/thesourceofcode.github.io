@@ -934,18 +934,25 @@ as credit cards.
 
 #### Charg-It
 
-## Add scrip image
+A department store could offer a customer credit on everything from shoes to furniture. A small shop might sell equally good merchandise, but extending the same credit meant finding money, checking customers and collecting debts.
 
-https://archive.org/details/sim_burroughs-clearing-house_1950-11_35_2/page/28/mode/1up
-https://archive.org/details/sim_burroughs-clearing-house_1950-11_35_2/page/74/mode/1up
+**John C. Biggins's answer was to put the bank behind the neighbourhood shops.** Under **Charg-It**, several independent retailers could offer credit through one account. The merchant sold the goods; the bank investigated the customer, financed the purchase, sent the bill and took the credit risk. For the shopper, the promise was department-store convenience without having to leave the local shopping street.[^chargit-newsday-1946][^chargit-fuller-service]
 
-The first steps toward a universal credit card system were taken in 1946 by **John C. Biggins**, a consumer credit specialist at the Flatbush National Bank of Brooklyn. Biggins began thinking about a structural inequality in retailing: small specialty stores could not afford a full-fledged credit department, which left them at a disadvantage against the department stores extending credit to the same customers. Banks, Biggins decided, could come to the rescue of the small merchant — and pick up a nice line of business doing it. His answer was **Charg-It**: a community credit plan under which customers of a number of small stores could charge merchandise, while the local bank stepped in to take over the credit risk and run the complete credit operation. Crucially, the bank would judge creditworthiness from credit bureau records rather than personal relationships — a bank directly giving consumers revolving credit for everyday purchases, for the first time.[^chargit-bw-1950][^flatbush-history]
+##### The first trial: Bay Shore, 1946
 
 {% include gallery id="charg_it_gallery" caption="Charg-It Launch News Article and Advertisement, 1946" %}
 
-Flatbush National put Charg-It into trial in 1946, issuing its customers a credit plate and a book of scrip — paper certificates equal to their approved monthly credit limit — to spend at participating Brooklyn shops. The plan was genuinely revolutionary, but it did not outlive the bank itself. Biggins's father, John Biggins, Sr., sold the Flatbush National to the much larger Manufacturers Trust Company, and the new owners — confronted with a Brooklyn experiment that must have baffled them — promptly canceled it.[^flatbush-history]
+Biggins developed the idea while associated with **Flatbush National Bank in Brooklyn**. That connection has often become the location of the launch in later histories. Mandell, for example, describes a small Brooklyn program beginning in 1947. But the contemporary newspaper evidence places the first public trial elsewhere.[^chargit-origins]
 
-Biggins carried the idea with him. He joined the Paterson Savings and Trust Company of Paterson, New Jersey, in 1947 to set up its time-plan department, and there rebuilt Charg-It from scratch.[^chargit-bw-1950] The re-launched plan went into effect on **6 September 1950** — the first bank-sponsored community credit plan of its kind in New Jersey, and one of the first in the country.[^chargit-banking-1950] It had been announced to merchants at a dinner meeting in late August; twenty-five stores — shoe, sporting goods, apparel, furniture, and other small shops — were participating on opening day, and thirty had signed up within weeks.[^chargit-banking-1950][^chargit-bw-1950]
+On **16 August 1946**, *Newsday* reported that Charg-It was having its inaugural introduction at the **First National Bank and Trust Company of Bay Shore**, on Long Island. Biggins had explained it to local merchants the previous evening. The article identified him as an officer of **Manufacturers Trust**, and said the original intention to start at both Bay Shore and a large New York City institution had been changed: the local bank would be the initial operator.[^chargit-newsday-1946]
+
+Vanatta's reconstruction explains the Brooklyn connection. Manufacturers Trust had acquired Flatbush National while Biggins was developing the plan. Its executives considered a wider introduction but did not proceed. Vanatta suggests that competition with the larger bank's department-store customers may have been a reason; the contemporary report establishes the change of plans, without establishing that motive.[^chargit-origins]
+
+The Bay Shore arrangement used **a credit card and paper vouchers**. A family's allowance was limited to roughly **20 percent of the breadwinner's monthly income**. Participating shops handed the vouchers to the bank, which billed the household monthly. If payment did not arrive, no more vouchers were issued. The report described repayment without interest or additional customer charges, with the merchant paying the bank for its service.[^chargit-newsday-1946]
+
+By **22 October 1946**, a Bay Shore bank advertisement listed **eleven participating merchants**, including drug, clothing, electrical-supply and camera shops. It promised one itemized monthly bill and one payment covering purchases across the group. Biggins hoped other local banks would adopt the service and make the certificates usable in other communities. At this stage, that wider acceptance was an ambition.[^chargit-bayshore-ad][^chargit-newsday-1946]
+
+##### A larger launch in Paterson
 
 <div style="width: 50%; margin: 0 auto;">
 
@@ -953,8 +960,32 @@ Biggins carried the idea with him. He joined the Paterson Savings and Trust Comp
 
 </div>
 
-The mechanics were clever, if fussy. A customer applied at any participating store for either a regular 30-day charge account — billed and payable in full every month — or a revolving account, which allowed up to six months to repay an established limit: a customer granted $180 owed $30 a month, and could keep charging up to the limit so long as payments were regular. Paterson Savings checked the applicant with the local credit bureau, then issued a credit plate similar to the Charga-Plates of the big stores, together with a book of scrip equal to one month's credit limit. Making a purchase meant presenting both plate and scrip book and signing a sales slip; the clerk tore out enough scrip to cover the price and attached it to the slip. Since scrip came in denominations of $1 and up, clerks collected the odd difference in cash (up to 99¢) or took scrip to the next full dollar — the customer being billed only for the purchase. At the end of the day the store turned the slips and scrip over to the bank, which immediately credited the merchant's deposit account for the full amount. Collecting from the customer was henceforth the bank's problem, by means of a single monthly bill covering all Charg-It stores, payable at the bank. Customers paid nothing extra for the privilege — "your magic Charg-It plate is your automatic OK," the bank advertised.[^chargit-bw-1950][^chargit-banking-1950]
+Biggins joined the **Paterson Savings and Trust Company**, New Jersey, in **1947** to establish its time-plan department. Charg-It followed on **6 September 1950**, after a dinner meeting introducing the service to merchants in late August.[^chargit-bw-1950][^chargit-banking-1950]
 
+The rollout began with **25 stores**. *Business Week*, reporting later in September, counted **30**. In his November account, bank president **C. Kenneth Fuller** reported **46 retail outlets by mid-October**. The successive figures show the network growing, rather than three conflicting counts of opening day.[^chargit-banking-1950][^chargit-bw-1950][^chargit-fuller-service]
+
+Fuller described an extensive campaign using newspapers, bus cards, billboards and direct mail. Merchants received promotional material to send to their customers, along with window signs and other advertising supplies. Customers could apply at a participating store or at a special booth in the bank's lobby; applications could also be arranged by telephone or mail. The bank checked credit-bureau records, references and employers, then opened a credit file and supplied an identification plate.[^chargit-fuller-service]
+
+One approval gave the shopper access to every participating store. For merchants, that meant sharing a pool of approved customers instead of each building a separate list.
+
+##### Two accounts behind the same plate
+
+Paterson's Charg-It offered **two repayment arrangements**, and Fuller's account makes their differences clearer than the early advertising did.[^chargit-fuller-terms]
+
+| Account | Repayment | Customer cost described by Fuller |
+| --- | --- | --- |
+| Regular monthly charge | The monthly bill was payable in full within **25 days**. | No charge for using the account; merchandise prices were the same as for cash. |
+| Open revolving account | Monthly payments were set against an established credit limit, with up to six months to repay that limit. A **$180** limit meant **$30 a month**, with further charging permitted while payments remained regular. | There **might be a charge of half a cent per dollar** of unpaid balance carried forward each month: **0.5 percent monthly**. |
+
+The October *Banking* report called the regular account a 30-day account, describing the monthly billing interval. Fuller supplied the more precise payment window. It also said customers paid nothing extra; Fuller's later account explicitly distinguished the free regular account from a revolving account that could carry a balance charge.[^chargit-banking-1950][^chargit-fuller-terms]
+
+This was recognizably revolving retail credit: the customer could repay over time and continue buying. But its stated monthly payment was **one-sixth of the approved credit line**, rather than a percentage of the outstanding balance familiar from many later cards. Nor should Paterson's 1950 terms be projected backward onto the interest-free monthly arrangement described at Bay Shore in 1946.[^chargit-fuller-terms][^chargit-newsday-1946]
+
+##### The plate identified you; the scrip controlled spending
+
+Approval brought two things: **a Charg-It identification plate and a book of scrip certificates**. The plate identified the account; the scrip represented the amount the customer was authorized to spend.
+
+Fuller described a customer requesting $180 and receiving certificates totaling that amount, usable for a specified period. Unused scrip expired at the end of the period and was replaced. At the counter, the customer presented the plate and enough scrip to cover the purchase, then signed the sales slip. The clerk attached the certificates to the slip. Possession of valid scrip supplied the authorization, avoiding a fresh credit inquiry for every sale.[^chargit-fuller-terms][^chargit-bw-1950]
 
 <div style="width: 80%; margin: 0 auto;">
 
@@ -962,15 +993,33 @@ The mechanics were clever, if fussy. A customer applied at any participating sto
 
 </div>
 
-The scrip was the control: presenting it proved the account was in good standing, sparing clerks a credit check on every sale. It was also the plan's weak point — fussy to carry, fussier to count. A 1978 retrospective in the Congressional Record described these early plans as involving "a paper credit card and a book of scrip," and judged the scrip's paperwork "burdensome."[^bank-card-congress-1978]
+The forms show the distinction. The application offered revolving limits from **$30 to $180**, alongside monthly payments from **$5 to $30**. The sales slip had spaces for the purchase price, cash paid and amount charged, as well as the customer's name and address. Credit that would later be tracked invisibly behind a card was partly carried in the customer's booklet.[^chargit-fuller-terms]
 
-For the merchant, the price was an 8% fee on each Charg-It sales dollar — high next to the 4-6% a big store paid to run its own credit department, but the bank investigated accounts, collected bills, and absorbed the risk, putting the small shop on an equal footing with its bigger competitors.[^chargit-bw-1950] Biggins had organised Retail Charge Account Service, Inc. as the owner of the copyrighted Charg-It plan, which licensed the Paterson bank to operate it locally and set about peddling the idea to other banks. By 1952 the plan had gone west: the First National Bank of Bellevue, Washington, became the fourth Charg-It bank — and the first outside New Jersey — following the National Newark & Essex Banking Company and the First National Bank of Jersey City.[^chargit-west-1952]
+Whole-dollar certificates made shopping awkward. *Business Week* explained that clerks could collect the odd cents in cash or take scrip up to the next dollar; the customer was billed only for the actual amount due on the purchase. The booklet prevented spending beyond the authorized allowance, but also gave shoppers another object to carry and clerks more paper to count.[^chargit-bw-1950]
 
-Biggins's plan was relatively successful,
-but it had much greater significance for the credit
-industry: it ushered in the era of the third-party, universal credit
-card — without a doubt, the most important development in the history
-of credit cards.
+##### Who paid for the convenience?
+
+The store sent its original sales slips to the bank with a **transmittal form** listing charges, discounts, returns and the net settlement due. Fuller said that net amount was credited immediately to the merchant's checking account. Franklin's later sales-draft arrangement would simplify the paperwork further, but Charg-It already moved financing and collections away from the shop.[^chargit-fuller-terms]
+
+The customer received one combined monthly bill, accompanied by the original sales slips. Billing dates were assigned by alphabetical sequence, spreading the work across a cycle. Payments went to the bank, which followed up overdue accounts. Fuller described an aggressive collection policy tempered by an intention to retain customer goodwill.[^chargit-fuller-terms]
+
+Merchants financed most of the service. Paterson's introductory rate was **8 percent of each Charg-It sale**, with a **2 percent rebate** available to retailers meeting their quotas for opening new accounts. Those quotas varied with the store's existing sales volume. The bank wanted merchants to recruit customers who would use the network, and made a lower effective fee part of the incentive.[^chargit-fuller-terms]
+
+The introductory period was to end on **1 January 1951**. Fuller expected the 8 percent rate probably to continue if recruitment met expectations; he did not report a settled long-term rate. *Business Week* had noted that 8 percent was higher than the estimated **4–6 percent** cost of a large store's own credit department. A small merchant, however, was buying investigations, financing, billing, collection and protection against customer credit losses as a package.[^chargit-fuller-terms][^chargit-bw-1950]
+
+For the bank, existing consumer-loan staff and bookkeeping facilities offered a starting point. Whether the new business would pay remained uncertain: in September, Paterson was targeting **2,000–3,000 accounts**, but did not yet know its operating costs or break-even scale.[^chargit-bw-1950]
+
+##### A community network, with ambitions beyond it
+
+The plan belonged to **Retail Charge Account Service, Inc.**, which contracted with banks to operate it. Fuller distinguished Charg-It from arrangements where several stores accepted a common identification plate but still investigated, authorized and billed customers separately. Charg-It added a **central financing organization** behind the shared shopping credential.[^chargit-fuller-network]
+
+He thought the trading area mattered more than population alone. The initial target was stores with annual sales of roughly **$50,000–$1 million**; larger stores often already had credit departments. Paterson, Clifton and Passaic formed the local market, and the affiliated **Peoples Bank and Trust Company** sponsored the service in Passaic. These were Fuller's estimates of where the model might work, rather than fixed eligibility rules.[^chargit-fuller-network]
+
+Other banks took licenses. On **19 August 1951**, the *New York Times* reported that **National Newark and Essex Banking Company** had announced Charg-It for Essex County the previous day, under an exclusive franchise. It offered the same choice of monthly settlement or payments equal to one-sixth of the approved credit line.[^chargit-nyt-1951]
+
+In **August 1952**, *Banking* described **First National Bank of Bellevue, Washington**, as the fourth bank in the then-current rollout and its first outside New Jersey, following Paterson, Newark and Jersey City. That count concerns the expanding licensed network; it does not erase the earlier Bay Shore trial.[^chargit-west-1952]
+
+Charg-It was an important bridge between store accounts and bank cards. It brought independent merchants into a shared credit service and demonstrated revolving borrowing for ordinary local purchases. Its scrip remained an obstacle: Vanatta describes both the inconvenience and the perceived stigma of visibly carrying a spending allowance. The enduring idea was the bank behind many shops, with one account for the customer. Later systems would keep that relationship while finding easier ways to authorize the purchase.[^chargit-origins][^chargit-fuller-network]
 
 ## Diners Club
 
@@ -2433,6 +2482,13 @@ It was fascinating reading about how people imagined a cashless society to be an
 [^bankway-ad-1945]: Buffalo Industrial Bank, Bankway Credit Card Ad (in Polish), _Dziennik Dla Wszystkich_ ("Everybody's Daily"), Buffalo, 27 October 1945, p. 5.
 [^bankway-nyt-1945]: "Buffalo Bank Initiates Plan for Buying on Time," The New York Times, 15 November 1945, p. 26.
 [^bankway-nb-1946]: John Winters Fleming, "New Way to Buy on Credit," _Nation's Business_, June 1946, p. 107; see also "Shopper's Plan," _Banking_, April 1946, p. 89, and "New Credit Plan," _Radio News_, October 1946, p. 141.
+[^chargit-newsday-1946]: “Bank Starts First Credit Plan,” _Newsday_, 16 August 1946, p. 3. Existing article scan `assets/images/credit-card-chronology/charg_it_launch_1946.jpg`, read visually: Bay Shore inaugural introduction, previous evening’s merchant meeting, Biggins at Manufacturers Trust, vouchers, approximate income allowance, monthly repayment without interest or extra customer charges, merchant-funded service and proposed expansion.
+[^chargit-bayshore-ad]: First National Bank and Trust Company of Bay Shore advertisement, _Newsday_, 22 October 1946, p. 6; existing scan `assets/images/credit-card-chronology/charg_it_ad_1946.jpg`, read visually. Lists eleven merchants and promotes consolidated monthly billing.
+[^chargit-origins]: Sean H. Vanatta, _Plastic Capitalism_ (2024), pp. 38–40 and chapter 2 notes 8–10, p. 311; also “Charge Account Banking” (2018), supplied accepted manuscript pp. 10–12. Vanatta identifies Bay Shore as the first trial and finds no contemporary evidence for earlier accounts of a tiny Flatbush-area operation. Compare Lewis Mandell, _The Credit Card Industry_ (1990), p. 26, which places a Brooklyn program in 1947. The contemporary 1946 newspaper and advertisement support the chronology used here. Competition with Manufacturers Trust’s department-store customers is Vanatta’s suggested explanation, not a demonstrated motive in the launch report.
+[^chargit-fuller-service]: C. Kenneth Fuller, “A Bank’s ‘Charg-It’ Plan for Merchants,” _Burroughs Clearing House_, November 1950, pp. 28–29. Supplied scans in `bank_credit_cards/charg-it/`. Fuller was president of Paterson Savings and Trust Company. Merchant service, 25 launch stores / 46 by mid-October, advertising, application channels and investigations.
+[^chargit-fuller-terms]: Fuller, “A Bank’s ‘Charg-It’ Plan for Merchants,” pp. 29, 74–75. Regular account payable within 25 days; revolving payment example and conditional half-cent-per-dollar monthly charge; scrip renewal and forms; net merchant settlement; cycle billing and collections; introductory 8 percent discount and 2 percent recruitment rebates. The rate’s continuation beyond 1 January 1951 was conditional, not reported as an established outcome.
+[^chargit-fuller-network]: Fuller, “A Bank’s ‘Charg-It’ Plan for Merchants,” pp. 74–75. Licensing corporation, comparison with common-plate systems lacking central financing, trading-area and store-size estimates, and affiliated sponsorship in Passaic.
+[^chargit-nyt-1951]: “New ‘Charg-It’ Plan in Use in New Jersey Simplifies Shopping for Store and Patron,” _New York Times_, 19 August 1951; supplied scan `bank_credit_cards/nyt_charg-it_article_1951.pdf`, read visually. National Newark and Essex Banking Company announced the plan the previous day; exclusive Essex County franchise, merchant credit service and regular/revolving repayment options. Page number is not shown in the supplied clipping.
 [^chargit-bw-1950]: "Charge It — With the Bank," _Business Week_, 23 September 1950, pp. 58, 60.
 [^chargit-banking-1950]: "Community Charge Account: Charge It at the Store; Pay for It at the Bank," _Banking_, October 1950, p. 84.
 [^chargit-west-1952]: "'Charg-It' Plan Goes West," _Banking_, August 1952, p. 71.
