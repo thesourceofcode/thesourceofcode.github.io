@@ -857,6 +857,29 @@ A major milestone occurred in July 1938, when several regional Standard Oil comp
 
 ### Hotels
 
+Hotels had a reason to recognize a customer's credit before the customer arrived: their business depended on people travelling away from the places where they were known. A hotel card made that relationship portable. It could identify an approved guest, allow charges to an account, and sometimes provide access to cash through cheque-cashing privileges. Before the rise of the general-purpose travel card, hotels were already issuing credit credentials of their own.
+
+#### A card for a familiar guest
+
+A surviving **Hotel New Yorker Courtesy Credit Card**, issued to Joe Carr and catalogued by Heritage Auctions to the **1930s**, shows that individual hotels were putting their credit relationships into card form before the postwar card boom. The small card, measuring approximately **3½ by 2½ inches**, carried the guest's signature. Its survival establishes the practice, although the auction's approximate dating does not establish the year the New Yorker's program began.[^hotels-new-yorker]
+
+The useful innovation was recognition: an approved customer could carry evidence of an existing credit relationship. For a hotel, extending that privilege gave a returning guest another reason to stay there; for the guest, it reduced the need to settle every purchase immediately in cash.
+
+#### One account across a hotel chain
+
+Hotel chains could take the idea further. A relationship with one property could become a relationship with the wider organization, making a card more useful as the guest travelled between cities.
+
+**Western Hotels**, the company later known as Westin, introduced paper guest credit cards in **1946**, according to its published company history. Guests could charge **rooms, food and beverages to a single account**. The card brought several kinds of spending within the hotel under one credit arrangement, rather than serving only as a means of paying for accommodation.[^hotels-western]
+
+Hilton developed its own paper **President's Card** after World War II, as documented by the University of Houston's Hospitality Industry Archives. The archive distinguishes this credit card from Hilton's earlier numbered keychain identification objects used during check-in in the 1920s.[^hotels-president]
+
+Hilton's **1953 annual report**, signed on **4 March 1954**, gives a particularly clear contemporary description of what its credit card did. Encouraging shareholders to stay at Hilton properties, it reminded them that the card entitled them to **charge purchases and cash cheques**. The second privilege mattered to a traveller away from their own bank: the hotel's recognition of the cardholder could help turn a personal cheque into spendable cash.[^hotels-hilton-1953]
+
+#### Useful credit, within a limited network
+
+By the late 1950s, hotel cards had reached a substantial scale. Matty Simmons puts Hilton's hotel-card population at nearly **one million** and Sheraton's at **800,000 customers holding free credit cards**. These were established hotel credit relationships, with the accompanying work of bookkeeping and collection still inside the hotel business.[^hotels-simmons]
+
+Their reach, however, followed the hotel relationship. A card could be useful across a chain's properties without providing credit at unrelated shops or restaurants. Like the oil-company cards, hotel cards made an existing customer's credit portable within a particular commercial network. They helped a traveller pay and obtain cash away from home, while giving the issuing hotel or chain a reason to expect the guest's return.
 
 
 ### Airlines
@@ -2511,6 +2534,12 @@ It was fascinating reading about how people imagined a cashless society to be an
 
 [^bank-charge-cartoon-1942]: Cartoon, _Banking_, August 1942, p. 7.
 [^central-billing-1945]: "Central Billing?", _Business Week_, 3 November 1945, pp. 86-87.
+[^hotels-new-yorker]: Heritage Auctions, [Hotel New Yorker Courtesy Credit Card issued to Joe Carr](https://sports.ha.com/itm/football-collectibles/others/1930-s-joe-carr-signed-hotel-new-yorker-courtesy-credit-card-from-the-joe-carr-find/a/7165-52812.s), auction 7165, lot 52812. The catalogue dates the surviving signed card to the 1930s; it does not establish the program's launch date.
+[^hotels-western]: [Westin Hotels and Resorts Worldwide company history](https://www.fundinguniverse.com/company-histories/westin-hotels-and-resorts-worldwide-history/), section “Growing During and After WWII,” on Western Hotels' 1946 paper cards and a single account for rooms, food and beverages. This is a retrospective secondary account. Its broad “first” claim is not adopted here, given evidence of earlier individual-hotel cards.
+[^hotels-president]: University of Houston, Conrad N. Hilton College, Hospitality Industry Archives, [“Mondays with the Archives”: history of Hilton credit credentials](https://www.linkedin.com/posts/hiltoncollegeghl_mondayswiththearchives-hospitalityarchives-activity-7304875285814906880-nK63). Describes the paper President's Card as post–World War II, without assigning a specific introduction year; distinguishes it from earlier numbered check-in objects.
+[^hotels-hilton-1953]: Hilton Hotels Corporation, [1953 annual report](https://digitalcollections.lib.uh.edu/downloads/1v53jx80z?locale=en), p. 11, “Shareholders as Guests,” president's report dated 4 March 1954; University of Houston Digital Collections. Explicitly describes charge and cheque-cashing privileges.
+[^hotels-simmons]: Matty Simmons, _The Credit Card Catastrophe_ (Barricade Books, 1995), pp. 71–73, on nearly one million Hilton hotel-card customers, 800,000 Sheraton customers holding free credit cards, and the chains' bookkeeping and collection operations. The figures are Simmons's retrospective estimates, not independently verified issuance totals.
+
 [^bankway-ad-1945]: Buffalo Industrial Bank, Bankway Credit Card Ad (in Polish), _Dziennik Dla Wszystkich_ ("Everybody's Daily"), Buffalo, 27 October 1945, p. 5.
 [^bankway-nyt-1945]: "Buffalo Bank Initiates Plan for Buying on Time," The New York Times, 15 November 1945, p. 26.
 [^bankway-nb-1946]: John Winters Fleming, "New Way to Buy on Credit," _Nation's Business_, June 1946, p. 107; see also "Shopper's Plan," _Banking_, April 1946, p. 89, and "New Credit Plan," _Radio News_, October 1946, p. 141.
