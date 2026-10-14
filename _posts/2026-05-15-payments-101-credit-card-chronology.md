@@ -232,6 +232,8 @@ At `$DayJob` we have a philosophical concept of "Shape of Nature".
 
 The concept of credit likely began to take shape with the agricultural revolution around 10,000 years ago. In agrarian economies, farmers needed seeds, water, fertilizer, and labor months before any harvest could generate income. Under these conditions, credit emerges naturally: value is provided now in exchange for value received later.
 
+In fact, the terminology for selling on credit was selling "on time": https://archive.org/details/sim_npn-national-petroleum-news_1922-09-13_14_37/page/n5/mode/2up?q=coupon
+
 In modern terms, it is simply the deferral of payment for goods or services already consumed or utilized. At its root, this idea is closely tied to a basic constraint of agriculture itself - time. Crops take time to grow, but people need to eat and invest continuously throughout that cycle. Credit bridges that gap.
 
 What began as a simple mechanism for moving value forward in time in subsistence economies has since evolved into a multi-trillion-dollar global financial system.
@@ -832,27 +834,114 @@ In 1948, the card came to be designated as a "Credit Card".
 
 </div>
 
+- The first cloud on the horizon appeared in July, 1941, when the government as a war measure prohibited the sale of gasolene to consumers on credit.
+
 ### Oil Companies
 
-<div style="width: 25%; margin: 0 auto;">
+<div style="width: 60%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/gasoline_courtesy_card_article_1928.jpg" alt="Article on Gasoline Courtesy Cards" caption="Article on Gasoline Courtesy Cards, The Springfield Daily Republican, 07 October 1928, p. 17" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/oil_crowell_filling_station_washington_dc_1921.jpg" alt="Crowell filling station, Washington, D.C., ca. 1921. National Photo Company Collection, Library of Congress" caption="Crowell filling station, Washington, D.C., ca. 1921. National Photo Company Collection, Library of Congress" %}
 
 </div>
 
+The motor car created a new kind of customer: one who bought a few gallons at a time, often, and frequently far from home. Filling stations sold gasoline on a thin margin, so how the motorist paid mattered a great deal. Besides cash, there were three options: the **charge account**, the **coupon book** and the **courtesy card**.
 
-In 1924, General Petroleum, a chain of California gas
-stations, issued the first cardboard credit card, calling it
-just that, the “General Petroleum Credit Card,” using,
-for the first time, the name that Bellamy had given his
-cards thirty-six years earlier. Mobil Oil and Shell soon
-followed suit.
+#### Charge accounts
 
-In 1914, Texaco began issuing paper gasoline cards, and in 1924 the General Petroleum Corporation of California introduced “courtesy cards,” which allowed trusted customers to charge gasoline and related purchases at affiliated service stations. Around the same time, Standard Oil of California issued its own cards, which were personally signed by the company president. These paper-based charge cards were typically distributed by station managers to regular customers and could be used across stations within the same franchise network, often spanning large geographic areas.
+Charge accounts are as old as the filling station itself. In **1915**, the Automobile Gasoline Company, a pioneering St. Louis chain, reported that **90 percent** of its business was charged.[^oil-npn-1915-04] This was plain open book credit, with a bill going out every month. It only worked where the attendant knew your face, and the bookkeeping was expensive. That same year, Standard Oil's stations in Memphis charged **a cent a gallon extra** if you said "Charge it".[^oil-npn-1915-12]
 
-Although these card programs frequently operated at a financial loss, oil companies viewed them as a strategic investment in brand loyalty. Because gasoline was largely a standardized product, motorists had little reason to prefer one station over another, particularly while traveling. A charge card created an incentive for customers to seek out stations within the same branded network, increasing sales and strengthening customer attachment to the brand. The cards also made franchise expansion easier, as oil companies could attract new station owners by promising access to a large base of loyal, card-carrying customers. For station managers, the system provided a convenient way to extend credit without having to handle the complexities of billing, accounting, and debt collection themselves.
+Deadbeats found the trade easy pickings. By **1913**, oil marketers had set up a joint collection department to chase customers who had _"persistently worked first one oil company and then another"_, some of whom had gone _"long periods of time without spending a cent"_.[^oil-npn-1913-ipma]
 
-A major milestone occurred in July 1938, when several regional Standard Oil companies agreed to honor one another’s cards. This arrangement created the first national credit card interchange system, allowing cardholders to use a single card across multiple affiliated companies and geographic regions. The innovation foreshadowed the broader credit card networks that would emerge in the postwar era, laying the groundwork for modern payment systems in which a single card can be accepted by many independent merchants across vast distances.
+Oil men argued about it for years. In 1917, a Minneapolis jobber defended charge accounts with the department store's logic: a woman shops first where she has an account, and _"the same is true with a man"_. A Cincinnati rival wrote back that a filling station already gave _"a retail service at a wholesale price"_, and that selling for cash spared him the clerks, the postage, the interest on some $60,000 of unpaid bills, and the bad debts.[^oil-npn-1917]
+
+#### Coupon books
+
+The cash man's answer was the coupon book, in use by **1912**.[^oil-coupon-1912] The motorist bought a book up front, usually for **$10** (roughly what a car consumed in a month), and paid at the pump by tearing out coupons. As the trade press put it, _"it amounts to a cash business"_: the company had its money before a drop was sold.[^oil-npn-1917-03]
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/oil_rand_mcnally_strip_coupon_book_ad_npn_6_jul_1927_p83.jpg" alt="Rand McNally coupon book ad, National Petroleum News, 6 July 1927, p. 83" caption="Rand McNally coupon book ad, National Petroleum News, 6 July 1927, p. 83" %}
+
+</div>
+
+The books came as punch cards, as pages of coloured coupons, and, most popularly, as a strip several yards long, folded like an accordion and perforated at every cent. The attendant _"reels off enough linear measure to pay for the purchase and takes it out at one jerk, accurate to a penny."_[^oil-npn-1922-09] Rand McNally, better known for its maps, was one of the big printers.
+
+Every book carried a serial number recorded against the buyer's name, so a lost one could be cancelled _"just like stopping payment on a lost check"_.[^oil-npn-1922-09] Truck owners loved them: the oil company could tell an owner exactly which coupons his driver had turned in, _"or whether he bought drinks with them"_.[^oil-npn-1915-04] The companies loved them more. The Automobile Gasoline Company kept a card index that flagged when a customer's book ought to be running out. If he hadn't bought another within 48 hours, a salesman was on his doorstep the next morning to find out why.[^oil-npn-1916-02]
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/oil_rand_mcnally_pay_with_coupons_ad_npn_18_jul_1928_p87.jpg" alt="Rand McNally coupon book ad, National Petroleum News, 18 July 1928, p. 87" caption="Rand McNally coupon book ad, National Petroleum News, 18 July 1928, p. 87" %}
+
+</div>
+
+Coupons could also travel beyond the company that sold them. In **1913**, the Bell Oil Company of St. Louis, which owned no stations at all, sold books that were good at any grocer or garage stocking its gasoline. The retailer handed in the coupons and Bell replaced the gasoline, with a margin on top. Bell promptly advertised _"over 3,000 Auto Gasoline filling Stations"_.[^oil-npn-1913-bell] A decade later, independent jobbers in the Midwest were planning a common coupon book good at any member's pump, with the coupons passing through **a clearing house in Chicago**.[^oil-ogj-1923]
+
+Since a book was as good as cash, it attracted the same mischief. Sinclair's coupons were honoured so widely that they were counterfeited. One marketer offered his attendants 50 cents for every book sold, and soon found that he was taking in no cash at all: the attendants were buying the books themselves, pocketing the customers' money and dropping coupons in the till.[^oil-npn-1922-09]
+
+Discounts did the real damage. A book sold at 5 percent off was a price cut in disguise, and in **1924** a price war in New Orleans pushed the $10 book down to **$8.37**.[^oil-ogj-1924]
+
+#### Courtesy cards
+
+A coupon book was prepaid. The customer who wanted _credit_ at a station where nobody knew him needed proof that he had an account.
+
+In **March 1921**, the Tulsa Oil Products Company took a list of Tulsa's 10,000 car owners, had the local Credit Men's Association vet it, and mailed **unsolicited** "identification cards" to the 1,000 or so who passed. Each numbered card entitled its holder to credit at any of the company's stations, with a statement on the first of the month. The whole campaign cost **$82.50** and brought in about 50 new charge accounts.[^oil-npn-1921-03] This was three decades before Diners Club mailed out its first cards.
+
+By **February 1922**, the Atlantic Refining Company in Philadelphia was calling them **"courtesy cards"**, likening them to the department store's charge coin. They bore the customer's name, address and car number, and a lost card triggered a "stop-order".[^oil-petroleum-age-1922] Histories usually date the gasoline card to the mid-1920s,[^oil-general-petroleum][^oil-reed-1934] but it was clearly in circulation before that.
+
+The cards were _"rather ornate and dignified in appearance like a club membership card"_, sized to sit behind the celluloid window of a billfold. An applicant named three references: two merchants and a banker. At the pump, he signed a ticket in triplicate, one copy of which came back with his monthly statement.[^oil-npn-april]
+
+Leader Oil of Dubuque, Iowa went a step further. Its card was good at independent dealers' pumps too: the dealer turned in his charge slips for cash, and the oil company collected from the customer.[^oil-npn-august] That is the Diners Club arrangement in miniature, minus the commission. Its president had no doubts about which system was better:
+
+<blockquote>
+  <p>"Credit charge cards are the only things. Coupon books are no good."</p>
+  <legend><cite>Louis Kuehnle, president of Leader Oil Co., July 1923</cite></legend>
+</blockquote>
+
+The machinery around the card grew quickly. By 1924, one large company had between **30,000 and 50,000** cards outstanding, and stations kept visible files that could be flagged in red when a customer's credit was stopped.[^oil-npn-1924] A company with stations in nine states put a prefix letter on each card, so that a charge made in Iowa found its way back to the Tulsa office that had issued it. Stop lists went out to every station, and an attendant who honoured a stopped card had the loss **deducted from his salary**. Customers, meanwhile, found that the card helped them cash cheques and collect registered mail.[^oil-ogj-1929]
+
+Not everyone bothered with a card. The Akron Oil Company gave its customers a numbered disk to seal to the car's radiator, which saved them fishing in their wallets.[^oil-npn-1928-11] In **1930**, Standard Oil of New York replaced the card with an embossed metal tag in a leather case. The attendant slipped it into a billing machine and the customer's name and address were printed on all three copies of the slip.[^oil-npn-1930-09] It was an imprinter in all but name.
+
+#### The card goes wrong
+
+Then competition got hold of the idea. Companies began attaching discounts to the card and handing it out to almost anyone. In upstate New York, Standard Oil's cardholders got **2 cents a gallon off**, and by 1926 it was _"more of a distinction to be without a white card in Syracuse"_.[^oil-npn-1926] A story doing the rounds had a fisherman bragging that his gasoline hadn't cost him a cent all season: he flashed his card at stations in strange towns and signed the slip with the name of _"somebody I don't like very well"_.[^oil-npn-1926]
+
+Two years later a Massachusetts newspaper noted that _"almost every automobile owner has at least one"_ courtesy card, that anybody could have one for the asking, and that the whole business was _"just a little trick for which the motoring public has fallen easily"_.[^oil-courtesy-clipping]
+
+The trade press was unimpressed for a different reason. Gasoline was a purchase of a couple of dollars:
+
+<blockquote>
+  <p>"If that owner hasn't got $2.50 or $4 in his pocket, it is high time that he stayed home and kept the car in the garage until he has accumulated that much money."</p>
+  <legend><cite>National Petroleum News, 3 August 1927</cite></legend>
+</blockquote>
+
+It also made an argument that is still heard today: the charge customer costs more to serve, so _"the cash man is helping to pay for that extra cost"_.[^oil-npn-1927-08]
+
+By **1930**, Pacific Coast companies had issued hundreds of thousands of cards. In one district **30 percent** of the accounts were delinquent. It cost 47 cents to open an account and another 29 cents a month to keep it, and more than a thousand accounts in one district averaged $2.40 a month or less. The same car was being charged on the same day at stations 350 miles apart, and cards were used to obtain cigars, hotel rooms and even cash.[^oil-npn-1930-10] In Texas, about half of all retail gasoline was sold on credit, at a cost put at 1.5 cents a gallon.[^oil-ogj-1932]
+
+<blockquote>
+  <p>"If there were a court of economic justice, this probably would be held an economic crime against society."</p>
+  <legend><cite>Sidney A. Swensrud of Standard Oil of Ohio, on courtesy cards in Texas, 1932</cite></legend>
+</blockquote>
+
+Checking whether a card was still good was its own ordeal. In 1933, a New York motorist presented his card at a station in Lancaster, Pennsylvania. The attendant phoned his local office, which phoned the state division office, which phoned the New York division office, and the answer travelled all the way back down the chain. He had bought **10 gallons**.[^oil-npn-1933]
+
+Credit men had a name for what they had created: a _"non-cancellable blank check"_, honoured at thousands of stations.[^oil-npn-1939-05]
+
+#### Good in all 48 states
+
+The companies tightened up after 1930, investigating applicants and putting expiry dates on the cards.[^oil-reed-1934] Then they made the card more useful.
+
+<div style="width: 60%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/oil_phillips_66_highway_station_npn_11_jan_1939_p29.jpg" alt="A Phillips 66 highway station in Sharon Springs, Kansas, from an ad announcing the company's National Credit Card. National Petroleum News, 11 January 1939, p. 29" caption="A Phillips 66 highway station in Sharon Springs, Kansas, from an ad announcing the company's National Credit Card. National Petroleum News, 11 January 1939, p. 29" %}
+
+</div>
+
+An oil company's card was only good where the company sold gasoline, and few companies sold it everywhere. From **1 July 1938**, some fifteen oil companies began honouring one another's cards. The station sent the charge ticket to its own supplier, which passed it to the company that had issued the card, which billed its own customer.[^oil-npn-1938-06] By 1939, a Humble Oil card was good in **all 48 states**, and Phillips was telling its dealers that seventeen other companies now _"guarantee the credit of their credit card holders"_ at every Phillips 66 pump.[^oil-npn-1938-12][^oil-npn-1939-01]
+
+The race for cardholders resumed. In late 1939, Standard Oil of Indiana set out to grow its list from 50,000 charge customers to **250,000** in a single drive.[^oil-npn-1939-11]
+
+The courtesy card had credit checks, monthly billing, stop lists, an imprinter and reciprocal acceptance. What it never had was a use beyond gasoline, oil and tires.
 
 
 ### Hotels
@@ -2458,7 +2547,17 @@ Today i can look up all the humanity's knowledge at the push of a button
 
 but how did people in those times do it? they would have had to sift through shit manually. always grateful for the searhc engine and OCR tech
 
+thought the LLM found everything, still decded to check for myself and ended up finding things it had missed. trusting it is dangerous. output good enough to look trustable, but it missed  stuff.
 It was fascinating reading about how people imagined a cashless society to be and comparing it with how it actually turned out.
+
+Look slike there was a lot of in-person salesmanning happening. I prefer the depersonalized modernity.
+
+
+Data was just as valuable in the 20th century.
+
+Words I learned: guile, laconic, mercurial, evince, prox., perfidy
+
+
 </div>
 
 [^lopez-commercial-1971]: Robert S. Lopez, _The Commercial Revolution of the Middle Ages, 950–1350_ (Cambridge University Press, 1971).
@@ -2534,6 +2633,43 @@ It was fascinating reading about how people imagined a cashless society to be an
 
 [^bank-charge-cartoon-1942]: Cartoon, _Banking_, August 1942, p. 7.
 [^central-billing-1945]: "Central Billing?", _Business Week_, 3 November 1945, pp. 86-87.
+[^oil-mandell-early]: Lewis Mandell, _The Credit Card Industry: A History_ (Twayne, 1990), pp. 18–20, on gasoline cards, customer loyalty across stations, monthly billing, dealer recruitment and the transfer of receivables financing to the oil company.
+[^oil-texaco-history]: [*Melso v. Texaco, Inc.*, 532 F. Supp. 1280 (E.D. Pa., 6 February 1982)](https://law.justia.com/cases/federal/district-courts/FSupp/532/1280/2145798/), findings of fact, pp. 1282–1283: Texaco's program existed in various forms from 1914, with a wartime interruption. This is a retrospective judicial record, not a contemporary 1914 announcement; it does not establish the material or exact design of the original card.
+[^oil-npn-april]: “Oil Companies Issue Credit Cards / To Deserving Customers As Favors,” _National Petroleum News_, **25 April 1923**, **p. 61**, datelined Freeport, Illinois, 20 April. Original issue supplied in `oil_credit_cards/sim_npn-national-petroleum-news_1923-04-25_15_17.pdf`, PDF p. 45; visually checked against the printed page. Covers the named companies, application requirements, tickets in triplicate, monthly statements, acceptance and coupon alternatives. [Internet Archive issue](https://archive.org/details/sim_npn-national-petroleum-news_1923-04-25_15_17).
+[^oil-npn-august]: “Coupon Books Or Credit Cards? / Both Are Successful,” _National Petroleum News_, **1 August 1923**, **p. 96**, datelined Cleveland, 27 July. Original issue supplied in `oil_credit_cards/sim_npn-national-petroleum-news_1923-08-01_15_31.pdf`, PDF p. 60; visually checked. Kuehnle's “last November” dates Leader Oil's switch to November 1922. Includes Hawkeye's coupon books, fleet controls, Leader's credit checks, dealer reimbursement and monthly collection. [Internet Archive issue](https://archive.org/details/sim_npn-national-petroleum-news_1923-08-01_15_31/page/n59/mode/2up).
+[^oil-general-petroleum]: Nancy Shepherdson, [“Credit Card America,” _American Heritage_, November 1991](https://www.americanheritage.com/credit-card-america), dates General Petroleum's card introduction to 1924. The earlier contemporary reports cited here establish other issuers before that date; General Petroleum is not described as the first issuer, nor is a particular card material asserted.
+[^oil-courtesy-clipping]: "Gasoline 'Courtesy Cards'", _The Springfield Daily Republican_, 7 October 1928, p. 17.
+[^oil-bw-1941]: “More Credit Cards,” _Business Week_, **3 May 1941**, **pp. 34, 36–37**, supplied as `oil_credit_cards/businessweek_3_may_1941.pdf`; all three article pages visually checked. Covers customer and dealer loyalty, account-opening costs, reciprocal acceptance, Standard Oil of Indiana's expanded coverage, Socony's approximately 80,000 stations and remaining gaps, and Independent Credit Cards, Inc.'s proposed operation. The article's roughly 5 percent deduction for the independent scheme is explicitly an estimate, not an announced rate, and is omitted from the prose.
+[^oil-mandell-chevromatic]: Mandell, _The Credit Card Industry_, pp. 21–23, on wartime interruption, postwar revival and Standard Oil of California's 1952 Chevromatic introduction following a twelve-month Arizona trial. Identification-error and processing-time reductions are reported trial results from Mandell's retrospective account.
+[^oil-npn-1915-04]: "Pioneer Filling Station Man Gets Premium Price", _National Petroleum News_, April 1915, pp. 2–6.
+[^oil-npn-1915-12]: "Add Cent To Price Where 'Gas' Is Bought On Credit", _National Petroleum News_, December 1915, p. 64.
+[^oil-npn-1913-ipma]: "Let The I. P. M. A. Collect Your Bad Accounts", _National Petroleum News_, May 1913, p. 31.
+[^oil-npn-1917]: F. E. Van Tilburg in "Believes In Giving Credit", _National Petroleum News_, May 1917, p. 82; H. C. Mather's reply in "Ironing Out The Wrinkles", _National Petroleum News_, June 1917, pp. 80–81.
+[^oil-coupon-1912]: Oriental Oil Company announcement, _Dallas Morning News_, 28 January 1912, reproduced at [Flashback: Dallas](https://flashbackdallas.com/2014/04/10/oriental-oil-co/). This is the oldest mention of gasoline coupon books I could find. Rand McNally, which printed them, also placed the first books "about 10 years" before 1923 (_The Oil & Gas Journal_, 27 December 1923, p. 88).
+[^oil-npn-1917-03]: "Ironing Out The Wrinkles", _National Petroleum News_, March 1917, p. 76.
+[^oil-npn-1922-09]: Ward K. Halbert, "Gasoline Coupon Books: How They Should And Should Not Be Used", _National Petroleum News_, 13 September 1922, pp. 25–26, 32.
+[^oil-npn-1916-02]: "How To Make The New Customer A 'Regular'", _National Petroleum News_, February 1916, p. 56.
+[^oil-npn-1913-bell]: "Getting Around the Wholesale Automobile Filling Stations", _National Petroleum News_, May 1913, pp. 8, 10.
+[^oil-ogj-1923]: "Coupon Book Plan Discussed By Wisconsin Oil Jobbers", _The Oil & Gas Journal_, 25 January 1923, p. 104; "Indiana Marketers' Association Shows A Healthy Growth", _The Oil & Gas Journal_, 19 July 1923, p. 84.
+[^oil-ogj-1924]: "Gasoline Peddlers And Coupons Feature New Orleans Price War", _The Oil & Gas Journal_, 19 June 1924, p. 130.
+[^oil-npn-1921-03]: "Company Boosts Gasoline Sales By Personal Letters Offering Credit", _National Petroleum News_, 23 March 1921, p. 25.
+[^oil-petroleum-age-1922]: "Gasoline Selling a Fine Art", _Petroleum Age_, 1 February 1922, p. 74.
+[^oil-reed-1934]: W. L. Reed, "Consumer Credit in The Petroleum Industry", _The Credit World_, July 1934, says courtesy cards "first made their appearance about 1925".
+[^oil-npn-1924]: "Loose Credits Of Distributing And Refining Divisions Discussed", _National Petroleum News_, 24 September 1924, p. 47.
+[^oil-ogj-1929]: "Merits And Hazards To Retail Courtesy Cards In Marketing", _The Oil & Gas Journal_, 22 October 1929, pp. 151, 158.
+[^oil-npn-1928-11]: "Radiator Disks Speed Credit Sales Work", _National Petroleum News_, 7 November 1928, p. 78.
+[^oil-npn-1930-09]: "New York Standard Uses Tags To Safeguard Credit Sales", _National Petroleum News_, 10 September 1930, p. 63.
+[^oil-npn-1926]: "Gasoline Prices are Lost in Scramble For Gallonage in New York", _National Petroleum News_, 10 November 1926, pp. 54–56.
+[^oil-npn-1927-08]: "Credit Adds To Cost of Selling", _National Petroleum News_, 3 August 1927, p. 78.
+[^oil-npn-1930-10]: "Credit Problems Are Magnified By Today's Competition", _National Petroleum News_, 29 October 1930, pp. 27–28.
+[^oil-ogj-1932]: Sidney A. Swensrud, "The economics of domestic marketing", _The Oil and Gas Journal_, 25 February 1932, p. 92.
+[^oil-npn-1933]: "With the Independent Marketers", _National Petroleum News_, 12 July 1933, p. 32.
+[^oil-npn-1939-05]: "Individualized Credit Cards Cut Down 'Dead Beat' Losses", _National Petroleum News_, 17 May 1939, p. 34.
+[^oil-npn-1938-06]: "National Credit Card Exchange System Planned", _National Petroleum News_, 22 June 1938, pp. 9–10.
+[^oil-npn-1938-12]: "Credit Card Exchange Plan Is Widened", _National Petroleum News_, 21 December 1938, pp. 43–44.
+[^oil-npn-1939-01]: Phillips Petroleum Company ad, _National Petroleum News_, 11 January 1939, p. 29.
+[^oil-npn-1939-11]: "Indiana Standard Seeks More Credit Card Business", _National Petroleum News_, 22 November 1939, p. 37.
+
 [^hotels-new-yorker]: Heritage Auctions, [Hotel New Yorker Courtesy Credit Card issued to Joe Carr](https://sports.ha.com/itm/football-collectibles/others/1930-s-joe-carr-signed-hotel-new-yorker-courtesy-credit-card-from-the-joe-carr-find/a/7165-52812.s), auction 7165, lot 52812. The catalogue dates the surviving signed card to the 1930s; it does not establish the program's launch date.
 [^hotels-western]: [Westin Hotels and Resorts Worldwide company history](https://www.fundinguniverse.com/company-histories/westin-hotels-and-resorts-worldwide-history/), section “Growing During and After WWII,” on Western Hotels' 1946 paper cards and a single account for rooms, food and beverages. This is a retrospective secondary account. Its broad “first” claim is not adopted here, given evidence of earlier individual-hotel cards.
 [^hotels-president]: University of Houston, Conrad N. Hilton College, Hospitality Industry Archives, [“Mondays with the Archives”: history of Hilton credit credentials](https://www.linkedin.com/posts/hiltoncollegeghl_mondayswiththearchives-hospitalityarchives-activity-7304875285814906880-nK63). Describes the paper President's Card as post–World War II, without assigning a specific introduction year; distinguishes it from earlier numbered check-in objects.
