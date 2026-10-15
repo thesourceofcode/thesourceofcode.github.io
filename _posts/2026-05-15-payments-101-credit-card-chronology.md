@@ -436,117 +436,36 @@ Rome had had bankers too; the lesson of the apocalypse in between is that credit
 
 ## Rise of Consumer Credit
 
+Households had been buying on credit long before factories filled shops with things to buy. The difficulty is deciding where *consumer* credit begins. When a farming or weaving family borrowed for food until its produce could be sold, was it financing consumption or production? **Rolf Nugent**, writing in **1939**, argued that the distinction became clear only gradually, as business accounts separated from household budgets. There is no tidy invention date.[^consumer-nugent-origins]
 
-### traveletter system 1894
+Credit also solved a more immediate problem: cash was scarce, and income arrived unevenly. A farmer might have land and a promising crop but little money until harvest; a worker needed groceries before payday. Merchants bridged the gap. Industrialization expanded both the assortment of goods available and the population dependent on wages, turning these accommodations into a much larger business.[^consumer-nugent-retail][^consumer-nugent-expansion]
 
-By the nineteenth century, productive credit had been a feature of economic life for millennia, yet borrowing for consumption remained socially suspect. Debt was generally considered acceptable when it financed productive assets that generated income, but borrowing to purchase household goods or luxuries was often viewed as imprudent or morally questionable.
+**Aside:** Consumer borrowing is much older than consumer society. Seventh-century pawnshop records from **Chang'an**, China's Tang capital, list loans against shirts, skirts and a bronze mirror. The records survived because their discarded paper was reused in tomb figurines. Ordinary people's financial paperwork outlived them by becoming someone else's funeral decorations.[^consumer-pawn-records]
+{: .notice--info}
 
-The Industrial Revolution began to alter these attitudes. Mass production expanded the supply of consumer goods, rising incomes increased demand for them, and the emergence of a salaried middle class created a large population with predictable future earnings. Together, these developments laid the foundation for modern consumer credit.
+Buying goods on credit was only one way to borrow. Pawnbrokers advanced cash against possessions; later, **salary lenders** took claims on future wages. Illness, interrupted employment or an overdue grocer's bill could send a household to them. Hyman's account of early small loans makes the point plainly: much borrowing financed survival, even as moralists treated debt as evidence of extravagance.[^consumer-hyman-small-loans]
 
+Regular paydays were themselves an achievement. In **1820s–30s Chicopee**, millworkers could receive wages only twice a year, requiring shopkeepers to carry long accounts. Industrialization created demand for credit before it delivered the dependable paychecks later lending systems would assume.[^consumer-nugent-retail]
 
-Records indicate that both installment credit and a form of revolv-
-ing credit were widespread in the early days of the Republic. Economist
-Rolf Nugent noted, in Consumer Credit and Economic Stability, that
-“in rural areas, horses, plows, carriages, seed, clocks, and household
-furniture were frequently sold for promissory notes payable after the
-harvest.” Installment sales were commonplace in urban areas, particu-
-larly for high-priced durable goods designed for household use. Install-
-ment credit in the early 1800s was used in much the same way as it is
-used today. It was granted specifically for a single purchase and required
-both a down payment and a formal contract that permitted the merchant
-to retain title to the article until the purchase price had been paid. For
-instance, Cowperwaite and Sons, which was founded in New York in
-1807 and appears to have been the first firm in the United States to
-specialize in furniture, sold goods on installment terms from its very
-inception.
+### Instalment buying: clocks, furniture and sewing machines
 
-As installment credit gradually proved to be successful over the
-first half of the nineteenth century, manufacturers began to borrow the
-notion from the merchants. One of the earliest and most successful
-manufacturers to utilize the installment plan was the Singer Sewing
-Machine Company. Other manufacturers began to sell big-ticket con-
-sumer durables, such as pianos, household organs, and stoves, directly
-to consumers through agents by about 1850.
+An early advertisement survives from **Christopher Thornton**, a London looking-glass seller. Around **1707**, he offered chests of drawers and mirrors on terms of _"paying for them Weekly, as we shall agree."_ Nearly two centuries before plastic, the sales pitch was already familiar.[^consumer-thornton]
 
+In America, clocks helped bring deferred payment to scattered rural households. **Eli Terry's** Connecticut clockmaking enterprise paired cheaper manufacture with wider distribution; Diana Muir describes salesmen promoting Terry-style clocks through instalment purchases, while manufacturers changed the cases' styling to tempt people who already owned a working clock. Even then, a functioning product was apparently no reason to stop shopping.[^consumer-muir]
 
+The payment arrangements varied. Nugent finds **1820s clock peddlers** taking a down payment and a promissory note due on a specified date. Other rural purchases were payable after harvest. These were **term credits**: the balance fell due at an agreed time, rather than necessarily being divided into regular instalments. Peddlers had little room to insist on cash. Correspondence from **1827** records customers in lower Kentucky expecting at least a year's credit.[^consumer-nugent-retail]
 
-One of the earliest examples of firms capitalizing on this emerging market came in the United States, where the Singer Sewing Machine Company dramatically expanded sales by introducing an installment-payment plan.
-
-The spurt of industrialization following the Civil War began the
-long-term trend toward urbanization in the United States. A son who
-had learned a trade from his father—metalworking, for example—
-might discover that in another city there was a big demand for his skills
-and wages were much higher. The gradual movement of family mem-
-bers from rural communities to large cities helped weaken the family
-bond, as well as the reliance of family members upon one another for
-the provision of financing.
-The increased geographic distance between family members forced
-many people to depend upon third-party institutions for any financing
-they might need. They were also encouraged to seek more financing
-than they had previously used.
-
-
-One of the more
-formidable problems faced by Singer salesmen occurred in
-Indo-China. Collections of payments were made difficult be¬
-cause the natives frequently moved from village to village.
-To insure that they would be recompensed, Singer salesmen
-insisted their sales be guaranteed, usually by someone with a
-settled business or a village elder. To prove identification,
-the salesmen would photograph the village elder and cus¬
-tomer, with the customer holding a blackboard on which
-was chalked the number of the machine. For the customer
-who was illiterate and couldn’t sign his name to a contract,
-the Singer salesman simply took his fingerprints.
-
-
-According to Nugent,
-Incentives to thrift disappeared with intimate community life.
-Family traditions, conservative consumptive habits, and reputa-
-tions for stability gave way to competitive standards of living as
-the principal basis for prestige. These changes helped to explain
-two important developments in the field of consumer credit
-which began shortly after the Civil War. One was the extension of
-installment merchandising to low income classes; the other, the
-rise of the small loan business.
-It is important to note that the vast geographic size of the United
-States contributed in no small way to the development of its consumer
-credit industry. In European countries, the much shorter distances that
-had to be traveled, along with the smaller number of large industrial
-cities, enabled families to remain not only close but independent of
-outside institutions in meeting their financial needs. This fact may help
-explain why the consumer credit industry in general has been far less
-successful in most European countries than in the United States and
-why the credit aspect of credit cards may lack some of the appeal to
-Europeans that it has had to many Americans.
-
-The importance of the automobile in stimulating and legitimizing
-consumer credit sales cannot be overemphasized. The growth of install-
-ment sales of automobiles tended to remove the stigma that installment
-selling had acquired at the hands of low-grade installment merchants in
-the 1890s. All social and economic classes were represented among
-installment purchasers of automobiles; hence, installment buying ac-
-quired respectability. Although some automobile manufacturers, such
-as Ford, were slow in implementing installment sales plans, other compa-
-nies embraced this new marketing tool. General Motors soon became
-the leader in installment sales.
-
-
-### Installment Credit
-
+For expensive household goods, a different arrangement spread. Nugent dates **Cowperthwaite and Sons'** New York furniture business to **1807**, and says it sold on instalments from the beginning. A bed or stove could cost more than a customer could settle from the next paycheck. Dividing the bill across several paydays widened the market.[^consumer-nugent-retail]
 
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/cowperthwait_ad_harpers_bazar_20_july_1872_p487.jpg
-" alt="B.M. Cowperthwait & Co. Ad. mentioning installment payments, Harper's Bazar Magazine, 20 July 1872, p. 487" caption="B.M. Cowperthwait & Co. Ad. mentioning installment payments, Harper's Bazar Magazine, 20 July 1872, p. 487" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/cowperthwait_ad_harpers_bazar_20_july_1872_p487.jpg" alt="B.M. Cowperthwait & Co. advertisement offering instalment payments, Harper's Bazar, 20 July 1872, p. 487" caption="B.M. Cowperthwait & Co. advertisement offering instalment payments, Harper's Bazar, 20 July 1872, p. 487" %}
 
 </div>
 
+**Instalment credit** usually financed one particular purchase, required a down payment, and specified regular repayments. Under the common **conditional-sale contract**, the seller retained ownership until the price had been paid. Default could mean repossession, with earlier payments treated as rent for using the article. The same contract that made a purchase affordable gave the merchant a powerful collection weapon.[^consumer-nugent-retail]
 
-1807, Cowperthwait
-
-
-In the 1850s, a Singer sewing machine cost about $125 — roughly a quarter of the annual income of an average American worker. The price placed it beyond the reach of most households.
+**Singer** made this machinery of selling almost as consequential as the sewing machine itself. Historian **D. C. Bissell** dates Edward Clark's introduction of instalment buying to **1856**, followed by a refinement of the hire-purchase plan during the worsening downturn of **1857**: **$5 down and as little as $3 a month**, with the customer renting the machine until it was paid for.[^consumer-bissell]
 
 <div style="width: 50%; margin: 0 auto;">
 
@@ -554,39 +473,77 @@ In the 1850s, a Singer sewing machine cost about $125 — roughly a quarter of t
 
 </div>
 
-In 1856, Edward Clark, Singer's business partner, introduced the **hire-purchase plan**. Customers could take home a machine with a $5 down payment and pay the remainder in monthly installments of $3 to $5. The arrangement transformed a large one-time expense into a series of manageable payments. Sales reportedly tripled within a year, and by the 1870s, an estimated 70–80% of Singer machines were sold on installment plans.
+The plan helped Singer reach households unable to pay outright, including customers overseas.[^consumer-bissell] It also required a business capable of collecting thousands of small payments. In Britain, **George Woodruff's** canvassers of the **mid-1870s** demonstrated machines, supplied lessons and service, and collected instalments along assigned routes. Lease cards recorded payments and servicing. In populous districts, selling and collecting became separate jobs. The machine came with a financial administration attached.[^consumer-singer-hbs]
 
-Singer also developed an early form of credit scoring. Homeowners often qualified for more favorable terms than renters, reflecting differences in perceived credit risk.
+Expansion hardly guaranteed repayment. Clark himself complained:
 
-<div style="width: 50%; margin: 0 auto;">
+> "A large proportion of what we sell we don't get paid for and never will."[^consumer-singer-hbs]
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/singer_sewing_machine_ad_the_daily_sun_19_April_1871_p3.png
-" alt="Singer Sewing Machine Ad mentioning instalment purchase, The Daily Sun, 19 April 1871, p. 3" caption="Singer Sewing Machine Ad mentioning instalment purchase, The Daily Sun, 19 April 1871, p. 3" %}
-
-</div>
-
+The advertisements show how far the proposition travelled:
 
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/singer_sewing_machine_ad_the_statesman_12_july_1885.jpeg
-" alt="‘Singer Machines for Modern Tailoring’, The Statesman, 12 July 1885 in
-Ranabir Ray Choudhury, Early Calcutta Advertisements: A Selection From The
-Statesman, 1875-1925, 1992. Calcutta: The Statesman Commercial Press. p. 184" caption="‘Singer Machines for Modern Tailoring’, The Statesman, 12 July 1885 in
-Ranabir Ray Choudhury, Early Calcutta Advertisements: A Selection From The
-Statesman, 1875-1925, 1992. Calcutta: The Statesman Commercial Press. p. 184" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/singer_sewing_machine_ad_the_daily_sun_19_April_1871_p3.png" alt="Singer Sewing Machine advertisement mentioning instalment purchase, The Daily Sun, 19 April 1871, p. 3" caption="Singer Sewing Machine advertisement mentioning instalment purchase, The Daily Sun, 19 April 1871, p. 3" %}
 
 </div>
 
+<div style="width: 50%; margin: 0 auto;">
 
+{% include figure popup=true image_path="assets/images/credit-card-chronology/singer_sewing_machine_ad_the_statesman_12_july_1885.jpeg" alt="Singer Machines for Modern Tailoring, The Statesman, 12 July 1885" caption="‘Singer Machines for Modern Tailoring’, The Statesman, 12 July 1885, reproduced in Ranabir Ray Choudhury, Early Calcutta Advertisements: A Selection From The Statesman, 1875–1925 (1992), p. 184" %}
 
+</div>
 
-
-Installment purchases of sewing machines escaped much of the stigma attached to consumer borrowing as they enabled home-based production and could supplement family earnings, i.e. they were a productive asset.
-
-Singer's installment plan demonstrated that mass consumption could be financed through credit. The model soon spread to products such as pianos, furniture, and encyclopedias, helping normalize deferred payment and laying the foundations of modern consumer credit in the US.
-
-**Aside:** The development of the sewing machine in the 1850s not only transformed the lives of tailors, seamstresses and homemakers, but also revolutionized manufacturing and marketing as well. By the turn of the century, the sewing machine, rather like the parlour organ, was a important icon of social status.
+**Aside:** Hillel Black, writing in **1961**, recounts Singer's collection arrangements in Indochina: customers who moved between villages needed a guarantor, often a village elder. Photographs showed customer and guarantor with the machine number on a blackboard; customers unable to sign supplied fingerprints. Portable goods, mobile borrowers, an identification problem. We will keep meeting that combination.[^consumer-singer-black]
 {: .notice--info}
+
+#### Easy payments, difficult debts
+
+After the Civil War, urbanization brought wage-earning families into growing industrial cities, often with few savings and homes to furnish. By **1870**, furniture dealers were offering small down payments and longer contracts to workers of modest means. Pianos, organs, stoves and other goods followed. Credit helped sell the output of mass production, but inflated prices and harsh collection practices also gave instalment dealing an unsavoury reputation.[^consumer-nugent-expansion]
+
+The moral objections were explicit. **The Morrisonville Times**, in **1875**, declared:
+
+> "The practice of buying on credit the necessary articles of the household is fatal to good economy."[^consumer-morrisonville]
+
+Its complaint also contained an economic argument: the credit price concealed interest and compensation for the risk of nonpayment. Calling credit a convenience did not make it free.[^consumer-morrisonville][^consumer-evans-credit]
+
+**Henry R. Mussey's 1903 investigation** documented something worse. An affidavit from **Gregorio Della Pia** described buying a **$55 watch and chain**, with **$5 down and $1 a week**. No collector called. Instead, men arrived at **2 a.m.**, threatened imprisonment, and extracted the balance plus court costs. Mussey distinguished legitimate instalment selling from dealers who used contracts and court machinery to manufacture profitable defaults.[^consumer-mussey]
+
+Cash loans faced usury restrictions, but a higher price for goods sold on time could escape those limits. Courts often treated the difference as a sale price rather than interest on a loan. The legal form mattered enormously to the price a borrower could be charged.[^consumer-hyman-time-price]
+
+Credit also spread through competition among reputable retailers. **Sears**, long an advocate of cash buying, began offering instalment terms in **1911**. By **1917**, its catalogues carried credit applications asking for the customer's occupation, time at the current address and two references. The mail-order house was learning to lend to people its staff had never met.[^consumer-thelen-sears]
+
+#### Financing the merchant
+
+The **automobile** enlarged the problem: dealers needed cash to buy new stock while customers paid slowly. Finance companies bought dealers' instalment contracts, collected the payments, and borrowed from banks against these assets. Banks could thus finance consumption indirectly while specialists handled individual borrowers. This arrangement expanded during the **1920s**, linking household debts to much larger pools of capital. As car buying on credit spread across social classes, instalments also lost much of their association with poverty or extravagance. Household appliances benefited from both the financing machinery and the change in respectability.[^consumer-nugent-autos][^consumer-hyman-finance]
+
+### From open-book credit to the charge account
+
+Alongside these contracts ran the older, simpler **open-book account**. The merchant entered each purchase in a ledger, without taking a formal promise to pay a fixed sum on a fixed date. Groceries and other frequently replaced goods were natural candidates. Settlement followed the customer's income: harvest for farmers, monthly for many professionals, payday for wage-earners. There was ordinarily no separate interest or service charge.[^consumer-nugent-retail]
+
+The merchant's knowledge of the customer did much of the work. Continued credit depended on paying reliably; suspension of the account and neighbourhood disapproval encouraged settlement. Think of a familiar _kirana_ store's notebook: goods leave today, the family's running account is settled later.
+
+By **1850**, open-book credit was common among American urban bakers, grocers, clothing shops, druggists and other retailers. Late nineteenth-century department stores enlarged and formalized it into the **charge account**, with numbered accounts, dedicated credit departments and increasingly standard **30-day payment terms**. Personal familiarity could no longer support the volume of transactions.[^consumer-nugent-retail][^consumer-remus-accounts]
+
+**Wanamaker's** introduced charge accounts in **1881**. By **1900**, its credit department was handling more than **200,000 charge transactions a month**. Credit tied up capital and exposed the store to unpaid bills, but it also encouraged repeat business: a shopper with an account had a reason to return.[^consumer-remus-accounts]
+
+For affluent shoppers, charging could be a convenience rather than a shortage of money. For retailers, it was a means of holding their custom. A credit expert explained in **1904**:
+
+> "the credit customer will buy where he has an account."[^consumer-remus-accounts]
+
+The older arrangement remained substantial: in the **first half of 1930**, **45.6%** of department-store sales were on open-book credit, against **7%** on instalments. Consumer credit's growth did not mean every account had become a long-term loan.[^consumer-mandell-retail]
+
+These accounts generally expected full settlement. They were not yet modern revolving credit with a contractual minimum payment and interest-bearing balance. The boundary could blur, however: Nugent describes respectable stores quietly accepting partial payments to compete with instalment houses, and later offering **"budget plans"** that avoided the less respectable word *instalment*.[^consumer-nugent-accounts]
+
+#### The shopper and the person liable for the bill
+
+Making the account larger did not make the law simpler. Under **coverture**, married women's capacity to pledge credit independently was restricted. The **doctrine of necessaries** allowed wives to buy suitable household necessities on their husbands' credit. What counted as necessary depended on the family's circumstances, including what it already owned. Married women's property acts expanded financial rights, but left merchants navigating uneven rules about whose assets could answer for a debt.[^consumer-remus-coverture]
+
+In **1900**, **Alice Weaver** opened a Wanamaker's account after an interview with its credit manager, receiving an identification coin linked to her account number. When her husband Simon refused to settle **$51.55** in purchases, the store sued. In **1903**, New York's highest court sided with him: Alice was already adequately supplied with comparable goods, and the store had not obtained his authorization. She even wore her new shoes to court.[^consumer-remus-coverture]
+
+For retailers, asking a valued customer whether her husband approved every purchase was hardly an attractive sales technique. Many instead invested in professional credit management and shared information about borrowers; national retail credit organizations formed in **1906** and **1912**. Screening itself carried racial and social prejudices, restricting who received these privileges. Surveys from **1917–19**, discussed by Remus, show retail credit use among **65% of surveyed white borrowers**, compared with **44% of Black borrowers**.[^consumer-remus-screening]
+
+The ledger had become an account administered by specialists, usable across a large store by presenting a numbered token. Once the clerk no longer knew every shopper, identifying the person entitled to charge became a problem of its own. The account needed something its customer could carry.
+
 
 ## Origins of the credit card
 
@@ -648,21 +605,6 @@ This is the first customer card, that we know of, to use the expression "credit"
 
 While the success of instalment plans for consumer durables was changing attidue towards consumer credit, the mechanisms for open-book credit were stretched to its limits with the geographical expansion of the US.
 
-### Open book credit
-
-Long before credit cards, there was open-book credit, one of the oldest forms of consumer lending. The idea was simple: a merchant would provide goods today and record the debt in a ledger, with the expectation that the customer would pay at a later date.
-
-Open-book credit worked because commerce was local. Customers were usually known personally to the merchant and lived in the same village, town, or neighborhood. Trust, reputation, and repeated interactions formed the foundation of the system. A grocer might maintain a running account for a family, recording purchases in a large ledger and settling the balance weekly, monthly, or after a harvest.
-
-In many ways, this system remains alive even today. Walk into a _kirana_ store in a small Indian town and you may still find a notebook containing the names of regular customers and the amounts they owe. Purchases are added to the account throughout the month and settled later, often when salaries are received. The technology has changed remarkably over the centuries, but the underlying idea of "buy now, pay later" remains the same.
-
-The simplicity of open-book credit was also its greatest weakness. It relied on personal familiarity between merchant and customer. As long as businesses operated within small communities, this was sufficient. But the United States of the late nineteenth and early twentieth centuries was changing rapidly. Cities were growing, businesses were expanding, and customers were becoming increasingly mobile.
-
-In small communities, everyone knows everyone. The grocer trusts the carpenter's son, and the tailor extends credit to families he has known for years. Personal relationships were the original credit infrastructure. But as commerce expanded beyond local neighborhoods, the notebook system struggled to scale. Merchants needed a reliable way to identify customers and their credit accounts without relying on personal acquaintance.
-
-At the same time, businesses were becoming increasingly interested in customer loyalty. The rise of automobiles made it easier for consumers to travel farther for shopping, while chain stores and gas stations competed for repeat business. Merchants wanted a way to distinguish their customers, simplify credit transactions, and encourage them to return.
-
-These pressures created the conditions for the next major innovation: the charge coin.
 
 ### Charge coins
 
@@ -703,6 +645,8 @@ The same idea persists today. Modern credit cards are far more sophisticated, bu
 
 While the U.S. led these commercial innovations, global parallels were already forming. In Sweden, for instance, a 1912 report in Svenska Handelsbanken described internal credit ledgers used by banks and department stores. Meanwhile, in Germany, companies like Kaufhaus des Westens (KaDeWe) issued stamped payment cards to repeat customers, operating on closed-loop credit systems. Different implementations were converging on the same solution: extending credit beyond the limits of personal familiarity.
 
+
+### traveletter system 1894
 
 ### Department Stores
 
@@ -2581,6 +2525,29 @@ Words I learned: guile, laconic, mercurial, evince, prox., perfidy
 [^suftaja]: Joseph Schacht, _An Introduction to Islamic Law_ (1964), p. 149; N. Levtzion, "Ibn Hawqal, the Cheque, and Awdaghost," _Journal of African History_ 9:2 (1968), pp. 223–233.
 [^hundi]: Irfan Habib, "The System of Bills of Exchange (Hundis) in the Mughal Empire," _Proceedings of the Indian History Congress_ 33 (1972), pp. 290–303; Najaf Haider, "The Moneychangers (Ṣarrāfs) in Mughal India," _Studies in People's History_ 6:2 (2019), on deposits on interest and transfers via hundi and book entries (giro); Banarasi Das, _Ardhakathanaka_ (c. 1641), the earliest vernacular merchant autobiography.
 [^quinn-roberds]: Stephen Quinn and William Roberds, "The Evolution of the Check as a Means of Payment: A Historical Survey," Federal Reserve Bank of Atlanta working paper (2008); E. Ashtor, "Banking Instruments between the Muslim East and the Christian West," _Journal of European Economic History_ 1:3 (1972), defends the derivation of "check" from sakk — the OED does not.
+[^consumer-nugent-origins]: Rolf Nugent, _Consumer Credit and Economic Stability_ (Russell Sage Foundation, 1939), pp. 42–43.
+[^consumer-nugent-retail]: Nugent, _Consumer Credit and Economic Stability_, pp. 47–55, on term credit, clock peddlers, open-book accounts and conditional sales.
+[^consumer-thornton]: British and Irish Furniture Makers Online, [“Thornton, Christopher (1707–43)”](https://bifmo.furniturehistorysociety.org/entry/thornton-christopher-1707-43), quoting a handbill of c. 1707.
+[^consumer-muir]: Diana Muir, [_Reflections in Bullough's Pond: Economy and Ecosystem in New England_](https://books.google.com/books?id=D3Y6pIh4fQgC&pg=PA121) (University Press of New England, 2000), pp. 120–121.
+[^consumer-bissell]: D. C. Bissell, _The First Conglomerate: 145 Years of the Singer Sewing Machine Company_ (Audenreed Press, 1999), pp. 75–76.
+[^consumer-nugent-expansion]: Nugent, _Consumer Credit and Economic Stability_, pp. 65–72.
+[^consumer-nugent-autos]: Nugent, _Consumer Credit and Economic Stability_, pp. 79–81, 94–96.
+[^consumer-nugent-accounts]: Nugent, _Consumer Credit and Economic Stability_, pp. 83–84.
+[^consumer-remus-accounts]: Emily Remus, [“Credit and Coverture in the Age of American Mass Consumption”](https://doi.org/10.1017/S073824802610159X), _Law and History Review_ (2026), pp. 6–8.
+[^consumer-remus-coverture]: Remus, “Credit and Coverture,” pp. 1–4, 9–11, 14–20; _Wanamaker v. Weaver_, 176 N.Y. 75 (1903).
+[^consumer-remus-screening]: Remus, “Credit and Coverture,” pp. 8, 22–24.
+[^consumer-pawn-records]: Valerie Hansen and Ana Mata-Fink, “Records from a Seventh-Century Pawnshop in China,” in William N. Goetzmann and K. Geert Rouwenhorst, eds., _The Origins of Value_ (Oxford University Press, 2005), pp. 54–58.
+[^consumer-hyman-small-loans]: Louis Hyman, _Debtor Nation: The History of America in Red Ink_ (Princeton University Press, 2011), pp. 13–15; Nugent, _Consumer Credit and Economic Stability_, pp. 57–60, 72–74.
+[^consumer-singer-hbs]: Geoffrey Jones and David Kiron, _Globalizing Consumer Durables: Singer Sewing Machine before 1914_, Harvard Business School case 804-001 (revised 2020), pp. 6–7.
+[^consumer-singer-black]: Hillel Black, _Buy Now, Pay Later_ (William Morrow, 1961), p. 109. The Indochina account is an undated retrospective anecdote.
+[^consumer-morrisonville]: “Buying on Credit,” _The Morrisonville Times_, 3 December 1875, p. 1; clipping supplied in `books_papers`.
+[^consumer-evans-credit]: David S. Evans and Richard Schmalensee, _Paying with Plastic_, 2nd ed. (MIT Press, 2005), pp. 50–51.
+[^consumer-mussey]: Henry R. Mussey, _The “Fake” Instalment Business_ (University Settlement Society, New York, 1903), pp. 18–20.
+[^consumer-hyman-time-price]: Hyman, _Debtor Nation_, pp. 31–33.
+[^consumer-thelen-sears]: Kathleen Thelen, _Attention, Shoppers!_ (Princeton University Press, 2025), pp. 88–90.
+[^consumer-hyman-finance]: Hyman, _Debtor Nation_, pp. 21–31; Sean H. Vanatta, _Plastic Capitalism_ (Yale University Press, 2024), pp. 23–24.
+[^consumer-mandell-retail]: Lewis Mandell, _The Credit Card Industry: A History_ (Twayne, 1990), p. 17, reporting Department of Commerce data.
+
 [^kali-mody-friends]: [Memories of Modys](https://www.parsiana.com/current-issue/articles.aspx?id=QEU0F%2btnigk%3d&issue=276)
 [^kali-mody-1959]: Diners Club Ad, The Times of India, 6 Nov 1978, p. 5
 [^kali-mody-imprint]: Imprint magazine, May 1983, p. 20
