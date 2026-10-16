@@ -59,6 +59,51 @@ charg_it_gallery:
     image_path: /assets/images/credit-card-chronology/charg_it_ad_1946.jpg
     alt: "Charg-It Ad, Newsday, 22 October 1946, p. 6"
     title: "Charg-It Ad, Newsday, 22 October 1946, p. 6"
+courtesy_card_gulf_gallery:
+  - url: /assets/images/credit-card-chronology/courtesy_card_1925_gulf_front.jpg
+    image_path: /assets/images/credit-card-chronology/courtesy_card_1925_gulf_front.jpg
+    alt: "Gulf Oil Courtesy Card (Front), ca. 1925"
+    title: "Gulf Oil Courtesy Card (Front), ca. 1925"
+  - url: /assets/images/credit-card-chronology/courtesy_card_1925_gulf_back.jpg
+    image_path: /assets/images/credit-card-chronology/courtesy_card_1925_gulf_back.jpg
+    alt: "Gulf Oil Courtesy Card (Back), ca. 1925"
+    title: "Gulf Oil Courtesy Card (Back), ca. 1925" 
+courtesy_card_standardoil_gallery:
+  - url: /assets/images/credit-card-chronology/courtesy_card_1926_standardoil_front.jpg
+    image_path: /assets/images/credit-card-chronology/courtesy_card_1926_standardoil_front.jpg
+    alt: "Standard Oil Company California Courtesy Card (Front), ca. 1926"
+    title: "Standard Oil Company California Courtesy Card (Front), ca. 1926"
+  - url: /assets/images/credit-card-chronology/courtesy_card_1926_standardoil_back.jpg
+    image_path: /assets/images/credit-card-chronology/courtesy_card_1926_standardoil_back.jpg
+    alt: "Standard Oil Company California Courtesy Card (Back), ca. 1926"
+    title: "Standard Oil Company California Courtesy Card (Back), ca. 1926"
+hotel_whitcomb_card_gallery:
+  - url: /assets/images/credit-card-chronology/hotel_whitcomb_card_front_1924.jpeg
+    image_path: /assets/images/credit-card-chronology/hotel_whitcomb_card_front_1924.jpeg
+    alt: "Hotel Whitcomb Credit Card (Front), ca. 1924"
+    title: "Hotel Whitcomb Credit Card (Front), ca. 1924"
+  - url: /assets/images/credit-card-chronology/hotel_whitcomb_card_back_1924.jpeg
+    image_path: /assets/images/credit-card-chronology/hotel_whitcomb_card_back_1924.jpeg
+    alt: "Hotel Whitcomb Credit Card (Back), ca. 1924"
+    title: "Hotel Whitcomb Credit Card (Back), ca. 1924"
+hotel_fresno_card_gallery:
+  - url: /assets/images/credit-card-chronology/hotel_fresno_card_front_1925.jpeg
+    image_path: /assets/images/credit-card-chronology/hotel_fresno_card_front_1925.jpeg
+    alt: "Hotel Fresno Credit Card Card (Front), ca. 1925"
+    title: "Hotel Fresno Credit Card Card (Front), ca. 1925"
+  - url: /assets/images/credit-card-chronology/hotel_fresno_card_back_1925.jpeg
+    image_path: /assets/images/credit-card-chronology/hotel_fresno_card_back_1925.jpeg
+    alt: "Hotel Fresno Credit Card Card (Back), ca. 1925"
+    title: "Hotel Fresno Credit Card Card (Back), ca. 1925"
+hotel_bellevue_stratford_card_gallery:
+  - url: /assets/images/credit-card-chronology/hotel_bellevue_stratford_card_1946_front.jpeg
+    image_path: /assets/images/credit-card-chronology/hotel_bellevue_stratford_card_1946_front.jpeg
+    alt: "Bellevue-Stratford Hotel Credit Card (Front), ca. 1946"
+    title: "Bellevue-Stratford Hotel Credit Card (Front), ca. 1946"
+  - url: /assets/images/credit-card-chronology/hotel_bellevue_stratford_card_1946_back.jpeg
+    image_path: /assets/images/credit-card-chronology/hotel_bellevue_stratford_card_1946_back.jpeg
+    alt: "Bellevue-Stratford Hotel Credit Card (Back), ca. 1946"
+    title: "Bellevue-Stratford Hotel Credit Card (Back), ca. 1946"
 douglas_dc3_gallery:
   - url: /assets/images/credit-card-chronology/douglas_dc3_1940s.webp
     image_path: /assets/images/credit-card-chronology/douglas_dc3_1940s.webp
@@ -113,6 +158,15 @@ amex_1959_gallery:
     image_path: /assets/images/credit-card-chronology/amex_1959_back.jpeg
     alt: "AMEX Card (back)" 
     title: "AMEX Card (back)"
+signature_india_1977_gallery:
+  - url: /assets/images/credit-card-chronology/signature_india_dec_1977_cover.png
+    image_path: /assets/images/credit-card-chronology/signature_india_dec_1977_cover.png
+    alt: "Signature India Magazine Cover, Dec 1977 issue"
+    title: "Signature India Magazine Cover, Dec 1977 issue"
+  - url: /assets/images/credit-card-chronology/signature_india_dec_1977_toc.png
+    image_path: /assets/images/credit-card-chronology/signature_india_dec_1977_toc.png
+    alt: "Signature India Magazine Table of contents, Dec 1977 issue"
+    title: "Signature India Magazine Table of contents, Dec 1977 issue"
 centralcard_1981_ads_gallery:
   - url: /assets/images/credit-card-chronology/centralcard_cash_advance_ad_toi_26_may_1981_p21.png
     image_path: /assets/images/credit-card-chronology/centralcard_cash_advance_ad_toi_26_may_1981_p21.png
@@ -595,7 +649,7 @@ However, all these were essentially prepaid instruments and the invention of tru
 
 
 
-{% include gallery id="oldest_credit_card_gallery" caption="The Depot Carriage & Baggage Co. Customer Card, c. 1897" %}
+{% include gallery id="oldest_credit_card_gallery" caption="The Depot Carriage & Baggage Co. Customer Card, c. 1897. Images Courtesy of Rich Hudson" %}
 
 This is the first customer card, that we know of, to use the expression "credit". It was issued in 1896 by a transports company as a loyalty card, for exclusive use in the customer's relationship with the issuing company.
 
@@ -826,11 +880,19 @@ Discounts did the real damage. A book sold at 5 percent off was a price cut in d
 
 #### Courtesy cards
 
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/courtesy_card_1922_atlantic.jpeg" alt="Atlantic Refining Company courtesy card, ca. 1922" caption="Atlantic Refining Company courtesy card, ca. 1922" %}
+
+</div>
+
 A coupon book was prepaid. The customer who wanted _credit_ at a station where nobody knew him needed proof that he had an account.
 
 In **March 1921**, the Tulsa Oil Products Company took a list of Tulsa's 10,000 car owners, had the local Credit Men's Association vet it, and mailed **unsolicited** "identification cards" to the 1,000 or so who passed. Each numbered card entitled its holder to credit at any of the company's stations, with a statement on the first of the month. The whole campaign cost **$82.50** and brought in about 50 new charge accounts.[^oil-npn-1921-03] This was three decades before Diners Club mailed out its first cards.
 
 By **February 1922**, the Atlantic Refining Company in Philadelphia was calling them **"courtesy cards"**, likening them to the department store's charge coin. They bore the customer's name, address and car number, and a lost card triggered a "stop-order".[^oil-petroleum-age-1922] Histories usually date the gasoline card to the mid-1920s,[^oil-general-petroleum][^oil-reed-1934] but it was clearly in circulation before that.
+
+{% include gallery id="courtesy_card_gulf_gallery" caption="Gulf Oil Courtesy Card, ca. 1925. Images Courtesy of Rich Hudson" %}
 
 The cards were _"rather ornate and dignified in appearance like a club membership card"_, sized to sit behind the celluloid window of a billfold. An applicant named three references: two merchants and a banker. At the pump, he signed a ticket in triplicate, one copy of which came back with his monthly statement.[^oil-npn-april]
 
@@ -842,6 +904,9 @@ Leader Oil of Dubuque, Iowa went a step further. Its card was good at independen
 </blockquote>
 
 The machinery around the card grew quickly. By 1924, one large company had between **30,000 and 50,000** cards outstanding, and stations kept visible files that could be flagged in red when a customer's credit was stopped.[^oil-npn-1924] A company with stations in nine states put a prefix letter on each card, so that a charge made in Iowa found its way back to the Tulsa office that had issued it. Stop lists went out to every station, and an attendant who honoured a stopped card had the loss **deducted from his salary**. Customers, meanwhile, found that the card helped them cash cheques and collect registered mail.[^oil-ogj-1929]
+
+
+{% include gallery id="courtesy_card_standardoil_gallery" caption="Standard Oil Compay of California Courtesy Card, ca. 1926. Images Courtesy of Rich Hudson" %}
 
 Not everyone bothered with a card. The Akron Oil Company gave its customers a numbered disk to seal to the car's radiator, which saved them fishing in their wallets.[^oil-npn-1928-11] In **1930**, Standard Oil of New York replaced the card with an embossed metal tag in a leather case. The attendant slipped it into a billing machine and the customer's name and address were printed on all three copies of the slip.[^oil-npn-1930-09] It was an imprinter in all but name.
 
@@ -889,6 +954,13 @@ The courtesy card had credit checks, monthly billing, stop lists, an imprinter a
 
 
 ### Hotels
+
+
+{% include gallery id="hotel_whitcomb_card_gallery" caption="Hotel Whitcomb Credit Card, ca. 1924." %}
+
+{% include gallery id="hotel_fresno_card_gallery" caption="Hotel Fresno Credit Card, ca. 1925." %}
+
+
 
 Hotels had a reason to recognize a customer's credit before the customer arrived: their business depended on people travelling away from the places where they were known. A hotel card made that relationship portable. It could identify an approved guest, allow charges to an account, and sometimes provide access to cash through cheque-cashing privileges. Before the rise of the general-purpose travel card, hotels were already issuing credit credentials of their own.
 
@@ -956,6 +1028,8 @@ The obvious unifier was the bank: it held the deposits, employed the credit cler
 The joke turned on the absurdity of the request. A paying teller could only hand back money the customer had previously deposited; asking him to pay out against a mere promise to settle later inverted everything a bank did. Charge accounts belonged to department stores, not banks. Within a decade, exactly that request — charge it at the store, settle with the bank — would be the industry's newest line of business.[^bank-charge-cartoon-1942]
 
 Merchants, for their part, had already tried to build a universal system themselves. Farrington Manufacturing, maker of the Charga-Plate metal identification tags used by department stores, had long been promoting its pet project, the "United Chargaccount Service" — a central billing office that would gather charge slips from a group of stores and mail the customer a single itemised monthly bill, dividing her payments among the merchants she owed.[^central-billing-1945] The store trade was unmoved: in a National Retail Dry Goods Association survey of 100 stores, 96 said they did not believe central billing would profit them, fearing above all that it would sever the close credit relationship that kept customers loyal to a particular store. Farrington offered to finance a demonstration installation for any group of stores in a town between 40,000 and 200,000 people. There were no takers.[^central-billing-1945] If everyday credit was to be unified, the banks would have to do it.
+
+#### Buy-O-Matic
 
 #### Bankway
 
@@ -1080,6 +1154,14 @@ Fuller described a customer requesting $180 and receiving certificates totaling 
 {% include figure popup=true image_path="assets/images/credit-card-chronology/charg-it-scrip_1950-11_burroughs_clearing_house_p75.jpg" alt="\"Charg-It\" application form, sales slip and scrip book, Burroughs Clearing House, Nov. 1950, p. 75" caption="\"Charg-It\" application form, sales slip and scrip book, Burroughs Clearing House, Nov. 1950, p. 75" %}
 
 </div>
+
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/charge-it-scrip-cert_1955.jpg" alt="\"Charg-It\" scrip certificate, as reproduced in \"Financing retail credit sales through charge account bank plans\", Cole, R. Hartzell. (1955), p. 9" caption="\"Charg-It\" scrip certificate, as reproduced in \"Financing retail credit sales through charge account bank plans\", Cole, R. Hartzell. (1955), p. 9" %}
+
+</div>
+
 
 The forms show the distinction. The application offered revolving limits from **$30 to $180**, alongside monthly payments from **$5 to $30**. The sales slip had spaces for the purchase price, cash paid and amount charged, as well as the customer's name and address. Credit that would later be tracked invisibly behind a card was partly carried in the customer's booklet.[^chargit-fuller-terms]
 
@@ -2201,7 +2283,11 @@ By then, Diners Club India had grown to around 7,000 cardholders.[^charge-it-198
 
 The Aggarwal family had been involved with Diners Club India since 1969. On the eve of the nationalisation of India’s banks that year, Kali Mody made a calculated move to forestall government interference in his enterprise. He arranged for Union Bank of India to sell its **20%** stake in Diners Club to his friends Shamsunder and Perveez Aggarwal.[^kali-mody-parsiana]
 
-**Shamsunder Aggarwal** became the managing director of Diners Club India in **1976**.[^diners-1978-ad] Until then, the risk of defaults had discouraged the company from actively soliciting new cardholders. Shamsunder changed course, computerizing the accounts and setting out to expand the business.[^diners-india-invite] In **1977**, Diners Club India launched **_Signature_**, a bi-monthly[^parsiana-membership-form] magazine covering travel, hotels and shopping that also served as a vehicle for promoting the card.[^diners-25y] The business had long operated from a third-floor office in Dady House on Veer Nariman Road. In **1979**, Shamsunder moved the operation to a new office at Raheja Chambers in Nariman Point.[^diners-25y]
+**Shamsunder Aggarwal** became the managing director of Diners Club India in **1976**.[^diners-1978-ad] Until then, the risk of defaults had discouraged the company from actively soliciting new cardholders. Shamsunder changed course, computerizing the accounts and setting out to expand the business.[^diners-india-invite]
+
+{% include gallery id="signature_india_1977_gallery" caption="_Signature_ India Magazine, Dec 1977. Images courtesy of Mr. Jehangir Patel" %}
+
+In **1977**, Diners Club India launched **_Signature_**, a bi-monthly[^parsiana-membership-form] magazine covering travel, hotels and shopping that also served as a vehicle for promoting the card.[^diners-25y] The business had long operated from a third-floor office in Dady House on Veer Nariman Road. In **1979**, Shamsunder moved the operation to a new office at Raheja Chambers in Nariman Point.[^diners-25y]
 
 Within two years of the change in ownership, the number of cardholders had nearly doubled to **12,000**, while more than **2,000** member establishments across India and Nepal accepted the card in 1978.[^diners-1978-ad]
 
@@ -2789,6 +2875,19 @@ National Credit Card
 {% include figure popup=true image_path="assets/images/credit-card-chronology/medford_mail_tribune_1952-04-21_page2.png" alt="National Credit Card Inc. Ad, Medford Tribune, 21 April 1952, p. 2" caption="National Credit Card Inc. Ad, Medford Tribune, 21 April 1952, p. 2" %}
 
 </div>
+
+### Othe Oil courtesy card images
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/courtesy_card_1928_atlantic_front.jpg" alt="Atlantic Refining Company courtesy card, ca. 1928" caption="Atlantic Refining Company courtesy card, ca. 1928" %}
+
+</div>
+
+### Other Hotel Credit Card Images
+
+{% include gallery id="hotel_bellevue_stratford_card_gallery" caption="Bellevue-Stratford Hotel Credit Card, ca. 1946." %}
+
 
 ### Other Diners Club card images
 
