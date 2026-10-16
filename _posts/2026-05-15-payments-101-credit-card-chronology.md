@@ -1017,7 +1017,7 @@ disadvantage of being limited to the issuing merchant (often a local business).
 
 ### Universal Payment Card
 
-The obvious unifier was the bank: it held the deposits, employed the credit clerks, and already operated the small-loan departments. But in the early 1940s, the notion of a bank offering its customers charge credit was not merely untried — it was a punchline. In August 1942, _Banking_, the journal of the American Bankers Association, printed a cartoon of a fashionable young woman at the paying teller's window:
+The obvious unifier was the bank: it held the deposits, employed the credit clerks, and already operated the small-loan departments. Even as banks began experimenting with shopping credit, the idea could still be a punchline. In August 1942, _Banking_, the journal of the American Bankers Association, printed a cartoon of a fashionable young woman at the paying teller's window:
 
 <div style="width: 50%; margin: 0 auto;">
 
@@ -1025,11 +1025,47 @@ The obvious unifier was the bank: it held the deposits, employed the credit cler
 
 </div>
 
-The joke turned on the absurdity of the request. A paying teller could only hand back money the customer had previously deposited; asking him to pay out against a mere promise to settle later inverted everything a bank did. Charge accounts belonged to department stores, not banks. Within a decade, exactly that request — charge it at the store, settle with the bank — would be the industry's newest line of business.[^bank-charge-cartoon-1942]
+The joke played on the distance between an ordinary deposit account and a shop's charge account. The customer wanted the bank to finance her purchases before she had put the money in. A few banks were already trying ways to do this; within a decade, charging purchases at local shops and settling with the bank would become a growing line of business.[^bank-charge-cartoon-1942]
 
 Merchants, for their part, had already tried to build a universal system themselves. Farrington Manufacturing, maker of the Charga-Plate metal identification tags used by department stores, had long been promoting its pet project, the "United Chargaccount Service" — a central billing office that would gather charge slips from a group of stores and mail the customer a single itemised monthly bill, dividing her payments among the merchants she owed.[^central-billing-1945] The store trade was unmoved: in a National Retail Dry Goods Association survey of 100 stores, 96 said they did not believe central billing would profit them, fearing above all that it would sever the close credit relationship that kept customers loyal to a particular store. Farrington offered to finance a demonstration installation for any group of stores in a town between 40,000 and 200,000 people. There were no takers.[^central-billing-1945] If everyday credit was to be unified, the banks would have to do it.
 
 #### Buy-O-Matic
+
+Ten years before Diners Club, shoppers on Long Island were being offered **six months to pay, without interest**, at a collection of independent local shops. The bank supplied the credit, the merchant got paid, and the customer carried the spending power around in a book of cheques. The name was **Buy-O-Matic**.[^buyomatic-nassau-1940]
+
+Its origins are traced to **1939**, when **R. A. Dousseau and a few associates** established the plan in the New York City area, according to Harlan Patterson's later study. The public rollout is clearer: in **August 1940**, _Banking_ reported that the **First National Bank and Trust Company of Freeport** was the **22nd institution** to adopt it since its introduction _"in May"_. That wording points to **May 1940** for the rollout described by the magazine; the earlier 1939 date comes from a retrospective account.[^buyomatic-patterson][^buyomatic-banking-1940]
+
+##### A bank loan in a cheque book
+
+<div style="width: 70%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/buy_o_matic_ad_nassau_1940_07_25_p12.png" alt="Buy-O-Matic advertisement listing participating Lynbrook shops and Long Island banks, 25 July 1940" caption="Buy-O-Matic's pitch to Lynbrook shoppers: six months to pay, with no interest, carrying charge or advance payment. _The Nassau Daily Review-Star_, 25 July 1940, p. 12." %}
+
+</div>
+
+A **25 July 1940** advertisement in _The Nassau Daily Review-Star_ gives a good sense of what this meant on an ordinary shopping street. Around the explanation of the plan were **25 local businesses**: clothing shops, garages, a pharmacy, an optometrist, a jeweller, a hardware store, and even a lumber merchant. Beneath it were **fourteen participating banks**. You did **not** have to be a depositor to apply.[^buyomatic-nassau-1940]
+
+The merchant could give you an application, which the bank assessed. If approved, you went to the bank, signed a **six-month instalment note**, and collected a cheque book worth **$60, $90, $120, $150 or $180**, or a combination of those amounts. Inside were cheques in **$1, $2, $5 and $10** denominations, signed in front of a bank officer much like travellers' cheques.[^buyomatic-banking-1940]
+
+You could spend them immediately at one or more participating shops and repay the bank in six monthly payments. A fully spent **$120** book, for example, meant **$20 a month**. The paper looked like spending money, but it represented a loan.[^buyomatic-nassau-1940]
+
+There was a useful protection: **you owed the bank only for the cheques you used**. Unused ones could be returned for full credit, although they had to be used or redeemed within six months. The bank was not simply charging you for the entire book whether you spent it or not.[^buyomatic-banking-1940]
+
+##### Who paid for the free credit?
+
+The **merchant** did. A shop deposited the cheques and received their face value, then remitted **6 percent** of its Buy-O-Matic receipts to the company's New York headquarters twice a month. Of each $100 spent, **$3 went to the bank**, **$1 was set aside against losses**, and the remaining **$2 stayed with the operator**. The reserve could cover customer notes more than 90 days overdue; the arrangement also limited its accumulation, with the balance passing to the company once the reserve reached 10 percent of the volume.[^buyomatic-banking-1940]
+
+For that fee, a small shop could offer instalment buying without supplying the loan money itself. Member merchants also received advertising material and a place in the plan's directory. The department store's credit counter now had competition from a group of neighbourhood businesses with a bank behind them.[^buyomatic-banking-1940]
+
+The resemblance to later payment networks is striking: **independent merchants, bank financing, a common payment instrument, and a fee paid by the seller**. But the instrument was a supply of paper cheques that got used up. The contemporary description provides no basis for assuming a reusable card or a credit limit that automatically replenished with each repayment.
+
+##### The war intervenes
+
+Patterson's **1963** study puts the plan at nearly **7,000 merchants by 1941**, then attributes its end to the Federal Reserve's **Regulation W** and America's entry into World War II. His figures need some caution: he gives **21 banks** in 1941, while the contemporary _Banking_ report had already called Freeport the 22nd adopter in August 1940. The surviving accounts do not explain the difference.[^buyomatic-patterson][^buyomatic-banking-1940]
+
+Regulation W began taking effect on **1 September 1941**, restricting consumer instalment credit as the government tried to divert materials and purchasing power towards defence. For specified goods, it imposed down-payment requirements as well as repayment limits. A plan advertised on the promise of buying immediately with **no advance payment** faced a very different environment. The regulation establishes that change; the claim that it helped bring Buy-O-Matic to an end rests on Patterson's later account.[^buyomatic-regulation-w][^buyomatic-patterson]
+
+Buy-O-Matic's place in this history is easy to miss because it supplied a cheque book. Yet by **1940**, several banks and independent shops were already offering a practical answer to the question that would occupy the postwar card pioneers: how could a customer carry bank credit from one shop to another?
 
 #### Bankway
 
@@ -2686,6 +2722,10 @@ Words I learned: guile, laconic, mercurial, evince, prox., perfidy
 
 [^bank-charge-cartoon-1942]: Cartoon, _Banking_, August 1942, p. 7.
 [^central-billing-1945]: "Central Billing?", _Business Week_, 3 November 1945, pp. 86-87.
+[^buyomatic-nassau-1940]: "Where You Can Buy the Buy-O-Matic Way in Lynbrook", advertisement, _The Nassau Daily Review-Star_, 25 July 1940, p. 12. The surviving scan names fourteen banks and contains 25 member-business panels; those counts are taken from the advertisement. It offers non-depositors cheque books of specified amounts, immediate spending at member merchants, and six monthly payments without interest, carrying charge or advance payment. The $120 / $20 example is an illustration calculated from those terms.
+[^buyomatic-banking-1940]: "Buy-O-Matic Plan", _Banking_, vol. 33, no. 2, August 1940, pp. 61–62 ([scan, PDF pp. 63–64](https://upload.wikimedia.org/wikipedia/commons/b/b1/Banking_1940-08-_Vol_33_Iss_2_%28IA_sim_american-bankers-association-aba-banking-journal_1940-08_33_2%29.pdf#page=63)). Describes Freeport as the 22nd adopter since introduction "in May", the application and six-month note, cheque denominations and redemption, merchant commissions and the loss reserve. The operator's $2 share per $100 is calculated from the reported 6% merchant remittance less 4% sent to the bank; it is not a net-profit figure.
+[^buyomatic-patterson]: Harlan R. Patterson, _A Study of Charge Account Banking and Its Financial Performance_ (Ph.D. dissertation, Michigan State University, 1963), pp. 14–15 (PDF pp. 29–30). Dates establishment to 1939 by R. A. Dousseau and associates; reports 21 banks and nearly 7,000 merchants by 1941, and attributes the plan's halt to Regulation W and the war. Footnote 21 cites a personal letter from Dousseau to James H. C. Duncan, 5 December 1957; the original letter has not been inspected. The retrospective bank count differs from the contemporary August 1940 report, and the study supplies no precise termination date.
+[^buyomatic-regulation-w]: Board of Governors of the Federal Reserve System, _Federal Reserve Bulletin_, September 1941, pp. 825–826, 839–845 and 862–863 ([FRASER full text](https://fraser.stlouisfed.org/title/federal-reserve-bulletin-62/september-1941-20991/fulltext)). Gives Regulation W's initial effective date of 1 September 1941, defence and inflation objectives, and restrictions on covered instalment credit, including down payments for specified goods. The regulation did not prohibit all consumer lending and this source does not establish Buy-O-Matic's closure.
 [^oil-mandell-early]: Lewis Mandell, _The Credit Card Industry: A History_ (Twayne, 1990), pp. 18–20, on gasoline cards, customer loyalty across stations, monthly billing, dealer recruitment and the transfer of receivables financing to the oil company.
 [^oil-texaco-history]: [*Melso v. Texaco, Inc.*, 532 F. Supp. 1280 (E.D. Pa., 6 February 1982)](https://law.justia.com/cases/federal/district-courts/FSupp/532/1280/2145798/), findings of fact, pp. 1282–1283: Texaco's program existed in various forms from 1914, with a wartime interruption. This is a retrospective judicial record, not a contemporary 1914 announcement; it does not establish the material or exact design of the original card.
 [^oil-npn-april]: “Oil Companies Issue Credit Cards / To Deserving Customers As Favors,” _National Petroleum News_, **25 April 1923**, **p. 61**, datelined Freeport, Illinois, 20 April. Original issue supplied in `oil_credit_cards/sim_npn-national-petroleum-news_1923-04-25_15_17.pdf`, PDF p. 45; visually checked against the printed page. Covers the named companies, application requirements, tickets in triplicate, monthly statements, acceptance and coupon alternatives. [Internet Archive issue](https://archive.org/details/sim_npn-national-petroleum-news_1923-04-25_15_17).
