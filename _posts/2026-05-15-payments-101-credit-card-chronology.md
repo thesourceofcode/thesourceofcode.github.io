@@ -664,40 +664,61 @@ While the success of instalment plans for consumer durables was changing attidue
 
 {% include gallery id="charge_coins_gallery" caption="Merchant Charge Coins — Early Physical Credit Tokens" %}
 
-**but that became problematic as urbanization and larger stores meant that recognizing customers and trusting them to pay wasn’t quite as a reliable method as it used to be. So, stores would provide a means of identification with the name of the store, and perhaps a number to confirm you were who you said you were. These credit indicators were only good at one store, but they were really the beginning of consumer credit in the way we think of it today.**
+At the turn of the twentieth century, buying on credit could involve showing a shop assistant a coin—and taking it home again. The shop kept a record of the purchase and sent the bill later. The little piece of metal was your **charge coin**, evidence that the store had already agreed to let you buy on account.[^charge-coin-stearns][^charge-coin-gimbels]
 
-**Until about 1930, outstanding consumer credit was dominated by**
-noninstallment credit, largely charge accounts. The growth in the size
-of retail establishments, as well as in the number of customers and the
-volume of business, meant that not every charge account customer
-could be recognized by clerks in the store. Some form of identification
-became necessary—hence, the credit card.
-
-Regarded as one of the earliest direct ancestors to the modern credit card, Charge Coins were first issued shortly after the American Civil War and grew increasingly popular into the early twentieth century. They replaced handwritten identification in a ledger with a physical token. Merchants—particularly department stores, hotels, and taxi companies—would issue customers a small metal or celluloid coin embossed with the merchant's name and an account number. Some were round like ordinary coins, while others resembled small badges or tags designed to be carried on a keychain.
-
-The idea was simple. Instead of identifying themselves to a clerk and having their account located manually, customers could present their charge coin when making a purchase. The merchant would then use the account number on the coin to look up the customer's file and verify that their account was in good standing before approving the transaction. The actual bill would be settled later, typically on a monthly basis.
-
-For merchants, charge coins offered a more scalable alternative to open-book credit. They made it easier to identify customers, manage accounts, and process credit sales as businesses grew beyond small communities. For customers, they offered convenience and a tangible symbol of membership in a merchant's credit program. In farming communities, they were especially valuable because they allowed farmers to obtain supplies throughout the growing season and settle their accounts after the harvest.
-
-By modern standards, the system was primitive. The coins carried no security features, transactions were verified manually against paper records, and a lost coin could potentially be misused. In fact, some issuers required customers to publish notices in local newspapers warning merchants not to honor a lost coin.
-
-Most importantly, charge coins were **closed-loop** systems. A coin issued by one merchant could only be used at that merchant's establishments. A department store's coin worked at that department store; a taxi company's coin worked only with that taxi company. There was still no concept of a universal payment network, but the essential idea had appeared: a portable token that identified a customer and granted access to a line of credit.
+These tokens survive from the **late nineteenth century**, although their exact first issuer and date remain uncertain. Department stores were their main users, but hotels, jewellers and taxi companies issued them too. They came as discs, ovals, shields and more elaborate shapes, often pierced so they could hang from a key ring. A store's name or monogram and a customer's number could turn a small metal tag into something worth carrying.[^charge-coin-ferreira]
 
 #### Familiar Feature: Account Number
 
 <div style="width: 25%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/charge_coin_1900s.png" alt="Charge Coin" caption="John Wanamaker charge coin, c. 1900s" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/stearns_charge_coin_1895.png" alt="R. H. Stearns charge coin bearing account number 20712 and the store's monogram" caption="R. H. Stearns charge coin, ca. 1895. _American Ancestors_, Fall 2018, p. 62, NEHGS collections." %}
 
 </div>
 
-We can see a familiar feature in charge coins: the **account number**.
+The **R. H. Stearns** coin above, dated approximately **1895** by the New England Historic Genealogical Society, carries the number **20712** and the Boston store's intertwined initials, **RHSCo**. A clerk wrote down the number and purchase details, then sent the paperwork to the accounting department. A month later, the customer received a bill in the mail.[^charge-coin-stearns]
 
-This was the key innovation of charge coins. Charge coins made credit impersonal. Instead of personally knowing the customer, a clerk only needed to look up the account associated with the number stamped on the coin.
+The number connected a transaction at the counter to an account elsewhere in the store. A customer could move between departments without having to be personally known to every assistant. The clerks still recorded purchases by hand; the coin made the account easier to identify.[^charge-coin-stearns][^charge-coin-stearns-history]
 
-The same idea persists today. Modern credit cards are far more sophisticated, but at their core they still serve as identifiers for a credit account.
+**Gimbel Brothers** made the convenience explicit in a **19 June 1902** advertisement in _The Philadelphia Times_. Its shopping coin was about the size of a half dollar. Show it, let the salesperson take its number, and leave with your package. The store promised you could _"be off quicker than you read this"_. Customers received an itemised bill and paid **once a month**.[^charge-coin-gimbels]
 
-While the U.S. led these commercial innovations, global parallels were already forming. In Sweden, for instance, a 1912 report in Svenska Handelsbanken described internal credit ledgers used by banks and department stores. Meanwhile, in Germany, companies like Kaufhaus des Westens (KaDeWe) issued stamped payment cards to repeat customers, operating on closed-loop credit systems. Different implementations were converging on the same solution: extending credit beyond the limits of personal familiarity.
+<div style="width: 40%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/gimbels_shopping_coin_ad_1902_06_19_p14.jpg" alt="Gimbel Brothers advertisement explaining its shopping coin and offering coins to trusted family members" caption="Gimbel Brothers' shopping coin advertisement. _The Philadelphia Times_, 19 June 1902, p. 14; detail from the store's full-page advertisement." %}
+
+</div>
+
+Gimbels claimed **25,300 people** already enjoyed keeping an account with it. It also offered coins to family members entrusted with shopping, so they needn't keep borrowing one another's. Even the convenience of an additional card for a family member had a metal predecessor.[^charge-coin-gimbels]
+
+#### Eight stores, eight coins
+
+Each coin belonged to a particular merchant's credit arrangement. Shopping at several stores meant carrying several credentials, as a **26 May 1901** newspaper item illustrates. Reprinted in the _San Antonio Daily Express_ and credited to the _Philadelphia Record_, it described a woman holding a ring strung with **eight coins, certifying her credit at eight different stores**.[^charge-coin-san-antonio]
+
+The writer called the system almost universal among department stores and other large establishments. That was an observation in a newspaper column, rather than a count of how many stores used it. The same item suggests the coins weren't universally welcome.[^charge-coin-san-antonio]
+
+Some customers sent theirs back. One objected to wearing anybody's badge; another already lost too many small belongings to take responsibility for the store's. A third saw the temptation immediately: _"Not much. I would be running in to buy things every whipstitch."_ Another declined fresh obligations altogether, explaining that she already had enough laws of God and man to obey. She preferred to buy things with coins of her own.[^charge-coin-san-antonio]
+
+The store saw an invitation to shop. The customer could see another way to run up a bill.
+
+#### A lost coin could become somebody else's shopping trip
+
+A number helped a clerk find an account; it did less to establish that the person presenting it was entitled to use it. In **_Lit Bros. v. Haines_ (1923)**, a workman employed to hang wallpaper stole a customer's coin. He gave the store her name and address, bought goods on her account, and had them delivered to **his own address**. The customer discovered the purchases when the bill arrived.[^charge-coin-haines]
+
+The New Jersey Supreme Court upheld judgment in her favour. She had received the coin for identification and had not agreed to pay for goods supplied to anyone who happened to possess it. The court rejected an earlier Philadelphia decision, **_Wanamaker v. Megary_ (1915)**, which had treated a lost coin as an order to supply goods to its bearer. Even before plastic cards, there were disputes over who should pay for a stranger's purchases.[^charge-coin-haines]
+
+Stores could cancel or replace the credentials. A **1 March 1920** notice from **Strawbridge & Clothier** instructed customers to exchange their old shopping coins for a new design. After **15 March**, the old ones would no longer be accepted for purchases carried away from the store.[^charge-coin-strawbridge]
+
+<div style="width: 75%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/strawbridge_shopping_coin_replacement_1920.png" alt="Strawbridge and Clothier notice cancelling old shopping coins after 15 March 1920 and illustrating their replacements" caption="A new coin for an existing account: Strawbridge &amp; Clothier's notice, 1 March 1920. Edmund Tylenda collection, reproduced in Agostinho Campos Ferreira, _The Origins of MasterCard_, p. 38, fig. 5; accompanying coins from Ferreira's collection." %}
+
+</div>
+
+A surviving **21 November 1927** letter from the same store enclosed a coin for a newly opened account payable monthly. Its accompanying folder asked the customer to report a lost coin promptly so the number could be cancelled and another issued. The purchase still went on the books; the piece used to identify the account could change.[^charge-coin-strawbridge]
+
+The idea travelled too. In **1920s Stockholm**, **Nordiska Kompaniet (NK)** issued bronze credit badges whose numbers corresponded to a customer list. Sweden's Economy Museum records that purchases were paid at the end of the following month, and that the badges were replaced by paper account credentials in the 1950s.[^charge-coin-nk]
+
+The number on a charge coin was already doing a familiar job: connecting a shopper to a credit account. The next step was to make copying that information onto the sales slip quicker and more reliable.
 
 
 ### traveletter system 1894
@@ -2670,6 +2691,15 @@ Words I learned: guile, laconic, mercurial, evince, prox., perfidy
 [^consumer-hyman-finance]: Hyman, _Debtor Nation_, pp. 21–31; Sean H. Vanatta, _Plastic Capitalism_ (Yale University Press, 2024), pp. 23–24.
 [^consumer-mandell-retail]: Lewis Mandell, _The Credit Card Industry: A History_ (Twayne, 1990), p. 17, reporting Department of Commerce data.
 
+[^charge-coin-stearns]: Curt DiCamillo, “Department Stores, Boston & the Stearns Family,” _American Ancestors_, vol. 19, no. 3, Fall 2018, p. 62 ([NEHGS issue, PDF p. 64](https://www.americanancestors.org/sites/default/files/2021-11/Fall%202018.pdf#page=64)). The collection caption dates the coin approximately to 1895 and explains account number 20712, the RHSCo monogram, handwritten purchase records and monthly billing.
+[^charge-coin-gimbels]: Gimbel Brothers, “Accommodation” / “A Shopping Coin,” advertisement, _The Philadelphia Times_, 19 June 1902, p. 14 ([archived page](https://access.newspaperarchive.com/philadelphia-times/1902-06-19/page-14/)). The full-page PDF and detail supplied in `books_papers/newspapers/shopping-coin` establish the date, monthly account terms, numbered coin, family-member provision and advertised 25,300 account users. The figure reproduces the supplied detail, whose crop omits the introductory monthly-payment terms visible on the full page.
+[^charge-coin-ferreira]: Agostinho Campos Ferreira, _The Origins of MasterCard_, supplied doctoral-thesis version, title page dated 2019, pp. 34–42, 202–206 and notes 5–18 on pp. 264–265. The thesis was defended at the Universidade de Vigo in 2020 ([university record](https://portalinvestigacion.udc.gal/documentos/60f633fd8d1bc0320c2938d9)). Its discussion and collector correspondence disagree about the earliest date and whether metal or celluloid came first; an exact first issuer or 1865 metal-coin launch is not established. The illustrated specimens support the range of shapes and issuers.
+[^charge-coin-stearns-history]: David L. Stearns, _Electronic Value Exchange: Origins of the VISA Electronic Payment System_ (Springer, 2011), pp. 7–8, especially fig. 1.1 and the discussion of handwritten account details and copying errors. The functional description is useful here; its compressed chronology places department-store tokens after Western Union's 1914 card, whereas the supplied 1901–1902 newspaper sources establish earlier use.
+[^charge-coin-san-antonio]: “Credit Coin System,” _San Antonio Daily Express_, 26 May 1901, p. 23, credited in the item to the _Philadelphia Record_. Supplied clipping: `San_Antonio_Express_News_1901_05_26_23.jpg`. The [University of North Texas issue](https://texashistory.unt.edu/ark:/67531/metapth1868147/m1/23/) also provides [page OCR](https://texashistory.unt.edu/ark:/67531/metapth1868147/m1/23/ocr.txt), checked against the clipping. The anonymous shopper and customer correspondence are reported anecdotes, not a statistical survey.
+[^charge-coin-haines]: [_Lit Bros. v. Haines_, 98 N.J.L. 658, 121 A. 131 (5 June 1923)](https://openjurist.org/98/njl/658/lit-bros-v-haines-8105112), the court's opinion, including its discussion and rejection of _Wanamaker v. Megary_, 24 Pa. Dist. 778 (Philadelphia Municipal Court, 1915). These decisions concerned their particular facts and agreements; they do not establish a uniform rule for all coin issuers.
+[^charge-coin-strawbridge]: Strawbridge & Clothier, notice dated 1 March 1920, reproduced in Ferreira, _The Origins of MasterCard_, p. 38, fig. 5 (Edmund Tylenda collection; accompanying coin specimens, author's collection). The notice limits cancellation language to “take with” purchases. The letter and accompanying folder dated 21 November 1927 appear on p. 39, fig. 6 (author's collection); the folder instructs customers to report losses so the number can be cancelled and a new coin issued.
+[^charge-coin-nk]: Ekonomiska museet / Statens historiska museer, [“NK nr 30700,” object 3160607](https://samlingar.shm.se/object/0c737802-1689-41a2-a69f-d37977ec91c3), catalogue record and exhibition text. The museum dates the bronze badge to 1920–1955 and describes NK's introduction in the 1920s, account-number list, payment at the end of the following month, and replacement by paper account credentials in the 1950s.
+
 [^kali-mody-friends]: [Memories of Modys](https://www.parsiana.com/current-issue/articles.aspx?id=QEU0F%2btnigk%3d&issue=276)
 [^kali-mody-1959]: Diners Club Ad, The Times of India, 6 Nov 1978, p. 5
 [^kali-mody-imprint]: Imprint magazine, May 1983, p. 20
@@ -2891,6 +2921,14 @@ Words I learned: guile, laconic, mercurial, evince, prox., perfidy
 <div style="width: 40%; margin: 0 auto;">
 
 {% include figure popup=true image_path="assets/images/credit-card-chronology/oldest_credit_card_1896.webp" alt="The Depot Carriage & Baggage co. customer card" caption="The Depot Carriage & Baggage Co. Customer Card, c. 1896" %}
+
+</div>
+
+### Other charge coin images
+
+<div style="width: 25%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/charge_coin_1900s.png" alt="Charge Coin" caption="John Wanamaker charge coin, c. 1900s" %}
 
 </div>
 
