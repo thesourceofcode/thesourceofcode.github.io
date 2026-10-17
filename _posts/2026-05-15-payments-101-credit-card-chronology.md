@@ -2341,27 +2341,107 @@ The little piece of plastic still linked a customer to an account. The name on i
 
 ## Master Charge
 
+BankAmericard's expansion presented other banks with an uncomfortable choice. They could license a competitor's card, build a rival business of their own, or find a way to work together.
+
+The banks behind Master Charge chose cooperation. But the name on their card had an earlier history, beginning with a shopping trip and a family conversation in **Louisville, Kentucky**.
+
+### A card from Louisville
+
+In the early 1960s, **Rochelle “Shellie” Benovitz** was shopping in Indianapolis when someone suggested she apply for a **Shoppers Charge** card. She brought the application forms home to Louisville. According to her later recollection, the idea came up over dinner with her husband, **Melvin “Mel” Benovitz**, and her father, **Raymond S. Tanenhaus**, who had worked in retailing and consumer credit. Could they run a better version themselves?[^mc-louisville-origin]
+
+In **1964**, Tanenhaus and Mel Benovitz launched the **Master Charge System**. Its small blue card linked shoppers to participating local businesses. Mel recruited merchants; Tanenhaus brought his experience of extending credit and collecting payments. This was already an operating business several years before the familiar overlapping circles appeared.[^mc-louisville-origin]
+
 <div style="width: 50%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/mastercharge_launch_ad_18_july_1967.jpg" alt="Mastercharge launch Ad, ca. 1967" caption="Mastercharge Card Launch Ad, The Sacramento Union, 18 July 1967, p. 16" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/mastercharge_louisville_ad_1965.png" alt="Louisville Master Charge System advertisement listing participating merchants and two repayment plans" caption="Louisville's Master Charge System, The Louisville Times, 28 May 1965. Reproduced in Ferreira, _The Origins of MasterCard_, p. 96, fig. 58." %}
 
 </div>
 
-Master Charge was created in reaction to BankAmericard, because other California banks did not want to issue a card licensed by their giant competitor.
+An advertisement in **The Louisville Times on 28 May 1965** announced **“Louisville's OWN Charge Plate Service.”** It listed more than 100 stores and establishments, including businesses across the Ohio River in southern Indiana. Customers could choose **Regular Charge**, paying for the month's purchases without an added charge, or **Flexible Charge**, paying one-fifth of the balance each month. One account could serve a variety of shops, with the billing handled locally.[^mc-louisville-ad]
 
-The launch of BankAmericard was not the end of competition but the beginning. In 1966, a group of banks formed the Interbank Card Association specifically to challenge BankAmericard's dominance. Led by Karl H. Hinke of Marine Midland Bank, the consortium included United California Bank, Crocker National Bank, Wells Fargo, and others. Their original card carried only a lowercase "i" inside a circle — a logo so forgettable that branding consultants despaired. In 1969, the association merged with the Western States Bankcard Association and rebranded as "Master Charge," adopting the red and yellow overlapping circles that would become one of the most recognizable logos in financial history. The name changed to MasterCard in 1979.
+The operation depended on more than plastic and an emblem. Employees maintained accounts, prepared bills and followed up payments. The **First National Lincoln Bank of Louisville**, which financed the receivables, eventually decided to buy the business. The transfer took effect on **1 May 1967**. Tanenhaus, Benovitz and the operating staff stayed on; the bank acquired people who knew how to run consumer credit as well as a portfolio of accounts.[^mc-louisville-bank]
 
-Some three years after its formation, Interbank did not have a
-satisfactory identification device similar to BankAmericard’s. Conse-
-quently, in 1969 it purchased the rights to “Master Charge” from the
-Western States Bank Card Association, and most Interbank members
-changed over to the Master Charge card.
+### Banks looking for a common card
 
+Meanwhile, four California banks were preparing their own answer to BankAmericard: **Wells Fargo**, **Crocker-Citizens National Bank**, **United California Bank**, and **the Bank of California**. Their **California Bankcard Association**, incorporated in **September 1966**, would let participating banks offer a common card while retaining their own customers and lending decisions. **John O. “Jack” Elmer** of Wells Fargo was a driving force.[^mc-california]
 
+The attraction was straightforward. A small bank could recruit local shoppers and merchants, but its card became much more useful if customers could carry it into other banks' territories. Merchants, in turn, gained access to customers whose credit had been approved elsewhere. Banks could share the machinery needed to make that happen while competing to win the business.
 
-Now we'll see how credit card payments evolved with time, using new innovations to improve customer experience, reduce fraud, and increase profitability.
+Across the country, another group was working on that very problem. On **16 August 1966**, bankers met in **Buffalo, New York**, at a conference promoted by **Marine Midland** to discuss a bank-card interchange system. **Karl H. Hinke** and **Douglas A. Freeth** of Marine Midland were central to the effort that became **Interbank**. Its early participants included banks in Pittsburgh, Milwaukee, Seattle and Phoenix.[^mc-interbank]
 
+Interbank's initial solution allowed banks to keep their own card designs and local identities. A small **lowercase “i” inside a circle** identified membership in the common system. Cards had to work in standard imprinters, and banks had to follow agreed procedures for accepting one another's transactions. Credit limits, merchant discounts and local credit policies remained with the participating banks.[^mc-interbank-rules]
 
+This explains why Interbank's founding in 1966 and Master Charge's launch in 1967 describe different events. One was an arrangement for exchanging transactions between banks; the other was a shared card being prepared in California. The California association joined Interbank **early in 1967, before issuing its cards**, connecting the projects from the start.[^mc-interbank]
+
+### A name worth $25
+
+The California bankers still needed something to put on their plastic.
+
+Their advertising man was **Robert “Bob” Footman**, who had previously worked on BankAmericard at Johnson & Lewis before moving to **Foote, Cone & Belding**. His new assignment included getting competing banks to agree on how to present a common product.[^mc-footman]
+
+According to Footman's later account, the agency offered employees **$25** for a suitable name. Five people suggested **Master Charge**. The winner was drawn from a hat: Footman's secretary, to whom he had suggested the name. The runner-up was **Master Card**. The overlapping red and gold circles were developed for this California launch.[^mc-footman]
+
+**Aside: Planning together.** Footman recalled calling the bankers' group a “marketing committee,” alarming its lawyers about cooperation between competitors. Lawyer **John Austin** proposed “planning committee” instead: **“No one has gone to jail yet for planning.”** The story comes from Footman's 1992 recollection, but neatly captures the tension the association had to manage.[^mc-footman]
+{: .notice--info}
+
+There was one awkward discovery. **Master Charge already existed in Louisville.**
+
+When the Californians approached **Eastern Airlines**, the airline replied that it already accepted Master Charge cards. The duplication sent lawyers and bank officials into negotiations. Louisville's bank had the earlier business; the California group was investing in a much larger launch. Both had an interest in making the name useful across the country.[^mc-name-collision]
+
+The resulting arrangements allowed the shared name to spread, while Louisville continued its own card operation. The California association, subsequently known as the **Western States Bankcard Association**, handled licensing of the brand, with provisions for Louisville and its correspondent banks. The two operations were becoming connected without becoming one bank.[^mc-name-agreement]
+
+### One card, many banks
+
+California's Master Charge went into operation on **15 July 1967**. The launch plan anticipated roughly **2.5 million cards**, issued through about **70 member banks**, and acceptance at more than **70,000 establishments**. These were the organizers' launch expectations; the advertisement below shows the scale they were selling to the public.[^mc-launch]
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/mastercharge_launch_ad_18_july_1967.jpg" alt="California Master Charge launch advertisement showing overlapping circles and advertising more than 70 participating banks" caption="One card backed by more than 70 banks. The Sacramento Union, 18 July 1967, p. B8." %}
+
+</div>
+
+The card promised to cover an ordinary household's spending: groceries, tyres, building materials, medical and dental bills, as well as hotels, restaurants and travel. There was **no annual renewal fee**, and applicants did **not need an existing account** at a participating bank. A customer could pay the purchase balance in full within the stated period without a finance charge, or spread repayment over time for an additional charge. Cash advances carried their own fees.[^mc-customer-terms]
+
+The common card did not make every bank's loan identical. A surviving association FAQ left finance charges and cash-advance fees to the individual bank. The brand told a merchant where a card could be accepted; the issuing bank determined the customer's borrowing terms.[^mc-customer-terms]
+
+Behind the advertising was a substantial recruitment effort. Wells Fargo's internal account describes **25,500 preliminary contacts** with merchants before the formal sign-up campaign. From **1 April 1967**, participating banks competed to secure merchant agreements, including against other banks offering Master Charge. Wells Fargo expected to distribute more than **500,000 cards** itself, with branch officers and credit-department staff evaluating prospective customers and setting credit limits.[^mc-wells-fargo]
+
+The association's preliminary operating manual put the competitive principle bluntly:
+
+> “There is no such thing as ‘this is my account, hands off’.”[^mc-manual]
+
+Sharing a card meant sharing acceptance, rather than reserving merchants or customers for particular members.
+
+At the counter, the transaction still began with a **paper sales draft**. The merchant imprinted the card and obtained the customer's signature, then deposited the draft with its bank. That bank credited the merchant after deducting its agreed discount. When another bank had issued the card, the banks needed to settle the resulting claim between them. The issuing bank billed its cardholder and collected repayment. The California association provided clearing, central credit information and cardholder accounting services on behalf of its members.[^mc-manual][^mc-customer-terms]
+
+So the customer could see one convenient card while the purchase involved two banks and a shared processing organization. That separation made expansion possible: a bank could serve its own customers while giving their cards a reach far beyond its branches.
+
+### Giving the network a recognizable face
+
+Interbank's small “i” could connect differently named bank cards operationally, but customers and merchants still had to recognize those cards. A prominent common brand made the connection easier to see. **Master Charge** increasingly supplied that identity.[^mc-common-brand]
+
+Louisville's bank, renamed the **First National Bank of Louisville**, became a full Interbank member in **May 1968**. Cooperation with the western association included sharing advertisements, television commercials, promotional kits and merchant research. The bank was promoting a national card while continuing to operate its own accounts.[^mc-louisville-interbank]
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/mastercharge_louisville_new_look_1968.png" alt="Louisville advertisement replacing the old blue Master Charge card with the overlapping-circle Interbank design" caption="Louisville adopts the shared identity: ‘New look. New world of uses.’ The Courier-Journal, 30 October 1968. Reproduced in Ferreira, p. 227, fig. 77." %}
+
+</div>
+
+On **30 October 1968**, a Louisville advertisement announced the new look. The overlapping circles and the words **“The Interbank Card”** now appeared together. Existing blue-and-white cards would continue to be honoured through **16 November**. For customers, the change of design advertised a change of reach: the familiar local account could now be used through a much wider network.[^mc-new-look]
+
+Expansion also came through other banks and associations joining. New York's **First National City Bank** brought its **Everything Card** into Interbank, and the **Midwest Bank Card System** joined on **1 January 1969**. An agreement with **Eurocard in 1968** helped extend acceptance into Europe. The larger system was being assembled from businesses that already had customers, merchants and their own ways of operating.[^mc-expansion]
+
+Ownership of the common name was finally consolidated on **30 April 1969**, when **Interbank acquired the Master Charge name and service marks for $300,000**. Hinke's letter to members recorded the closing and explained that the cost would be recovered through assessments on Master Charge licensees. This was the purchase of the brand for a network whose members were already working together.[^mc-brand-purchase]
+
+**Aside: The price of a name.** The advertising agency's naming prize had been $25. Interbank's payment acquired the rights to use and license the established brand. Louisville's bank was entitled to **15 percent**, or **$45,000**, of the $300,000 consideration under its arrangements with the western association.[^mc-brand-purchase]
+{: .notice--info}
+
+Louisville supplied more than an earlier claim to the name. After buying the original business, its bank developed a computer system to handle card accounts on an **IBM System/360**. The programs and operating manuals were then offered to other banks. A **September 1969** trade-journal account describes the package as a way for banks to enter the business without building their accounting systems from scratch. A shared brand could open doors, but somebody still had to turn the sales drafts into statements and balances.[^mc-louisville-software]
+
+Nor did expansion guarantee immediate profits. Louisville's bank reported losses in its first two years of operating the card, a result close to break-even in **1969**, and a modest profit in **1970**. Even with an established business and a growing national network, making the accounts pay took time.[^mc-louisville-profit]
+
+In **1979**, **Master Charge became MasterCard**. The route to that name had passed through a Louisville family business, a California banking association and a national interchange organization. Their combined achievement was to make independently issued bank cards useful in the same shops, and recognizable under the same name.[^mc-mastercard-name]
 
 ## Credit Cards in India
 
@@ -2998,6 +3078,27 @@ Words I learned: guile, laconic, mercurial, evince, prox., perfidy
 [^amex-simmons-recovery]: Simmons, _The Credit Card Catastrophe_, ch. 7, pp. 74–75, on credit standards, losses, renewed merger proposals, Waters and the fee increase.
 [^amex-grossman-trouble]: Grossman, _American Express_, pp. 285–288, on accounting backlogs, merchant settlement promises, slow collection and approximately $4 million of losses during the first two years.
 [^amex-black-controls]: Hillel Black, _Buy Now, Pay Later_ (William Morrow, 1961), pp. 27–28, on telephone authorizations, manual account checks and circulated lists of invalid cards.
+[^mc-louisville-origin]: Agostinho Campos Ferreira, _The Origins of MasterCard_ (doctoral thesis, 2019), pp. 95–98; Shellie Benovitz's recollection, note 105, p. 275.
+[^mc-louisville-ad]: Master Charge System advertisement, _The Louisville Times_, 28 May 1965; reproduced in Ferreira, pp. 95–97, fig. 58.
+[^mc-louisville-bank]: Ferreira, pp. 98–101, and note 119, p. 275: agreement reached 28 April 1967; transfer effective 1 May.
+[^mc-california]: Ferreira, pp. 105–109, on the four founding banks, incorporation and Elmer's role.
+[^mc-interbank]: Ferreira, pp. 87–89; Sean H. Vanatta, _Plastic Capitalism_ (2024), pp. 96–100.
+[^mc-interbank-rules]: Edward E. Bontems, account of Interbank's organization (1968), quoted in Ferreira, pp. 89–91.
+[^mc-footman]: Bob Footman, interview, 30 November 1992, quoted in Ferreira, pp. 108–110 and notes 139–147, p. 277.
+[^mc-name-collision]: “Packaged Software Triggers Instant Credit Card Activity,” _Bank Systems & Equipment_, September 1969; reproduced in Ferreira, pp. 244–245.
+[^mc-name-agreement]: Ferreira, pp. 110, 120 and 123–124; William O. Rudd's correspondence explains Louisville's licensing arrangements.
+[^mc-launch]: _Wells Fargo Banker_, May–June 1967, quoted in Ferreira, pp. 112, 117–118; launch advertisement, _The Sacramento Union_, 18 July 1967, p. B8.
+[^mc-customer-terms]: _Sacramento Union_ launch advertisement, 18 July 1967, p. B8; Western States Bankcard Association, cardholder questions and answers, reproduced in Ferreira, pp. 230–237.
+[^mc-wells-fargo]: _Wells Fargo Banker_, May–June 1967, quoted in Ferreira, pp. 115–118.
+[^mc-manual]: California Bankcard Association, _Master Charge Manual—Preliminary Draft_, 13 January 1967, quoted in Ferreira, pp. 111–112.
+[^mc-common-brand]: David L. Stearns, _Electronic Value Exchange_ (2011), pp. 27–28, 57; Ferreira, p. 127 and note 215, p. 282.
+[^mc-louisville-interbank]: First National Bank of Louisville, _Annual Report 1968_, quoted in Ferreira, p. 123; promotional-materials letter, 3 April 1968, reproduced on p. 229.
+[^mc-new-look]: First National Bank of Louisville advertisement, _The Courier-Journal_, 30 October 1968; reproduced in Ferreira, pp. 226–228, fig. 77.
+[^mc-expansion]: Ferreira, pp. 126–128 and note 189, p. 280; David S. Evans and Richard Schmalensee, _Paying with Plastic_, 2nd ed., p. 62, on Eurocard.
+[^mc-brand-purchase]: Karl Hinke, letter to Interbank members, 13 May 1969, quoted in Ferreira, pp. 130–131; Elmer's letter, 7 February 1969, pp. 129, 283, on Louisville's 15 percent share.
+[^mc-louisville-software]: “Packaged Software Triggers Instant Credit Card Activity,” _Bank Systems & Equipment_, September 1969; reproduced in Ferreira, pp. 244–250.
+[^mc-louisville-profit]: First National Bank of Louisville, _Annual Reports 1969 and 1971_, quoted in Ferreira, p. 131 and notes 238–240, p. 284.
+[^mc-mastercard-name]: Evans and Schmalensee, _Paying with Plastic_, 2nd ed., p. 66.
 [^amex-grossman-recovery]: Grossman, _American Express_, pp. 299–303, on Clark, Waters, the 1961 merger discussions and antitrust advice, collection policy, fees, the first profit in 1962, and growth through 1967. Thirty days refers to how long a payment was **overdue** before collection pressure began, not the total time allowed to settle a new purchase.
 [^amex-forbes]: Daniel Gross et al., “American Express and the Charge Card,” from _Forbes Greatest Business Stories of All Time_ (1996), supplied as `research/amex/forbes-amex.pdf`, PDF pp. 6–7, on Waters's Colonial Stores background and the 1963 overseas personal-check cashing service. Daniel Gross and Peter Z. Grossman are different authors.
 [^amex-simmons-computers]: Simmons, _The Credit Card Catastrophe_, p. 95, on Waters's data-processing experience, computer billing and faster merchant settlement. Simmons associates plastic with Waters's 1960s reforms; the plastic introduction itself is dated here to May 1959 using the company history and surviving card designs.
