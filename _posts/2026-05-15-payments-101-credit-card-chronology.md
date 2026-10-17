@@ -725,74 +725,155 @@ The number on a charge coin was already doing a familiar job: connecting a shopp
 
 ### Department Stores
 
-Descriptions and illustrations of dif-
-ferent types of plates, as well as the metal-embossing machines that made them,
-are found in William H. Leffingwell, The Office Appliance Manual (Chicago, 1926),
-405–37
+The account came before the card. A department-store customer could have purchases entered against her name and settle the bill later, usually monthly. For the shopper, this meant fewer cash payments at individual counters. For the store, it meant a reason to come back.
 
-These cards served the
-dual purpose of identifying a customer with a charge account and also
-of providing a mechanism for keeping records of customer purchases.
-The use of such cards continued to grow after the end of the First
-World War until the growth was halted by the depression. During the
-Second World War, most firms did not use these cards as a result of
-the wartime credit restrictions - lewis mandel 1972book
+In **1922**, **Frederick W. Walter**, credit manager of **Gimbel Brothers**, edited _The Retail Charge Account_, a manual drawn from lectures and discussions among New York's retail credit managers. Contributors included men from Bloomingdale's, Saks, Bonwit Teller and Henri Bendel. They treated the account as both a financial arrangement and a way of cultivating customers:[^dept-walter-business]
 
+> “The charge patron is permanently on the books of the shop and her name is readily accessible for all kinds of advertising.”[^dept-walter-business]
 
-Department stores had already been extending credit to consumers in the form of charge accounts.
+The manual advised stores to look for prospective customers in wedding announcements, property transactions and the records of substantial cash purchases. An account holder who stopped buying should receive a letter asking why. Even a monthly statement with nothing owing could carry a sales message. The store's credit department was expected to bring in business as well as collect it.[^dept-walter-business]
 
-As department stores grew, so did the volume of credit transactions. Recording a customer's details on every charge slip was cumbersome for clerks and slowed down the checkout process. Introduced by Farrington Manufacturing in 1928, the Charga-Plate was designed to streamline this workflow.
+Getting an account meant submitting to investigation. Stores asked about employment, residence, bank connections and accounts elsewhere. The **Reference Clearance Bureau** in New York pooled member stores' records of balances, payment habits and closed accounts. A flattering reference from one store could be checked against less flattering experiences at others.[^dept-walter-approval]
 
-{% include gallery id="charge_plate_gallery" caption="Charga Plate, c. 1949" %}
+These judgments were also shaped by prejudice. The 1922 manual suggested that an applicant's first name could reveal nationality, and that interviewers record impressions such as _“Bears watching.”_ Access to the convenience depended on whom the store considered respectable.[^dept-walter-approval]
 
-Resembling a military dog tag, the metal plate contained the customer's name and address embossed on its surface along with a paper signature card on the back. Stores such as Bloomingdale's, Saks, and Gimbels widely adopted the system for their charge-account customers.
-
-Upon charging a purchase, the consumer presented the charge plate to the clerk, who placed the plate in a small imprinter (about the size and shape of a stapler), with a charge slip on top of the plate. Downward pressure on the imprinter recorded the customer’s data from the plate onto the charge slip via an inked ribbon. The customer then signed the charge slip, authorizing the purchase, while the various copies were retained by the store and customer for record-keeping.
-
-**Aside:** Each Charga-Plate also contained two additional, unseen pieces of information: the position of the circular notch in the edge of the plate represented the city for which the plate was issued, while the position of the square notch represented a specific store  within that city. A single plate might contain several square notches, if more than one local retailer participated in the Charga-Plate system.
+**Aside: Whose account was it?** The shopper and the person responsible for payment were often different people. The same manual instructed stores to obtain a married woman's husband's full name and establish whether he would accept responsibility for the account. A name on a token or plate therefore did not necessarily identify the person doing the shopping. Practices varied, but the store's records often centred on the husband's credit.[^dept-walter-approval]
 {: .notice--info}
 
-While still a closed-loop credit product, the Charga-Plate represented an important step forward: it transformed the card from a simple identifier into a tool for automating transaction processing.
+#### Getting the purchase approved
 
-#### Familiar Feature: Customer Signature
-<div style="width: 50%; margin: 0 auto;">
+Recognizing a customer was only part of the transaction. In **1907**, **William Amelius Corbion's** department-store salesmanship manual made the distinction explicit: identification proved who the customer was; it _“does not give authority to deliver goods.”_ A credit department or its representative still had to approve the charge. Under the procedure he described, a coin could identify a shopper for a take-home purchase up to **$10**; larger purchases required the aisle manager. A coin marked for referral went with the sales check to the credit office by pneumatic tube or messenger.[^dept-corbion]
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/charge_plate_back.webp" alt="Charga Plate Back" caption="Charga Plate Back containig signature card" %}
-
-</div>
-
-Charga Plates had a paper card on the back where the customer had to sign before using the card. This signature could be matched with the signature on the sales slip by the clerk
-and could be used as a rudimentary form of fraud prevention. This signature field was quite common until recently in modern credit cards
-
-
-#### Familiar Feature: Embossed Text
-{% include gallery id="charge_plate_imprinter" caption="Farrington Charga Plate Imprinter" %}
-Another common feature betwen modern credit cards and charge plates is the embossed text. It allowed mechanization of the process of writing down customer information on sales slips and reduced clerical errors.
-
-Modern credit cards also used this feature, although in recent times with the advancement of technology, paper sales slips hve become obsolete and latest credit cards generally don't come with embossed letters.
-
-#### Innovation: Revolving Credit
+By 1922, stores could also use **“charge phones.”** A salesperson inserted the sales slip into a telephone unit, called an authorizer and read out the customer's details and purchase amount. If approved, the authorizer pressed a button at the switchboard that caused the unit on the sales floor to stamp the slip and perforate its address label. A remote authorization left a physical mark on the paperwork.[^dept-walter-authorization]
 
 <div style="width: 60%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/budgetted_charge_account_montreal_gazette_12_sept_1935_p20.png" alt="Henry Morgan & Co. Budgetted Charge Account Ad, The Gazette, Montreal, 12 Sept 1935, p. 20" caption="Henry Morgan & Co. Budgetted Charge Account Ad, The Gazette, Montreal, 12 Sept 1935, p. 20" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/charge_phone_authorization_1922.png" alt="A credit authorizer's switchboard and a stamping telephone unit used on a store's sales floor" caption="Charge authorization by telephone, The Retail Charge Account (1922), p. 72, figs. 8–9" %}
 
 </div>
 
-Henry Morgan first revolved credit
+The charge coin saved a customer from carrying cash. It still left the clerk with a fair amount of writing. A misspelled name, an illegible address or a miscopied account number could mean a disputed bill or a parcel delivered to the wrong house.
+
+From the late **1920s**, Boston's **Farrington Manufacturing Company** offered a mechanical solution: the **Charga-Plate**. A small metal rectangle carried the customer's name, address and account number in raised letters. Put it in an imprinter with a sales slip, press the handle, and the details could be copied onto the slip. The customer was now carrying a little printing plate.[^dept-plate-origins]
+
+{% include gallery id="charge_plate_gallery" caption="Charga Plate, c. 1949" %}
+
+#### “Charga-Plate It, Please”
+
+At **Hale's in Sacramento**, manager **George C. Conover** announced the system just before the Christmas shopping season in **November 1935**. City manager **James S. Dean** made the first charge purchase, with salesman **Robert Roberts** demonstrating the equipment. Previously, a clerk had taken the shopper's name and telephoned the credit department to identify the account. On a busy day, that meant waiting.[^dept-hales]
+
+With the new system, the shopper handed over a plate and signed the sales slip. The clerk put the plate in what the newspaper called an _“addresser,”_ pulled the handle, and printed the account details on a **triplicate sales tag**. Hale's advertisement the following day assured customers that the plate would stay clean: ink never touched it.[^dept-hales]
+
+#### Familiar Feature: Embossed Text
+
+{% include gallery id="charge_plate_imprinter" caption="Farrington Charga-Plate imprinter" %}
+
+The embossed lettering did the work that clerks had previously done by hand. Carbon-paper sales forms could take an impression of the raised details, a method later familiar to generations of cardholders whose cards were passed through manual imprinters.[^dept-plate-origins]
+
+The underlying technology already had a life in the office. **William H. Leffingwell's _Office Appliance Manual_ (1926)** illustrated metal address plates, machines for embossing them and equipment for printing from them. Some embossers used a typewriter keyboard to drive punches and dies into the metal. The same stored name and address could then be printed repeatedly on statements, envelopes and other forms.[^dept-leffingwell]
+
+<div style="width: 55%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/address_plate_keyboard_embosser_1926.png" alt="An operator uses a typewriter keyboard connected to a machine that embosses metal address plates" caption="Embossing metal address plates, The Office Appliance Manual (1926), p. 414, fig. 168" %}
+
+</div>
+
+The Charga-Plate put that reusable printing surface into the shopper's hands. It helped the store copy an identity accurately; the credit records behind it still determined whether a purchase should be allowed.
+
+#### Familiar Feature: Customer Signature
+
+The plate also had a signature panel on the reverse. Hale's told customers to sign it in ink before using it; a clerk could compare that signature with the one on the sales slip. Other members of the family could receive their own plates against the account. The store also promised a little more privacy: shoppers would no longer have to announce their names and addresses within earshot of strangers.[^dept-hales]
+
+<div style="width: 50%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/charge_plate_back.webp" alt="Reverse of a Charga-Plate with a signature panel" caption="The signature panel on the back of a Charga-Plate" %}
+
+</div>
+
+Signatures had already been doing this job before the metal plate arrived. The 1922 manual described a **“signature and floorman”** system: the customer signed, a floor manager vouched for recognition, and the signature could be compared with the one held in the office. Stores kept signatures for other people authorized to buy on the account too. The **1925 _Credit Management_** manual likewise described signature comparison as an alternative to coins or courtesy cards that could be lost or forgotten.[^dept-signatures]
+
+**Aside: A mechanical acceptance check.** Hale's plate had a notch at the top identifying the store and another at the bottom identifying Sacramento; the machine accepted the matching pattern. In later groups of cooperating stores, notches could make a plate fit the imprinters of stores where its holder had an account. The pattern controlled where it could be used, while account records tracked the debt.[^dept-hales][^dept-plate-groups]
+{: .notice--info}
+
+#### One plate, seven stores
+
+The Charga-Plate could also spare shoppers a pocketful of different store tokens. On **10 March 1934**, seven Boston retailers jointly advertised that one plate could be used at **Filene's, Slattery's, Shepard Stores, Continental Clothing, Conrad & Co., R. H. White's and Gilchrist's**.[^dept-boston]
+
+<div style="width: 65%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/boston_charga_plate_seven_stores_1934.jpg" alt="Seven Boston stores advertise a shared Charga-Plate in March 1934" caption="One Charga-Plate for seven Boston stores, The Boston Evening Globe, 10 March 1934, p. 18" %}
+
+</div>
+
+There was a qualification in the advertisement: the plate worked at the stores **in which the customer already had an account**. Anyone wishing to use it elsewhere was invited to apply for an account there. Sharing the plate did not give the shopper a common credit limit or a single bill. The stores had agreed to recognize the same piece of metal; each still decided whom it would trust.[^dept-boston]
+
+#### Innovation: Revolving Credit
+
+Making the sales slip was one problem. Deciding when the customer had to pay was another.
+
+A regular charge account generally called for the month's purchases to be paid together when billed. An installment contract spread the cost of a particular purchase over a series of payments. **Revolving credit** combined repeated shopping with repayment over time: the customer had an agreed limit, and payments restored room to buy again.[^dept-credit-types]
+
+Actual practice was less tidy than these categories suggest. Writing in **1939**, economist **Rolf Nugent** described quality stores quietly accepting partial payments to compete with installment sellers. During the 1920s, merchants also hesitated to press desirable customers for payment lest they move to more lenient competitors. Paying a charge account over several months therefore preceded the formal, advertised promise of a replenishing credit line.[^dept-nugent]
+
+In Montreal, **Henry Morgan & Co.** was advertising its **“Budgetted Charge Account,” or B.C.A., by September 1935**. Its advertisement of **12 September** gave a concrete example: a **$35 limit**, an **$8.75 deposit** and a **$10 monthly payment**. Once the account was arranged, further purchases did not require a fresh contract or another visit to the credit office. The customer could shop across the store's departments within the agreed arrangement.[^dept-morgan-1935]
+
+<div style="width: 60%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/budgetted_charge_account_montreal_gazette_12_sept_1935_p20.png" alt="Henry Morgan & Co. advertises a Budgetted Charge Account in September 1935" caption="Henry Morgan & Co., The Gazette, Montreal, 12 September 1935, p. 20" %}
+
+</div>
+
+Three years later, Morgan's was rather unimpressed by the publicity surrounding a New York store's new _“Revolving Credit Plan.”_ Its response appeared in _The Gazette_ on **9 September 1938**, under the headline **“A New York Store Compliments Morgan's.”** The supposed compliment was imitation. Morgan's said it had offered the same convenience three years earlier.[^dept-morgan-1938]
+
+> “With their unquestioned flair for publicity, one of the largest New York Department Stores has recently advertised extensively a new credit convenience for its customers.”[^dept-morgan-1938]
+
+The advertisement explained exactly what replenishing credit meant: as payments fell due and were made, customers could buy again up to the amount repaid. They could add purchases without further deposits, continue the same monthly payment, and remain within the established limit. The advertised terms were **25% cash and three to four months to pay**. Whatever the eventual claims about who invented revolving credit, Morgan's earlier advertisements make it difficult to start the story in 1938.[^dept-morgan-1938]
+
+<div style="width: 65%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/morgan_revolving_credit_reply_9_sept_1938.png" alt="Morgan's says its Budgetted Charge Account preceded a New York store's revolving credit publicity by three years" caption="Morgan's pointed response, The Gazette, Montreal, 9 September 1938, p. 22" %}
+
+</div>
+
+#### Wanamaker makes a splash
+
+On **22 August 1938**, **John Wanamaker** launched a heavily advertised **“Revolving Credit”** plan. Its example began with a familiar household expense: **$200 of back-to-school clothes**. The approved customer could buy them immediately, pay **$50 a month**, and recover **$50 of available credit** with each payment. There were **no carrying charges** and no promissory notes to sign.[^dept-wanamaker-launch]
 
 <div style="width: 40%; margin: 0 auto;">
 
-{% include figure popup=true image_path="assets/images/credit-card-chronology/wanamaker_revolving_credit_launch_ad_22_aug_1938.jpg" alt="John Wanamaker revolving credit launch Ad" caption="John Wanamaker Revolving Credit Launch Ad, The Philadelphia Inquirer, 22 August 1938, p. 5" %}
+{% include figure popup=true image_path="assets/images/credit-card-chronology/wanamaker_revolving_credit_launch_ad_22_aug_1938.jpg" alt="Wanamaker launches revolving credit with four months to pay and no carrying charge" caption="John Wanamaker, The Philadelphia Inquirer, 22 August 1938, p. 5" %}
 
 </div>
 
-In 1938, John Wanamaker's department store promoted a store-account system it called "Revolving Credit." Contrary to some later accounts, Wanamaker did not present the plan as a novel invention; the advertisement explicitly stated that revolving credit had long been used in banking and business. The innovation, from the consumer's perspective, was that customers could make purchases up to an approved credit limit and repay the balance in installments while restoring available credit as payments were made. In the example provided by the store, a customer granted a $200 credit line could purchase $200 worth of goods, pay $50 per month, and regain $50 of purchasing power with each payment.
+Wanamaker's acknowledged that revolving credit already existed in banking and business, while claiming to be first to bring it to family budgets. The trade press was more restrained. _Women's Wear Daily_, reporting the launch that day, observed that other stores' budget accounts already restored buying power as customers paid. What stood out was Wanamaker's vigorous promotion of that feature and its encouragement to customers to use their available credit.[^dept-wanamaker-wwd]
 
-Equally significant, Wanamaker emphasized that the account carried no carrying charges and required no promissory notes or formal loan agreement. Rather than transforming consumer credit into an interest-bearing revenue stream, the plan was marketed as a convenient budgeting tool that helped households manage irregular expenses and seasonal purchasing needs. The advertisement portrayed revolving credit not as a source of finance charges, but as a means of smoothing consumption over time while maintaining an ongoing customer relationship with the store.
+The store presented the plan as household discipline. In an **October 1938** advertisement, an imagined customer was told that her income justified spending **$480 a year** at Wanamaker's. She could spend a third of that immediately—**$160**—and repay within four months. Payments restored credit, but the example also capped total annual spending at **$480**. The promise was to spread the expense of clothing children and buying Christmas presents across the year.[^dept-wanamaker-budget]
 
-Around the same period, some department stores introduced budget or charge-account arrangements that allowed customers to defer repayment over multiple months. These differed from traditional installment plans and monthly charge accounts, which typically required repayment according to a fixed schedule or in full when billed. However, the specific Wanamaker plan advertised in 1938 was notable for allowing balances to be repaid over time without any stated carrying charge.
+The sales pitch travelled quickly. **Rhodes in Seattle** announced its plan on **2 September 1938**, offering $100 of purchases at $25 a month without a carrying charge. On **8 September**, **Rosenbaum's in Cumberland, Maryland**, responded that its customers had enjoyed such an arrangement for years. By **15 November**, **FitzGerald's in Tasmania** was advertising revolving credit with three months to pay, using strikingly similar language and illustrations of school clothes, weddings and family expenses.[^dept-revolving-spread]
 
+#### The plate and the balance
+
+Wartime credit restrictions complicated these arrangements, but also gave stores another reason to adopt mechanical account records. Once the rules required overdue charge accounts to be frozen, the sales floor needed to know which customers could still buy. At **Allen's in Germantown, Pennsylvania**, the store kept Addressograph plates on its premises and moved the plates for delinquent accounts to a separate drawer. Without the plate, another purchase could not be charged. The same equipment could print reminders to the customers who owed money.[^dept-wartime]
+
+After the war, stores could build revolving plans around the Charga-Plate equipment they already used. Farrington promoted differently coloured plates for revolving accounts, usable in the same machines as regular charge-account plates. To the shopper, both transactions could begin with the same words: _“Charge it.”_ The difference arrived with the bill.[^dept-postwar]
+
+At **Gimbels**, a **25 November 1949** advertisement offered a **“Rotating Charge Account”** for Christmas shopping. A customer could charge **$120**, repay **$20 a month**, and charge another $20 as soon as that payment was made. This time, the monthly payment came **“plus a small carrying charge.”** The advertisement listed the new plan alongside the store's regular charge account and its existing payment account.[^dept-gimbels]
+
+<div style="width: 40%; margin: 0 auto;">
+
+{% include figure popup=true image_path="assets/images/credit-card-chronology/gimbels_rotating_charge_account_25_nov_1949.jpg" alt="Gimbels advertises a rotating charge account with six monthly payments and a carrying charge" caption="Gimbels' Christmas credit offer, The Wisconsin Jewish Chronicle, 25 November 1949, p. 10" %}
+
+</div>
+
+The attraction was social as well as financial. Under older installment coupon-book schemes, a shopper had to buy a book of coupons from the credit office and use them at the counter. Revolving customers could instead present a plate and charge purchases much like customers who paid their bills in full each month. The extra time to pay did not have to be announced to everyone in the queue.[^dept-postwar]
+
+#### From a fixed budget to a choice of payment
+
+The early revolving plan still presumed a budget worked out with the store. In the **1950s**, retailers began loosening that arrangement. **Federated Department Stores** experimented with flexible limits: a customer could exceed the normal budget limit, but would then have to pay a larger proportion of the balance each month. This reduced the need for floor managers to approve exceptions one purchase at a time.[^dept-option-accounts]
+
+The **“option account”** went further. The customer could pay the bill within thirty days without a finance charge or repay over time with a charge on the unpaid balance. Regular charge customers and customers who borrowed for longer could now use the same account. A Gimbels credit official described the appeal neatly: _“she becomes her own credit manager.”_[^dept-option-accounts]
+
+That freedom had a cost for the store as well as the shopper. Slower repayment left more money tied up in customers' outstanding balances. Credit could bring in sales and finance-charge income, but the store still had to fund the purchases while it waited to be paid. The increasingly elaborate store account was also creating a business opportunity for banks.[^dept-option-accounts]
 
 ### Western Union
 
@@ -2699,6 +2780,29 @@ Words I learned: guile, laconic, mercurial, evince, prox., perfidy
 [^charge-coin-haines]: [_Lit Bros. v. Haines_, 98 N.J.L. 658, 121 A. 131 (5 June 1923)](https://openjurist.org/98/njl/658/lit-bros-v-haines-8105112), the court's opinion, including its discussion and rejection of _Wanamaker v. Megary_, 24 Pa. Dist. 778 (Philadelphia Municipal Court, 1915). These decisions concerned their particular facts and agreements; they do not establish a uniform rule for all coin issuers.
 [^charge-coin-strawbridge]: Strawbridge & Clothier, notice dated 1 March 1920, reproduced in Ferreira, _The Origins of MasterCard_, p. 38, fig. 5 (Edmund Tylenda collection; accompanying coin specimens, author's collection). The notice limits cancellation language to “take with” purchases. The letter and accompanying folder dated 21 November 1927 appear on p. 39, fig. 6 (author's collection); the folder instructs customers to report losses so the number can be cancelled and a new coin issued.
 [^charge-coin-nk]: Ekonomiska museet / Statens historiska museer, [“NK nr 30700,” object 3160607](https://samlingar.shm.se/object/0c737802-1689-41a2-a69f-d37977ec91c3), catalogue record and exhibition text. The museum dates the bronze badge to 1920–1955 and describes NK's introduction in the 1920s, account-number list, payment at the end of the following month, and replacement by paper account credentials in the 1950s.
+
+[^dept-walter-business]: Frederick W. Walter, ed., _The Retail Charge Account_ (Ronald Press, 1922), pp. 5, 209–218; contributor list, pp. v–vi.
+[^dept-walter-approval]: Walter, _The Retail Charge Account_, pp. 17–28, 251–258; Emily Remus, “Credit and Coverture in the Age of American Mass Consumption,” _Law and History Review_ (2026), pp. 6–14.
+[^dept-corbion]: William Amelius Corbion, _The Principles of Salesmanship, Deportment and System_ (George W. Jacobs & Co., 1907), pp. 312–317.
+[^dept-walter-authorization]: Walter, _The Retail Charge Account_, pp. 53–75, especially pp. 69–75 and figs. 8–10.
+[^dept-leffingwell]: William Henry Leffingwell, ed., _The Office Appliance Manual_ (1926), pp. 407–414, 421–425; fig. 168, p. 414.
+[^dept-signatures]: Walter, _The Retail Charge Account_, pp. 25–26, 56–59; Emery E. Olson and J. W. Hallman, _Credit Management_ (Ronald Press, 1925), pp. 345–346.
+[^dept-plate-groups]: Lewis Mandell, _The Credit Card Industry: A History_ (Twayne, 1990), p. 25.
+[^dept-nugent]: Rolf Nugent, _Consumer Credit and Economic Stability_ (Russell Sage Foundation, 1939), pp. 83–85, 100–103.
+[^dept-option-accounts]: Louis Hyman, _Debtor Nation: The History of America in Red Ink_ (Princeton University Press, 2011), pp. 149–160; Gimbels quotation, p. 157.
+[^dept-plate-origins]: Mandell, _The Credit Card Industry_, p. 18; David L. Stearns, _Electronic Value Exchange_ (Springer, 2011), pp. 7–8; Agostinho Campos Ferreira, _The Origins of MasterCard_ (doctoral thesis, 2019), pp. 43–47. Sources differ between 1927 and 1928.
+[^dept-hales]: “New ‘Charge It’ System Is Put In Effect At Hales,” _The Sacramento Bee_, 29 November 1935, p. 6; Hale’s advertisement, 30 November 1935, p. 2.
+[^dept-boston]: Seven-store Charga-Plate advertisement, _The Boston Evening Globe_, 10 March 1934, p. 18.
+[^dept-credit-types]: Timothy W. Wolters, “Carry Your Credit in Your Pocket,” _Enterprise & Society_ 1, no. 2 (2000), pp. 319–321; Hyman, _Debtor Nation_, pp. 121–126.
+[^dept-morgan-1935]: Henry Morgan & Co. advertisements, _The Gazette_ (Montreal), 6, 12 and 13 September 1935, p. 20 in each issue.
+[^dept-morgan-1938]: Henry Morgan & Co., “A New York Store Compliments Morgan’s,” advertisement, _The Gazette_ (Montreal), 9 September 1938, p. 22.
+[^dept-wanamaker-launch]: John Wanamaker, “Wanamaker Launches ‘Revolving Credit,’” advertisement, _The Philadelphia Inquirer_, 22 August 1938, p. 5.
+[^dept-wanamaker-wwd]: “New Revolving Credit Service At Wanamaker,” _Women’s Wear Daily_ 57, no. 36, 22 August 1938, pp. 1, 24.
+[^dept-wanamaker-budget]: John Wanamaker, “Wanamaker’s is where I get Revolving Credit,” advertisement, _The Philadelphia Inquirer_, 3 October 1938, p. 5.
+[^dept-revolving-spread]: Rhodes advertisement, _The Seattle Star_, 2 September 1938, p. 3; Rosenbaum’s advertisement, _Cumberland Evening Times_, 8 September 1938, p. 3; FitzGerald’s advertisement, _The Mercury_ (Hobart), 15 November 1938, p. 11.
+[^dept-wartime]: Hyman, _Debtor Nation_, pp. 117–120; Sean H. Vanatta, _Plastic Capitalism_ (Yale University Press, 2024), pp. 28–29. Allen’s example: Hyman, p. 117.
+[^dept-postwar]: Hyman, _Debtor Nation_, pp. 122–125.
+[^dept-gimbels]: Gimbels, “Rotating Charge Account,” advertisement, _The Wisconsin Jewish Chronicle_, 25 November 1949, p. 10.
 
 [^kali-mody-friends]: [Memories of Modys](https://www.parsiana.com/current-issue/articles.aspx?id=QEU0F%2btnigk%3d&issue=276)
 [^kali-mody-1959]: Diners Club Ad, The Times of India, 6 Nov 1978, p. 5
