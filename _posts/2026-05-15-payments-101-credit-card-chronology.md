@@ -256,11 +256,6 @@ focus on the history and origins of the credit card, with the evolution of card 
 {: .notice--info}
 
 
-
-
-
-
-
 ## What is a Credit Card?
 
 Well, its not a Debit Card, that's for sure. In fact, I was very surprised to learn that credit cards were created much before debit cards.<span class="tt">*<span class="tt-c">More on this in part 2</span></span>
@@ -282,7 +277,8 @@ But first, let’s take a look at the evolution of credit itself.
 
 ## The origins of credit
 
-At `$DayJob` we have a philosophical concept of "Shape of Nature".
+At `$DayJob` we have a philosophical concept of "Shape of Nature". It is that we can learn about systems by looking at Nature. In this case,
+the nature being agriculture.
 
 The concept of credit likely began to take shape with the agricultural revolution around 10,000 years ago. In agrarian economies, farmers needed seeds, water, fertilizer, and labor months before any harvest could generate income. Under these conditions, credit emerges naturally: value is provided now in exchange for value received later.
 
@@ -380,6 +376,8 @@ Physical evidence of credit practices in ancient India is virtually nonexistent.
 
 However, we have significant literary evidence. The Rig Veda, composed between 1500 and 1200 BCE, includes a prayer to _Varuna_ requesting discharge from debt.
 
+The *Manusmṛti* (8.140-142) prescribes tiered interest rates: 2% for Brahmins, 3% for Kshatriyas, 4% for Vaisyas, and 5% for Sudras (Olivelle, 2005). The same text mandates no interest when collateral is provided (8.143) and caps accumulation: money may double, grain may quintuple (8.151-152). The term *vṛddhi* encompasses both natural growth and usurious excess, capturing the anxiety that debt can metastasize beyond its original purpose. Kautilya's *Arthashastra* takes a more pragmatic view, allowing rates from 1.25% to 20% depending on the borrower's occupation and risk profile.
+
 <details><summary>Rant</summary>I am so disappointed at this</details>
 
 
@@ -411,81 +409,11 @@ Greek and Roman records show credit woven into Mediterranean commerce. Greek *tr
 
 > **Aside:** Notice the pattern across continents. Every civilization that developed writing also developed rules about lending. Agriculture creates seasonal gaps between work and reward. Those gaps create credit. Credit, without guardrails, creates cruelty. The regulations — interest caps, debt relief, slavery limits — are humanity's answer to that cruelty.
 
-### Religious Perspective on credit
-
-If rulers regulated credit, religions moralized it.
-
-#### Semitic Religions
-
-Judaism, Christianity, and Islam all wrestled with the ethics of charging interest. The Hebrew Bible uses the word *neshek* (נשך), literally "bite," to describe usury in Exodus 22:24-26, Leviticus 25:35-37, and Deuteronomy 23:19-21. Jewish law permitted lending at interest to foreigners but prohibited it among Jews. The *Shulḥan Arukh* (Yoreh De'ah 167:1) preserves these prohibitions. Yet Jewish communities found a workaround: the *heter iska*, developed by 16th-century Polish scholar Rabbi Mendel Avigdors, which restructured a loan as a profit-sharing partnership (Katz, 1962). The document looks like a loan; the economics look like equity.
-
-Christianity inherited the prohibition. The First Council of Carthage in 345 condemned usury, and by the Council of Vienne in 1311, the practice was declared heresy. Thomas Aquinas devoted a full question in the *Summa Theologica* (IIa-IIae, q.78) to arguing against it. But commerce demanded flexibility. John Calvin wrote in 1545 that interest could be permitted conditionally. Henry VIII's statute of 1545 legalized 10% interest in England, and Elizabeth I confirmed it in 1571, though rates gradually fell to 5% by 1713. The religion that once called it heresy learned to call it business.
-
-Islam took the hardest line. The Qur'an calls *riba* (ربا) not merely sinful but warfare against God and His Messenger (Al-Baqarah 2:275-281). Two forms are identified: *riba al-nasi'ah* (interest on delay) and *riba al-fadl* (excess in exchange). Rather than abandon finance, Islamic jurisprudence developed alternatives: *mudarabah* (profit-sharing), *musharakah* (joint venture), *murabaha* (cost-plus financing), and *ijara* (leasing). These structures achieve the economic function of lending while respecting the prohibition on guaranteed returns.
-
-#### Hinduism
-
-Hindu texts approach credit through the lens of caste and cosmic order. The *Manusmṛti* (8.140-142) prescribes tiered interest rates: 2% for Brahmins, 3% for Kshatriyas, 4% for Vaisyas, and 5% for Sudras (Olivelle, 2005). The same text mandates no interest when collateral is provided (8.143) and caps accumulation: money may double, grain may quintuple (8.151-152). The term *vṛddhi* encompasses both natural growth and usurious excess, capturing the anxiety that debt can metastasize beyond its original purpose. Kautilya's *Arthashastra* takes a more pragmatic view, allowing rates from 1.25% to 20% depending on the borrower's occupation and risk profile.
-
-#### Buddhism
-
-Buddhism stands apart in its relative permissiveness. The Buddha issued no blanket prohibition on lending. The *Anguttara Nikaya* (A.IV,282) advocates a balanced lifestyle that includes neither squandering wealth nor hoarding it. The *Digha Nikaya* (D.I,71) mentions borrowing specifically to develop a business. Monastic rules in the *Vinaya* barred debtors from joining the Sangha, suggesting that unresolved debt was seen as an obstacle to spiritual commitment rather than a moral failing in itself. From the 1st and 2nd centuries CE onward, Buddhist temples functioned as financial centers, accepting deposits and making loans. The *Alagaddupama Sutta* (S.I,171) holds up freedom from creditors as a form of liberation — not because credit is evil, but because obligation binds the mind.
-
-So we can establish that credit has been there for several millennia. So what was it about 20th century America that led to the credit card revolution?
 
 ## Medieval evolution of credit
 
-Not so fast. Before we get to 20th century America, we have around six centuries of Europe to cross.
-
-The Roman world had bankers too — but they operated inside a Mediterranean market enclosed by a single state: one legal system, one army, one enforcement apparatus. When the Western Empire came apart, long-distance trade and the institutions that enforced obligations at a distance collapsed together, and the credit instruments died with the conditions that had sustained them. For roughly five hundred years, most of Europe's economy ran local and small: manors, rents in kind, barter, little silver.
-
-Then commerce returned faster than coin could. Between roughly 950 and 1350, in the period Robert Lopez called the Commercial Revolution of the Middle Ages,[^lopez-commercial-1971] Italian ports reopened the Mediterranean and Europe began to re-monetize. But specie remained scarce, heavy, and lethally dangerous to haul. Moving a chest of silver from Bruges to Barcelona was not a payment method; it was an expedition.
-
-So merchants rebuilt credit, this time in ink. "Credit commonly entered into the commercial practice of the Middle Ages"[^postan-1928] — and the Church's prohibition of usury, rather than suppressing it, determined the shapes it took. Three innovations from the period matter most to our story.
-
-### The bill of exchange
-
-<!-- IMAGE SUGGESTION: a diagram of the four parties to a bill of exchange, arrows of money and paper between city A and city B -->
-
-The paper trail starts in Genoa, which preserves Europe's earliest surviving notarial registers, from 1154 — the cartulary of the notary Giovanni Scriba. Robert Lopez called them "the first source that contains a fairly large number of documents showing bankers at work".[^lopez-genoa-registers]
-
-Among those registers are exchange contracts (instrumentum ex causa cambii) which Raymond de Roover called "undoubtedly the prototype of the bill of exchange, for it fulfilled exactly the same function".[^deroover-1953] By the 14th century the instrument had matured into the lettera di cambio: no longer a notarized promise to pay, but an informal handwritten order to pay, addressed by a merchant to his own correspondent abroad. No notary, no seal, no ceremony.
-
-Here is a real one. On 12 December 1399 at Bruges, Jacopo Goscio delivered £55 Flemish gros to the Orlandini-Benizi company, which drew on Francesco da Prato & Co. in Barcelona, ordering payment of £312 10s in Barcelonese currency two months later to one Domenico Sancio.[^munro-bruges-1399] Note what is missing from the document: no interest appears anywhere. It was there, of course, smuggled inside the exchange rate, which the two parties negotiated at each end. The scholastics blessed the construction with a tidy formula: "absent money, which is worth less, is being bought or exchanged for present money, which is worth more".[^bell-brooks-moore] Cambium non est mutuum: exchange is not a loan. When modern researchers computed the interest implicit in the Datini companies' exchange spreads, it came out "broadly comparable" to ordinary commercial loan returns. The ban had not stopped credit; it had laundered credit into foreign exchange.
-
-Hunt and Murray call the bill of exchange "the most important financial innovation of the time", because it fused credit, payment, and currency exchange in one sheet of paper.[^hunt-murray-1999] The card-era parallel is direct: a credit card lets you leave a store with the goods while no money moves; a bill of exchange let a merchant leave Bruges with the cloth while no silver moved.
-
-### Deposit banking
-
-The second innovation is quieter: money that moves by being written down twice.
-
-Medieval moneychangers and bankers accepted deposits and recorded them in their books. Once your silver sat in a Genoese bank, you could pay another of the bank's customers by instructing the banker to transfer the claim: one debit, one credit, no coins touched, the ledger absorbing the payment. In 12th-century Genoa such book entries could be assigned outright to another merchant — early deposit-transfer banking, and the conceptual root of the cheque.[^geva-2015] The ledger, not the coin, was becoming the system of record.
-
-The most spectacular surviving ledger of the age belonged not to Italian merchants but to warrior monks. The Order of the Temple, founded in 1119 to protect pilgrims on the roads of the Holy Land, ended up protecting their money as well. Its network of preceptories on both ends of the Mediterranean "meant that they could make specie available where and when it was needed and in the form which was locally acceptable".[^barber-1994] Deposit-taking is documented from at least 1211[^torre-2023]; by the 1290s the Temple was effectively running the French treasury, and its Journal du Trésor for March 1295 to July 1296 shows more than sixty open accounts — king, clergy, nobles, bourgeois — with transfers executed by ledger entry rather than circulating paper.[^delisle-1889] It ended at dawn on Friday, 13 October 1307, when Philip IV of France — chronically overdrawn — had every Templar in the kingdom arrested in a single coordinated sweep.
-
-### Banking networks
-
-The third innovation was scale: the network.
-
-<!-- IMAGE SUGGESTION: map of the Bardi/Peruzzi or Medici branch-and-correspondent network across Europe and the Mediterranean -->
-
-Florence's Bardi and Peruzzi companies — Edwin Hunt's "super-companies" — fielded on the order of fifteen branches and a hundred factors, from Naples, Rome, Genoa, and Venice to Paris, London, Bruges, Rhodes, Cyprus, and Tunis, on capital exceeding 100,000 florins.[^hunt-1994] Deposit with the house in Florence, draw on its correspondent in Bruges. Borrow in London against revenues collected in Italy. The branches and correspondents vouched for strangers to one another, so finance at a distance became something you could simply buy.
-
-The super-companies also left the era's great cautionary tale. Between September 1336 and December 1337, Bardi and Peruzzi advanced Edward III of England at least £82,400 for his wars.[^fryde-1967] When the houses failed — the Peruzzi in 1343, the Bardi in January 1346 — the chronicler Giovanni Villani blamed royal default in round, thunderous figures: 900,000 gold florins owed to the Bardi by the English king alone, and 600,000 more to the Peruzzi.[^villani] The numbers are almost certainly inflated; the mess was not.[^hunt-1990-sapori] Villani's moral stands anyway: sovereign risk kills banks.
-
-The next generation picked a safer sovereign. The Medici Bank, founded in 1397, anchored itself not on kings but on the papacy — between 1420 and 1435 the Rome branch supplied around 62% of the bank's profits.[^deroover-medici] Why the Pope? de Roover explains:
-
-> "the pope was the only medieval ruler who had revenue flowing into his treasury from all corners of Europe, even from Scandinavia, Iceland, and Greenland... pilgrims, suitors, and emissaries preferred to provide themselves with letters of credit instead of carrying money in belts or saddle bags."[^deroover-medici]
-
-This is the thread that runs straight to the travel instruments later in our story: the Western Union collect card, the Air Travel Card, the Diners Club. The medieval version was slower and handwritten. The underlying idea — that your credentials travel because your network does — was already complete.
-
-Nor was Europe alone, or first. Tang China, squeezed by the same arithmetic, produced feiqian (飛錢), "flying cash": amid a coin shortage so severe that exporting cash from the capital was banned, merchants deposited coin with provincial Capital Liaison Offices and carried home a two-part certificate whose halves were rejoined at payout; the state took the system over in 812.[^feiqian] In the Islamic world, the suftaja — "a loan of money in order to avoid the risk of transport", in Joseph Schacht's tidy definition — let a paymaster in one city promise repayment in another; the geographer Ibn Ḥawqal recorded one for 42,000 dinars cashed at Audaghost around the year 977.[^suftaja] India had its own instrument family: the hundi — an unconditional written order to pay that worked as remittance draft, loan instrument, and bill of exchange all at once, with written records of its use going back at least to the twelfth century.[^hundi] The sarrafs who issued hundis also took deposits on interest and settled payments by book entry — giro — the same ledger trick as their Genoese contemporaries. When the Jain merchant Banarasi Das started out in trading around 1600, his father equipped him with a two-hundred-rupee hundi. (Etymology alert: the claim that our word "cheque" descends from the Arabic sakk is beloved by economic historians and rejected by linguists.)[^quinn-roberds] Same constraints, same designs: where money is scarce, heavy, and dangerous to move, paper becomes the message and trust becomes the infrastructure.
-
-So why then, and why there? Economically, credit instruments resurface when trade outgrows the coin supply, and between roughly 950 and 1350 Europe's did exactly that. Institutionally, they need enforcement at a distance — commune courts, notaries, fair courts — and for five hundred years nothing in Europe could enforce a debt five hundred kilometers from home. Culturally, the usury prohibition did not smother credit; it dictated credit's camouflage, which is why the era's killer instrument is a loan masquerading as a currency swap. And technologically, the entire edifice rode what Michael Clanchy called the transition from memory to written record.[^clanchy-1979]
-
-Rome had had bankers too; the lesson of the apocalypse in between is that credit needs two things at once — enough trade to make promises valuable, and enough trust infrastructure to make them credible at a distance. For five centuries Europe had neither; between the twelfth and fourteenth centuries it rebuilt both. Credit without coin, payments as ledger entries, finance across distance — the substrate was back. What nobody had yet imagined was extending any of it to ordinary households. That would take mass production, disposable income, and a salaried middle class with predictable paychecks — which is where we turn next.
-
-
+### Letter of Credit
+WIP
 
 
 ## Rise of Consumer Credit
@@ -2799,6 +2727,9 @@ thought the LLM found everything, still decded to check for myself and ended up 
 It was fascinating reading about how people imagined a cashless society to be and comparing it with how it actually turned out.
 
 Look slike there was a lot of in-person salesmanning happening. I prefer the depersonalized modernity.
+
+
+piano called fortepiano
 
 
 Data was just as valuable in the 20th century.
