@@ -8,7 +8,6 @@ https://books.google.com.mx/books?id=D3Y6pIh4fQgC&pg=PA121&lpg=PA121&dq=installm
 
 cowperthwaite: https://babel.hathitrust.org/cgi/pt?id=mdp.39015063608965&seq=2
 
-get the india singer ad from chowdhury pdf
 
 
 bank of america timeplan: https://www.vacavilleheritagecouncil.org/lccn/sn93004521/1946-04-19/ed-1/seq-10/#utm_source=chatgpt.com
