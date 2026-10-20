@@ -199,6 +199,7 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - tools # local dev utilities, not part of the site
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:

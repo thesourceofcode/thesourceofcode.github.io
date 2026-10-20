@@ -45,3 +45,12 @@ search: false
   box-shadow: 0 0 28px 14px rgba($background-color, 0.9),
     0 6px 30px rgba(0, 0, 0, 0.35);
 }
+
+.page__content .mermaid {
+  display: flex;
+  justify-content: center;
+}
+
+.page__content .mermaid svg {
+  max-width: 100%;
+}
