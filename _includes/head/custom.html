@@ -1,3 +1,18 @@
 <!-- start custom head snippets -->
 <link rel="icon" href="data:,">
 <!-- end custom head snippets -->
+{% if page.noindex %}<meta name="robots" content="noindex, nofollow, noarchive">{% endif %}
+{% if page.credit_card_locked %}
+<style>
+  .layout--single .page__inner-wrap > header,
+  .layout--single .page__inner-wrap > footer,
+  .layout--single .page__inner-wrap > nav { display: none; }
+  .credit-card-unlocked .page__inner-wrap > header,
+  .credit-card-unlocked .page__inner-wrap > footer,
+  .credit-card-unlocked .page__inner-wrap > nav { display: block; }
+  #credit-card-unlock { max-width: 24rem; margin: 5rem auto; }
+  #credit-card-unlock label { display: block; margin-bottom: .5rem; }
+  #credit-card-unlock input { display: block; width: 100%; margin-bottom: 1rem; }
+  #credit-card-unlock-message { min-height: 1.5em; }
+</style>
+{% endif %}
