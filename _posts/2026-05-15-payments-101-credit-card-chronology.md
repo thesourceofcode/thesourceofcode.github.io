@@ -2715,6 +2715,11 @@ A latecomer bank whose card business would grow to be the largest in the country
 
 </div>
 
+
+# Open research questions
+- When diners club merged with dine and sign
+- credit card like system in other medieval civilizations, specially china and india
+
 # Reflections on writing this blog 
 
 I have read too many obituaries. Many more than I would have liked.
@@ -2734,7 +2739,7 @@ piano called fortepiano
 
 Data was just as valuable in the 20th century.
 
-Words I learned: guile, laconic, mercurial, evince, prox., perfidy
+Words I learned: guile, laconic, mercurial, evince, prox., perfidy, portend
 
 
 </div>
