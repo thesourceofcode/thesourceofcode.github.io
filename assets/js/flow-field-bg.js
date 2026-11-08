@@ -184,7 +184,14 @@
     hy = new Float32Array(count * histLen);
     skipSeg = new Uint8Array(count * histLen);
     cursor = 0;
-    for (var i = 0; i < count; i++) respawn(i);
+    for (var i = 0; i < count; i++) {
+      respawn(i);
+      // Unwritten history belongs at the spawn point. Zero-filled slots would
+      // make the first ring-buffer wrap erase undrawn lines from (0, 0).
+      var start = i * histLen;
+      hx.fill(px[i], start, start + histLen);
+      hy.fill(py[i], start, start + histLen);
+    }
   }
 
   // The canvas stays transparent (the page background shows through), and
