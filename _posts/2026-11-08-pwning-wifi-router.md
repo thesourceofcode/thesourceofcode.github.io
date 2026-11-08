@@ -154,7 +154,7 @@ having to use new ephemeral connections for each command.
 
 After some more polite requests, I had something I was generally happy with:
 
-{% include figure image_path="/assets/images/pwning-router/router-dashboard.png" alt="The dashboard overview, with status tiles, CPU and RAM gauges, WAN throughput, and latency" %}
+{% include figure image_path="/assets/images/pwning-router/router-dashboard.png" alt="The dashboard overview, with status tiles, CPU and RAM gauges, WAN throughput, and latency" popup=true %}
 
 
 <details markdown="1">
