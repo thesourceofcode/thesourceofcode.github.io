@@ -30,18 +30,17 @@ search: false
   transition: opacity 1.2s ease;
 }
 
-/* Opaque reading panels: text content masks the flow field, so the effect
-   only shows in the gutters around it */
+/* Keep the reading area opaque, with a soft fade into the animated gutters. */
 .page__inner-wrap,
 .archive,
 .sidebar,
 .search-content__inner-wrap {
   background-color: $background-color;
-  border: 1px solid $border-color;
-  border-radius: 12px;
+  border: 0;
+  border-radius: 0;
   padding: 1.25em 1.5em;
-  /* the background-coloured glow dissolves trails as they near the panel,
-     instead of slicing them off at the border */
-  box-shadow: 0 0 28px 14px rgba($background-color, 0.9),
-    0 6px 30px rgba(0, 0, 0, 0.35);
+  /* Background-colored shadows mask the trails without a visible card edge.
+     The inner halo protects the text; the wider halo feathers into the page. */
+  box-shadow: 0 0 32px 16px $background-color,
+    0 0 72px 32px rgba($background-color, 0.75);
 }
