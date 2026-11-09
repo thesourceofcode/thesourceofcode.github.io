@@ -15,7 +15,7 @@ My ISP-provided device is a RicherLink `RL841GWV-DGB` EPON ONT + Wi-Fi router co
 
 The device has comically little information available about it on the internet. I wasn't even able to find the official product listing on RicherLink's website.
 
-My idea was to use an LLM to find and exploit a vulnerability on the router to get SSH access to it. There seems to be no shortage of them these days (I am sick of patching production every day). Routers tend to run old software, and this one had clearly committed to preserving history, given that its firmware seemed to be from 2019.
+My idea was to use an LLM to find and exploit a vulnerability on the router to get SSH access to it. There seems to be [no shortage](https://labs.cloudsecurityalliance.org/research/csa-research-note-ghostlock-linux-kernel-container-escape-20/) [of them](https://ubuntu.com/blog/fragnesia-linux-vulnerability-fixes-available) these days. Routers tend to run old software, and this one had clearly committed to preserving history, given that its firmware seemed to be from 2019.
 
 I started by logging into the admin panel and looking for anything that looked like it could be exploited. This resulted in me realizing that I had never actually read through the router's available settings. I mean, what the fuck is a `TR-069`?!
 
@@ -55,7 +55,7 @@ The errors basically mean that you are dealing with an ancient relic and you hav
 ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-rsa admin@192.168.1.1
 ```
 
-The device offered legacy cryptographic algorithms that my modern SSH client disabled by default. These options re-enable an old Diffie–Hellman key exchange and RSA/SHA-1 host signatures for this connection. OpenSSH documents this [legacy compatibility mechanism](https://www.openbsd.org/openssh/legacy.html).
+The device offered [legacy cryptographic algorithms](https://www.openbsd.org/openssh/legacy.html) that my modern SSH client disabled by default. These options re-enable an old Diffie–Hellman key exchange and RSA/SHA-1 host signatures for this connection.
 
 This got me into a shell. Running `uname -a` returned:
 
@@ -70,7 +70,9 @@ would simply allow root access over SSH.
 
 Confirming this took a surprising amount of effort. The bare-bones BusyBox environment didn't have `whoami`, `id`, or `sudo`. `$EUID` and `$UID` were empty.
 
-Then I ran:
+Running `su` returns an error saying `su: user root does not exist`. weird.
+
+Finally, I ran:
 
 ```sh
 cat /proc/self/status
@@ -82,7 +84,7 @@ The output included:
 Uid:    0       0       0       0
 ```
 
-The four values are the [real, effective, saved-set, and filesystem UIDs](https://man7.org/linux/man-pages/man5/proc_pid_status.5.html). Strictly speaking, `/proc/self/status` describes the process reading it, so this showed that `cat` was running with UID 0. Commands launched from my session were running as root.
+The four values are the [real, effective, saved-set, and filesystem UIDs](https://man7.org/linux/man-pages/man5/proc_pid_status.5.html). Strictly speaking, `/proc/self/status` describes the process reading it, so this showed that `cat` was running with UID 0, which in Linux parlance means that I had root privileges.
 
 Thanks to RicherLink supporting complete user ownership of hardware (or refusing to do basic security hardening, depending on how you look at it), my quest to get a root shell on my router finished within minutes. Amazing success, but devastating news for the hacker montage I had planned.
 
@@ -109,7 +111,7 @@ After digging around for a bit, I gathered the following details about the devic
 I doubt the BusyBox version is actually 1.00, they probably didn't set the version properly. The kernel build date is 2021, so not ancient but not current either.
 
 This was the first time I saw a real device based on MIPS
-architecture, I thought those weren't made anymore.
+architecture, I used to believe it was some old architecture that had become history by now.
 
 With the power of the root in the palm of my hand, I began thinking about all the cool things I could do.
 
@@ -190,7 +192,7 @@ After some more polite requests, I had something I was generally happy with:
 
 The per-client signal-strength graphs were particularly interesting. Changes in a device's RSSI gives a rough idea of its movement patterns. It's hardly a reliable movement detector, but I suppose Big Tech would love to get access to this data (maybe they already do 🤷‍♀️).
 
-{% include figure image_path="/assets/images/pwning-router/grafana-wifi-clients.png" alt="Per-device download, upload, and signal-strength graphs with anonymized device names" caption="The Wi-Fi clients section: download, upload, and RSSI. Device names are anonymized." class="align-center text-center" popup=true %}
+{% include figure image_path="/assets/images/pwning-router/grafana-wifi-clients.png" alt="Per-device download, upload, and signal-strength graphs with anonymized device names" caption="The Wi-Fi clients section: download, upload, and RSSI. Device names have been anonymized." class="align-center text-center" popup=true %}
 
 ## DNS logging
 
@@ -254,14 +256,21 @@ Being human, I decided that running Doom on my router sounded like a cool idea.
 
 This was surprisingly anticlimactic as a technical challenge, thanks to [doom-on-router](https://github.com/antonKirpich/doom-on-router). It's a port of [doomgeneric](https://github.com/ozkl/doomgeneric) for little-endian MIPS routers.
 
-I downloaded the project's prebuilt executable and the `WAD` file containing the game data, copied them to `/tmp` on the router, and ran the executable over SSH. The project's README lists OpenWrt as a requirement, but the binary worked on my router's stock firmware just fine.
+The clever part is how it handles the router's lack of a display. The game engine runs and renders frames on the router, then streams those frames to a browser over WebSockets. Keyboard input is sent back to the router.
 
-The clever part is how it handles the router's lack of a display. The game engine runs and renders frames on the router, then streams those frames to a browser over WebSockets. Keyboard input travels back to the router.
+I downloaded the project's prebuilt executable along with the `WAD` file containing game data, and copied them to `/tmp` on the router.
+`scp` did not seem to work for some reason, so I simply streamed the bytes using `cat`:
+
+```sh
+cat ~/Downloads/doomgeneric_static | ssh ... admin@192.168.1.1 'cat > /tmp/doom1.wad'
+```
+
+I marked it executable with `chmod +x` and was pleasantly surprised to see that it started without any errors.
 
 I had Doom running on the router and could play from a browser on my laptop.
 
 
-{% include figure image_path="/assets/images/pwning-router/doom-router.png" alt="Recent DNS queries, query rate, top domains, query-type breakdown, and router log size, with client and domain labels anonymized" caption="<strike>If it has a screen</strike>, it can run DOOM." class="align-center text-center" popup=true %}
+{% include figure image_path="/assets/images/pwning-router/doom-router.png" alt="Recent DNS queries, query rate, top domains, query-type breakdown, and router log size, with client and domain labels anonymized" caption="<strike>If it has a screen,</strike> it can run DOOM." class="align-center text-center" popup=true %}
 
 ## The firmware scan
 
@@ -273,14 +282,14 @@ on the 5GHz radio, along with indications that a raw "SDR" mode could be enabled
 What I really wanted to understand was the bootloader, because my next idea was to get the latest Linux kernel running on this device.
 
 Unfortunately, the bootloader analysis did not spark joy. The device
-supports a slot based A/B booting approach. But there is no logic to
-detect a failing/hung boot and automatically fall back to another slot. It checks a flag in the flash for which
-slot to boot.
+supports a slot based A/B booting approach. It checks a flag in the flash for which
+slot to boot. But there is no logic to
+detect a failing/hung boot and automatically fall back to another slot.
 
 The moment I boot a faulty Linux image that isn't able to bring up remote access, I will have no way to switch the active
 boot slot, effectively bricking the router.
 
-I didn't have the heart to disassemble the router and start dealing with UART just yet. This was still the router I needed for internet access. I decided to mark it as a `TODO` for now.
+I didn't have the heart to disassemble the router and start dealing with UART just yet. I still needed it for internet access. I left this as a `TODO` for now.
 
 ## Future ideas
 - Cross-compiling and running a MIPS Rust binary on the router.
