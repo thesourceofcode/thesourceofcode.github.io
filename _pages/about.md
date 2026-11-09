@@ -4,7 +4,7 @@ title: "About Me"
 permalink: /about/
 ---
 <p>
-I create software and like Open Source.
+I create software.
 
 Sometimes I write on this blog.
 </p>
