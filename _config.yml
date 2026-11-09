@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Anurag"
+title                    : "Anurag's Blog"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Anurag"
@@ -29,14 +29,14 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 breadcrumbs              : # true, false (default)
 enable_copy_code_button  : true # true, false (default)
-masthead_title           : "{ Anurag }" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Anurag's Blog" # overrides the website title displayed in the masthead, use " " for no title
 words_per_minute         : 200
 copyright                : "Anurag Thakur" # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "thesourceofcode"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -152,10 +152,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/AnuthaDev"
-    
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://floss.social/@AnuthaDev"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://x.com/anuthadev"
     # - label: "LinkedIn"
     #    icon: "fab fa-fw fa-linkedin"
     #     url: "https://linkedin.com/in/anuthadev"
@@ -330,6 +329,6 @@ defaults:
       # author_profile: true
       show_date: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true

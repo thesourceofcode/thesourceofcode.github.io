@@ -3,7 +3,7 @@ layout: single
 permalink: /about/
 ---
 <p>
-About Me:
+I create software and like Open Source.
 
-I am currently building this site
+Sometimes I write on this blog.
 </p>
