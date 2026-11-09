@@ -1,0 +1,28 @@
+{%- assign schema_headline = page.title | markdownify | strip_html | strip_newlines | strip -%}
+{%- assign schema_description = page.description | default: page.excerpt | default: site.description | markdownify | strip_html | normalize_whitespace | strip -%}
+{%- assign schema_image = page.header.og_image | default: page.header.overlay_image | default: page.header.image | default: page.header.teaser | default: site.og_image -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ schema_headline | jsonify }},
+  "description": {{ schema_description | jsonify }},
+  "url": {{ canonical_url | jsonify }},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ canonical_url | jsonify }}
+  },
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  {% if page.last_modified_at %}
+  "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
+  {% endif %}
+  {% if schema_image %}
+  "image": {{ schema_image | absolute_url | jsonify }},
+  {% endif %}
+  "author": {
+    "@type": "Person",
+    "name": {{ author.name | default: author | jsonify }}{% if author.url %},
+    "url": {{ author.url | absolute_url | jsonify }}{% endif %}
+  }
+}
+</script>

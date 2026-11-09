@@ -2,6 +2,9 @@
 layout: single
 title: "Taking control of my Wi-Fi router using AI"
 excerpt: "How I used AI to get a root shell on my router and what I did with it"
+description: "How I used AI to find SSH access on a RicherLink Wi-Fi router, get a root shell, and build a Grafana dashboard with Prometheus metrics."
+header:
+  og_image: /assets/images/pwning-router/router-dashboard.png
 tags:
   - AI
   - Linux
