@@ -10,6 +10,20 @@
   outline-offset: -2px;
 }
 
+/* Keep reading areas opaque, with a soft fade into the animated gutters. */
+@mixin reading-area($mobile-inline-padding: 0) {
+  background-color: $background-color;
+  border: 0;
+  border-radius: 0;
+  padding: 1.25em 1.5em;
+  box-shadow: 0 0 32px 16px $background-color,
+    0 0 72px 32px rgba($background-color, 0.75);
+
+  @include breakpoint(max-width ($medium - 1px)) {
+    padding-inline: $mobile-inline-padding;
+  }
+}
+
 /*
    em function
    ========================================================================== */

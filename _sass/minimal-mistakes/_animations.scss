@@ -19,3 +19,20 @@
     opacity: 1;
   }
 }
+
+/* Flow-field background (assets/js/flow-field-bg.js) */
+#flow-field-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+  /* Composite the trails additively over the dark page background. */
+  mix-blend-mode: screen;
+  mix-blend-mode: plus-lighter;
+  /* The script fades the canvas in after its first frame. */
+  opacity: 0;
+  transition: opacity 1.2s ease;
+}
