@@ -1,7 +1,10 @@
 ---
 layout: single
+toc: true
+toc_sticky: true
+classes: wide-toc
 title: "Reflections on porting GTA 5 to Linux using AI"
-excerpt: "Fun with agents, compilers, and a town hiding behind a black screen."
+excerpt: "These are trying times, so I decided to try LLMs."
 description: "I ported GTA 5 to Linux using LLM agents. Here is my experience."
 
 tags:
@@ -10,57 +13,121 @@ tags:
   - GTA
 ---
 
-I got GTA 5 running natively on Linux using LLM agents. I can't draw a triangle in OpenGL to save my life. Somehow, by the end of this, I had a Vulkan renderer and a populated Paleto Bay on my screen.
+LLMs are changing the fundamentals of how we create software. I wanted to see what the future holds for software development, and what better way to know the future
+than to peek at it yourself?
 
-There were quite a few crashes between those two things.
+I decided to do a significant project to understand the capabilities of current LLMs, how to best use them and how they might evolve in future, which is why I chose to work on a native Linux port of GTA V.
 
-This is the story of how my job gradually changed from asking for code, to letting the agent decide what to build, to asking why its perfectly reasonable fixes kept producing new problems.
+This is a record of my journey and reflections.
 
-# First, a game that already worked
 
-I had the original game source and compatible game data. That is a rather important starting advantage. The goal was to turn it into a native Linux executable using Vulkan for rendering.
+# Context
 
-Before attempting any of that, I followed the existing Visual Studio build instructions. The game ran on Windows at around 30–40 FPS. I now had something working to compare against, and something I could spend the next few weeks breaking.
+If you don't know about GTA 5, do comment below. I'd love to hear what kind of life you have lived that you don't know about _THE_ game and yet are here on my blog.
 
-The source also needed a Git repository. I definitely initialized one immediately, and did not have to awkwardly shoehorn version control into an experiment already in progress. No sir.
+GTA 5 was released in 2013 for PlayStation 3 and XBOX 360, with the PC version arriving in 2015. It was built by a team of more than 1,000 people
+over 3 years at Rockstar. That is to say, it's a big, enterprise C++ codebase.
 
-My rough route was CMake, a modern compiler, Vulkan, SDL3, and finally Linux. Windows supports Vulkan, so I could test the renderer before changing the operating system too. The work overlapped in practice; I've grouped the incidents here by the hurdle we were trying to clear.
+Said codebase was leaked in 2023, which is what made this project feasible. After swimming through the high seas, I downloaded its code.
 
-## An entire engine, defeated by spaces
+Now, for some technical background, the PC version of the game is native to Windows, i.e. it uses Windows specific operating system functionality and the DirectX graphics API for rendering.
 
-I asked the agent to create a CMake build using Ninja, initially keeping the existing VS2012 compiler and game configuration. CMake described what to build; Ninja ran the commands. The initial configuration appeared surprisingly quickly. Getting a reliable build took more investigation.
+What we want instead is the much cooler 😎 operating system: Linux.
 
-For example, the Visual Studio projects mentioned one Windows SDK, but the working build's dependency logs showed that headers from an older SDK actually took precedence. The agent inspected those logs and reproduced the working order. There was a similar disagreement over which DirectX headers should win. Reading the project files alone hadn't been enough.
+There are already ways to run it on Linux using compatibility layers like Wine and DXVK. But those usually come with a performance penalty. What if we could
+compile GTA 5 to run natively on Linux? Could an LLM do it? That's what I wanted to find out.
 
-Then there were the generated files. Hundreds of parser schemas produced headers and C++ files that needed to exist before compilation. The agent added checks for deleted outputs and changed generated headers, including whether Ninja actually rebuilt the objects that used them.
 
-Finally, an unchanged build kept recompiling large chunks of the game. The culprit was eighteen `#include` paths with trailing spaces *inside the quotes*. MSVC opened those files anyway. Ninja recorded the spaces, decided the dependencies were missing, and rebuilt them on every run.
+# Getting Started
 
-An entire game engine, and we were fighting spaces.
+First of all I needed to setup a local development environment. I followed the instructions that I found on the web and had a build running on my laptop after several minutes:
 
-What impressed me was the agent's willingness to follow through. It checked compiler commands, tested recovery of generated files, built the executable, and tried an unchanged build. Those checks mattered much more than I realized at the time. Soon, recompiling was going to become a significant part of my life.
 
-# A compiler upgrade and a very confused character
+[image]
 
-Next I asked it to keep the game essentially the same, but build it with VS2026. It added another CMake preset and worked through the compatibility errors.
+It was a bit involved, but nothing too messy. With a known-good starting point I could start work on the port.
 
-The first serious obstruction was an optional AMD shadows library built against the VS2012 C++ runtime. We had headers and a prebuilt library, but no implementation source to rebuild. I chose to disable that optional integration in the modern preset.
+Now, I have been programming since I was a kid, much before you could use clankers as your therapist. That is to say, I can think for
+myself and had a high-level idea of the changes needed to get the Linux port.
 
-The game then compiled, linked, and ran. Unfortunately, the character kept resetting about once per game second. Even the idle animation restarted. Holding the key that slowed game time made the interval longer in real time.
+The first step was initializing a `git` repository in the directory to keep track of the changes. I started with this. I totally did not forget and had to shoehorn this later. No sir.
 
-My first attempt at debugging was exactly as sophisticated as you might expect: tell the agent that something was wrong and ask it to fix it.
+My LLM setup was very basic. Just a simple codex chat window with `Sol 6.1`, no extra skills or MCPs.
 
-It read animation and timing code, compared layouts, ran focused compiler probes, and inspected disassembly with `dumpbin`. It also wrote scripts to inspect the running process. I was impressed by the effort, but we weren't finding the cause.
+# The build system
 
-I contributed a theory about floating-point precision. Some math calls had changed from double to float versions during the compiler migration. Surely that was suspicious? We changed them back, rebuilt a large part of the game, and discovered that my theory was useless. We reverted the experiment.
+The first thing we needed was a build system.
 
-The next day, I finally used the game's own debug display. Two motion-task counters reset whenever they reached one second. That observation gave the agent something much more useful to work with.
+The build system is one of the simpler parts to replace. To simplify it a lot, it just tells the compiler which files to compile, in what order
+with what config options. 
+
+The game originally used Visual Studio 2012. This is a problem because Visual Studio (the OG one, not VSCode) does not natively run on Linux.
+
+I decided to use `CMake/Ninja` for the build system cuz its a popular, versatile build system. It natively supports both Linux and Windows, so I could create and test the build scripts on Windows and reuse them on Linux.
+
+I asked the agent to replicate the existing Visual Studio build using CMake, keeping the same compiler, config flags etc. This was done
+frighteningly quick, in just 10 minutes. After the few more minutes it took to compile, I had a CMake compiled executable that ran perfectly.
+
+
+This would have taken me probably over a week in pre-clanker days.
+
+With this done, I could simply compile the game with a single command:
+
+```sh
+cmake --build build
+```
+
+Onto the next challenge.
+
+# Ze Compiler
+
+Next was the compiler. The game originally used Microsoft Visual C++ Compiler (MSVC) 2012. Which, as you might have guessed from the name,
+does _not_ run on Linux.
+
+I needed a different compiler, and I chose `Clang`. It has native support for Linux as well as Windows, so like CMake, I could test the build on Windows and expect it to work correctly on Linux as well.
+
+Ideally, compiling C++ with a different compiler should be simple, and ideally, we should all be rich and handsome.
+
+Unfortunately,
+there are subtle incompatibilties between different C++ compilers and even different versions of the same compiler. Instead of jumping straight
+to Clang, I decided to first bring it up to date with the latest 2026 MSVC compiler.
+
+The agent created a new `msvc-2026` cmake preset and started working through the compatibility errors. After a few minutes I had a game executable
+compiled with MSVC 2026.
+
+Unfortunately, this is where I found a very annoying bug.
+
+
+## It's reset time
+
+The first build with MSVC 2026 had this annoying issue:
+
+[video]
+
+
+As you can see, the character animation kept "resetting" about once per second. I had no clue how a compiler version upgrade could have caused
+an issue like this.
+
+I tried being a lazy bum and just told the agent that something was wrong, fix it. This is where I learnt just how tenacious and knowledgable LLM agents can be.
+
+It read animation and timing code, compared struct layouts, created test programs to evaluate compiler differences by inspecting the disassembly with `dumpbin`. It also wrote powershell scripts to inspect the running process, I didn't even know you could do that! The effort was impressive but it wasn't close to finding the bug.
+
+One hunch I had was related to numerical precision and rounding. To make it compile with MSVC 2026, the agent had replaced some functions with their
+explicit float versions, like `modf` to `modff`. I thought this might have changed some numerical behaviour, leading to some overflow/underflow.
+
+This theory turned out to be false, and it wasted a good amount of time falsifying it. At this point I took a break to get some fresh air.
+
+After sleeping on it, I decided to stop being a lazy bum and actually use my human abilities to suss out the problem. I used the game's inbuilt debug display to gather more
+information about what exactly I was seeing. Two motion-task counters were resetting to 0 whenever they reached one second. That observation was enough for the agent to narrow
+down the issue.
 
 It found a one-second ragdoll watchdog that could replace the character's motion tree. I suggested the simplest experiment I could think of: increase the timeout to five seconds. If the glitch moved, we would know we were looking in the right place.
 
-It moved to five seconds.
+And we were! The resetting time increased to 5 seconds.
 
 Now the agent could investigate a specific path. It used `ReadProcessMemory` to inspect the live player's state, then compared that with the generated machine code. The player was in state 2. The watchdog should only apply to states 4 and above.
+
+I had the culprit. Digging into it exposed the problem.
 
 The state lived in a four-bit field inside a larger word. The intended operation was roughly:
 
@@ -69,31 +136,28 @@ state = (packedWord >> 4) & 0xF
 watchdogApplies = state >= 4
 ```
 
-VS2012 extracted the field correctly. The optimized modern compiler compared the entire packed word against the shifted threshold. Neighboring fields made the comparison succeed even though the actual state was 2.
+VS2012 extracted the field correctly. The optimized modern compiler compared the entire packed word against the shifted threshold, that is to say, it was fucking broken. Neighboring fields made the comparison succeed even though the actual state was 2.
 
-The agent reproduced the difference in a small program. Using unsigned integer storage for the bit-field, with an enum conversion in the getter, produced the correct comparison while preserving the object's layout. We restored the one-second timeout, and the resets stopped.
 
-That was my first real lesson in working with the agent. It could read disassembly and inspect another process's memory, but my most useful contribution had been noticing a counter and suggesting a five-second experiment. My least useful contribution had cost us a rebuild.
+Using unsigned integer storage for the bit-field, with an enum conversion in the getter, produced the correct comparison while preserving the object's layout. With this small fix, the annoying issue was finally resolved. 
 
-## Updating the SDK broke startup too
+This was the first time I used an LLM to debug an actually nasty issue. I learned that in my haste to solve the problem I missed even the bare minimum triage and wasted time chasing hypotheses instead of reality. My tech lead would _not_ be proud.
 
-Feeling adventurous, I also asked it to use the latest installed Windows SDK.
+Once it had a lead, the LLM was able to quickly drill down and confirm the bug. This experience makes me believe that debugging will be a solved problem in the very near future.
 
-An old compatibility alias for `IMFDXGIDeviceManager` now collided with the real SDK declaration. Some Media Foundation libraries had also lost their old `_vista` suffix. The agent fixed both by selecting the appropriate declarations and libraries for each SDK.
 
-Then the executable crashed before its own exception handler was installed.
+## Monsieur Clang
 
-The agent read the Windows crash record and mapped the fault address back to startup code. The game expected `psapi.dll` to have been loaded already. The newer SDK routed the relevant imports through `kernel32.dll`, so that accidental guarantee disappeared. Startup tried to call a function through a null pointer.
+With a painful msvc version upgrade behind me, I moved on to the actual task of using Clang.
 
-I had asked for a newer SDK. I got a lesson in dependencies that had been working by coincidence.
 
-# Preparing for Clang
+The agent added a `clang-cl` preset next. This let us change the compiler while retaining the Windows linker, SDKs, and binary interface.
 
-The agent added a `clang-cl` preset next. This let us change the compiler while retaining the Windows linker, SDKs, and binary interface. The full Clang game build happened later, after the Vulkan work, but its failures belong in this part of the story.
+As expected, the first build was greeted with several errors. The LLM took only a few minutes to resolve the compile errors and generate a binary.
 
-The compile-and-fix loop was almost boringly effective. Missing `typename`, enum template arguments, invalid macro token-pasting: give the agent the compiler output, let it inspect the relevant declarations, build again. This is the kind of work LLMs are extremely good at.
+Having worked with Rust for a long time now, I had forgotten that a successful build did not mean a successful run. 
 
-The runtime failures were more interesting.
+The binary crashed promptly. To debug, I simply pasted the crash dump on the chat window and it was able to figure out the problem by reading the instructions in the game binary.
 
 One singleton check effectively did this:
 
@@ -102,123 +166,106 @@ if (!&GetInstance())
     return;
 ```
 
-But `GetInstance()` had already dereferenced a pointer to return a reference. Clang assumed the reference was valid and removed the null check. The fix checked the underlying pointer before using the object. A similar assumption about an absent level-of-detail object later left the loading thread waiting for a worker that had crashed.
+But `GetInstance()` had already dereferenced a pointer to return a reference. Clang assumed the reference was valid and removed the null check. The fix checked the underlying pointer before using the object.
 
-Vehicle glass exposed an alignment problem. The code cast a packed three-float normal to a SIMD vector pointer, promising alignment the data didn't have. Clang emitted an aligned load and crashed. Reading the three floats directly preserved the asset format and avoided that promise.
 
-Audio contributed a third surprise. Under the inherited fast floating-point settings, the engine's finite-value check misbehaved even for zero. The agent reproduced it using the actual engine math code. Adding `-fno-finite-math-only` restored the checks for finite values, NaNs, and infinities.
+Audio contributed another surprise. Under the inherited fast floating-point settings, the engine's finite-value check misbehaved even for zero. The fix was adding `-fno-finite-math-only` to restore the checks for finite values, NaNs, and infinities.
 
-By now I was getting used to the agent producing tiny reproducers for problems buried inside a huge program. That ability was much more convincing than a confident explanation on its own.
+By now I was getting used to the agent producing tiny reproducers for problems buried inside a huge program. This reinforced my belief that LLMs work
+best when given tools for verification.
 
-# Letting the agent choose the next milestone
+
+# The Vulkan Renderer
 
 Now came the part I knew almost nothing about: graphics programming.
 
-Thankfully, RAGE, the game's engine, already had graphics interfaces with implementations for different platforms. We could add Vulkan behind those interfaces while keeping the game making its existing engine calls.
+The game uses the DirectX API for rendering on Windows, but the primary graphics API for Linux is Vulkan. So it stands to reason that I needed to make the game use that. Interestingly, at the time of the game's release, Vulkan didn't even exist!
 
-I asked for a small standalone project using a slice of RAGE, rather than compiling the whole game immediately. The agent made a window with a triangle in it.
+Unfortunately, in all my years as a programmer, I never seriously tried anything related to graphics. I had no clue what to do here. All the other
+things till now I could have achieved manually as well, albeit with an order of magnitude more time. But this was something that I couldn't hope
+to manually do in any reasonable amount of time. I had no choice but to submit to the LLM.
 
-One thing that still feels mind-blowing to me is that it could save the rendered output to an image and *look at it*. It could write code, compile it, run the sample, inspect the pixels, and continue without waiting for me to describe the screen.
+Thankfully, due to GTA 5 supoorting multiple platforms, the game engine (RAGE) code already had a graphics abstraction, with separate implementations for PC, PlayStation, Xbox etc. This meant that I only needed to add an additional Vulkan based implementation for the rendering interface functions, rather than a total from-scratch rewrite.
 
-I had no idea what the next sensible milestone was, so I asked it.
+Thankfully #2, Vulkan is supported on Windows too, so I could build and test the renderer on Windows and reuse it for Linux. If it wasn't supported on Windows, I would have to port the entire remaining codebase to Linux before I could even begin working on the renderer.
 
-It suggested an indexed mesh rendered through RAGE's resource and draw APIs. Since I couldn't independently judge that suggestion, I naturally said yes. Soon there was a rotating cube.
 
-Next came textured geometry with explicit shader and texture bindings. Again, I had only a vague idea what that meant. Again, I gave it the go-ahead.
+I started with asking the agent to create a small, standalone project that used a slice of RAGE's graphics API to open a window and render a triangle.
 
-Of all the vibecoded parts, this was vibecoded the most.
+Then I made it add a minimal Vulkan implementation to get that sample running. The idea was to create a starting point that the agent could iteratively build upon. It could create more complex samples that used other interface functions, then add a Vulkan implementation for those functions
+and check the output.
 
-It kept producing samples, tests, and screenshots. Some tests changed a buffer between two draws: the first draw needed the old contents, and the second needed the new ones. Others deleted a resource while submitted GPU work still needed it. Those required the backend to retain the appropriate GPU storage until the work completed.
+Once I had the minimal vulkan sample, I asked it to read the code and create a detailed plan for the complete Vulkan renderer. It made one with over a dozen milestones. Since I was not qualified to evaluate the plan, I gave it a go ahead and let it loose.
 
-Later, a compute blur test compared GPU output against a CPU implementation. Particle tests read back positions, velocities, and lifetimes. These gave the agent concrete targets beyond whether a cube looked approximately right.
 
-I could see why the feedback loop worked. I was much less equipped to judge the architecture it was building along the way.
+An awesome feature is that the agent could save the rendered output to an image and *look at it* to check its progress. I essentially had an iterative improvement loop. It would write code, compile it, run the sample, inspect the pixels, and continue all on its own. Zero human input.
 
-## The samples started becoming their own project
+It blitzed through several milestones without requiring any human intervention!
 
-That distinction became important when the agent started taking some boneheaded decisions.
+## Straying further from Goals
 
-For asset streaming, it needed to use the engine's existing archive and resource machinery. I had to steer it back toward linking those implementations rather than creating parallel functionality around the Vulkan sample.
+I was not intervening, but was closely watching the agent's actions and decisions. There were a few times the agent made some boneheaded
+decisions and I had to gently guide it. Basically, after a while it seemed to have forgotten the original goal of running the actual game on Vulkan, and instead started to overfit the code
+to make the vulkan samples work. e.g. For asset streaming, instead of using the engine's existing archive and resource machinery it
+started recreating it in the vulkan sample. In another case, it enabled some configuration options that were disabled by the actual game build.
 
-Then it enabled tracked references and defragmentation that the working game's configuration disabled. It also generated an AES archive instead of following the game's existing archive pipeline. When those choices exposed failures, it began changing shared engine subsystems to make the sample pass.
+When those choices exposed failures, it began changing shared engine subsystems to make the sample pass. This is a problem with current LLMs, they tend
+to be myopic and ignore the larger picture.
 
-I didn't need to understand Vulkan to find that suspicious. The existing game worked with those subsystems. Why did testing a new graphics backend require changing them?
+Agents are very capable of making progress towards a goal, we just have to make sure that the goal is actually what we want.
 
-Once challenged, the agent audited its changes and acknowledged that the sample had introduced different conditions. We restored shared behavior and adapted the test harness to the game's contracts. Any genuinely necessary engine fixes would need their own evidence.
+## Shaders
 
-The agent was very capable of making progress toward a test. I had to keep checking whether that test still represented the game we were trying to port.
+Now we had to handle shaders. For the uninitiated, Shaders are computer programs that run on the GPU. They calculate how 3D models, surfaces, lights etc. look every frame.
 
-## Shaders: the simple plan gets complicated
+Because the game is based on DirectX it used HLSL shaders, but for Vulkan we needed to compile the shaders to SPIR-V instead.
 
-The plan sounded easy enough: compile the game's HLSL shaders to SPIR-V, the format Vulkan would consume.
+Because the details are so well beyond me, I won't even try to explain what happened here, but I remember it especially had some trouble with reflection (Extracting parameter information from compiled shaders). At a very high level, the final solution ended up using parts of the
+existing shader compilation machinery (preprocessing, effect processing) and used the `dxc` compiler to create the final SPIR-V output.
 
-But the inputs were engine effect files. They described techniques, passes, parameters, defaults, and render states as well as shader programs. The original tooling used Boost.Wave for preprocessing and `fx2cg` for effect processing, with Microsoft's compiler in the Direct3D path. We needed to preserve what the engine expected around the shader code too.
+A place where I intervened is when the agent decided to create a new shader package format. I instead made it use the existing `fxc` containers to
+reuse the existing parsing machinery.
 
-The agent built a frontend using Boost.Wave and the original effect grammar, emitted HLSL for DXC, and packaged the resulting SPIR-V. It started with the real `Util/im.fx` effect and exercised the path end to end.
+Apart from this, I contributed _shunya_.
 
-It also invented a new shader package format.
+# "The game executable has linked successfully"
 
-That was another point where I intervened. RAGE already had `.fxc` containers holding the records the game understood. Could we keep those and replace the Direct3D program payloads?
-
-After an audit, that became the production approach: retain the effect record layout, use an `rgxv` signature for the Vulkan variant, and store SPIR-V in the program slots.
-
-There were some good examples of how much work was hiding behind that decision. Extracting parameter information from compiled shaders, known as reflection, could miss unused parameters whose defaults the game still needed. The packer had to preserve source metadata too. Vertex and pixel shaders could use the same original register for different resources, requiring separate Vulkan bindings. Even preprocessing caused trouble: joining the tokens in `8.0 - -8.0` could make them look like a decrement.
-
-I mostly watched the agent work through these. The package format was a decision I could question; the details of shader bindings were well beyond me. That unevenness in my ability to supervise it would keep coming up.
-
-# “The game executable has linked successfully”
-
-By this point the samples covered textures, original drawables, fonts, and the real render thread. It was time to build the full engine, then the game, with Vulkan selected.
+After the shaders, it did some work on textures, drawables, fonts, and the render thread. The engine milestones were complete, now it was time
+to compile the actual game with the Vulkan backend.
 
 This exposed the distance between implementing an interface in a sample and satisfying all its callers.
 
 Some supposedly PC paths were really Direct3D paths. Shadows, ambient occlusion, and depth readback still referenced Direct3D types. Other interfaces existed only under `__D3D11` guards, so Vulkan needed the corresponding implementations and selection rules.
 
-After compilation came linking. One game link reported 63 unresolved symbols: leftover D3D texture calls, shared effect methods excluded with the old backend, and device APIs the samples hadn't required. The agent worked through those using the existing providers and the new backend.
+After compilation came linking. One game link reported 63 unresolved symbols: leftover D3D texture calls, shared effect methods excluded with the old backend, and device APIs the samples hadn't required. The agent worked through those and finally reported:
 
-Meanwhile, the original shader catalogue was finding holes in our compiler. Duplicate pass names and declarations inside passthrough blocks broke assumptions made from the small examples. Grass shaders exposed constant and annotation evaluation failures. Fixing the frontend could send a lot of already-compiled effects back through the pipeline.
-
-Then the agent reported:
 
 > The game executable has linked successfully.
 
-It was surreal. I had been approving one milestone after another without quite believing this would end in an actual game executable.
+It was surreal. I had been approving one milestone after another without quite believing this would actually end up compiling.
 
-My respect for LLMs was through the roof.
+My respect for LLMs was through the roof!
 
-It came back down when I ran the binary:
+It came tumbling down when I ran the binary:
 
 ```text
 [STARTUP] @debugMemory     = 220 MB
 ```
 
-That was it. One line, then an exit.
+That was it. The exe logged one line and exited.
 
 ## So it wrote a debugger
 
-The agent used PowerShell's `Get-WinEvent` to read the Windows application crash records. The process had suffered an access violation in early allocation code, before shader loading even began.
+The agent used PowerShell's `Get-WinEvent` to read the Windows application crash records. Did you know windows has a whole system for dealing with application crashes called Windows Error Reporting (WER)! It collects crash dumps, logs etc, and was quite helpful for debugging early startup crashes.
+
+In the first crash, the process had suffered an access violation in early allocation code, before shader loading even began.
 
 I didn't have the proper Windows debugging tools installed yet. So the agent wrote a small C++ diagnostic debugger: launch the game under the Windows debug API, wait for exception events, and resolve a stack using the game's symbols.
 
-It wrote a debugger to debug the program it had just written.
+I had never expected that the LLM would create bespoke debugging tools for the task. Mind blow-job!!!
 
-What the hell, man.
+The culprit here was a Vulkan thread-local vector being initialized while RAGE was still creating its heap. In that debug configuration, constructing the vector allocated memory through an allocator that wasn't ready. Deferring those containers until their graphics APIs were first used let the game get further.
 
-The culprit was a Vulkan thread-local vector being initialized while RAGE was still creating its heap. In that debug configuration, constructing the vector allocated memory through an allocator that wasn't ready. Deferring those containers until their graphics APIs were first used let the game get further.
-
-Even the smaller engine tests had found a related allocation trap: MSVC's debug iterator bookkeeping could allocate during a vector constructor marked `noexcept`. An injected allocation failure terminated the process instead of reaching the intended error handler. The agent changed the construction path so that failure could be handled.
-
-I had expected an LLM to suggest fixes. I hadn't expected it to keep building the tools it needed to investigate them.
-
-## The compiler was spending its time doing what?
-
-The shaders were still compiling in the background. Eventually I complained that this was taking far too long.
-
-Once asked to measure, the agent found that DXC wasn't the main problem. One large effect took about 225 seconds, of which only about 33 were shader compilation. Packaging and exporting metadata consumed roughly 62% of the time. Our own tools repeatedly reflected, reconstructed, and validated the same data.
-
-It reused frontend analysis and emitted HLSL, shared reflection results, and added a stage cache keyed by the actual shader inputs. Bounded parallel jobs helped large effects stop compiling their stages one at a time. A warm check reused every stage in the representative effects, and the outputs matched the earlier ones.
-
-This became a recurring frustration: the agent would diligently keep running an expensive process until I asked whether it should be expensive. Once I supplied that question, it was quite capable of measuring and improving it.
 
 # Launch, paste error, repeat
 
@@ -229,15 +276,21 @@ From here, my workflow became very simple:
 3. Let the agent investigate, fix, and compile.
 4. Run the game again.
 
-Often, it could take a stack trace and identify a specific missing contract with frightening speed. Sometimes it inspected the running threads or generated another diagnostic script. My job increasingly involved waiting for a new executable and reporting what happened.
+Often, it could take a stack trace and identify the problem with frightening speed. Sometimes it inspected the running threads or generated another diagnostic script. My job increasingly involved waiting for a new executable and reporting what happened.
 
-A blank window that immediately closed was progress. Hearing the iconic glass-breaking sound was an event. Reaching the loading screen was exciting right up until it stayed there.
+It slowly worked from just console logs to a blank window, to hearing that iconic glass-breaking and siren sound. 
 
-I also got to see a real deadlock. The render thread held the Vulkan context while waiting for the next draw list. The game thread needed that same context just to retrieve the backbuffer pointer, so it couldn't finish the work the render thread was waiting for. Reading CPU-side backbuffer metadata without taking the graphics-context lock broke the cycle.
+During this I also got to see a real deadlock. The render thread held the Vulkan context while waiting for the next draw list. The game thread needed that same context just to retrieve the backbuffer pointer, so it couldn't finish the work the render thread was waiting for. Reading CPU-side backbuffer metadata without taking the graphics-context lock broke the cycle.
 
-Another failure came from read-only depth views. Our backend rejected a depth-write state outright. The original PC behavior disabled writes through that view while retaining depth testing. Matching that behavior got us past another rendering exception.
+
+The first time I reached the loading screen, I almost couldn't believe that it was actually running through Vulkan. It seemed exactly the same
+as the DirectX version! Passing the loading screen took a bit more effort.
 
 This was the longest and most tiring stretch because it actively needed me. A sample could run and verify itself. Getting through another game launch meant loading, testing, crashing, and doing it again.
+
+One frustrating aspect of the LLM was that it would diligently keep running an expensive process without questioning whether it should optimize how
+much time its taking. The initial versions of the shader compiler pipeline were quite slow, but the LLM seemed oblivious to this fact until
+I pointed it out. To its credit, once I did point it out, it was able to quickly optimize it to acceptable levels.
 
 ## Finally, a white screen
 
@@ -245,111 +298,91 @@ Eventually I reached gameplay. Input worked. The minimap rendered.
 
 Everything else was white.
 
-The agent prepared a launcher using the Vulkan SDK's GFXReconstruct capture tools and told me to press F12 during gameplay. It replayed the captured frame offscreen and extracted intermediate images.
+The agent again prepared a bespoke debugging tool: a launcher using the Vulkan SDK's `GFXReconstruct` capture tools. It replayed the captured frame offscreen and extracted intermediate images.
 
-For a moment I thought it had invented its own RenderDoc. It was using existing capture tools, which is a slightly less supernatural explanation. Watching it use them was still amazing.
+And after a long time of seemingly going nowhere, I could finally see GTA 5 through the Vulkan backend! The rendering was broken in various ways and the frame rate was abysmal. I was ecstatic!
 
-The geometry was there. Lighting passes were running. The problem appeared later: an internal effect lookup redirected a texture record to its paired sampler, then overwrote the sampler's texture with null. Fog lost its depth input. Luminance read zero, and exposure climbed to 32×.
+After _hyperstitioning_ for a while, it fixed most of the rendering issues. It felt unreal seeing the vulkan renderer come to life right before my eyes, one fix at a time.
 
-Preserving the original parameter-record identity and restoring the expected depth binding brought the world back. No shader recompilation was needed.
-
-I could finally see GTA 5 through the Vulkan backend.
-
-The rendering was broken in various ways and the frame rate was abysmal. I was ecstatic.
-
-# A world at roughly three frames per second
-
-Before we could enjoy that achievement, the game needed enough memory to keep its world loaded.
-
-One investigation found the virtual streaming budget almost completely full: about 251 MiB available, with only 16 KiB free. The next asset needed 264 KiB. A platform branch had left Vulkan following a small fixed-budget policy rather than the intended PC behavior.
-
-There was also missing integration with RAGE's central graphics resource manager. I was surprised we had got this far without it. The agent connected allocation accounting and budget reporting instead of continuing to patch individual allocation failures.
-
-Then my laptop's AMD driver contributed a complication. It exposed two 256 MiB device-local heaps and a separate shared-memory heap of about 7.4 GiB. Our policy required local storage and counted only the tiny heaps. The fix preferred local memory but allowed compatible shared memory, accounting against the heap actually selected.
-
-Gameplay exposed other assumptions. Several decal workers could read the same mesh buffer concurrently; our Vulkan lock implementation rejected the second reader. Supporting shared reads while keeping writes exclusive matched what those callers needed.
-
-The pattern was becoming familiar. The game already had machinery for managing these things. The hard part was making our implementation participate in it correctly.
 
 ## Better tools, better questions
 
-At around 3 FPS at 1024×768, “make it faster” felt like a reasonable request. I also finally installed the Windows Performance Toolkit, Windows debugging tools, and RenderDoc.
+Having achieved a somewhat working game, I pivoted to doing some optimization work. The game was ruuning in a `1024`x`768` window at 3 FPS, which was
+comically low.
 
-The agent captured traces with Windows Performance Recorder and investigated effect snapshots, descriptor preparation, and buffer allocation. RenderDoc recorded 125 GPU-memory allocations within one captured frame. Separately, the native CPU profile put buffer creation and destruction at about 22% of render-thread samples.
+I installed the Windows Performance Toolkit, Windows debugging tools, and RenderDoc so the agent could improve this.
 
-Those were much better leads than staring at the FPS counter. The work moved toward reusing upload storage and avoiding repeated preparation of unchanged rendering state. It also produced new crashes, now with the added inconvenience of waiting for the game to load before testing each fix.
+It used Windows Performance Recorder to record a trace and find some low hanging fruits. After a couple of fixes, the FPS went from 3 to 5. Then I wanted to try RenderDoc and moved on to debugging the broken shadows.
 
-I used this opportunity to open a performance trace myself for the first time. I still didn't understand most of what the agent was changing, but I could at least start seeing the evidence it was using.
 
-## Where were the shadows?
+## Shadow Slave
 
-For visual problems, I asked it to capture both the original DirectX renderer and Vulkan, then compare them.
+One remaining visual problem was the missing shadows. I thought it was a good opportunity to try using RenderDoc. I asked it to capture both the original DirectX renderer and Vulkan, then compare them.
 
-Both captures contained shadow draws. The agent inspected their viewports and found that DirectX used 512×512 regions in a 512×2048 shadow atlas. Vulkan stretched the first viewport to 256×1365, with later regions extending outside the atlas.
+The problem was that our backend wasn't updating RAGE's logical rendering dimensions when binding an offscreen target. A small patch fixed this
+and we finally seemed to have visual parity with DirectX.
 
-Our backend hadn't updated RAGE's logical rendering dimensions when binding an offscreen target. The engine normalized and clipped the shadow viewports against the main window instead. Restoring the original meaning of the size-setting interface corrected those calculations.
+There were smaller, more visible integration misses too, like per-monitor DPI awareness, which was a small fix.
 
-There were smaller, more visible integration misses too. At 125% Windows scaling, the Vulkan window was larger and blurrier than the DirectX one. DirectX enabled per-monitor DPI awareness; our window path didn't. The generic taskbar icon was another missing piece of the original window setup.
+Giving the agent access to RenderDoc was like giving a superhuman exoskeleton to a person. It enabled the agent to "see" every draw call and figure out exactly what was wrong. Crazy stuff.
 
-I liked these investigations because I could follow the chain: compare two working paths, find a concrete difference, explain the screenshot. It made the agent's graphics work a little less opaque.
 
-## Enough free memory, no usable block
+## Fragments of the memory
 
-Switching characters led to another crash and my first practical encounter with heap fragmentation.
+Then I started testing some gameplay. Trying to switch characters led to another crash and my first practical encounter with heap fragmentation.
 
-The process had written a crash dump but was still alive. That gave the agent access to heap contents the small dump might not contain. It walked the heap and found about 6.9 MiB free, but the largest free block was only 12,000 bytes. The failing allocation wanted 12,279 bytes.
+The agent walked the process heap and found about 6.9 MiB free, but the largest free block was only 12,000 bytes. The failing allocation wanted 12,279 bytes.
 
-It was copying a bone-matrix array merely to get its element count.
 
-That temporary copy was easy to remove. The broader comparison with DirectX was more revealing: Vulkan retained about 132 MiB of compiled shader payloads in the roughly 466 MiB main heap. DirectX released most shader bytecode after creating its native objects. We were using RAGE's allocator, but giving it very different allocation sizes and lifetimes.
+The main problem was that Vulkan retained about 132 MiB of compiled shader payloads in the roughly 466 MiB main heap. DirectX released most shader bytecode after creating its native objects. We were using RAGE's allocator, but giving it very different allocation sizes and lifetimes.
 
-The first fix released the bytecode after reflecting it and creating native shader modules. It also made startup painfully slow. The agent had moved that work into eager loading of the shader catalogue, under the graphics-context lock.
+The first fix released the bytecode after reflecting it and creating native shader modules. It also made startup painfully slow. The agent had moved that work into eager loading of the shader catalogue.
 
-This was where I did the most questioning. Why didn't DirectX need to do all this? Didn't our compiler already know the bindings? Why were we reading large JSON metadata trees at runtime?
+This was where I did some socratic questioning. Why didn't DirectX need to do all this? Didn't our compiler already know the bindings? Why were we reading large JSON metadata trees at runtime?
 
-The answers led back to a better place to do the work: offline. The agent looked at established approaches, including bgfx's compiled binding tables, then changed our tooling to emit compact metadata. When it proposed another sidecar file, I asked why that couldn't live inside the existing `.fxc` container too.
+The agent looked at established approaches, including bgfx's compiled binding tables, then changed our shader compilation pipeline to embed compact metadata in the shader binary. Then it updated the game runtime to use that metadata and load shader code on demand.
 
-Eventually the runtime used embedded binary metadata and loaded shader code on demand. A host test loaded metadata for all 449 effects in about two seconds, without retaining the CPU shader payloads. That wasn't a two-second game startup, and it didn't explain the entire process footprint, but it removed a substantial source of heap pressure and repeated work.
-
-These decisions needed much more intervention than the individual crash fixes. The agent could solve the immediate problem and still choose a tradeoff that made the next part worse. Asking how the original backend avoided the problem was often my most useful question.
+These were architectural decisions that needed much more intervention than the individual crash fixes. The agent could solve the immediate problem and still choose a tradeoff that made the next part worse. Despite my total absence of graphics knowledge, actually trying to understand the possibilities here helped at arriving an acceptable solution.
 
 # Crossing over with SDL3
 
-With Vulkan running on Windows, Linux finally felt close. We still needed a portable window and input layer. I asked the agent to add SDL3 and test it on Windows first.
+With Vulkan running on Windows, Linux finally felt close. We still needed a library to create windows, handle input and play sounds on Linux. I chose SDL3 for this. It is a cross
+platform solution for Windowing, Input, Sound etc. As before, the rationale was getting it working on Windows and reusing the code on Linux.
 
-The interesting complication was thread ownership. SDL video and event work needed the application's main thread. RAGE's existing arrangement gave window work to the render thread, while game startup could block during loading.
+An interesting complication was thread ownership. SDL video and event work needed the application's main thread. RAGE's existing arrangement gave window work to the render thread, while game startup could block during loading.
 
-The solution kept SDL event processing on the process main thread and ran the original engine entry point on a separate thread. Window requests went back to the SDL thread; rendering retained its own thread and Vulkan resources.
+The solution kept SDL event processing on the main thread and ran the original engine entry point on a separate thread. Window requests went back to the SDL thread; rendering retained its own thread and Vulkan resources.
 
-Moving the entry point meant transferring the engine allocator's thread-local state too. Shutdown also had to wait for the engine thread before destroying SDL. Getting a window open was easy compared with keeping it responsive while the game loaded and making the threads stop in the right order.
 
 The agent got the smaller Vulkan samples working through SDL, then built the full game with that backend. I asked it to write a handoff document before switching operating systems.
 
-It was finally time to move to my Linux machine. Which was the same machine, because I dual boot.
+It was finally time to move to my Linux machine. Which was the same laptop, because I dual boot 🤷‍♀️.
 
-An unexpected benefit of this whole process was that the chat had become a development record. I could read the actual crash logs, my bad hypotheses, the agent's measurements, and the explanations that changed along the way. Git had the eventual patches. The chat preserved much more of what it had felt like to arrive at them.
+An unexpected benefit of this whole process was that the chat had become a development record. I could go back and read exactly the problems I encountered, in what order, what was my thought process, and how the agent handled it. It was richer and much more "raw" as opposed to the git history.
 
-# Linux did not return my affection
+# Linux 
 
 I was so freaking relieved to be on Linux. I don't know why, Windows just *feels* suffocating. I love Linux.
 
-Linux did not express its love by compiling the game on the first attempt.
+It was exhilerating to finally start work on the _Linux_ port. It began with the creation of a `linux-clang-vulkan` cmake preset that enabled the
+SDL3 windowing backend.
 
-The agent built native implementations behind the engine's interfaces for threads, synchronization, memory, files, and diagnostics. RAGE kept its own heaps, schedulers, archives, and resource loading. The movie adapter and archive content provider needed native implementations too.
+Like in the case of GPU renderer, because the RAGE engine is multiplatform, it has a common interface for a lot of OS functionality and the
+agent only had to add a Linux implementation for it. This included threads, synchronization, memory, filesystem access etc.
 
-Some of the most interesting problems were assumptions about C++ types. Windows used a 32-bit `long`; Linux used a 64-bit one. Fields whose binary layout mattered needed explicit widths. The engine's text was UTF-16, while Linux's native `wchar_t` was 32 bits, so native API boundaries needed real conversion.
 
-Platform guards supplied another recurring trap. “PC” and “Windows” had often been treated as interchangeable. Some branches assumed that anything other than Windows must be a console. Linux was a desktop platform with a remarkable talent for falling into console code.
+Some of the most interesting problems were assumptions about C++ types. Windows used a 32-bit `long`; Linux used a 64-bit one. Fields whose binary layout mattered needed explicit widths. The engine's text was UTF-16, while Linux's native `wchar_t` was 32 bits, so native API boundaries needed conversion.
 
-The smaller Linux graphics build reached 87 passing tests, including rendering, pixel readback, and device recreation. That was encouraging, although by now I had learned to leave some emotional distance between “the tests pass” and “the game works.”
+Platform build flags supplied another recurring trap. In the preprocessor directives, "PC" and "Windows" had often been treated as interchangeable. Some branches assumed that anything other than Windows must be a console. Linux was a desktop platform with a remarkable talent for falling into console code.
 
-# The final lap
+The agent loop here was simple, compile -> read error -> fix. I did intervene a bit in the trickier problems, with selecting which solution to take among a list of agent-given options.
 
-The first full native link reported 219 unique unresolved symbols. Rescanning the static libraries as a group resolved nineteen because the libraries referenced one another.
+## The final lap
 
-That left 200. For a brief moment, a linker option had felt like a productivity breakthrough.
+After _discombobulating_ for a good while, we had finally reached linking stage. It took a while to sort out the 200+ linker errors, but I finally had a Linux
+binary of the game!
 
-Eventually, the build produced a native Linux ELF executable with Vulkan, SDL3, and native runtime libraries.
+Though this time I hadn't forgotten that a successful build did not mean a successful run.
 
 Time to run it.
 
@@ -363,78 +396,74 @@ After that came the usual reward for fixing a startup crash: the next startup cr
 
 Thread creation had two particularly good examples. Linux could successfully create a worker but deny its requested priority boost. Our implementation treated that optional failure as if no worker existed. Stack sizes also meant different things: the Windows argument described initial committed storage, while the pthread setting described total capacity. Copying the number across gave native workers too little stack.
 
-The agent fixed those contracts and kept us moving through startup. Each error was smaller than building a renderer, but there were plenty of them.
+The agent fixed those contracts and kept us moving through startup. Each error was small, but there were plenty of them.
 
-## The pointer that was actually 4.2
+After toiling for some more time, I finally had the game running via the Linux executable on Vulkan. It was unbelievable!
 
-One particle-loading crash produced the pointer `0x40866666`. Those bits represented the floating-point value 4.2, the file's version number.
+# Can I haz perf?
 
-The original resource stored the version at byte 24 and the name pointer at byte 32. The Linux C++ layout reused padding at the end of the base class, putting them at bytes 20 and 24 instead. The loader read the version as a pointer.
+It was running at 3 FPS. Some digging around revealed that the game engine was actually compiling with optimizations disabled 🤦‍♀️. Fixing that made the framerate jump to ~10 FPS.
 
-The base class still occupied 24 bytes. Its size check passed.
+Then I asked it to use `Tracy` to do further optimizations and after a while it got to ~15 FPS. At this point I considered it done. It was not quite the 30-40 FPS I was getting in the original Windows DirectX build, but this was good enough to consider this project a success.
 
-Explicit padding restored the resource layout, and the checks grew to include derived field offsets. That one stayed with me: a program can pass its size check and confidently try to use a version number as an address.
 
-## We had ported the minimap
+# Reflections
 
-After more fixes, I reached the world. I could see the minimap and a label for Paleto Bay.
+In the time it took me to write this blog, AI (with some human help) has proven the Riemann Hypothesis. The future is now!
+{: .notice--info}
 
-Everything behind them was black.
+You need to understand what just happened. I, a person who can't manually get a triangle to
+render in a window, got a AAA game running natively on Linux with an LLM. Granted, I had the source code and an engine with existing platform interfaces. I still see this as a seismic shift in software development.
 
-A RenderDoc capture showed the player and a populated town in an intermediate lighting image. The final image contained the HUD and debug text. We had been here before, although this time the failure was different.
+I remember when I started programming as a kid, it took me a whole month to create a flashlight app for Android. I wouldn't even dream of doing something like this on my own if I didn't have access to LLMs. I would probably waste my youth chasing some segfault.
 
-The post-processing passes used a fullscreen quad. All its vertices had the same position:
+Now, I can paste a stack trace into chat and have an agent inspect the source, build a reproducer, read process memory, or analyze a captured frame. Oftentimes the fix arrived within seconds. Watching it write a debugger because the debugging tools weren't installed was ridiculous.
 
-```text
-(0, 0, 0, 1)
-```
+Now, the tragedy of LLMs is that even after "doing" such a significant task, I didn't learn shit 🥲. Couldn't draw a triangle before, can't do it now.
 
-A platform guard had excluded the engine's PC FastQuad path on Linux, leaving the shared shaders without the constants they expected. The quad had no area. Selecting the original PC path supplied the missing data, and a later capture showed the town in the final image.
+But I'd argue that this was intentional. If I wanted, I could totally have used the LLM only for helping me when I got stuck. It would take me months instead of a week to complete this
+had I written the code and debugged it myself, but I would have learnt much, much more.
 
-The town had been there the whole time. We just weren't putting it on the screen.
+And that's the cool thing right, nothing stops me from doing this again. Now that I know that its possible, I can do this as a learning project, while leveraing LLMs to learn instead of codemaxxing.
 
-Later runs reached the populated offline world in the normal executable. There were still bugs, including stale shader-buffer bindings and a loading stall in radio station selection caused by a flag initialized only on Windows.
 
-But I had finally achieved the goal: GTA 5 running natively on Linux.
+What does this mean for software shops? Should we still be reading all the code we write? or leave the code to LLMs?
 
-# One last request: make it faster
 
-It was slow. Once we got to around 15 FPS, I was happy to leave it there for this experiment.
+I would argue that for critical software, reading the code is just as important if not more than before.
 
-One discovery was particularly embarrassing. The build said BankRelease. The engine's optimized-profile macro was set. The compiler wasn't optimizing the code.
+I mean, imagine this: Everyone has access to the same LLMs (mostly). In this world, who would build better software? People who have an in-depth understanding or people who don't know anything more than "claude make no mistakes". That's the thing! If you never learnt this stuff, how do you _know_
+if claude made a mistake!?
 
-CMake had created empty flag entries for the custom configuration, and the platform defaults didn't replace entries that already existed. The agent filled the empty defaults and checked the actual compiler commands for `-O2 -g -DNDEBUG`. I had already learned to distrust a successful build. Now I also needed to distrust its name.
+Even though I have this Vulkan renderer, I lack the skill to determine whether its good or a piece of crap. It is possible that the LLM did some obvious
+mistakes and left a lot of performance on the table, but how can I even check this? I don't know jack shit about Vulkan!!
 
-Two other changes removed avoidable CPU work. Ordinary window queries made the render thread wait for SDL's main thread; publishing window state let other threads read it directly. State lookups also allocated unnecessarily while resolving depth, rasterizer, and blend settings.
+Would you trust someone like me with developing your game engine? I know I wouldn't.
 
-Short measurement windows at the same settings went from about 12.4 to 13.8 to 16.3 FPS across those changes. These were brief samples, and an intermediate run later crashed in vehicle animation. I was measuring progress, not proving long-session stability.
+If on the other hand, I had prior experience with vulkan, and took my time to really understand the RAGE graphics interfaces, I might have suggested a 
+better, inherently more performant architecture.
 
-A Tracy capture pointed toward more CPU work in draw preparation. In one frame, the main thread spent most of its time waiting for rendering, while the render thread spent about 24 ms preparing 2,130 draws. Its frame-fence wait was tiny. The next question was becoming much more specific than “why is the game slow?”
+I believe LLM + a human with deep understanding will outperform only LLM for the foreseeable future. With the caveat that the foreseeable future in the case of AI is very little.
 
-There was plenty left to do. For now, I could move around a town that I had never expected to see from a native Linux executable.
 
-# What did I actually learn?
+A few things I learnt about utilizing LLMs when working on this:
 
-You need to understand what just happened. I, who cannot write a renderer, got a AAA game running natively on Linux with agents. Granted, I had the source code and an engine with existing platform interfaces. I still see this as a seismic shift in software development.
+1. LLMs are a beast on verifiable tasks. If the solution to your problem can be verified 
+programmatically, the LLM can find the solution.
+2. Subagents give you super saiyan abilities in parallelizable tasks and are a liability in serial tasks.
+3. Current LLMs can get myopic and start taking shortcuts. Be careful how you define your goal.
+4. Giving tools (like debuggers, profilers) to your agents is like giving superhuman exoskeletons to humans. They supercharge the abilities of your agent.
 
-When I started programming as a kid, it took me a whole month to create a flashlight app for Android. Without LLMs, I wouldn't even have attempted this project. I would probably waste my youth chasing some segfault.
 
-Instead, I could paste a stack trace into chat and have an agent inspect the source, build a reproducer, read process memory, or analyze a captured frame. Sometimes the next useful result arrived within minutes. Watching it write a debugger because the debugging tools weren't installed was ridiculous.
+This was a really interesting experiment and I am curious to see how LLMs evolve. I imagine several years down the line LLMs might be able to one-shot a port like this. Who knows, this might even become a benchmark.
 
-The smaller milestones made that possible. The agent could close its own feedback loop around a triangle, a buffer-lifetime test, or a shader package. Once the full game needed manual testing, progress became much more dependent on me. Better observations helped enormously: the counter resetting at one second, a DirectX frame for comparison, a process left alive for heap inspection.
 
-My judgment mattered most when the agent's immediate goal drifted away from mine. It could make a sample pass by changing assumptions the game depended on. It could cure shader heap pressure by doing far too much work at startup. Those fixes needed someone to keep asking whether we were preserving the existing system and solving the right problem.
+# Addendum
 
-And yet I still don't know how to write a renderer. Couldn't draw a triangle before, cannot do it now. I learned about the failures we investigated, but that is different from acquiring the skill to design and assess the whole thing myself.
+The problems described above only scratch the surface of the absolute mountain of bugs and crashes I had to climb to finish this. I have omitted most
+of the technical details, partially for brevity and partially because I didn't understand a lot of it myself.
 
-That was a choice. I could have written the code myself and used the LLM when I got stuck. It would have taken much longer, and I would have learned much more. Nothing stops me from doing this again as a learning project instead of codemaxxing.
+In total, it took me exactly 7 days from start to finish, with 3-4 hours of work each day. Most of it was staring at the screen with the agent doing
+the work.
 
-For software I wanted other people to rely on, I would want a much deeper understanding. Reaching a populated world was the goal of this experiment; visual parity, performance, deferred platform features, and long-session stability still needed work.
-
-Even with the tests, I lack the graphics experience to judge whether this renderer's architecture is good or a piece of crap. I can verify particular outputs. An experienced graphics programmer could have questioned decisions I didn't even notice and perhaps avoided whole categories of fixes.
-
-Everyone has access to roughly the same LLMs. Who builds better software: someone with that understanding, or someone whose only instruction is “Claude, make no mistakes”?
-
-My bet is still on an LLM plus a human with deep knowledge. This experiment made me much more optimistic about what I can attempt. It also gave me very concrete examples of why understanding the subject still matters.
-
-I wonder how long it will take before an agent can do the whole port in one go. Who knows, this might even become a benchmark.
+Also, this was purely an academic exercise and I won't be releasing any code since that would violate Rockstar's copyright.

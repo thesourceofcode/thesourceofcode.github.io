@@ -7,3 +7,20 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Grow only the TOC into the right gutter; keep the article's layout unchanged.
+.wide-toc {
+  @include breakpoint($large) {
+    .sidebar__right {
+      --toc-width: calc(#{$right-sidebar-width-narrow} + 1.5em);
+      width: var(--toc-width);
+      margin-inline-end: calc(-1 * var(--toc-width));
+    }
+  }
+
+  @include breakpoint($x-large) {
+    .sidebar__right {
+      --toc-width: min(#{2 * $right-sidebar-width}, calc(#{$right-sidebar-width} + 1.5em + (100vw - #{$max-width}) / 2));
+    }
+  }
+}
