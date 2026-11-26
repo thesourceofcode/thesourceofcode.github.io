@@ -43,7 +43,7 @@ compile GTA 5 to run natively on Linux? Could an LLM do it? That's what I wanted
 First of all I needed to setup a local development environment. I followed the instructions that I found on the web and had a build running on my laptop after several minutes:
 
 
-[image]
+{% include figure image_path="/assets/images/porting-gta-v-linux/windows-directx-reference.png" alt="The Windows Direct3D build showing the player outside Premium Deluxe Motorsport" caption="The Windows Direct3D build used as a visual reference later in the project. This is a later capture, not the initial VS2012 launch." class="align-center text-center" popup=true %}
 
 It was a bit involved, but nothing too messy. With a known-good starting point I could start work on the port.
 
@@ -102,7 +102,13 @@ Unfortunately, this is where I found a very annoying bug.
 
 The first build with MSVC 2026 had this annoying issue:
 
-[video]
+<figure class="align-center text-center">
+  <video controls playsinline preload="metadata" style="width: 100%; height: auto;" aria-label="GTA V character animation resetting roughly once per second">
+    <source src="{{ '/assets/videos/porting-gta-v-linux/character-animation-reset.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support embedded video. <a href="{{ '/assets/videos/porting-gta-v-linux/character-animation-reset.mp4' | relative_url }}">Download the recording</a> instead.
+  </video>
+  <figcaption>The character animation resetting roughly once per second in the affected build.</figcaption>
+</figure>
 
 
 As you can see, the character animation kept "resetting" about once per second. I had no clue how a compiler version upgrade could have caused
@@ -129,17 +135,22 @@ Now the agent could investigate a specific path. It used `ReadProcessMemory` to 
 
 I had the culprit. Digging into it exposed the problem.
 
-The state lived in a four-bit field inside a larger word. The intended operation was roughly:
+The enum state lived in a signed four-bit bit-field inside a larger word. For the observed state of 2, the intended operation was roughly:
 
 ```text
 state = (packedWord >> 4) & 0xF
 watchdogApplies = state >= 4
 ```
 
-VS2012 extracted the field correctly. The optimized modern compiler compared the entire packed word against the shifted threshold, that is to say, it was fucking broken. Neighboring fields made the comparison succeed even though the actual state was 2.
+VS2012 extracted the field correctly. MSVC **19.51.36257.0**, the compiler in my VS2026 installation, instead compared the entire packed word against `0x40` (`4 << 4`) when optimized. Neighboring fields made the comparison succeed even though the actual state was 2.
 
+But a difference between compilers isn't, by itself, proof of a compiler bug. Was this a change in enum signedness or promotion rules, or had the old compiler merely tolerated invalid code?
 
-Using unsigned integer storage for the bit-field, with an enum conversion in the getter, produced the correct comparison while preserving the object's layout. With this small fix, the annoying issue was finally resolved. 
+To check, we later reduced the failure to a standalone program with **no enums at all**: an ordinary signed `int` bit-field, four bits wide, assigned the value 2 through its declared member. With a neighboring field set to 1, optimized MSVC incorrectly evaluated `state >= 4` as true. The same source returned false with optimization disabled, with VS2012, and with Clang. Both values fit the field; the test needed no raw-memory writes, game code, or assets. Switching enum-deduction options didn't repair the enum version either.
+
+That establishes a **signed-bit-field comparison miscompilation in this specific MSVC version**, rather than different enum semantics. The generated object code really did compare the containing word without extracting the field. It was, in fact, fucking broken.
+
+Using unsigned integer storage for the bit-field, with an enum conversion in the getter, avoided the faulty optimization while preserving the object's layout. We restored the watchdog timeout to one second, and the annoying resets stopped. This verifies the workaround for our case, not which other MSVC versions might be affected.
 
 This was the first time I used an LLM to debug an actually nasty issue. I learned that in my haste to solve the problem I missed even the bare minimum triage and wasted time chasing hypotheses instead of reality. My tech lead would _not_ be proud.
 
@@ -195,12 +206,20 @@ I started with asking the agent to create a small, standalone project that used 
 Then I made it add a minimal Vulkan implementation to get that sample running. The idea was to create a starting point that the agent could iteratively build upon. It could create more complex samples that used other interface functions, then add a Vulkan implementation for those functions
 and check the output.
 
+{% include figure image_path="/assets/images/porting-gta-v-linux/vulkan-triangle.png" alt="A multicolored triangle rendered against a dark background by the initial Vulkan sample" caption="The first triangle through the Vulkan sample. Not quite Los Santos yet." class="align-center text-center" popup=true %}
+
 Once I had the minimal vulkan sample, I asked it to read the code and create a detailed plan for the complete Vulkan renderer. It made one with over a dozen milestones. Since I was not qualified to evaluate the plan, I gave it a go ahead and let it loose.
+
+{% include figure image_path="/assets/images/porting-gta-v-linux/vulkan-indexed-cube.png" alt="A colored indexed cube rendered by the RAGE Vulkan sample" caption="The indexed cube, using the engine's vertex and index buffer interfaces." class="align-center text-center" popup=true %}
 
 
 An awesome feature is that the agent could save the rendered output to an image and *look at it* to check its progress. I essentially had an iterative improvement loop. It would write code, compile it, run the sample, inspect the pixels, and continue all on its own. Zero human input.
 
 It blitzed through several milestones without requiring any human intervention!
+
+{% include figure image_path="/assets/images/porting-gta-v-linux/vulkan-textured-scene.png" alt="A checkerboard cube and two independently textured objects in the Vulkan texture sample" caption="M3: textures, samplers, and independent resource bindings." class="align-center text-center" popup=true %}
+
+{% include figure image_path="/assets/images/porting-gta-v-linux/vulkan-multipass-gallery.png" alt="A grid of colored test regions from the Vulkan multipass gallery" caption="M7: a test gallery for render states, stencil and scissor masks, offscreen targets, and multisample resolve. These are verification fixtures, not game scenes." class="align-center text-center" popup=true %}
 
 ## Straying further from Goals
 
@@ -232,6 +251,8 @@ Apart from this, I contributed _shunya_.
 
 After the shaders, it did some work on textures, drawables, fonts, and the render thread. The engine milestones were complete, now it was time
 to compile the actual game with the Vulkan backend.
+
+{% include figure image_path="/assets/images/porting-gta-v-linux/vulkan-scaleform-ui.png" alt="Shapes, masks, immediate drawing, and text in the native Scaleform UI fixture" caption="M13: the native Scaleform, immediate drawing, and font fixture. A small UI test, not the game's menu." class="align-center text-center" width="50%" popup=true %}
 
 This exposed the distance between implementing an interface in a sample and satisfying all its callers.
 
@@ -300,9 +321,13 @@ Everything else was white.
 
 The agent again prepared a bespoke debugging tool: a launcher using the Vulkan SDK's `GFXReconstruct` capture tools. It replayed the captured frame offscreen and extracted intermediate images.
 
+{% include figure image_path="/assets/images/porting-gta-v-linux/vulkan-intermediate-gbuffer.png" alt="A false-color intermediate render target showing the player, road, and buildings during the white-scene investigation" caption="An intermediate render target extracted during the white-scene investigation. The false colors encode rendering data; this is not the final image." class="align-center text-center" popup=true %}
+
 And after a long time of seemingly going nowhere, I could finally see GTA 5 through the Vulkan backend! The rendering was broken in various ways and the frame rate was abysmal. I was ecstatic!
 
 After _hyperstitioning_ for a while, it fixed most of the rendering issues. It felt unreal seeing the vulkan renderer come to life right before my eyes, one fix at a time.
+
+{% include figure image_path="/assets/images/porting-gta-v-linux/windows-vulkan-gameplay.png" alt="The Windows Vulkan build rendering the player outside the dealership" caption="A later RenderDoc capture of the Windows Vulkan build, with the world finally visible." class="align-center text-center" popup=true %}
 
 
 ## Better tools, better questions
@@ -318,6 +343,10 @@ It used Windows Performance Recorder to record a trace and find some low hanging
 ## Shadow Slave
 
 One remaining visual problem was the missing shadows. I thought it was a good opportunity to try using RenderDoc. I asked it to capture both the original DirectX renderer and Vulkan, then compare them.
+
+{% include figure image_path="/assets/images/porting-gta-v-linux/directx-shadow-comparison.png" alt="The Direct3D reference frame at the dealership used in the shadow investigation" caption="The Direct3D reference capture. The character, traffic, and time of day differ between these captures, so this is not a pixel-for-pixel comparison." class="align-center text-center" popup=true %}
+
+{% include figure image_path="/assets/images/porting-gta-v-linux/vulkan-shadow-comparison.png" alt="The Windows Vulkan reference frame at the same dealership before the viewport repair" caption="The Vulkan capture before the logical target-size and cascade viewport fix. These are the investigation's reference frames, not a post-fix comparison." class="align-center text-center" popup=true %}
 
 The problem was that our backend wasn't updating RAGE's logical rendering dimensions when binding an offscreen target. A small patch fixed this
 and we finally seemed to have visual parity with DirectX.
@@ -400,11 +429,15 @@ The agent fixed those contracts and kept us moving through startup. Each error w
 
 After toiling for some more time, I finally had the game running via the Linux executable on Vulkan. It was unbelievable!
 
+{% include figure image_path="/assets/images/porting-gta-v-linux/linux-native-gameplay.png" alt="The native Linux executable displaying the player and a populated street in an 800 by 600 window" caption="The native Linux build in a populated world. The original debug overlays are still visible." class="align-center text-center" popup=true %}
+
 # Can I haz perf?
 
 It was running at 3 FPS. Some digging around revealed that the game engine was actually compiling with optimizations disabled 🤦‍♀️. Fixing that made the framerate jump to ~10 FPS.
 
 Then I asked it to use `Tracy` to do further optimizations and after a while it got to ~15 FPS. At this point I considered it done. It was not quite the 30-40 FPS I was getting in the original Windows DirectX build, but this was good enough to consider this project a success.
+
+{% include figure image_path="/assets/images/porting-gta-v-linux/linux-profiling-run.png" alt="The native Linux game displaying the player near a construction crane during a Tracy capture-validation run" caption="The game during a Tracy capture-validation run. This is the game window, not a screenshot of Tracy's timeline." class="align-center text-center" popup=true %}
 
 
 # Reflections
