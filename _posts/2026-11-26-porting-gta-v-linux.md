@@ -7,6 +7,9 @@ title: "Reflections on porting GTA 5 to Linux using AI"
 excerpt: "These are trying times, so I decided to try LLMs."
 description: "I ported GTA 5 to Linux using LLM agents. Here is my experience."
 
+header:
+  og_image: /assets/images/porting-gta-v-linux/first_launch.png
+
 tags:
   - AI
   - Linux
